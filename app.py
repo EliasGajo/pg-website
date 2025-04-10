@@ -1,9 +1,8 @@
-from fastapi import FastAPI, File, UploadFile
+from fastapi import FastAPI, File, UploadFile, Body
 from fastapi.middleware.cors import CORSMiddleware
 from src.audio_to_text import Audio_to_text
+from src.chat_gpt_bot import Chat_gpt_bot
 import uvicorn
-
-import whisper
 
 app = FastAPI()
 
@@ -32,6 +31,12 @@ async def root(file: UploadFile = File(...)):
         f.write(audio_data)
     audio_to_text = Audio_to_text()
     result = audio_to_text.translation_to_french(filename)
+    return {"message": result}
+
+@app.post("/ask_to_chat_gpt")
+async def root(prompt: str = Body(...)):
+    chat_gpt_bot = Chat_gpt_bot()
+    result = chat_gpt_bot.send_prompt(prompt)
     return {"message": result}
 
 if __name__ == "__main__":
