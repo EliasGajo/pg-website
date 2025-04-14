@@ -22,9 +22,6 @@ export class EmailGeneratorComponent {
   }
 
   generer_email() {
-    const apiKey = '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';
-    const params = new URLSearchParams();
-
     fetch(`https://${this.backend_endpoint}/ask_to_chat_gpt`, {
       method: 'POST',
       body: JSON.stringify({
