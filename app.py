@@ -43,4 +43,4 @@ async def root(request: Request):
     return {"message": result}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8000, ssl_certfile="enregistrement-audio/ssl/certificate.crt", ssl_keyfile="enregistrement-audio/ssl/private.key")
