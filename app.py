@@ -1,5 +1,6 @@
 from fastapi import FastAPI, File, UploadFile, Body
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi import Request
 from src.audio_to_text import Audio_to_text
 from src.chat_gpt_bot import Chat_gpt_bot
 import uvicorn
@@ -34,7 +35,9 @@ async def root(file: UploadFile = File(...)):
     return {"message": result}
 
 @app.post("/ask_to_chat_gpt")
-async def root(prompt: str = Body(...)):
+async def root(request: Request):
+    data = await request.json()
+    prompt = data['input']
     chat_gpt_bot = Chat_gpt_bot()
     result = chat_gpt_bot.send_prompt(prompt)
     return {"message": result}
