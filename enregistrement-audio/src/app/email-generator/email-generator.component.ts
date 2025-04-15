@@ -1,5 +1,6 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+
 
 @Component({
   selector: 'app-email-generator',
@@ -9,7 +10,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class EmailGeneratorComponent {
   @Input() text_brut: string = ''; // Reçoit le transcript du service
-  resultat: string = '';
+  @Output() resultat = new EventEmitter<string>();
   backend_endpoint: string = '10.209.10.215:8000';
 
   generer_email() {
@@ -22,7 +23,7 @@ export class EmailGeneratorComponent {
     })
     .then(response => response.json())
     .then(data => {
-      this.resultat = this.extract_email_from_gpt_answer(data.message);
+      this.resultat.emit(this.extract_email_from_gpt_answer(data.message));
     })
     .catch(error => console.error('Erreur lors de la génération de l\'email : ', error));
   }

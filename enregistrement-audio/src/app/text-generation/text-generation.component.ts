@@ -20,4 +20,9 @@ export class TextGenerationComponent {
     this.prompt = new_prompt;
     this.cdRef.detectChanges();
   }
+
+  updateResult(new_result: string) {
+    this.result = new_result;
+    this.cdRef.detectChanges();
+  }
 }

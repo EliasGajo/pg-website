@@ -4,5 +4,9 @@
     <h3>Texte :</h3>
     <textarea [(ngModel)]="prompt" rows="2" cols="120"></textarea>
   </div>
-  <app-email-generator [text_brut]="prompt"></app-email-generator>
+  <app-email-generator [text_brut]="prompt" (resultat)="updateResult($event)"></app-email-generator>
+  <div class="result-section">
+    <h3>Résultat :</h3>
+    <textarea [(ngModel)]="result" rows="10" cols="120"></textarea>
+  </div>
 </div>
