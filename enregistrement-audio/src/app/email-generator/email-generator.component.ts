@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { AudioRecorderService } from '../audio-recorder.service';
 import { FormsModule } from '@angular/forms';
 
 @Component({
@@ -12,14 +11,6 @@ export class EmailGeneratorComponent {
   @Input() text_brut: string = ''; // Reçoit le transcript du service
   resultat: string = '';
   backend_endpoint: string = '10.209.10.215:8000';
-  constructor(private audioRecorderService: AudioRecorderService) {}
-
-  ngOnInit() {
-    // S'abonner à l'observable du service pour recevoir les mises à jour de transcript
-    this.audioRecorderService.transcript$.subscribe((transcript) => {
-      this.text_brut = transcript;
-    });
-  }
 
   generer_email() {
     fetch(`https://${this.backend_endpoint}/ask_to_chat_gpt`, {
