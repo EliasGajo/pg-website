@@ -1,3 +1,5 @@
 <h3>Enregistrement audio :</h3>
-<button (click)="startRecording()" [disabled]="isRecording">Démarrer l'enregistrement</button>
-<button (click)="stopRecording()" [disabled]="!isRecording">Arrêter l'enregistrement</button>
+<div class="button-group">
+    <button (click)="startRecording()" [disabled]="isRecording">Démarrer l'enregistrement</button>
+    <button (click)="stopRecording()" [disabled]="!isRecording">Arrêter l'enregistrement</button>
+</div>
