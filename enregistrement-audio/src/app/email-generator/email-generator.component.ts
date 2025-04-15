@@ -9,7 +9,7 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './email-generator.component.css'
 })
 export class EmailGeneratorComponent {
-  text_brut: string = ''; // Reçoit le transcript du service
+  @Input() text_brut: string = ''; // Reçoit le transcript du service
   resultat: string = '';
   backend_endpoint: string = '10.209.10.215:8000';
   constructor(private audioRecorderService: AudioRecorderService) {}

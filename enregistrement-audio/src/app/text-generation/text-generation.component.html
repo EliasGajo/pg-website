@@ -2,5 +2,5 @@
     <app-audio-recorder (transcript)="updatePrompt($event)"></app-audio-recorder>
     <h3>Texte :</h3>
     <textarea [(ngModel)]="prompt" rows="2" cols="120"></textarea>
-    <app-email-generator></app-email-generator>
+    <app-email-generator [text_brut]="prompt"></app-email-generator>
   </div>
