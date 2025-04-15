@@ -1,6 +1,4 @@
-import { Component } from '@angular/core';
-import { ChangeDetectorRef } from '@angular/core';
-import { AudioRecorderService } from '../audio-recorder.service';
+import { Component, Output, EventEmitter } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 @Component({
@@ -13,10 +11,8 @@ export class AudioRecorderComponent {
   private mediaRecorder: MediaRecorder | null = null;
   private audioChunks: any[] = [];
   isRecording = false;
-  transcript = '';
+  @Output() transcript = new EventEmitter<string>();
   backend_endpoint: string = '10.209.10.215:8000';
-
-  constructor(private cdRef: ChangeDetectorRef, private audioRecorderService: AudioRecorderService) {}
 
   startRecording() {
     navigator.mediaDevices.getUserMedia({ audio: true })
@@ -30,7 +26,7 @@ export class AudioRecorderComponent {
         this.mediaRecorder.onstop = () => {
           const audioBlob = new Blob(this.audioChunks, { type: 'audio/wav' });
           this.audioChunks = [];
-          const text = this.convertAudioToText(audioBlob);
+          this.convertAudioToText(audioBlob);
         };
 
         this.mediaRecorder.start();
@@ -57,14 +53,8 @@ export class AudioRecorderComponent {
     })
     .then(response => response.json())
     .then(data => {
-      this.updateTranscript(data.message);
+      this.transcript.emit(data.message);
     })
     .catch(error => console.error('Error transcribing audio:', error));
-  }
-
-  updateTranscript(newTranscript: string) {
-    this.transcript = newTranscript;
-    this.cdRef.detectChanges();
-    this.audioRecorderService.updateTranscript(newTranscript); // Mise à jour dans le service
   }
 }
