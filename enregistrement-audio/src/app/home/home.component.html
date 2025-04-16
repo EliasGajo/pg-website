@@ -1,0 +1,11 @@
+<h1>Accueil</h1>
+<div class="gallery">
+  <div
+    class="tool-card"
+    *ngFor="let tool of tools"
+    (click)="openTool(tool.id)"
+  >
+    <img src="img/{{tool.image}}" alt="{{ tool.name }}" />
+    <p>{{ tool.name }}</p>
+  </div>
+</div>
