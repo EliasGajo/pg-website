@@ -61,8 +61,8 @@ export class AudioRecorderComponent {
       .then(response => response.json())
       .then(data => {
         this.transcript.emit(data.message);
-        this.cdRef.detectChanges();
         this.isConvertingToText = false;
+        this.cdRef.detectChanges();
       })
       .catch(error => {
         console.error('Error transcribing audio:', error);

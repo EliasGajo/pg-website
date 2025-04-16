@@ -1,1 +1,4 @@
 <button (click)="generer_email()">Générer email</button>
+<div *ngIf="isGeneratingMail" class="loading-spinner">
+⏳ Génération en cours...
+</div>
