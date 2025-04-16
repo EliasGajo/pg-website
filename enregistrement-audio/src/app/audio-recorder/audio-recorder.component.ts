@@ -1,10 +1,11 @@
 import { Component, Output, EventEmitter, NgZone } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ChangeDetectorRef } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-audio-recorder',
-  imports: [FormsModule],
+  imports: [FormsModule, CommonModule],
   templateUrl: './audio-recorder.component.html',
   styleUrl: './audio-recorder.component.css'
 })
@@ -12,6 +13,7 @@ export class AudioRecorderComponent {
   private mediaRecorder: MediaRecorder | null = null;
   private audioChunks: any[] = [];
   isRecording = false;
+  isConvertingToText = false;
   @Output() transcript = new EventEmitter<string>();
   backend_endpoint: string = '10.209.10.215:8000';
 
@@ -49,18 +51,23 @@ export class AudioRecorderComponent {
     const formData = new FormData();
     formData.append('file', audioBlob);
 
-    fetch(`https://${this.backend_endpoint}/audio-to-text`, {
-      method: 'POST',
-      body: formData,
-      mode: 'cors'
-    })
-    .then(response => response.json())
-    .then(data => {
-      this.zone.run(() => {
+    this.zone.run(() => {
+      this.isConvertingToText = true;
+      fetch(`https://${this.backend_endpoint}/audio-to-text`, {
+        method: 'POST',
+        body: formData,
+        mode: 'cors'
+      })
+      .then(response => response.json())
+      .then(data => {
         this.transcript.emit(data.message);
         this.cdRef.detectChanges();
+        this.isConvertingToText = false;
+      })
+      .catch(error => {
+        console.error('Error transcribing audio:', error);
+        this.isConvertingToText = false;
       });
-    })
-    .catch(error => console.error('Error transcribing audio:', error));
+    }); 
   }
 }

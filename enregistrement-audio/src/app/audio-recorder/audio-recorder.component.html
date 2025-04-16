@@ -2,4 +2,10 @@
 <div class="button-group">
     <button (click)="startRecording()" [disabled]="isRecording">Démarrer l'enregistrement</button>
     <button (click)="stopRecording()" [disabled]="!isRecording">Arrêter l'enregistrement</button>
+    <div *ngIf="isRecording" class="loading-spinner">
+    ⏳ Enregistrement en cours...
+    </div>
+    <div *ngIf="isConvertingToText" class="loading-spinner">
+    ⏳ Conversion en texte...
+    </div>
 </div>
