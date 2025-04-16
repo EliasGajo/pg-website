@@ -1,5 +1,6 @@
-import { Component, Output, EventEmitter } from '@angular/core';
+import { Component, Output, EventEmitter, NgZone } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { ChangeDetectorRef } from '@angular/core';
 
 @Component({
   selector: 'app-audio-recorder',
@@ -13,6 +14,8 @@ export class AudioRecorderComponent {
   isRecording = false;
   @Output() transcript = new EventEmitter<string>();
   backend_endpoint: string = '10.209.10.215:8000';
+
+  constructor(private zone: NgZone, private cdRef: ChangeDetectorRef) {}
 
   startRecording() {
     navigator.mediaDevices.getUserMedia({ audio: true })
@@ -53,7 +56,10 @@ export class AudioRecorderComponent {
     })
     .then(response => response.json())
     .then(data => {
-      this.transcript.emit(data.message);
+      this.zone.run(() => {
+        this.transcript.emit(data.message);
+        this.cdRef.detectChanges();
+      });
     })
     .catch(error => console.error('Error transcribing audio:', error));
   }

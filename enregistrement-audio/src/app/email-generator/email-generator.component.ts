@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Input, Output, EventEmitter, NgZone, ChangeDetectorRef } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 
@@ -13,6 +13,8 @@ export class EmailGeneratorComponent {
   @Output() resultat = new EventEmitter<string>();
   backend_endpoint: string = '10.209.10.215:8000';
 
+  constructor(private zone: NgZone, private cdRef: ChangeDetectorRef) {}
+
   generer_email() {
     fetch(`https://${this.backend_endpoint}/ask_to_chat_gpt`, {
       method: 'POST',
@@ -23,7 +25,10 @@ export class EmailGeneratorComponent {
     })
     .then(response => response.json())
     .then(data => {
-      this.resultat.emit(this.extract_email_from_gpt_answer(data.message));
+      this.zone.run(() => {
+        this.resultat.emit(this.extract_email_from_gpt_answer(data.message));
+        this.cdRef.detectChanges();
+      });
     })
     .catch(error => console.error('Erreur lors de la génération de l\'email : ', error));
   }
