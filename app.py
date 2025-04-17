@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi import Request
 from src.audio_to_text import Audio_to_text
 from src.chat_gpt_bot import Chat_gpt_bot
+from src.facture_debiteur import Facture_debiteur
 import uvicorn
 
 app = FastAPI()
@@ -20,9 +21,15 @@ app.add_middleware(
 async def root():
     return {"message": "Hello World"}
 
-@app.get("/factures")
-async def root():
-    return {"message": "API message"}
+@app.get("/facture-debiteur")
+async def root(request: Request):
+    #data = await request.json()
+    factures = Facture_debiteur.get_all()
+    traductions = Facture_debiteur.get_traduction()
+    return {
+            "factures": factures,
+            "traductions": traductions
+            }
 
 @app.post("/audio-to-text")
 async def root(file: UploadFile = File(...)):

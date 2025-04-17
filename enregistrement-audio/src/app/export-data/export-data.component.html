@@ -1,1 +1,11 @@
-<p>export-data works!</p>
+<h1>Export de données</h1>
+<div class="gallery">
+  <div
+    class="data-type-card"
+    *ngFor="let data_type of data_types"
+    (click)="openDataType(data_type.id)"
+  >
+    <img src="img/{{data_type.image}}" alt="{{ data_type.name }}" />
+    <p>{{ data_type.name }}</p>
+  </div>
+</div>

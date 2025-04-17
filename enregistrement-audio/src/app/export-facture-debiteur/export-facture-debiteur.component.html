@@ -1,0 +1,28 @@
+<h1>Export des factures débiteur</h1>
+<table>
+    <thead>
+      <tr>
+        <th *ngFor="let col of colonnes" (click)="trier(col)" style="cursor:pointer">
+          {{ traductions[col] || col }}
+          <span *ngIf="col === colonne_triee">
+            {{ ordre_tri === 'asc' ? '▲' : '▼' }}
+          </span>
+        </th>
+      </tr>
+      <tr>
+        <th *ngFor="let col of colonnes">
+          <input
+            type="text"
+            [(ngModel)]="filtres[col]"
+            (input)="filtrer()"
+            placeholder="Filtrer..."
+          />
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let ligne of data_filtered">
+        <td *ngFor="let col of colonnes">{{ ligne[col] }}</td>
+      </tr>
+    </tbody>
+  </table>
