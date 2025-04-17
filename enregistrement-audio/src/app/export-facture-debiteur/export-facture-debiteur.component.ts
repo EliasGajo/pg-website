@@ -1,6 +1,8 @@
 import { Component, NgZone, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import * as XLSX from 'xlsx';
+import * as FileSaver from 'file-saver';
 
 @Component({
   selector: 'app-export-facture-debiteur',
@@ -33,7 +35,7 @@ export class ExportFactureDebiteurComponent {
       .then(response => response.json())
       .then(data => {
         this.traductions = data.traductions
-        this.data = JSON.parse(data.factures)
+        this.data = JSON.parse(data.factures) || []
         this.data_filtered = this.data;
         if (this.data.length > 0) {
           this.colonnes = Object.keys(this.data[0]); // On récupère les colonnes dynamiquement
@@ -88,4 +90,41 @@ export class ExportFactureDebiteurComponent {
       }
     });
   }
+
+  exporterExcel() {
+    const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(this.clean_data_for_excel(this.data_filtered));
+    const workbook: XLSX.WorkBook = { 
+      Sheets: { data: worksheet }, 
+      SheetNames: ['Factures débiteur'] 
+    };
+    const excelBuffer: any = XLSX.write(workbook, {
+      bookType: 'xlsx',
+      type: 'array',
+    });
+
+    const blob: Blob  = new Blob([excelBuffer], {
+      type:
+        'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+    });
+    FileSaver.saveAs(blob, 'factures_export.xlsx');
+  }
+
+  clean_data_for_excel(data_to_clean: any) {
+    let cleaned_data: any[] = [];
+    for(let i = 0; i < data_to_clean.length; i ++) {
+      let item_to_clean = data_to_clean[i];
+      let cleaned_item: any = {}
+      for(let key in item_to_clean) {
+        const value = item_to_clean[key];
+        if(value === null || value === undefined) {
+          cleaned_item[key] = '';
+        } else {
+          cleaned_item[key] = value;
+        }
+      }
+      cleaned_data.push(cleaned_item);
+    }
+    return cleaned_data;
+  }
+
 }

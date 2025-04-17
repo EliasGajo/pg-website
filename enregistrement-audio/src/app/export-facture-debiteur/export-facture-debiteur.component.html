@@ -1,5 +1,11 @@
-<h1>Export des factures débiteur</h1>
-<table>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <h1>Export des factures débiteur</h1>
+  <button (click)="exporterExcel()" style="padding: 8px 12px; cursor: pointer;">
+    📤 Exporter en Excel
+  </button>
+</div>
+<div class="table-container">
+  <table>
     <thead>
       <tr>
         <th *ngFor="let col of colonnes" (click)="trier(col)" style="cursor:pointer">
@@ -26,3 +32,7 @@
       </tr>
     </tbody>
   </table>
+</div>
+<div class="table-footer">
+  {{ data_filtered.length }} résultat{{ data_filtered.length > 1 ? 's' : '' }}.
+</div>
