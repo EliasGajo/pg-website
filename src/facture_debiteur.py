@@ -17,13 +17,13 @@ class Facture_debiteur:
     def get_traduction():
         traductions = {
             'REFFOR': 'Référence',
-            'DAECRI': 'Date écriture',
-            'DATECH': 'Date échéance',
-            'MONTTC': 'Montant TTC',
-            'SOPIEC': 'SOPIEC',
+            'MNTFAC': 'Montant HT',
+            'MNTTOT': 'Montant TTC',
+            'MNTTVA': 'Montant TVA',
             'NORAPPD': 'Etat',
-            'DAEMRA': 'DAEMRA',
-            'DAECRA': 'DAECRA',
-            'NOMGFA': 'Nom'
+            'NOMGFA': 'Nom qui facture',
+            'REFGEN': 'N° Immeuble',
+            'DATFAC': 'Date facture',
+            'NOMGEN': 'Nom'
         }
         return traductions

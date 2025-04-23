@@ -2,6 +2,7 @@ import { Component, NgZone, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import * as XLSX from 'xlsx';
+import * as ExcelJS from 'exceljs';
 import * as FileSaver from 'file-saver';
 
 @Component({
@@ -92,9 +93,40 @@ export class ExportFactureDebiteurComponent {
   }
 
   exporterExcel() {
-    const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(this.clean_data_for_excel(this.data_filtered));
+    const data = this.clean_data_for_excel(this.data_filtered);
+    const workbook = new ExcelJS.Workbook();
+    const worksheet = workbook.addWorksheet('Factures débiteur');
+    const headers = [];
+    for (let key of this.colonnes) {
+      headers.push(this.traductions[key]);
+    }
+    worksheet.addRow(headers);
+
+    data.forEach(item => {
+      const row = [];
+      for (let key of this.colonnes) {
+        row.push(item[key]);
+      }
+      worksheet.addRow(row);
+    });
+
+    workbook.xlsx.writeBuffer().then((buffer: any) => {
+      const blob = new Blob([buffer], {
+        type:
+          'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+      });
+      FileSaver.saveAs(blob, 'factures_export.xlsx');
+    });
+  }
+
+  exporterExcelAlto() {
+    const data = this.clean_data_for_excel(this.data_filtered);
+    const header = ['Immeuble', 'Factures date', 'Montant HT', 'Montant TVA', 'Montant TTC', 'Propriétaire'];
+    const rows = data.map(item => [item.REFGEN, item.DATFAC, item.MNTFAC, item.MNTTVA, item.MNTTOT, item.NOMGEN]);
+
+    const worksheet: XLSX.WorkSheet = XLSX.utils.aoa_to_sheet([header, ...rows]);
     const workbook: XLSX.WorkBook = { 
-      Sheets: { data: worksheet }, 
+      Sheets: { 'Factures débiteur': worksheet }, 
       SheetNames: ['Factures débiteur'] 
     };
     const excelBuffer: any = XLSX.write(workbook, {

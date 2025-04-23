@@ -1,8 +1,13 @@
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <h1>Export des factures débiteur</h1>
-  <button (click)="exporterExcel()" style="padding: 8px 12px; cursor: pointer;">
-    📤 Exporter en Excel
-  </button>
+  <div>
+    <button (click)="exporterExcel()" style="padding: 8px 12px; cursor: pointer;">
+      📤 Exporter en Excel
+    </button>
+    <button (click)="exporterExcelAlto()" style="padding: 8px 12px; cursor: pointer;">
+      📤 Export Alto
+    </button>
+  </div>
 </div>
 <div class="table-container">
   <table>
