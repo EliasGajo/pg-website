@@ -121,24 +121,31 @@ export class ExportFactureDebiteurComponent {
 
   exporterExcelAlto() {
     const data = this.clean_data_for_excel(this.data_filtered);
-    const header = ['Immeuble', 'Factures date', 'Montant HT', 'Montant TVA', 'Montant TTC', 'Propriétaire'];
-    const rows = data.map(item => [item.REFGEN, item.DATFAC, item.MNTFAC, item.MNTTVA, item.MNTTOT, item.NOMGEN]);
-
-    const worksheet: XLSX.WorkSheet = XLSX.utils.aoa_to_sheet([header, ...rows]);
-    const workbook: XLSX.WorkBook = { 
-      Sheets: { 'Factures débiteur': worksheet }, 
-      SheetNames: ['Factures débiteur'] 
-    };
-    const excelBuffer: any = XLSX.write(workbook, {
-      bookType: 'xlsx',
-      type: 'array',
+    const workbook = new ExcelJS.Workbook();
+    const worksheet = workbook.addWorksheet('Factures débiteur');
+    worksheet.columns = [
+      { header: 'Immeuble', key: 'REFGEN', width: 15 },
+      { header: 'Factures date', key: 'DATFAC', width: 20 },
+      { header: 'Montant HT', key: 'MNTFAC', width: 15 },
+      { header: 'Montant TVA', key: 'MNTTVA', width: 15 },
+      { header: 'Montant TTC', key: 'MNTTOT', width: 15 },
+      { header: 'Propriétaire', key: 'NOMGEN', width: 40 }
+    ];
+    //const headers = ['Immeuble', 'Factures date', 'Montant HT', 'Montant TVA', 'Montant TTC', 'Propriétaire'];
+    //const colonnes = ['REFGEN', 'DATFAC', 'MNTFAC', 'MNTTVA', 'MNTTOT', 'NOMGEN'];
+    //worksheet.addRow(headers);
+    worksheet.getRow(1).font = { italic: true };
+    data.forEach(item => {
+      worksheet.addRow(item);
     });
 
-    const blob: Blob  = new Blob([excelBuffer], {
-      type:
-        'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+    workbook.xlsx.writeBuffer().then((buffer: any) => {
+      const blob = new Blob([buffer], {
+        type:
+          'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+      });
+      FileSaver.saveAs(blob, 'factures_export.xlsx');
     });
-    FileSaver.saveAs(blob, 'factures_export.xlsx');
   }
 
   clean_data_for_excel(data_to_clean: any) {
