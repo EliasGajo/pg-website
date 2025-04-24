@@ -1,7 +1,6 @@
 import { Component, NgZone, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import * as XLSX from 'xlsx';
 import * as ExcelJS from 'exceljs';
 import * as FileSaver from 'file-saver';
 
@@ -20,7 +19,14 @@ export class ExportFactureDebiteurComponent {
   backend_endpoint: string = '10.209.10.215:8000';
   isLoadingData = false;
 
-  filtres: { [colonne: string]: string } = {};
+  filtres: {
+    [colonne: string]: {
+      type: 'text' | 'number' | 'date',
+      value?: string, // pour les filtres texte
+      min?: number | string,
+      max?: number | string
+    }
+  } = {};
   colonne_triee: string = '';
   ordre_tri: 'asc' | 'desc' = 'asc';
 
@@ -41,6 +47,7 @@ export class ExportFactureDebiteurComponent {
         if (this.data.length > 0) {
           this.colonnes = Object.keys(this.data[0]); // On récupère les colonnes dynamiquement
         }
+        this.initialiser_filtres();
         this.isLoadingData = false;
         this.cdRef.detectChanges();
       })
@@ -52,16 +59,53 @@ export class ExportFactureDebiteurComponent {
   }
 
   initialiser_filtres() {
+    if (this.data.length === 0) return;
     this.colonnes.forEach(col => {
-      this.filtres[col] = '';
+      const sampleValue = this.data[0][col];
+      const type = this.type_detector(sampleValue);
+      this.filtres[col] = { type };
+
+      if (type === 'text') {
+        this.filtres[col].value = '';
+      } else {
+        this.filtres[col].min = '';
+        this.filtres[col].max = '';
+      }
     });
+  }
+
+  type_detector(value: any): 'text' | 'number' | 'date' {
+    if (typeof value === 'number') return 'number';
+    if (!isNaN(Date.parse(value))) return 'date';
+    return 'text';
   }
 
   filtrer() {
     this.data_filtered = this.data.filter(ligne => {
       return this.colonnes.every(col => {
-        const filtre = this.filtres[col]?.toLowerCase() || '';
-        return filtre == '' || ligne[col]?.toString().toLowerCase().includes(filtre);
+        const filtre = this.filtres[col];
+        const valeur = ligne[col];
+
+        if (filtre.type === 'text') {
+          const filtre_val = filtre.value?.toLowerCase() || '';
+          return filtre_val == '' || valeur?.toString().toLowerCase().includes(filtre_val);
+        }
+
+        if (filtre.type === 'number') {
+          const valNum = Number(valeur);
+          const min = filtre.min ? Number(filtre.min) : -Infinity;
+          const max = filtre.max ? Number(filtre.max) : Infinity;
+          return !isNaN(valNum) && valNum >= min && valNum <= max;
+        }
+
+        if (filtre.type === 'date') {
+          const valDate = new Date(valeur);
+          const minDate = filtre.min ? new Date(filtre.min) : new Date(-8640000000000000);
+          const maxDate = filtre.max ? new Date(filtre.max) : new Date(8640000000000000);
+          return valDate >= minDate && valDate <= maxDate;
+        }
+
+        return true;
       });
     });
     this.trier(this.colonne_triee, true); // pour garder le tri actif après filtrage

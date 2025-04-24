@@ -22,12 +22,36 @@
       </tr>
       <tr>
         <th *ngFor="let col of colonnes">
-          <input
-            type="text"
-            [(ngModel)]="filtres[col]"
-            (input)="filtrer()"
-            placeholder="Filtrer..."
-          />
+          <ng-container [ngSwitch]="filtres[col]?.type">
+            <!-- Texte -->
+            <input *ngSwitchCase="'text'"
+                   type="text"
+                   [(ngModel)]="filtres[col].value"
+                   (input)="filtrer()"
+                   placeholder="Filtrer..." />
+      
+            <!-- Nombre -->
+            <div *ngSwitchCase="'number'" style="display:flex; flex-direction: column;">
+              <input type="number"
+                     [(ngModel)]="filtres[col].min"
+                     (input)="filtrer()"
+                     placeholder="Min" />
+              <input type="number"
+                     [(ngModel)]="filtres[col].max"
+                     (input)="filtrer()"
+                     placeholder="Max" />
+            </div>
+      
+            <!-- Date -->
+            <div *ngSwitchCase="'date'" style="display:flex; flex-direction: column;">
+              <input type="date"
+                     [(ngModel)]="filtres[col].min"
+                     (input)="filtrer()" />
+              <input type="date"
+                     [(ngModel)]="filtres[col].max"
+                     (input)="filtrer()" />
+            </div>
+          </ng-container>
         </th>
       </tr>
     </thead>
