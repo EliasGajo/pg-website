@@ -131,12 +131,25 @@ export class ExportFactureDebiteurComponent {
       { header: 'Montant TTC', key: 'MNTTOT', width: 15 },
       { header: 'Propriétaire', key: 'NOMGEN', width: 40 }
     ];
-    //const headers = ['Immeuble', 'Factures date', 'Montant HT', 'Montant TVA', 'Montant TTC', 'Propriétaire'];
-    //const colonnes = ['REFGEN', 'DATFAC', 'MNTFAC', 'MNTTVA', 'MNTTOT', 'NOMGEN'];
-    //worksheet.addRow(headers);
+
     worksheet.getRow(1).font = { italic: true };
     data.forEach(item => {
       worksheet.addRow(item);
+    });
+
+    const lastDataRow = worksheet.lastRow ? worksheet.lastRow.number : 1;
+    worksheet.addRow([]);
+    const totalRow = worksheet.addRow([
+      'TOTAL', '', { formula: `SUM(C2:C${lastDataRow})` }, { formula: `SUM(D2:D${lastDataRow})` }, { formula: `SUM(E2:E${lastDataRow})` }, ''
+    ]);
+
+    totalRow.font = { bold: true };
+
+    totalRow.eachCell((cell) => {
+      cell.border = {
+        top: { style: 'thin' },
+        bottom: { style: 'thin' },
+      };
     });
 
     workbook.xlsx.writeBuffer().then((buffer: any) => {
