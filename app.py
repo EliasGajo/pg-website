@@ -4,6 +4,7 @@ from fastapi import Request
 from src.audio_to_text import Audio_to_text
 from src.chat_gpt_bot import Chat_gpt_bot
 from src.facture_debiteur import Facture_debiteur
+from src.tournus_immeuble import Tournus_immeuble
 import uvicorn
 
 app = FastAPI()
@@ -28,6 +29,16 @@ async def root(request: Request):
     traductions = Facture_debiteur.get_traduction()
     return {
             "factures": factures,
+            "traductions": traductions
+            }
+
+@app.get("/tournus-immeuble")
+async def root(request: Request):
+    #data = await request.json()
+    tournus = Tournus_immeuble.get_all()
+    traductions = Tournus_immeuble.get_traduction()
+    return {
+            "tournus": tournus,
             "traductions": traductions
             }
 

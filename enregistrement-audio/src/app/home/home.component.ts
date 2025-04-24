@@ -12,6 +12,7 @@ export class HomeComponent {
   tools = [
     { id: 'textGeneration', name: 'Génération de texte', image: 'mail.webp' },
     { id: 'exportData', name: 'Export de données', image: 'excel.webp' },
+    { id: 'tournusImmeuble', name: 'Tournus dans les immeubles', image: 'tournus.webp' },
     // Ajouter les outils ici
   ];
 
