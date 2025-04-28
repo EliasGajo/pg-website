@@ -11,18 +11,24 @@ import { FormsModule } from '@angular/forms';
 export class ExportCoproprietaireComponent {
 
   data_filtered: any[] = [];
-  liste_email: string = "";
+  liste_email: any[] = [];
+  email_str: string = "";
   copied = false;
 
   compute_liste_email() {
-    this.liste_email = "";
+    this.liste_email = [];
+    
+  }
+
+  compute_email_str() {
+    this.email_str = "";
     for (let data of this.data_filtered) {
       let email = data['NOEMAI'];
       if(email.length > 0){
-        if (this.liste_email.length > 0) {
-          this.liste_email += ";";
+        if (this.email_str.length > 0) {
+          this.email_str += ";";
         }
-        this.liste_email += email;
+        this.email_str += email;
       }
     }
   }
@@ -34,11 +40,12 @@ export class ExportCoproprietaireComponent {
   update_data_filtered(data_filtered: any[]) {
     this.data_filtered = data_filtered;
     this.compute_liste_email();
+    this.compute_email_str()
   }
 
   copy_emails_to_clipboard() {
     if (this.liste_email) {
-      navigator.clipboard.writeText(this.liste_email).then(() => {
+      navigator.clipboard.writeText(this.email_str).then(() => {
         this.copied = true;
         setTimeout(() => this.copied = false, 3000); // Disparaît après 3s
       });

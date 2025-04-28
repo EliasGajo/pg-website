@@ -4,7 +4,7 @@
     <h2>📧 Préparation du publipostage</h2>
     <p>Les emails filtrés apparaîtront ci-dessous. Copiez ou utilisez le bouton pour les exporter.</p>
     <div class="textarea-row">
-        <textarea [(ngModel)]="liste_email" id="emailTextarea" rows="4" readonly></textarea>
+        <textarea [(ngModel)]="email_str" id="emailTextarea" rows="4" readonly></textarea>
         <button class="btn-copy" (click)="copy_emails_to_clipboard()">📋 Copier</button>
         <div class="copy-notification" [class.show]="copied">
             ✅ Copié !
