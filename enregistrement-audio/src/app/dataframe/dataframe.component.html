@@ -1,0 +1,65 @@
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <h1>{{export_title}}</h1>
+    <div>
+      <button (click)="exporterExcel()" style="padding: 8px 12px; cursor: pointer;">
+        📤 Exporter en Excel
+      </button>
+    </div>
+  </div>
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th *ngFor="let col of colonnes" (click)="trier(col)" style="cursor:pointer">
+            {{ traductions[col] || col }}
+            <span *ngIf="col === colonne_triee">
+              {{ ordre_tri === 'asc' ? '▲' : '▼' }}
+            </span>
+          </th>
+        </tr>
+        <tr>
+          <th *ngFor="let col of colonnes">
+            <ng-container [ngSwitch]="filtres[col]?.type">
+              <!-- Texte -->
+              <input *ngSwitchCase="'text'"
+                     type="text"
+                     [(ngModel)]="filtres[col].value"
+                     (input)="filtrer()"
+                     placeholder="Filtrer..." />
+        
+              <!-- Nombre -->
+              <div *ngSwitchCase="'number'" style="display:flex; flex-direction: column;">
+                <input type="number"
+                       [(ngModel)]="filtres[col].min"
+                       (input)="filtrer()"
+                       placeholder="Min" />
+                <input type="number"
+                       [(ngModel)]="filtres[col].max"
+                       (input)="filtrer()"
+                       placeholder="Max" />
+              </div>
+        
+              <!-- Date -->
+              <div *ngSwitchCase="'date'" style="display:flex; flex-direction: column;">
+                <input type="date"
+                       [(ngModel)]="filtres[col].min"
+                       (input)="filtrer()" />
+                <input type="date"
+                       [(ngModel)]="filtres[col].max"
+                       (input)="filtrer()" />
+              </div>
+            </ng-container>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let ligne of data_filtered">
+          <td *ngFor="let col of colonnes">{{ ligne[col] }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="table-footer">
+    {{ data_filtered.length }} objet{{ data_filtered.length > 1 ? 's' : '' }}.
+  </div>
+  

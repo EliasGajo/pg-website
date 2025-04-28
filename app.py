@@ -5,6 +5,7 @@ from src.audio_to_text import Audio_to_text
 from src.chat_gpt_bot import Chat_gpt_bot
 from src.facture_debiteur import Facture_debiteur
 from src.tournus_immeuble import Tournus_immeuble
+from src.coproprietaire import Coproprietaire
 import uvicorn
 
 app = FastAPI()
@@ -39,6 +40,16 @@ async def root(request: Request):
     traductions = Tournus_immeuble.get_traduction()
     return {
             "tournus": tournus,
+            "traductions": traductions
+            }
+
+@app.get("/coproprietaire")
+async def root(request: Request):
+    #data = await request.json()
+    values = Coproprietaire.get_all()
+    traductions = Coproprietaire.get_traduction()
+    return {
+            "values": values,
             "traductions": traductions
             }
 
