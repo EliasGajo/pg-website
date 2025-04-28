@@ -1,4 +1,4 @@
-import { Component, NgZone, ChangeDetectorRef, Input } from '@angular/core';
+import { Component, NgZone, ChangeDetectorRef, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import * as ExcelJS from 'exceljs';
@@ -14,6 +14,7 @@ export class DataframeComponent {
 
   data: any[] = [];
   data_filtered: any[] = []; // Les données affichées
+  @Output() data_filtered_update = new EventEmitter<any[]>();
   colonnes: string[] = [];
   traductions: {[key:string]:string} = {};
   backend_endpoint: string = '10.209.10.215:8000';
@@ -46,6 +47,7 @@ export class DataframeComponent {
         this.traductions = data.traductions
         this.data = JSON.parse(data.values) || []
         this.data_filtered = this.data;
+        this.data_filtered_update.emit(this.data_filtered);
         if (this.data.length > 0) {
           this.colonnes = Object.keys(this.data[0]); // On récupère les colonnes dynamiquement
         }
@@ -126,6 +128,7 @@ export class DataframeComponent {
         return true;
       });
     });
+    this.data_filtered_update.emit(this.data_filtered);
     this.trier(this.colonne_triee, true); // pour garder le tri actif après filtrage
   }
 
@@ -152,6 +155,7 @@ export class DataframeComponent {
           : valB.toString().localeCompare(valA.toString());
       }
     });
+    this.data_filtered_update.emit(this.data_filtered);
   }
 
   exporterExcel() {
