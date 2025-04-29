@@ -1,7 +1,15 @@
-.table-container {
+  .dataframe-section {
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+
+  .dataframe-section h2 {
+    margin-bottom: 0px;
+  }
+  
+  .table-container {
     max-height: 900px; /* ou ce que tu veux */
     overflow-y: auto;
-    margin-top: 1rem;
   } 
   
   table {
@@ -55,4 +63,14 @@
     font-weight: bold;
     font-size: 14px;
     color: #333;
+  }
+
+  .table-header {
+    display: flex;
+    justify-content: flex-end; /* Aligne à droite */
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px; /* Espacement entre plusieurs boutons */
   }
