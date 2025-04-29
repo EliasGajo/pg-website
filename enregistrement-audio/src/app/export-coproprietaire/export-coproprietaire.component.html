@@ -1,17 +1,2 @@
 <app-dataframe (data_filtered_update)="update_data_filtered($event)" export_title="Export des copropriétaires" fetch_data_url="coproprietaire"></app-dataframe>
-
-<section class="email-section">
-    <h2>📧 Préparation du publipostage</h2>
-    <p>Les emails filtrés apparaîtront ci-dessous. Copiez ou utilisez le bouton pour les exporter.</p>
-    <div class="textarea-row">
-        <textarea [(ngModel)]="email_str" id="emailTextarea" rows="4" readonly></textarea>
-        <button class="btn-copy" (click)="copy_emails_to_clipboard()">📋 Copier</button>
-        <div class="copy-notification" [class.show]="copied">
-            ✅ Copié !
-        </div>
-    </div>
-
-    
-
-    <button (click)="exporter_liste_email()" class="btn-secondary">📤 Exporter les emails pour publipostage</button>
-</section>
+<app-emails-publipostage [liste_email]="liste_email"></app-emails-publipostage>

@@ -5,8 +5,7 @@
     margin-bottom: 1rem;
   }
   
-  .btn-primary,
-  .btn-secondary {
+  .btn-primary {
     background-color: #1976d2;
     border: none;
     color: white;
@@ -18,63 +17,6 @@
     margin-top: 16px;
   }
   
-  .btn-primary:hover,
-  .btn-secondary:hover {
+  .btn-primary:hover {
     background-color: #125aa3;
-  }
-  
-  .email-section {
-    background: #f9f9f9;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    margin-top: 2rem;
-  }
-  
-  .email-section h2 {
-    margin-bottom: 0.5rem;
-  }
-
-  .textarea-row {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .textarea-row textarea {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-family: monospace;
-    resize: vertical;
-    min-width: 0;
-  }
-  
-  .btn-copy {
-    background-color: #e0e0e0;
-    border: none;
-    padding: 10px 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    white-space: nowrap;
-    flex-shrink: 0;
-  }
-  
-  .copy-notification {
-    opacity: 0;
-    background-color: #4caf50;
-    color: white;
-    padding: 8px 12px;
-    border-radius: 5px;
-    font-size: 0.85rem;
-    white-space: nowrap;
-    transition: opacity 0.5s ease;
-    flex-shrink: 0;
-  }
-  
-  .copy-notification.show {
-    opacity: 1;
   }
