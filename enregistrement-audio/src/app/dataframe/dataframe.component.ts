@@ -1,8 +1,7 @@
 import { Component, NgZone, ChangeDetectorRef, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import * as ExcelJS from 'exceljs';
-import * as FileSaver from 'file-saver';
+import { ExportExcelService } from '../services/export-excel.service';
 
 @Component({
   selector: 'app-dataframe',
@@ -33,7 +32,7 @@ export class DataframeComponent {
   colonne_triee: string = '';
   ordre_tri: 'asc' | 'desc' = 'asc';
 
-  constructor(private zone: NgZone, private cdRef: ChangeDetectorRef) {}
+  constructor(private zone: NgZone, private cdRef: ChangeDetectorRef, private exportExcelService: ExportExcelService) {}
 
   ngOnInit() {
     this.zone.run(() => {
@@ -159,48 +158,7 @@ export class DataframeComponent {
   }
 
   exporterExcel() {
-    const data = this.clean_data_for_excel(this.data_filtered);
-    const workbook = new ExcelJS.Workbook();
-    const worksheet = workbook.addWorksheet(this.export_title);
-    const headers = [];
-    for (let key of this.colonnes) {
-      headers.push(this.traductions[key]);
-    }
-    worksheet.addRow(headers);
-
-    data.forEach(item => {
-      const row = [];
-      for (let key of this.colonnes) {
-        row.push(item[key]);
-      }
-      worksheet.addRow(row);
-    });
-
-    workbook.xlsx.writeBuffer().then((buffer: any) => {
-      const blob = new Blob([buffer], {
-        type:
-          'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-      });
-      FileSaver.saveAs(blob, `${this.export_title}.xlsx`);
-    });
-  }
-
-  clean_data_for_excel(data_to_clean: any) {
-    let cleaned_data: any[] = [];
-    for(let i = 0; i < data_to_clean.length; i ++) {
-      let item_to_clean = data_to_clean[i];
-      let cleaned_item: any = {}
-      for(let key in item_to_clean) {
-        const value = item_to_clean[key];
-        if(value === null || value === undefined) {
-          cleaned_item[key] = '';
-        } else {
-          cleaned_item[key] = value;
-        }
-      }
-      cleaned_data.push(cleaned_item);
-    }
-    return cleaned_data;
+    this.exportExcelService.exporter_table(this.data_filtered, this.export_title, this.traductions);
   }
 
 }

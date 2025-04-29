@@ -1,7 +1,6 @@
 import { Component, Input, SimpleChanges } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import * as ExcelJS from 'exceljs';
-import * as FileSaver from 'file-saver';
+import { ExportExcelService } from '../services/export-excel.service';
 
 @Component({
   selector: 'app-emails-publipostage',
@@ -13,6 +12,8 @@ export class EmailsPublipostageComponent {
   @Input() liste_email: any[] = [];
   email_str: string = "";
   copied = false;
+
+  constructor(private exportExcelService: ExportExcelService) {}
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['liste_email']) {
@@ -41,24 +42,7 @@ export class EmailsPublipostageComponent {
   }
 
   exporter_liste_email() {
-    const workbook = new ExcelJS.Workbook();
-    const worksheet = workbook.addWorksheet('Emails');
-    const headers = ['Emails'];
-    worksheet.addRow(headers);
-
-    this.liste_email.forEach(item => {
-      const row = [];
-      row.push(item);
-      worksheet.addRow(row);
-    });
-
-    workbook.xlsx.writeBuffer().then((buffer: any) => {
-      const blob = new Blob([buffer], {
-        type:
-          'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-      });
-      FileSaver.saveAs(blob, `Emails.xlsx`);
-    });
+    this.exportExcelService.exporter_liste(this.liste_email, 'Emails', 'Emails');
   }
 
   copy_emails_to_clipboard() {
