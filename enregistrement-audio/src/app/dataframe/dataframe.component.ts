@@ -20,6 +20,7 @@ export class DataframeComponent {
   @Input() fetch_data_url: string = '';
   @Input() export_title: string = '';
   isLoadingData = false;
+  @Input() table_max_height: string = '900px';
 
   filtres: {
     [colonne: string]: {
@@ -78,8 +79,10 @@ export class DataframeComponent {
   }
 
   type_detector(value: any): 'text' | 'number' | 'date' {
-    if (typeof value === 'number') return 'number';
-    if (this.isProbablyDate(value)) return 'date';
+    if(value) {
+      if (typeof value === 'number') return 'number';
+      if (this.isProbablyDate(value)) return 'date';
+    }
     return 'text';
   }
 

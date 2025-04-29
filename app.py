@@ -36,10 +36,10 @@ async def root(request: Request):
 @app.get("/tournus-immeuble")
 async def root(request: Request):
     #data = await request.json()
-    tournus = Tournus_immeuble.get_all()
+    values = Tournus_immeuble.get_all()
     traductions = Tournus_immeuble.get_traduction()
     return {
-            "tournus": tournus,
+            "values": values,
             "traductions": traductions
             }
 
