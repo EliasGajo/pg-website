@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, NgZone } from '@angular/core';
 import { DataframeComponent } from '../dataframe/dataframe.component';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -24,11 +24,7 @@ export class TournusImmeubleComponent {
   data_filtered: any[] = [];
   grouped_data: any[] = [];
   immeuble: string = '';
-  immeubles = [
-    { id: '1', nom: 'Immeuble A' },
-    { id: '2', nom: 'Immeuble B' },
-    { id: '3', nom: 'Immeuble C' }
-  ];
+  immeubles: string[] = [];
   dateDebut: string = '';
   dateFin: string = '';
   afficher_historique: boolean = false;
@@ -40,6 +36,33 @@ export class TournusImmeubleComponent {
     'nb_pces': 'Nb pces',
     'nb_tournus': 'Nb tournus'
   };
+  isLoadingData = false;
+  all_locataire_data: any[] = [];
+  all_locataire_traductions: {[key:string]:string} = {};
+
+  constructor(private zone: NgZone) {}
+
+  ngOnInit() {
+    this.zone.run(() => {
+        this.isLoadingData = true;
+        fetch(`https://10.209.10.215:8000/tournus-immeuble`, {
+          method: 'GET',
+          mode: 'cors'
+        })
+        .then(response => response.json())
+        .then(data => {
+          this.all_locataire_traductions = data.traductions
+          this.all_locataire_data = JSON.parse(data.values) || [];
+          this.immeubles = Array.from(
+            new Set(this.all_locataire_data.map(item => item['NOIMME']))
+          ).sort((a, b) => a.localeCompare(b));
+        })
+        .catch(error => {
+          console.error('Erreur lors du chargement des données : ', error);
+          this.isLoadingData = false;
+        });
+    });
+  }
 
   update_data_filtered(data_filtered: any[]) {
     this.data_filtered = data_filtered;

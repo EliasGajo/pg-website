@@ -5,8 +5,8 @@
         <div>
             <label for="immeuble-select">Immeuble</label>
             <select id="immeuble-select" [(ngModel)]="immeuble">
-                <option *ngFor="let immeuble of immeubles" [value]="immeuble.id">
-                    {{ immeuble.nom }}
+                <option *ngFor="let immeuble of immeubles" [value]="immeuble">
+                    {{ immeuble }}
                 </option>
             </select>
         </div>
