@@ -1,4 +1,9 @@
   
+  .page {
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  
   .table-container {
     max-height: 900px; /* ou ce que tu veux */
     overflow-y: auto;

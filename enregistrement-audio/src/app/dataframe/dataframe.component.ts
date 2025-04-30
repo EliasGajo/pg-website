@@ -1,4 +1,4 @@
-import { Component, NgZone, ChangeDetectorRef, Input, Output, EventEmitter } from '@angular/core';
+import { Component, NgZone, ChangeDetectorRef, Input, Output, EventEmitter, SimpleChanges } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ExportExcelService } from '../services/export-excel.service';
@@ -18,6 +18,8 @@ export class DataframeComponent {
   traductions: {[key:string]:string} = {};
   backend_endpoint: string = '10.209.10.215:8000';
   @Input() fetch_data_url: string = '';
+  @Input() data_to_load: any[] = [];
+  @Input() traductions_to_load: {[key:string]:string} = {};
   @Input() export_title: string = '';
   isLoadingData = false;
   @Input() table_max_height: string = '900px';
@@ -37,29 +39,45 @@ export class DataframeComponent {
 
   ngOnInit() {
     this.zone.run(() => {
-      this.isLoadingData = true;
-      fetch(`https://${this.backend_endpoint}/${this.fetch_data_url}`, {
-        method: 'GET',
-        mode: 'cors'
-      })
-      .then(response => response.json())
-      .then(data => {
-        this.traductions = data.traductions
-        this.data = JSON.parse(data.values) || []
-        this.data_filtered = this.data;
-        this.data_filtered_update.emit(this.data_filtered);
-        if (this.data.length > 0) {
-          this.colonnes = Object.keys(this.data[0]); // On récupère les colonnes dynamiquement
-        }
-        this.initialiser_filtres();
-        this.isLoadingData = false;
-        this.cdRef.detectChanges();
-      })
-      .catch(error => {
-        console.error('Erreur lors du chargement des données : ', error);
-        this.isLoadingData = false;
-      });
+      if(this.fetch_data_url) {
+        this.isLoadingData = true;
+        fetch(`https://${this.backend_endpoint}/${this.fetch_data_url}`, {
+          method: 'GET',
+          mode: 'cors'
+        })
+        .then(response => response.json())
+        .then(data => {
+          this.traductions = data.traductions
+          this.init_data(JSON.parse(data.values) || []);
+        })
+        .catch(error => {
+          console.error('Erreur lors du chargement des données : ', error);
+          this.isLoadingData = false;
+        });
+      } else if(this.data_to_load) {
+          this.traductions = this.traductions_to_load;
+          this.init_data(this.data_to_load);
+      }
     });
+  }
+
+  ngOnChanges(changes: SimpleChanges) {
+    if (changes['data_to_load']) {
+      const newData = changes['data_to_load'].currentValue;
+      this.init_data(newData);
+    }
+  }
+
+  init_data(data_to_init: any[]) {
+    this.data = data_to_init;
+    this.data_filtered = this.data;
+    this.data_filtered_update.emit(this.data_filtered);
+    if (this.data.length > 0) {
+      this.colonnes = Object.keys(this.data[0]); // On récupère les colonnes dynamiquement
+    }
+    this.initialiser_filtres();
+    this.isLoadingData = false;
+    this.cdRef.detectChanges();
   }
 
   initialiser_filtres() {

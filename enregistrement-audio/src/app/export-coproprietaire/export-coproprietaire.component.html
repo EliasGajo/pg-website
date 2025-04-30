@@ -1,7 +1,9 @@
-<app-dataframe 
-(data_filtered_update)="update_data_filtered($event)" 
-export_title="Export des copropriétaires" 
-fetch_data_url="coproprietaire"
-table_max_height="750px"
-></app-dataframe>
-<app-emails-publipostage [liste_email]="liste_email"></app-emails-publipostage>
+<div class="page">
+    <app-dataframe 
+    (data_filtered_update)="update_data_filtered($event)" 
+    export_title="Export des copropriétaires" 
+    fetch_data_url="coproprietaire"
+    table_max_height="750px"
+    ></app-dataframe>
+    <app-emails-publipostage [liste_email]="liste_email"></app-emails-publipostage>
+</div>

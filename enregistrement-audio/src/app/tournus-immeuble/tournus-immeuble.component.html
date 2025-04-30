@@ -1,6 +1,26 @@
-<app-dataframe 
-(data_filtered_update)="update_data_filtered($event)" 
-export_title="Tournus dans les immeubles" 
-fetch_data_url="tournus-immeuble"
-table_max_height="450px"
-></app-dataframe>
+<div class="page">
+    <h2>Tournus dans les immeubles</h2>
+    <div class="table-header">
+        <div>
+            <button (click)="display_historique()" style="padding: 8px 10px; cursor: pointer;">
+            Afficher historique
+            </button>
+        </div>
+    </div>
+
+    <app-dataframe 
+    (data_filtered_update)="update_data_filtered($event)" 
+    export_title="Historique immeuble" 
+    fetch_data_url="tournus-immeuble"
+    table_max_height="400px"
+    ></app-dataframe>
+
+    <app-dataframe 
+    (data_filtered_update)="update_grouped_data_filtered($event)" 
+    export_title="Tournus par objet" 
+    [data_to_load]="grouped_data"
+    [traductions_to_load]="tournus_result_traductions"
+    table_max_height="500px"
+    ></app-dataframe>
+
+</div>
