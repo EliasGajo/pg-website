@@ -1,19 +1,39 @@
 <div class="page">
     <h2>Tournus dans les immeubles</h2>
-    <div class="table-header">
+    <div class="choix-utilisateur">
+
+        <div>
+            <label for="immeuble-select">Immeuble</label>
+            <select id="immeuble-select" [(ngModel)]="immeuble">
+                <option *ngFor="let immeuble of immeubles" [value]="immeuble.id">
+                    {{ immeuble.nom }}
+                </option>
+            </select>
+        </div>
+
+        <div>
+            <label for="date-debut">À partir du : </label>
+            <input type="date" id="date-debut" [(ngModel)]="dateDebut">
+        </div>
+
+        <div>
+            <label for="date-fin">Jusqu'au : </label>
+            <input type="date" id="date-fin" [(ngModel)]="dateFin">
+        </div>
         <div>
             <button (click)="display_historique()" style="padding: 8px 10px; cursor: pointer;">
-            Afficher historique
+                {{ afficher_historique ? 'Cacher historique' : 'Afficher historique' }}
             </button>
         </div>
     </div>
-
-    <app-dataframe 
-    (data_filtered_update)="update_data_filtered($event)" 
-    export_title="Historique immeuble" 
-    fetch_data_url="tournus-immeuble"
-    table_max_height="400px"
-    ></app-dataframe>
+    <div [style.display]="afficher_historique ? 'block' : 'none'">
+        <app-dataframe 
+        (data_filtered_update)="update_data_filtered($event)" 
+        export_title="Historique immeuble" 
+        fetch_data_url="tournus-immeuble"
+        table_max_height="400px"
+        ></app-dataframe>
+    </div>
 
     <app-dataframe 
     (data_filtered_update)="update_grouped_data_filtered($event)" 

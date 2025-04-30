@@ -1,5 +1,7 @@
-import { Component, NgZone, ChangeDetectorRef } from '@angular/core';
+import { Component } from '@angular/core';
 import { DataframeComponent } from '../dataframe/dataframe.component';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 interface TournusResult {
   ref: string;
@@ -12,7 +14,7 @@ interface TournusResult {
 
 @Component({
   selector: 'app-tournus-immeuble',
-  imports: [DataframeComponent],
+  imports: [DataframeComponent, CommonModule, FormsModule],
   templateUrl: './tournus-immeuble.component.html',
   styleUrl: './tournus-immeuble.component.css'
 })
@@ -21,6 +23,15 @@ export class TournusImmeubleComponent {
 
   data_filtered: any[] = [];
   grouped_data: any[] = [];
+  immeuble: string = '';
+  immeubles = [
+    { id: '1', nom: 'Immeuble A' },
+    { id: '2', nom: 'Immeuble B' },
+    { id: '3', nom: 'Immeuble C' }
+  ];
+  dateDebut: string = '';
+  dateFin: string = '';
+  afficher_historique: boolean = false;
   tournus_result_traductions: {[key:string]:string} = {
     'ref': 'Référence',
     'etage': 'Etage objet',
@@ -60,7 +71,7 @@ export class TournusImmeubleComponent {
   }
 
   display_historique() {
-
+    this.afficher_historique = !this.afficher_historique;
   }
 
 }
