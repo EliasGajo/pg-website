@@ -64,6 +64,14 @@ export class TournusImmeubleComponent {
     });
   }
 
+  onImmeubleChange(new_immeuble: string) {
+    this.data_filtered = this.compute_immeuble_data(new_immeuble)
+  }
+
+  compute_immeuble_data(immeuble: string): any {
+    return this.all_locataire_data.filter(data => data['NOIMME'] === immeuble);
+  }
+
   update_data_filtered(data_filtered: any[]) {
     this.data_filtered = data_filtered;
     this.grouped_data = data_filtered.reduce((acc, obj) => {

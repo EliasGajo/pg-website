@@ -4,7 +4,7 @@
 
         <div>
             <label for="immeuble-select">Immeuble</label>
-            <select id="immeuble-select" [(ngModel)]="immeuble">
+            <select id="immeuble-select" [(ngModel)]="immeuble" (ngModelChange)="onImmeubleChange($event)">
                 <option *ngFor="let immeuble of immeubles" [value]="immeuble">
                     {{ immeuble }}
                 </option>
@@ -29,8 +29,9 @@
     <div [style.display]="afficher_historique ? 'block' : 'none'">
         <app-dataframe 
         (data_filtered_update)="update_data_filtered($event)" 
-        export_title="Historique immeuble" 
-        fetch_data_url="tournus-immeuble"
+        export_title="Historique immeuble"
+        [data_to_load]="data_filtered"
+        [traductions_to_load]="all_locataire_traductions"
         table_max_height="400px"
         ></app-dataframe>
     </div>
