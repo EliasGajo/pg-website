@@ -3,7 +3,7 @@
     <div class="choix-utilisateur">
 
         <div>
-            <label for="immeuble-select">Immeuble</label>
+            <label for="immeuble-select">Immeuble </label>
             <select id="immeuble-select" [(ngModel)]="immeuble" (ngModelChange)="onImmeubleChange($event)">
                 <option *ngFor="let immeuble of immeubles" [value]="immeuble">
                     {{ immeuble }}

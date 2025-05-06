@@ -8,7 +8,6 @@ interface TournusResult {
   etage: string;
   designation: string;
   surface: number;
-  nb_pces: number;
   nb_tournus: number;
 }
 
@@ -33,7 +32,6 @@ export class TournusImmeubleComponent {
     'etage': 'Etage objet',
     'designation': 'Désignation objet',
     'surface': 'Surface',
-    'nb_pces': 'Nb pces',
     'nb_tournus': 'Nb tournus'
   };
   isLoadingData = false;
@@ -65,7 +63,7 @@ export class TournusImmeubleComponent {
   }
 
   onImmeubleChange(new_immeuble: string) {
-    this.data_filtered = this.compute_immeuble_data(new_immeuble)
+    this.update_data_filtered(this.compute_immeuble_data(new_immeuble));
   }
 
   compute_immeuble_data(immeuble: string): any {
@@ -75,17 +73,16 @@ export class TournusImmeubleComponent {
   update_data_filtered(data_filtered: any[]) {
     this.data_filtered = data_filtered;
     this.grouped_data = data_filtered.reduce((acc, obj) => {
-      const refLoca = obj["Réf."];
+      const refLoca = obj["REFFOR"];
       const lastDotIndex = refLoca.lastIndexOf('.') || refLoca.length;
       const refObj = refLoca.substring(0, lastDotIndex);
       const existing_obj = acc.find((elem: TournusResult) => elem.ref === refObj);
       if (!existing_obj) {
         const new_obj: TournusResult = {
           ref: refObj,
-          etage: obj['Etage objet'],
-          designation: obj["Dési. objet"],
-          surface: obj["Surface"],
-          nb_pces: obj["Nb pces cantonales"],
+          etage: obj['ETAGESD'],
+          designation: obj["DEOBJED"],
+          surface: obj["SURFOB"],
           nb_tournus: 0
         }
         acc.push(new_obj);
