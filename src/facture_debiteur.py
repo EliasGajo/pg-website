@@ -22,8 +22,9 @@ class Facture_debiteur:
             'MNTTVA': 'Montant TVA',
             'NORAPPD': 'Etat',
             'NOMGFA': 'Nom qui facture',
-            'REFGEN': 'N° Immeuble',
+            'REFGEN': 'Immeuble / Autre',
             'DATFAC': 'Date facture',
-            'NOMGEN': 'Nom'
+            'NOMGEN': 'Nom',
+            'TEXFAC': 'Détail'
         }
         return traductions

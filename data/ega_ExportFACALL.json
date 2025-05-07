@@ -8,7 +8,8 @@
     "NOMGEN": "Georges-Auguste-Matile 10A",
     "MNTFAC": 66.6,
     "MNTTOT": 72.0,
-    "MNTTVA": 5.4
+    "MNTTVA": 5.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00051",
@@ -19,7 +20,8 @@
     "NOMGEN": "Georges-Auguste-Matile 10A",
     "MNTFAC": 51.8,
     "MNTTOT": 56.0,
-    "MNTTVA": 4.2
+    "MNTTVA": 4.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00198",
@@ -30,7 +32,8 @@
     "NOMGEN": "Charmettes 61-63-65",
     "MNTFAC": 605.9,
     "MNTTOT": 655.0,
-    "MNTTVA": 49.1
+    "MNTTVA": 49.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00049",
@@ -41,7 +44,8 @@
     "NOMGEN": "Charmettes 61-63-65",
     "MNTFAC": 484.75,
     "MNTTOT": 524.0,
-    "MNTTVA": 39.25
+    "MNTTVA": 39.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00271",
@@ -52,7 +56,8 @@
     "NOMGEN": "Charmettes 61-63-65",
     "MNTFAC": 8392.6,
     "MNTTOT": 8392.6,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00208",
@@ -63,7 +68,8 @@
     "NOMGEN": "Chapelle 23-25",
     "MNTFAC": 152.65,
     "MNTTOT": 165.0,
-    "MNTTVA": 12.35
+    "MNTTVA": 12.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00055",
@@ -74,7 +80,8 @@
     "NOMGEN": "Chapelle 23-25",
     "MNTFAC": 122.1,
     "MNTTOT": 132.0,
-    "MNTTVA": 9.9
+    "MNTTVA": 9.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00193",
@@ -85,7 +92,8 @@
     "NOMGEN": "Côte 67",
     "MNTFAC": 166.5,
     "MNTTOT": 180.0,
-    "MNTTVA": 13.5
+    "MNTTVA": 13.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00046",
@@ -96,7 +104,8 @@
     "NOMGEN": "Côte 67",
     "MNTFAC": 133.2,
     "MNTTOT": 144.0,
-    "MNTTVA": 10.8
+    "MNTTVA": 10.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00204",
@@ -107,7 +116,8 @@
     "NOMGEN": "Bouronnes 16",
     "MNTFAC": 360.8,
     "MNTTOT": 390.0,
-    "MNTTVA": 29.2
+    "MNTTVA": 29.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00052",
@@ -118,7 +128,8 @@
     "NOMGEN": "Bouronnes 16",
     "MNTFAC": 284.0,
     "MNTTOT": 307.0,
-    "MNTTVA": 23.0
+    "MNTTVA": 23.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00224",
@@ -129,7 +140,8 @@
     "NOMGEN": "Stavay-Mollondin 6",
     "MNTFAC": 119.35,
     "MNTTOT": 129.0,
-    "MNTTVA": 9.65
+    "MNTTVA": 9.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00068",
@@ -140,7 +152,8 @@
     "NOMGEN": "Stavay-Mollondin 6",
     "MNTFAC": 90.65,
     "MNTTOT": 98.0,
-    "MNTTVA": 7.35
+    "MNTTVA": 7.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00221",
@@ -151,7 +164,8 @@
     "NOMGEN": "Docteur-Kern 9",
     "MNTFAC": 54.6,
     "MNTTOT": 59.0,
-    "MNTTVA": 4.4
+    "MNTTVA": 4.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00065",
@@ -162,7 +176,8 @@
     "NOMGEN": "Docteur-Kern 9",
     "MNTFAC": 43.5,
     "MNTTOT": 47.0,
-    "MNTTVA": 3.5
+    "MNTTVA": 3.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00212",
@@ -173,7 +188,8 @@
     "NOMGEN": "Grand'Rue 11",
     "MNTFAC": 210.0,
     "MNTTOT": 227.0,
-    "MNTTVA": 17.0
+    "MNTTVA": 17.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00059",
@@ -184,7 +200,8 @@
     "NOMGEN": "Grand'Rue 11",
     "MNTFAC": 184.1,
     "MNTTOT": 199.0,
-    "MNTTVA": 14.9
+    "MNTTVA": 14.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00207",
@@ -195,7 +212,8 @@
     "NOMGEN": "Grand'Rue 2",
     "MNTFAC": 455.15,
     "MNTTOT": 492.0,
-    "MNTTVA": 36.85
+    "MNTTVA": 36.85,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00054",
@@ -206,7 +224,8 @@
     "NOMGEN": "Grand'Rue 2",
     "MNTFAC": 414.45,
     "MNTTOT": 448.0,
-    "MNTTVA": 33.55
+    "MNTTVA": 33.55,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00219",
@@ -217,7 +236,8 @@
     "NOMGEN": "Vieux-Patriotes 47-49-51",
     "MNTFAC": 645.7,
     "MNTTOT": 698.0,
-    "MNTTVA": 52.3
+    "MNTTVA": 52.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00064",
@@ -228,7 +248,8 @@
     "NOMGEN": "Vieux-Patriotes 47-49-51",
     "MNTFAC": 519.9,
     "MNTTOT": 562.0,
-    "MNTTVA": 42.1
+    "MNTTVA": 42.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00222",
@@ -239,7 +260,8 @@
     "NOMGEN": "Locle 21-23-25",
     "MNTFAC": 368.2,
     "MNTTOT": 398.0,
-    "MNTTVA": 29.8
+    "MNTTVA": 29.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00066",
@@ -250,7 +272,8 @@
     "NOMGEN": "Locle 21-23-25",
     "MNTFAC": 329.3,
     "MNTTOT": 356.0,
-    "MNTTVA": 26.7
+    "MNTTVA": 26.7,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00195",
@@ -261,7 +284,8 @@
     "NOMGEN": "Quai Max-Petitpierre 34-36",
     "MNTFAC": 271.95,
     "MNTTOT": 294.0,
-    "MNTTVA": 22.05
+    "MNTTVA": 22.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00223",
@@ -272,7 +296,8 @@
     "NOMGEN": "Numa-Droz 197-199",
     "MNTFAC": 365.4,
     "MNTTOT": 395.0,
-    "MNTTVA": 29.6
+    "MNTTVA": 29.6,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00067",
@@ -283,7 +308,8 @@
     "NOMGEN": "Numa-Droz 197-199",
     "MNTFAC": 276.6,
     "MNTTOT": 299.0,
-    "MNTTVA": 22.4
+    "MNTTVA": 22.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00215",
@@ -294,7 +320,8 @@
     "NOMGEN": "Abraham-Robert 19",
     "MNTFAC": 342.3,
     "MNTTOT": 370.0,
-    "MNTTVA": 27.7
+    "MNTTVA": 27.7,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00062",
@@ -305,7 +332,8 @@
     "NOMGEN": "Abraham-Robert 19",
     "MNTFAC": 273.8,
     "MNTTOT": 296.0,
-    "MNTTVA": 22.2
+    "MNTTVA": 22.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00214",
@@ -316,7 +344,8 @@
     "NOMGEN": "Pâquiers 22",
     "MNTFAC": 1015.75,
     "MNTTOT": 1098.0,
-    "MNTTVA": 82.25
+    "MNTTVA": 82.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00061",
@@ -327,7 +356,8 @@
     "NOMGEN": "Pâquiers 22",
     "MNTFAC": 868.65,
     "MNTTOT": 939.0,
-    "MNTTVA": 70.35
+    "MNTTVA": 70.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00217",
@@ -338,7 +368,8 @@
     "NOMGEN": "Combe-Grieurin 39A-39B",
     "MNTFAC": 459.75,
     "MNTTOT": 497.0,
-    "MNTTVA": 37.25
+    "MNTTVA": 37.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00063",
@@ -349,7 +380,8 @@
     "NOMGEN": "Combe-Grieurin 39A-39B",
     "MNTFAC": 378.35,
     "MNTTOT": 409.0,
-    "MNTTVA": 30.65
+    "MNTTVA": 30.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00210",
@@ -360,7 +392,8 @@
     "NOMGEN": "Chasselas 20A",
     "MNTFAC": 367.25,
     "MNTTOT": 397.0,
-    "MNTTVA": 29.75
+    "MNTTVA": 29.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00057",
@@ -371,7 +404,8 @@
     "NOMGEN": "Chasselas 20A",
     "MNTFAC": 320.05,
     "MNTTOT": 346.0,
-    "MNTTVA": 25.95
+    "MNTTVA": 25.95,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00205",
@@ -382,7 +416,8 @@
     "NOMGEN": "Courtils 6",
     "MNTFAC": 175.75,
     "MNTTOT": 190.0,
-    "MNTTVA": 14.25
+    "MNTTVA": 14.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00216",
@@ -393,7 +428,8 @@
     "NOMGEN": "Charrière 89",
     "MNTFAC": 453.3,
     "MNTTOT": 490.0,
-    "MNTTVA": 36.7
+    "MNTTVA": 36.7,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00202",
@@ -404,7 +440,8 @@
     "NOMGEN": "Seyon 17",
     "MNTFAC": 184.1,
     "MNTTOT": 199.0,
-    "MNTTVA": 14.9
+    "MNTTVA": 14.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00194",
@@ -415,7 +452,8 @@
     "NOMGEN": "Rosière 17",
     "MNTFAC": 87.9,
     "MNTTOT": 95.0,
-    "MNTTVA": 7.1
+    "MNTTVA": 7.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00225",
@@ -426,7 +464,8 @@
     "NOMGEN": "Beau-Site 23",
     "MNTFAC": 318.2,
     "MNTTOT": 344.0,
-    "MNTTVA": 25.8
+    "MNTTVA": 25.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00069",
@@ -437,7 +476,8 @@
     "NOMGEN": "Beau-Site 23",
     "MNTFAC": 260.85,
     "MNTTOT": 282.0,
-    "MNTTVA": 21.15
+    "MNTTVA": 21.15,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00045",
@@ -448,7 +488,8 @@
     "NOMGEN": "Fontaine-André 16",
     "MNTFAC": 38.85,
     "MNTTOT": 42.0,
-    "MNTTVA": 3.15
+    "MNTTVA": 3.15,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00211",
@@ -459,7 +500,8 @@
     "NOMGEN": "Châtelard 4b",
     "MNTFAC": 155.4,
     "MNTTOT": 168.0,
-    "MNTTVA": 12.6
+    "MNTTVA": 12.6,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00058",
@@ -470,7 +512,8 @@
     "NOMGEN": "Châtelard 4b",
     "MNTFAC": 113.8,
     "MNTTOT": 123.0,
-    "MNTTVA": 9.2
+    "MNTTVA": 9.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00209",
@@ -481,7 +524,8 @@
     "NOMGEN": "Uttins 27",
     "MNTFAC": 639.2,
     "MNTTOT": 691.0,
-    "MNTTVA": 51.8
+    "MNTTVA": 51.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00056",
@@ -492,7 +536,8 @@
     "NOMGEN": "Uttins 27",
     "MNTFAC": 546.7,
     "MNTTOT": 591.0,
-    "MNTTVA": 44.3
+    "MNTTVA": 44.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00197",
@@ -503,7 +548,8 @@
     "NOMGEN": "Rosière 9",
     "MNTFAC": 638.3,
     "MNTTOT": 690.0,
-    "MNTTVA": 51.7
+    "MNTTVA": 51.7,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00047",
@@ -514,7 +560,8 @@
     "NOMGEN": "Rosière 9",
     "MNTFAC": 541.15,
     "MNTTOT": 585.0,
-    "MNTTVA": 43.85
+    "MNTTVA": 43.85,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00199",
@@ -525,7 +572,8 @@
     "NOMGEN": "Parcs 8",
     "MNTFAC": 87.9,
     "MNTTOT": 95.0,
-    "MNTTVA": 7.1
+    "MNTTVA": 7.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00196",
@@ -536,7 +584,8 @@
     "NOMGEN": "Charmettes 59",
     "MNTFAC": 346.9,
     "MNTTOT": 375.0,
-    "MNTTVA": 28.1
+    "MNTTVA": 28.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00048",
@@ -547,7 +596,8 @@
     "NOMGEN": "Charmettes 59",
     "MNTFAC": 277.5,
     "MNTTOT": 300.0,
-    "MNTTVA": 22.5
+    "MNTTVA": 22.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00201",
@@ -558,7 +608,8 @@
     "NOMGEN": "Seyon 16",
     "MNTFAC": 212.75,
     "MNTTOT": 230.0,
-    "MNTTVA": 17.25
+    "MNTTVA": 17.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00050",
@@ -569,7 +620,8 @@
     "NOMGEN": "Seyon 16",
     "MNTFAC": 172.05,
     "MNTTOT": 186.0,
-    "MNTTVA": 13.95
+    "MNTTVA": 13.95,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00213",
@@ -580,7 +632,8 @@
     "NOMGEN": "Champreveyres 22",
     "MNTFAC": 358.0,
     "MNTTOT": 387.0,
-    "MNTTVA": 29.0
+    "MNTTVA": 29.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00060",
@@ -591,7 +644,8 @@
     "NOMGEN": "Champreveyres 22",
     "MNTFAC": 304.35,
     "MNTTOT": 329.0,
-    "MNTTVA": 24.65
+    "MNTTVA": 24.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00206",
@@ -602,7 +656,8 @@
     "NOMGEN": "Grand-Rue 16",
     "MNTFAC": 367.25,
     "MNTTOT": 397.0,
-    "MNTTVA": 29.75
+    "MNTTVA": 29.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00053",
@@ -613,7 +668,8 @@
     "NOMGEN": "Grand-Rue 16",
     "MNTFAC": 332.1,
     "MNTTOT": 359.0,
-    "MNTTVA": 26.9
+    "MNTTVA": 26.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00200",
@@ -624,7 +680,8 @@
     "NOMGEN": "Coq-d'Inde 24",
     "MNTFAC": 407.05,
     "MNTTOT": 440.0,
-    "MNTTVA": 32.95
+    "MNTTVA": 32.95,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00220",
@@ -635,7 +692,8 @@
     "NOMGEN": "Bois-Noir 38",
     "MNTFAC": 90.65,
     "MNTTOT": 98.0,
-    "MNTTVA": 7.35
+    "MNTTVA": 7.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00218",
@@ -646,7 +704,8 @@
     "NOMGEN": "Hôtel-de-Ville 109",
     "MNTFAC": 182.25,
     "MNTTOT": 197.0,
-    "MNTTVA": 14.75
+    "MNTTVA": 14.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00295",
@@ -657,7 +716,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 4290.0,
     "MNTTOT": 4290.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00550",
@@ -668,18 +728,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 1680.0,
     "MNTTOT": 1680.0,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "23.00567",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Patrimoine Gérance SA",
-    "REFGEN": 1445,
-    "DATFAC": "2024-06-18",
-    "NOMGEN": "ALFEN SA",
-    "MNTFAC": 3700.0,
-    "MNTTOT": 3999.7,
-    "MNTTVA": 299.7
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "23.00566",
@@ -690,7 +740,20 @@
     "NOMGEN": "ALFEN SA",
     "MNTFAC": 11000.0,
     "MNTTOT": 11891.0,
-    "MNTTVA": 891.0
+    "MNTTVA": 891.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "23.00567",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Patrimoine Gérance SA",
+    "REFGEN": 1445,
+    "DATFAC": "2024-06-18",
+    "NOMGEN": "ALFEN SA",
+    "MNTFAC": 3700.0,
+    "MNTTOT": 3999.7,
+    "MNTTVA": 299.7,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00510",
@@ -701,7 +764,8 @@
     "NOMGEN": "ALFEN SA",
     "MNTFAC": 1400.0,
     "MNTTOT": 1513.4,
-    "MNTTVA": 113.4
+    "MNTTVA": 113.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00507",
@@ -712,7 +776,8 @@
     "NOMGEN": "ALFEN SA",
     "MNTFAC": 1664.0,
     "MNTTOT": 1798.8,
-    "MNTTVA": 134.8
+    "MNTTVA": 134.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00100",
@@ -723,7 +788,8 @@
     "NOMGEN": "NAEF IMMOBILIER SA",
     "MNTFAC": 185.4,
     "MNTTOT": 185.4,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00008",
@@ -734,7 +800,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 60.0,
     "MNTTOT": 60.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00010",
@@ -745,7 +812,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 20.0,
     "MNTTOT": 20.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00007",
@@ -756,7 +824,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 20.0,
     "MNTTOT": 20.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00009",
@@ -767,7 +836,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 140.0,
     "MNTTOT": 140.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00026",
@@ -778,7 +848,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 681.9,
     "MNTTOT": 681.9,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00025",
@@ -789,7 +860,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 240.0,
     "MNTTOT": 240.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00014",
@@ -800,18 +872,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 40.0,
     "MNTTOT": 40.0,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "25.00042",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Locle 21-23-25",
-    "REFGEN": 1472,
-    "DATFAC": "2025-03-10",
-    "NOMGEN": "SANET NETTOYAGES SA",
-    "MNTFAC": 60.0,
-    "MNTTOT": 60.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00043",
@@ -822,7 +884,20 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 120.0,
     "MNTTOT": 120.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "25.00042",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Locle 21-23-25",
+    "REFGEN": 1472,
+    "DATFAC": "2025-03-10",
+    "NOMGEN": "SANET NETTOYAGES SA",
+    "MNTFAC": 60.0,
+    "MNTTOT": 60.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00237",
@@ -833,7 +908,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 60.0,
     "MNTTOT": 60.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00238",
@@ -844,7 +920,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 100.0,
     "MNTTOT": 100.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00298",
@@ -855,18 +932,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 311.65,
     "MNTTOT": 311.65,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "24.00324",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Locle 21-23-25",
-    "REFGEN": 1472,
-    "DATFAC": "2024-11-13",
-    "NOMGEN": "SANET NETTOYAGES SA",
-    "MNTFAC": 40.0,
-    "MNTTOT": 40.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00325",
@@ -877,7 +944,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 120.0,
     "MNTTOT": 120.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00326",
@@ -888,7 +956,20 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 60.0,
     "MNTTOT": 60.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00324",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Locle 21-23-25",
+    "REFGEN": 1472,
+    "DATFAC": "2024-11-13",
+    "NOMGEN": "SANET NETTOYAGES SA",
+    "MNTFAC": 40.0,
+    "MNTTOT": 40.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00327",
@@ -899,7 +980,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 40.0,
     "MNTTOT": 40.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00330",
@@ -910,7 +992,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 80.0,
     "MNTTOT": 80.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00329",
@@ -921,7 +1004,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 20.0,
     "MNTTOT": 20.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00005",
@@ -932,40 +1016,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 100.0,
     "MNTTOT": 100.0,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "24.00522",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Rosière 17",
-    "REFGEN": 1472,
-    "DATFAC": "2024-12-20",
-    "NOMGEN": "SANET NETTOYAGES SA",
-    "MNTFAC": 150.0,
-    "MNTTOT": 150.0,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "24.00520",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Rosière 17",
-    "REFGEN": 1472,
-    "DATFAC": "2024-12-20",
-    "NOMGEN": "SANET NETTOYAGES SA",
-    "MNTFAC": 120.0,
-    "MNTTOT": 120.0,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "24.00521",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Rosière 17",
-    "REFGEN": 1472,
-    "DATFAC": "2024-12-20",
-    "NOMGEN": "SANET NETTOYAGES SA",
-    "MNTFAC": -120.0,
-    "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00523",
@@ -976,18 +1028,44 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 60.0,
     "MNTTOT": 60.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
-    "REFFOR": "24.00269",
+    "REFFOR": "24.00520",
     "NORAPPD": "Edition de la facture",
     "NOMGFA": "Rosière 17",
     "REFGEN": 1472,
-    "DATFAC": "2024-08-23",
+    "DATFAC": "2024-12-20",
     "NOMGEN": "SANET NETTOYAGES SA",
-    "MNTFAC": 80.0,
-    "MNTTOT": 80.0,
-    "MNTTVA": 0.0
+    "MNTFAC": 120.0,
+    "MNTTOT": 120.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00521",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Rosière 17",
+    "REFGEN": 1472,
+    "DATFAC": "2024-12-20",
+    "NOMGEN": "SANET NETTOYAGES SA",
+    "MNTFAC": -120.0,
+    "MNTTOT": 0.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00522",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Rosière 17",
+    "REFGEN": 1472,
+    "DATFAC": "2024-12-20",
+    "NOMGEN": "SANET NETTOYAGES SA",
+    "MNTFAC": 150.0,
+    "MNTTOT": 150.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00270",
@@ -998,29 +1076,20 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 20.0,
     "MNTTOT": 20.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
-    "REFFOR": "24.00252",
+    "REFFOR": "24.00269",
     "NORAPPD": "Edition de la facture",
     "NOMGFA": "Rosière 17",
     "REFGEN": 1472,
-    "DATFAC": "2024-07-24",
-    "NOMGEN": "SANET NETTOYAGES SA",
-    "MNTFAC": 120.0,
-    "MNTTOT": 120.0,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "24.00251",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Rosière 17",
-    "REFGEN": 1472,
-    "DATFAC": "2024-07-24",
+    "DATFAC": "2024-08-23",
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 80.0,
     "MNTTOT": 80.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00253",
@@ -1031,7 +1100,32 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 20.0,
     "MNTTOT": 20.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00252",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Rosière 17",
+    "REFGEN": 1472,
+    "DATFAC": "2024-07-24",
+    "NOMGEN": "SANET NETTOYAGES SA",
+    "MNTFAC": 120.0,
+    "MNTTOT": 120.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00251",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Rosière 17",
+    "REFGEN": 1472,
+    "DATFAC": "2024-07-24",
+    "NOMGEN": "SANET NETTOYAGES SA",
+    "MNTFAC": 80.0,
+    "MNTTOT": 80.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00011",
@@ -1042,18 +1136,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 250.0,
     "MNTTOT": 269.25,
-    "MNTTVA": 19.25
-  },
-  {
-    "REFFOR": "23.00560",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Locle 21-23-25",
-    "REFGEN": 1472,
-    "DATFAC": "2024-04-30",
-    "NOMGEN": "SANET NETTOYAGES SA",
-    "MNTFAC": 20.0,
-    "MNTTOT": 20.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 19.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00084",
@@ -1064,7 +1148,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 120.0,
     "MNTTOT": 120.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00083",
@@ -1075,7 +1160,20 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 120.0,
     "MNTTOT": 120.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "23.00560",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Locle 21-23-25",
+    "REFGEN": 1472,
+    "DATFAC": "2024-04-30",
+    "NOMGEN": "SANET NETTOYAGES SA",
+    "MNTFAC": 20.0,
+    "MNTTOT": 20.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00011",
@@ -1086,7 +1184,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 1054.0,
     "MNTTOT": 1054.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "20.00889",
@@ -1097,7 +1196,8 @@
     "NOMGEN": "FIDIMMOBIL SA",
     "MNTFAC": 316.65,
     "MNTTOT": 316.65,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00004",
@@ -1108,7 +1208,8 @@
     "NOMGEN": "FIDIMMOBIL SA",
     "MNTFAC": 5412.6,
     "MNTTOT": 5412.6,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00003",
@@ -1119,7 +1220,8 @@
     "NOMGEN": "FIDIMMOBIL SA",
     "MNTFAC": 5412.4,
     "MNTTOT": 5412.4,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00101",
@@ -1130,7 +1232,8 @@
     "NOMGEN": "MOROTTI Sandra",
     "MNTFAC": 302.1,
     "MNTTOT": 326.6,
-    "MNTTVA": 24.5
+    "MNTTVA": 24.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00050",
@@ -1141,7 +1244,8 @@
     "NOMGEN": "BOURGEOIS Nathalie",
     "MNTFAC": 630.35,
     "MNTTOT": 681.4,
-    "MNTTVA": 51.05
+    "MNTTVA": 51.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00040",
@@ -1152,7 +1256,8 @@
     "NOMGEN": "WINKENBACH SA",
     "MNTFAC": 200.0,
     "MNTTOT": 200.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00160",
@@ -1163,7 +1268,8 @@
     "NOMGEN": "FACCHINETTI Claudio",
     "MNTFAC": 235.0,
     "MNTTOT": 254.05,
-    "MNTTVA": 19.05
+    "MNTTVA": 19.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00023",
@@ -1174,7 +1280,8 @@
     "NOMGEN": "COMMUNE DE MILVIGNES",
     "MNTFAC": 12628.0,
     "MNTTOT": 13600.35,
-    "MNTTVA": 972.35
+    "MNTTVA": 972.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "23.00555",
@@ -1185,7 +1292,8 @@
     "NOMGEN": "COMMUNE DE MILVIGNES",
     "MNTFAC": 12628.0,
     "MNTTOT": 13600.35,
-    "MNTTVA": 972.35
+    "MNTTVA": 972.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00312",
@@ -1196,7 +1304,8 @@
     "NOMGEN": "RIBAUX VON KESSEL SA",
     "MNTFAC": 1329.65,
     "MNTTOT": 1329.65,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00313",
@@ -1207,7 +1316,8 @@
     "NOMGEN": "RIBAUX VON KESSEL SA",
     "MNTFAC": 3223.5,
     "MNTTOT": 3223.5,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00055",
@@ -1218,7 +1328,8 @@
     "NOMGEN": "BOUVIER Robert",
     "MNTFAC": 313.0,
     "MNTTOT": 338.35,
-    "MNTTVA": 25.35
+    "MNTTVA": 25.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00366",
@@ -1229,7 +1340,8 @@
     "NOMGEN": "BURATTI Christine",
     "MNTFAC": 1932.55,
     "MNTTOT": 2089.05,
-    "MNTTVA": 156.5
+    "MNTTVA": 156.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "23.00552",
@@ -1240,18 +1352,8 @@
     "NOMGEN": "BURATTI Christine",
     "MNTFAC": 1881.35,
     "MNTTOT": 2033.7,
-    "MNTTVA": 152.35
-  },
-  {
-    "REFFOR": "24.00171",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Patrimoine Gérance SA",
-    "REFGEN": 5269,
-    "DATFAC": "2024-06-18",
-    "NOMGEN": "BURATTI Christine",
-    "MNTFAC": 1881.35,
-    "MNTTOT": 2033.7,
-    "MNTTVA": 152.35
+    "MNTTVA": 152.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00172",
@@ -1262,29 +1364,20 @@
     "NOMGEN": "BURATTI Christine",
     "MNTFAC": 1875.3,
     "MNTTOT": 2027.2,
-    "MNTTVA": 151.9
+    "MNTTVA": 151.9,
+    "TEXFAC": ""
   },
   {
-    "REFFOR": "24.00173",
+    "REFFOR": "24.00171",
     "NORAPPD": "Edition de la facture",
     "NOMGFA": "Patrimoine Gérance SA",
     "REFGEN": 5269,
     "DATFAC": "2024-06-18",
     "NOMGEN": "BURATTI Christine",
-    "MNTFAC": -1881.35,
-    "MNTTOT": 0.0,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "24.00174",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Patrimoine Gérance SA",
-    "REFGEN": 5269,
-    "DATFAC": "2024-06-18",
-    "NOMGEN": "BURATTI Christine",
-    "MNTFAC": -1875.3,
-    "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTFAC": 1881.35,
+    "MNTTOT": 2033.7,
+    "MNTTVA": 152.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00175",
@@ -1295,7 +1388,32 @@
     "NOMGEN": "BURATTI Christine",
     "MNTFAC": 1875.3,
     "MNTTOT": 2027.2,
-    "MNTTVA": 151.9
+    "MNTTVA": 151.9,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00174",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Patrimoine Gérance SA",
+    "REFGEN": 5269,
+    "DATFAC": "2024-06-18",
+    "NOMGEN": "BURATTI Christine",
+    "MNTFAC": -1875.3,
+    "MNTTOT": 0.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00173",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Patrimoine Gérance SA",
+    "REFGEN": 5269,
+    "DATFAC": "2024-06-18",
+    "NOMGEN": "BURATTI Christine",
+    "MNTFAC": -1881.35,
+    "MNTTOT": 0.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00481",
@@ -1306,7 +1424,8 @@
     "NOMGEN": "BURATTI Christine",
     "MNTFAC": 331.8,
     "MNTTOT": 358.7,
-    "MNTTVA": 26.9
+    "MNTTVA": 26.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00291",
@@ -1317,7 +1436,8 @@
     "NOMGEN": "BURATTI Christine",
     "MNTFAC": 1836.35,
     "MNTTOT": 1985.1,
-    "MNTTVA": 148.75
+    "MNTTVA": 148.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00281",
@@ -1328,7 +1448,8 @@
     "NOMGEN": "LA POSTE SUISSE SA",
     "MNTFAC": 1497.05,
     "MNTTOT": 1497.05,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00037",
@@ -1339,7 +1460,8 @@
     "NOMGEN": "TRIPET Robert",
     "MNTFAC": 14385.9,
     "MNTTOT": 15551.15,
-    "MNTTVA": 1165.25
+    "MNTTVA": 1165.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00328",
@@ -1350,7 +1472,8 @@
     "NOMGEN": "MENZI Stefan",
     "MNTFAC": 120.0,
     "MNTTOT": 129.7,
-    "MNTTVA": 9.7
+    "MNTTVA": 9.7,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00104",
@@ -1361,7 +1484,8 @@
     "NOMGEN": "BOLLIGER Laurent",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00185",
@@ -1372,18 +1496,8 @@
     "NOMGEN": "CASSARD Alain",
     "MNTFAC": 21328.0,
     "MNTTOT": 21328.0,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "24.00239",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "PPE Vanels 14",
-    "REFGEN": 7400,
-    "DATFAC": "2024-06-19",
-    "NOMGEN": "CASSARD Alain",
-    "MNTFAC": -21328.0,
-    "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00240",
@@ -1394,7 +1508,20 @@
     "NOMGEN": "CASSARD Alain",
     "MNTFAC": 23728.0,
     "MNTTOT": 23728.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00239",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "PPE Vanels 14",
+    "REFGEN": 7400,
+    "DATFAC": "2024-06-19",
+    "NOMGEN": "CASSARD Alain",
+    "MNTFAC": -21328.0,
+    "MNTTOT": 0.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "23.00570",
@@ -1405,7 +1532,8 @@
     "NOMGEN": "VIENNET Fabien",
     "MNTFAC": 100.0,
     "MNTTOT": 108.1,
-    "MNTTVA": 8.1
+    "MNTTVA": 8.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00363",
@@ -1416,7 +1544,8 @@
     "NOMGEN": "RACINE Anura",
     "MNTFAC": 453.3,
     "MNTTOT": 490.0,
-    "MNTTVA": 36.7
+    "MNTTVA": 36.7,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00180",
@@ -1427,7 +1556,8 @@
     "NOMGEN": "RACINE Anura",
     "MNTFAC": 130.2,
     "MNTTOT": 140.75,
-    "MNTTVA": 10.55
+    "MNTTVA": 10.55,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00093",
@@ -1438,7 +1568,8 @@
     "NOMGEN": "NEAU GERBER Chantal",
     "MNTFAC": 1690.0,
     "MNTTOT": 1826.85,
-    "MNTTVA": 136.85
+    "MNTTVA": 136.85,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00546",
@@ -1449,7 +1580,8 @@
     "NOMGEN": "NOBS Véronique",
     "MNTFAC": 150.0,
     "MNTTOT": 150.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "23.00569",
@@ -1460,7 +1592,8 @@
     "NOMGEN": "DROXLER Catherine",
     "MNTFAC": 1020.0,
     "MNTTOT": 1020.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00524",
@@ -1471,7 +1604,8 @@
     "NOMGEN": "DROXLER Catherine",
     "MNTFAC": 904.0,
     "MNTTOT": 904.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "23.00529",
@@ -1482,7 +1616,8 @@
     "NOMGEN": "BARRABAS Concetta",
     "MNTFAC": 510.0,
     "MNTTOT": 510.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00286",
@@ -1493,7 +1628,8 @@
     "NOMGEN": "BARRABAS Concetta",
     "MNTFAC": 1020.0,
     "MNTTOT": 1020.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00267",
@@ -1504,7 +1640,8 @@
     "NOMGEN": "BARRABAS Concetta",
     "MNTFAC": 510.0,
     "MNTTOT": 510.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "23.00562",
@@ -1515,7 +1652,8 @@
     "NOMGEN": "NYDEGGER Laure",
     "MNTFAC": 570.0,
     "MNTTOT": 570.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00525",
@@ -1526,7 +1664,8 @@
     "NOMGEN": "NYDEGGER Laure",
     "MNTFAC": 510.1,
     "MNTTOT": 510.1,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00056",
@@ -1537,7 +1676,8 @@
     "NOMGEN": "AC ENTREPRISE DE NETTOYAGE SÀRL",
     "MNTFAC": 508.05,
     "MNTTOT": 508.05,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00367",
@@ -1548,7 +1688,8 @@
     "NOMGEN": "FROSSARD  Christian Paul-André",
     "MNTFAC": 724.2,
     "MNTTOT": 782.85,
-    "MNTTVA": 58.65
+    "MNTTVA": 58.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00178",
@@ -1559,7 +1700,8 @@
     "NOMGEN": "FROSSARD  Christian Paul-André",
     "MNTFAC": 724.2,
     "MNTTOT": 782.85,
-    "MNTTVA": 58.65
+    "MNTTVA": 58.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00177",
@@ -1570,7 +1712,8 @@
     "NOMGEN": "FROSSARD  Christian Paul-André",
     "MNTFAC": -724.2,
     "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00176",
@@ -1581,7 +1724,8 @@
     "NOMGEN": "FROSSARD  Christian Paul-André",
     "MNTFAC": 724.2,
     "MNTTOT": 782.85,
-    "MNTTVA": 58.65
+    "MNTTVA": 58.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "23.00553",
@@ -1592,7 +1736,8 @@
     "NOMGEN": "FROSSARD  Christian Paul-André",
     "MNTFAC": 724.2,
     "MNTTOT": 782.85,
-    "MNTTVA": 58.65
+    "MNTTVA": 58.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00292",
@@ -1603,29 +1748,8 @@
     "NOMGEN": "FROSSARD  Christian Paul-André",
     "MNTFAC": 724.25,
     "MNTTOT": 782.9,
-    "MNTTVA": 58.65
-  },
-  {
-    "REFFOR": "24.00081",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Maigroge 12",
-    "REFGEN": 9800,
-    "DATFAC": "2024-04-26",
-    "NOMGEN": "DOMA IMMVEST SA",
-    "MNTFAC": -8595.45,
-    "MNTTOT": 0.0,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "24.00082",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Maigroge 12",
-    "REFGEN": 9800,
-    "DATFAC": "2024-04-26",
-    "NOMGEN": "DOMA IMMVEST SA",
-    "MNTFAC": 8595.45,
-    "MNTTOT": 8595.45,
-    "MNTTVA": 0.0
+    "MNTTVA": 58.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00078",
@@ -1636,7 +1760,32 @@
     "NOMGEN": "DOMA IMMVEST SA",
     "MNTFAC": 8595.45,
     "MNTTOT": 8595.45,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00081",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Maigroge 12",
+    "REFGEN": 9800,
+    "DATFAC": "2024-04-26",
+    "NOMGEN": "DOMA IMMVEST SA",
+    "MNTFAC": -8595.45,
+    "MNTTOT": 0.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00082",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Maigroge 12",
+    "REFGEN": 9800,
+    "DATFAC": "2024-04-26",
+    "NOMGEN": "DOMA IMMVEST SA",
+    "MNTFAC": 8595.45,
+    "MNTTOT": 8595.45,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00099",
@@ -1647,7 +1796,8 @@
     "NOMGEN": "PLACIMMO SA",
     "MNTFAC": 11425.25,
     "MNTTOT": 12305.0,
-    "MNTTVA": 879.75
+    "MNTTVA": 879.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00179",
@@ -1658,29 +1808,8 @@
     "NOMGEN": "SI BEAU PARC ASA C\/o Immotech Meyer Sàrl",
     "MNTFAC": 2400.0,
     "MNTTOT": 2594.4,
-    "MNTTVA": 194.4
-  },
-  {
-    "REFFOR": "24.00080",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Pierre-Péquignat 30",
-    "REFGEN": 9807,
-    "DATFAC": "2024-04-26",
-    "NOMGEN": "PP30 INVEST SA",
-    "MNTFAC": -14369.45,
-    "MNTTOT": 0.0,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "24.00079",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Pierre-Péquignat 30",
-    "REFGEN": 9807,
-    "DATFAC": "2024-04-26",
-    "NOMGEN": "PP30 INVEST SA",
-    "MNTFAC": 14369.45,
-    "MNTTOT": 14369.45,
-    "MNTTVA": 0.0
+    "MNTTVA": 194.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00077",
@@ -1691,7 +1820,32 @@
     "NOMGEN": "PP30 INVEST SA",
     "MNTFAC": 14369.45,
     "MNTTOT": 14369.45,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00079",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Pierre-Péquignat 30",
+    "REFGEN": 9807,
+    "DATFAC": "2024-04-26",
+    "NOMGEN": "PP30 INVEST SA",
+    "MNTFAC": 14369.45,
+    "MNTTOT": 14369.45,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00080",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Pierre-Péquignat 30",
+    "REFGEN": 9807,
+    "DATFAC": "2024-04-26",
+    "NOMGEN": "PP30 INVEST SA",
+    "MNTFAC": -14369.45,
+    "MNTTOT": 0.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00322",
@@ -1702,7 +1856,8 @@
     "NOMGEN": "KIEME Jonathan",
     "MNTFAC": 252.6,
     "MNTTOT": 252.6,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00534",
@@ -1713,7 +1868,8 @@
     "NOMGEN": "KIEME Jonathan",
     "MNTFAC": 252.6,
     "MNTTOT": 252.6,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00263",
@@ -1724,7 +1880,8 @@
     "NOMGEN": "KIEME Jonathan",
     "MNTFAC": 252.6,
     "MNTTOT": 252.6,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00323",
@@ -1735,7 +1892,8 @@
     "NOMGEN": "KIEME Jonathan",
     "MNTFAC": -252.6,
     "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00533",
@@ -1746,7 +1904,8 @@
     "NOMGEN": "KIEME Jonathan",
     "MNTFAC": -252.6,
     "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "23.00561",
@@ -1757,7 +1916,8 @@
     "NOMGEN": "BALZLI Ralph",
     "MNTFAC": 120.0,
     "MNTTOT": 120.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00038",
@@ -1768,7 +1928,8 @@
     "NOMGEN": "COMMUNE DE BOUDRY",
     "MNTFAC": 9569.3,
     "MNTTOT": 9569.3,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00280",
@@ -1779,7 +1940,8 @@
     "NOMGEN": "SERGEANT Luc",
     "MNTFAC": 261.7,
     "MNTTOT": 261.7,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00019",
@@ -1790,7 +1952,8 @@
     "NOMGEN": "DE ANDRADE BATISTA  Fernando José",
     "MNTFAC": -228.0,
     "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "23.00530",
@@ -1801,18 +1964,8 @@
     "NOMGEN": "DE ANDRADE BATISTA  Fernando José",
     "MNTFAC": 228.0,
     "MNTTOT": 228.0,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "24.00075",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Coq-d'Inde 24",
-    "REFGEN": 10438,
-    "DATFAC": "2024-04-26",
-    "NOMGEN": "IMMOTECH MEYER SÀRL",
-    "MNTFAC": 24466.98,
-    "MNTTOT": 24466.98,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00528",
@@ -1823,7 +1976,20 @@
     "NOMGEN": "IMMOTECH MEYER SÀRL",
     "MNTFAC": 1230.0,
     "MNTTOT": 1230.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00075",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Coq-d'Inde 24",
+    "REFGEN": 10438,
+    "DATFAC": "2024-04-26",
+    "NOMGEN": "IMMOTECH MEYER SÀRL",
+    "MNTFAC": 24466.98,
+    "MNTTOT": 24466.98,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00076",
@@ -1834,7 +2000,8 @@
     "NOMGEN": "IMMOTECH MEYER SÀRL",
     "MNTFAC": 21720.65,
     "MNTTOT": 21720.65,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00529",
@@ -1845,7 +2012,8 @@
     "NOMGEN": "IMMOTECH MEYER SÀRL",
     "MNTFAC": 521.3,
     "MNTTOT": 521.3,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00041",
@@ -1856,7 +2024,8 @@
     "NOMGEN": "PRÉBANDIER Bernard",
     "MNTFAC": 1097.0,
     "MNTTOT": 1097.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00017",
@@ -1867,7 +2036,8 @@
     "NOMGEN": "SALUS SA",
     "MNTFAC": 3017.65,
     "MNTTOT": 3250.0,
-    "MNTTVA": 232.35
+    "MNTTVA": 232.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00301",
@@ -1878,7 +2048,8 @@
     "NOMGEN": "YOHANNES Gabriele",
     "MNTFAC": 1040.0,
     "MNTTOT": 1040.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00032",
@@ -1889,7 +2060,8 @@
     "NOMGEN": "HEID Caroline",
     "MNTFAC": 57.0,
     "MNTTOT": 61.6,
-    "MNTTVA": 4.6
+    "MNTTVA": 4.6,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00275",
@@ -1900,7 +2072,8 @@
     "NOMGEN": "KRUMMENACHER Kurt",
     "MNTFAC": 3050.0,
     "MNTTOT": 3297.05,
-    "MNTTVA": 247.05
+    "MNTTVA": 247.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00547",
@@ -1911,7 +2084,8 @@
     "NOMGEN": "MAJ IMMO SA",
     "MNTFAC": 252.8,
     "MNTTOT": 252.8,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00188",
@@ -1922,7 +2096,8 @@
     "NOMGEN": "BIGDELI Siavash",
     "MNTFAC": 990.0,
     "MNTTOT": 1070.2,
-    "MNTTVA": 80.2
+    "MNTTVA": 80.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00013",
@@ -1933,7 +2108,8 @@
     "NOMGEN": "FRANZ Jean-Pierre",
     "MNTFAC": 1.0,
     "MNTTOT": 1.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00274",
@@ -1944,7 +2120,8 @@
     "NOMGEN": "EXTRAGONE SA",
     "MNTFAC": 2920.0,
     "MNTTOT": 3156.5,
-    "MNTTVA": 236.5
+    "MNTTVA": 236.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00015",
@@ -1955,7 +2132,8 @@
     "NOMGEN": "LECHENMAYR Ralf",
     "MNTFAC": 185.0,
     "MNTTOT": 200.0,
-    "MNTTVA": 15.0
+    "MNTTVA": 15.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00002",
@@ -1966,7 +2144,8 @@
     "NOMGEN": "RAYNAUD SÀRL",
     "MNTFAC": 18.5,
     "MNTTOT": 20.0,
-    "MNTTVA": 1.5
+    "MNTTVA": 1.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00027",
@@ -1977,7 +2156,8 @@
     "NOMGEN": "BALDACCI Alex",
     "MNTFAC": 1290.0,
     "MNTTOT": 1290.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00037",
@@ -1988,7 +2168,8 @@
     "NOMGEN": "BALDACCI Alex",
     "MNTFAC": 1290.0,
     "MNTTOT": 1290.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00012",
@@ -1999,7 +2180,8 @@
     "NOMGEN": "BALDACCI Alex",
     "MNTFAC": 1510.0,
     "MNTTOT": 1527.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00020",
@@ -2010,7 +2192,8 @@
     "NOMGEN": "AGE UNTERNEHMUNG AG",
     "MNTFAC": 185.0,
     "MNTTOT": 200.0,
-    "MNTTVA": 15.0
+    "MNTTVA": 15.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00028",
@@ -2021,7 +2204,8 @@
     "NOMGEN": "FAVRE NUMA Louis",
     "MNTFAC": 1515.0,
     "MNTTOT": 1637.75,
-    "MNTTVA": 122.75
+    "MNTTVA": 122.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00039",
@@ -2032,7 +2216,8 @@
     "NOMGEN": "BERBERAT Pauline",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00042",
@@ -2043,7 +2228,8 @@
     "NOMGEN": "BERBERAT Pauline",
     "MNTFAC": 185.0,
     "MNTTOT": 200.0,
-    "MNTTVA": 15.0
+    "MNTTVA": 15.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00038",
@@ -2054,7 +2240,8 @@
     "NOMGEN": "FUSE Riccardo",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00040",
@@ -2065,7 +2252,8 @@
     "NOMGEN": "TINGUELY Arnaud",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00074",
@@ -2076,7 +2264,8 @@
     "NOMGEN": "MAGOMERSAJEVA Asira",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00092",
@@ -2087,7 +2276,8 @@
     "NOMGEN": "DOKA GESTION SÀRL",
     "MNTFAC": 1.0,
     "MNTTOT": 1.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00288",
@@ -2098,7 +2288,8 @@
     "NOMGEN": "DOKA GESTION SÀRL",
     "MNTFAC": 1077.0,
     "MNTTOT": 1077.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00095",
@@ -2109,7 +2300,8 @@
     "NOMGEN": "RENZULLO Mareva",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00106",
@@ -2120,7 +2312,8 @@
     "NOMGEN": "VOLLENWEIDER Olivier",
     "MNTFAC": 5533.75,
     "MNTTOT": 5982.0,
-    "MNTTVA": 448.25
+    "MNTTVA": 448.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00512",
@@ -2131,7 +2324,8 @@
     "NOMGEN": "VOLLENWEIDER Olivier",
     "MNTFAC": 3640.0,
     "MNTTOT": 3934.85,
-    "MNTTVA": 294.85
+    "MNTTVA": 294.85,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00333",
@@ -2142,7 +2336,8 @@
     "NOMGEN": "VOLLENWEIDER Olivier",
     "MNTFAC": 15161.9,
     "MNTTOT": 16390.0,
-    "MNTTVA": 1228.1
+    "MNTTVA": 1228.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00159",
@@ -2153,7 +2348,8 @@
     "NOMGEN": "HENRIQUES Joanna",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00162",
@@ -2164,7 +2360,8 @@
     "NOMGEN": "GASTRONOMIE ET ART SÀRL Monsieur Laurent",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00331",
@@ -2175,7 +2372,8 @@
     "NOMGEN": "MOJON Françoise",
     "MNTFAC": 1850.0,
     "MNTTOT": 1999.85,
-    "MNTTVA": 149.85
+    "MNTTVA": 149.85,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00187",
@@ -2186,7 +2384,8 @@
     "NOMGEN": "BOMBINI Jasmine",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00287",
@@ -2197,7 +2396,8 @@
     "NOMGEN": "KRAMER THIERRY",
     "MNTFAC": 398.5,
     "MNTTOT": 398.5,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00247",
@@ -2208,7 +2408,8 @@
     "NOMGEN": "KRAMER THIERRY",
     "MNTFAC": 204.6,
     "MNTTOT": 204.6,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00259",
@@ -2219,7 +2420,8 @@
     "NOMGEN": "TERRA FONCIER SA",
     "MNTFAC": 50.0,
     "MNTTOT": 54.05,
-    "MNTTVA": 4.05
+    "MNTTVA": 4.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00265",
@@ -2230,7 +2432,8 @@
     "NOMGEN": "HATTAY Mohamed",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00277",
@@ -2241,7 +2444,8 @@
     "NOMGEN": "PELLEGRINELLI ET ALMEIDA DA SILVA Fanny",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00519",
@@ -2252,7 +2456,8 @@
     "NOMGEN": "PELLEGRINELLI ET ALMEIDA DA SILVA Fanny",
     "MNTFAC": 38.85,
     "MNTTOT": 42.0,
-    "MNTTVA": 3.15
+    "MNTTVA": 3.15,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00293",
@@ -2263,7 +2468,8 @@
     "NOMGEN": "MILLIARD Gaëtan",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00296",
@@ -2274,7 +2480,8 @@
     "NOMGEN": "MORJAN Sarah",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00517",
@@ -2285,7 +2492,8 @@
     "NOMGEN": "MORJAN Sarah",
     "MNTFAC": 41.65,
     "MNTTOT": 45.0,
-    "MNTTVA": 3.35
+    "MNTTVA": 3.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00297",
@@ -2296,7 +2504,8 @@
     "NOMGEN": "OPPLIGER Claude",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00518",
@@ -2307,7 +2516,8 @@
     "NOMGEN": "OPPLIGER Claude",
     "MNTFAC": 49.95,
     "MNTTOT": 54.0,
-    "MNTTVA": 4.05
+    "MNTTVA": 4.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00300",
@@ -2318,7 +2528,8 @@
     "NOMGEN": "A&P FIDUCIAIRE SA",
     "MNTFAC": 208.1,
     "MNTTOT": 208.1,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00537",
@@ -2329,7 +2540,8 @@
     "NOMGEN": "A&P FIDUCIAIRE SA",
     "MNTFAC": -208.1,
     "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00307",
@@ -2340,7 +2552,8 @@
     "NOMGEN": "DE CHAMBRIER Anne",
     "MNTFAC": 475.0,
     "MNTTOT": 513.5,
-    "MNTTVA": 38.5
+    "MNTTVA": 38.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00310",
@@ -2351,7 +2564,8 @@
     "NOMGEN": "FROCHAUX Yves",
     "MNTFAC": 270.0,
     "MNTTOT": 291.9,
-    "MNTTVA": 21.9
+    "MNTTVA": 21.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00053",
@@ -2362,7 +2576,8 @@
     "NOMGEN": "PADOVEZE DE CARVALHO Gustavo",
     "MNTFAC": 55.5,
     "MNTTOT": 60.0,
-    "MNTTVA": 4.5
+    "MNTTVA": 4.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00332",
@@ -2373,7 +2588,8 @@
     "NOMGEN": "LARDY Philippe",
     "MNTFAC": 3500.0,
     "MNTTOT": 3783.5,
-    "MNTTVA": 283.5
+    "MNTTVA": 283.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00015",
@@ -2384,7 +2600,8 @@
     "NOMGEN": "MAGNE Carine",
     "MNTFAC": 27.75,
     "MNTTOT": 30.0,
-    "MNTTVA": 2.25
+    "MNTTVA": 2.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00020",
@@ -2395,7 +2612,8 @@
     "NOMGEN": "MAGNE Carine",
     "MNTFAC": 41.65,
     "MNTTOT": 45.0,
-    "MNTTVA": 3.35
+    "MNTTVA": 3.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00019",
@@ -2406,7 +2624,8 @@
     "NOMGEN": "MAGNE Carine",
     "MNTFAC": -27.75,
     "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00334",
@@ -2417,40 +2636,8 @@
     "NOMGEN": "MAGNE Carine",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
-  },
-  {
-    "REFFOR": "25.00013",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Patrimoine Gérance SA",
-    "REFGEN": 11886,
-    "DATFAC": "2025-02-07",
-    "NOMGEN": "IBRAHIMOVIC Mirzet",
-    "MNTFAC": 0.0,
-    "MNTTOT": 0.0,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "25.00018",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Patrimoine Gérance SA",
-    "REFGEN": 11886,
-    "DATFAC": "2025-02-07",
-    "NOMGEN": "IBRAHIMOVIC Mirzet",
-    "MNTFAC": 27.75,
-    "MNTTOT": 30.0,
-    "MNTTVA": 2.25
-  },
-  {
-    "REFFOR": "25.00014",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Jean-Jacques Lallemand 3",
-    "REFGEN": 11886,
-    "DATFAC": "2025-02-07",
-    "NOMGEN": "IBRAHIMOVIC Mirzet",
-    "MNTFAC": 30.0,
-    "MNTTOT": 30.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00016",
@@ -2461,7 +2648,32 @@
     "NOMGEN": "IBRAHIMOVIC Mirzet",
     "MNTFAC": -30.0,
     "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "25.00013",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Patrimoine Gérance SA",
+    "REFGEN": 11886,
+    "DATFAC": "2025-02-07",
+    "NOMGEN": "IBRAHIMOVIC Mirzet",
+    "MNTFAC": 0.0,
+    "MNTTOT": 0.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "25.00018",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Patrimoine Gérance SA",
+    "REFGEN": 11886,
+    "DATFAC": "2025-02-07",
+    "NOMGEN": "IBRAHIMOVIC Mirzet",
+    "MNTFAC": 27.75,
+    "MNTTOT": 30.0,
+    "MNTTVA": 2.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00017",
@@ -2472,7 +2684,20 @@
     "NOMGEN": "IBRAHIMOVIC Mirzet",
     "MNTFAC": -30.0,
     "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "25.00014",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Jean-Jacques Lallemand 3",
+    "REFGEN": 11886,
+    "DATFAC": "2025-02-07",
+    "NOMGEN": "IBRAHIMOVIC Mirzet",
+    "MNTFAC": 30.0,
+    "MNTTOT": 30.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00343",
@@ -2483,7 +2708,8 @@
     "NOMGEN": "AMOS Noélie Et David",
     "MNTFAC": 500.0,
     "MNTTOT": 540.5,
-    "MNTTVA": 40.5
+    "MNTTVA": 40.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00513",
@@ -2494,7 +2720,8 @@
     "NOMGEN": "MARTY Alexandre",
     "MNTFAC": 750.0,
     "MNTTOT": 810.75,
-    "MNTTVA": 60.75
+    "MNTTVA": 60.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00004",
@@ -2505,7 +2732,8 @@
     "NOMGEN": "JOSEPH Samuel",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00051",
@@ -2516,7 +2744,8 @@
     "NOMGEN": "BLANCK Ryan",
     "MNTFAC": 0.0,
     "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00052",
@@ -2527,7 +2756,8 @@
     "NOMGEN": "BLANCK Ryan",
     "MNTFAC": 37.0,
     "MNTTOT": 40.0,
-    "MNTTVA": 3.0
+    "MNTTVA": 3.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00005",
@@ -2538,7 +2768,8 @@
     "NOMGEN": "BLANCK Ryan",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00012",
@@ -2549,7 +2780,8 @@
     "NOMGEN": "WEGMÜLLER Tino",
     "MNTFAC": 85.0,
     "MNTTOT": 91.9,
-    "MNTTVA": 6.9
+    "MNTTVA": 6.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00027",
@@ -2560,7 +2792,8 @@
     "NOMGEN": "WAELTI Regina",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00035",
@@ -2571,7 +2804,8 @@
     "NOMGEN": "WERMUTH David",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00054",
@@ -2582,7 +2816,8 @@
     "NOMGEN": "BAGA-DOVI Foly Loïs",
     "MNTFAC": 120.0,
     "MNTTOT": 120.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00058",
@@ -2593,7 +2828,32 @@
     "NOMGEN": "TOBOU Gaël",
     "MNTFAC": 220.0,
     "MNTTOT": 237.8,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "25.00065",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Patrimoine Gérance SA",
+    "REFGEN": 12241,
+    "DATFAC": "2025-04-24",
+    "NOMGEN": "SERRA GOMES Catia Sofia",
+    "MNTFAC": 220.0,
+    "MNTTOT": 237.8,
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00555",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "PPE Sous-le-Pré 19",
+    "REFGEN": 12244,
+    "DATFAC": "2024-12-31",
+    "NOMGEN": "BAUER Fabrice",
+    "MNTFAC": 3538.2,
+    "MNTTOT": 3538.2,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00460",
@@ -2604,7 +2864,8 @@
     "NOMGEN": "VITEOS SA",
     "MNTFAC": 2437.85,
     "MNTTOT": 2437.85,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00086",
@@ -2615,7 +2876,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 33.3,
     "MNTTOT": 33.3,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00001",
@@ -2626,7 +2888,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 1890.35,
     "MNTTOT": 1890.35,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00161",
@@ -2637,7 +2900,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 1671.45,
     "MNTTOT": 1671.45,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00034",
@@ -2648,7 +2912,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 498.15,
     "MNTTOT": 538.5,
-    "MNTTVA": 40.35
+    "MNTTVA": 40.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00102",
@@ -2659,7 +2924,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 33.3,
     "MNTTOT": 33.3,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00228",
@@ -2670,7 +2936,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 590.0,
     "MNTTOT": 590.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00299",
@@ -2681,7 +2948,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 10.0,
     "MNTTOT": 10.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00268",
@@ -2692,7 +2960,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 237.0,
     "MNTTOT": 237.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00276",
@@ -2703,7 +2972,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 35.2,
     "MNTTOT": 35.2,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00290",
@@ -2714,7 +2984,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 5.9,
     "MNTTOT": 5.9,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00283",
@@ -2725,7 +2996,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": -35.2,
     "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00284",
@@ -2736,7 +3008,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 34.5,
     "MNTTOT": 34.5,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00289",
@@ -2747,7 +3020,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 12.55,
     "MNTTOT": 12.55,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00282",
@@ -2758,7 +3032,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 24.7,
     "MNTTOT": 24.7,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00303",
@@ -2769,7 +3044,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 13.0,
     "MNTTOT": 13.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00304",
@@ -2780,7 +3056,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 91.55,
     "MNTTOT": 91.55,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00530",
@@ -2791,7 +3068,8 @@
     "NOMGEN": "PATRIMOINE GÉRANCE SA",
     "MNTFAC": 56.75,
     "MNTTOT": 56.75,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00337",
@@ -2802,7 +3080,8 @@
     "NOMGEN": "TECARO SA",
     "MNTFAC": 3941.8,
     "MNTTOT": 3941.8,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00340",
@@ -2813,7 +3092,8 @@
     "NOMGEN": "TECARO SA",
     "MNTFAC": 3941.8,
     "MNTTOT": 3941.8,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00339",
@@ -2824,7 +3104,8 @@
     "NOMGEN": "TECARO SA",
     "MNTFAC": 3941.8,
     "MNTTOT": 3941.8,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00033",
@@ -2835,7 +3116,8 @@
     "NOMGEN": "SCHULTHESS MASCHINEN AG",
     "MNTFAC": 219.25,
     "MNTTOT": 237.0,
-    "MNTTVA": 17.75
+    "MNTTVA": 17.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00029",
@@ -2846,7 +3128,8 @@
     "NOMGEN": "ECAP",
     "MNTFAC": 621.55,
     "MNTTOT": 621.55,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00302",
@@ -2857,7 +3140,20 @@
     "NOMGEN": "SILENTSOFT SA",
     "MNTFAC": 171.9,
     "MNTTOT": 171.9,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00556",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "PPE Daniel-Dardel 16",
+    "REFGEN": 124,
+    "DATFAC": "2024-12-31",
+    "NOMGEN": "CLÉS DE SECOURS SÀRL",
+    "MNTFAC": 420.0,
+    "MNTTOT": 420.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00285",
@@ -2868,7 +3164,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 323.7,
     "MNTTOT": 323.7,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00264",
@@ -2879,18 +3176,8 @@
     "NOMGEN": "SANET NETTOYAGES SA",
     "MNTFAC": 324.3,
     "MNTTOT": 324.3,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "24.00085",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Buttes 16",
-    "REFGEN": 526,
-    "DATFAC": "2024-05-02",
-    "NOMGEN": "DESPREZ DÉPANNAGES ÉLECTROMÉNAGERS SÀRL",
-    "MNTFAC": -311.65,
-    "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "22.00729",
@@ -2901,7 +3188,20 @@
     "NOMGEN": "DESPREZ DÉPANNAGES ÉLECTROMÉNAGERS SÀRL",
     "MNTFAC": 311.65,
     "MNTTOT": 311.65,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00085",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Buttes 16",
+    "REFGEN": 526,
+    "DATFAC": "2024-05-02",
+    "NOMGEN": "DESPREZ DÉPANNAGES ÉLECTROMÉNAGERS SÀRL",
+    "MNTFAC": -311.65,
+    "MNTTOT": 0.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00531",
@@ -2912,7 +3212,8 @@
     "NOMGEN": "KLÄY FRÈRES",
     "MNTFAC": 135.15,
     "MNTTOT": 135.15,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00532",
@@ -2923,7 +3224,8 @@
     "NOMGEN": "KLÄY FRÈRES",
     "MNTFAC": -135.15,
     "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00294",
@@ -2934,18 +3236,8 @@
     "NOMGEN": "LAUBER SWENN",
     "MNTFAC": 700.05,
     "MNTTOT": 700.05,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "24.00536",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Saules 14",
-    "REFGEN": 1155,
-    "DATFAC": "2024-03-22",
-    "NOMGEN": "GETAZ-MIAUTON SA",
-    "MNTFAC": -410.0,
-    "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00036",
@@ -2956,7 +3248,20 @@
     "NOMGEN": "GETAZ-MIAUTON SA",
     "MNTFAC": 410.0,
     "MNTTOT": 410.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00536",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Saules 14",
+    "REFGEN": 1155,
+    "DATFAC": "2024-03-22",
+    "NOMGEN": "GETAZ-MIAUTON SA",
+    "MNTFAC": -410.0,
+    "MNTTOT": 0.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00016",
@@ -2967,7 +3272,8 @@
     "NOMGEN": "TORNADE NETTOYAGE Marini Valerija",
     "MNTFAC": 170.05,
     "MNTTOT": 170.05,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "23.00533",
@@ -2978,7 +3284,8 @@
     "NOMGEN": "TORNADE NETTOYAGE Marini Valerija",
     "MNTFAC": 480.0,
     "MNTTOT": 480.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00008",
@@ -2989,18 +3296,8 @@
     "NOMGEN": "TORNADE NETTOYAGE Marini Valerija",
     "MNTFAC": 28.7,
     "MNTTOT": 28.7,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "24.00006",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Bouronnes 16",
-    "REFGEN": 1349,
-    "DATFAC": "2024-01-25",
-    "NOMGEN": "TORNADE NETTOYAGE Marini Valerija",
-    "MNTFAC": -28.7,
-    "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00007",
@@ -3011,18 +3308,20 @@
     "NOMGEN": "TORNADE NETTOYAGE Marini Valerija",
     "MNTFAC": 28.7,
     "MNTTOT": 28.7,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
-    "REFFOR": "24.00545",
+    "REFFOR": "24.00006",
     "NORAPPD": "Edition de la facture",
-    "NOMGFA": "PPE Neuchâtel 16-18",
-    "REFGEN": 1361,
-    "DATFAC": "2024-12-31",
-    "NOMGEN": "VOILLAT SA",
-    "MNTFAC": -443.7,
+    "NOMGFA": "Bouronnes 16",
+    "REFGEN": 1349,
+    "DATFAC": "2024-01-25",
+    "NOMGEN": "TORNADE NETTOYAGE Marini Valerija",
+    "MNTFAC": -28.7,
     "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00544",
@@ -3033,18 +3332,8 @@
     "NOMGEN": "VOILLAT SA",
     "MNTFAC": 443.1,
     "MNTTOT": 443.1,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "24.00543",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "PPE Neuchâtel 16-18",
-    "REFGEN": 1361,
-    "DATFAC": "2024-12-31",
-    "NOMGEN": "VOILLAT SA",
-    "MNTFAC": -443.1,
-    "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00542",
@@ -3055,7 +3344,20 @@
     "NOMGEN": "VOILLAT SA",
     "MNTFAC": 443.1,
     "MNTTOT": 443.1,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00543",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "PPE Neuchâtel 16-18",
+    "REFGEN": 1361,
+    "DATFAC": "2024-12-31",
+    "NOMGEN": "VOILLAT SA",
+    "MNTFAC": -443.1,
+    "MNTTOT": 0.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00541",
@@ -3066,7 +3368,20 @@
     "NOMGEN": "VOILLAT SA",
     "MNTFAC": 443.7,
     "MNTTOT": 443.7,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00545",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "PPE Neuchâtel 16-18",
+    "REFGEN": 1361,
+    "DATFAC": "2024-12-31",
+    "NOMGEN": "VOILLAT SA",
+    "MNTFAC": -443.7,
+    "MNTTOT": 0.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00311",
@@ -3077,7 +3392,8 @@
     "NOMGEN": "EQUANS TECHNIQUE SA",
     "MNTFAC": 528.6,
     "MNTTOT": 528.6,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00305",
@@ -3088,7 +3404,8 @@
     "NOMGEN": "SUNRISE COMMUNICATIONS AG",
     "MNTFAC": -288.6,
     "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00246",
@@ -3099,7 +3416,8 @@
     "NOMGEN": "SUNRISE COMMUNICATIONS AG",
     "MNTFAC": 288.6,
     "MNTTOT": 288.6,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00306",
@@ -3110,7 +3428,8 @@
     "NOMGEN": "SUNRISE COMMUNICATIONS AG",
     "MNTFAC": 150.3,
     "MNTTOT": 150.3,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00540",
@@ -3121,7 +3440,8 @@
     "NOMGEN": "MOBILIÈRE SUISSE SOCIÉTÉ D'ASSURANCES SA",
     "MNTFAC": 2844.15,
     "MNTTOT": 2844.15,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00003",
@@ -3132,7 +3452,8 @@
     "NOMGEN": "FACSA SANIERUNG AG",
     "MNTFAC": 2420.25,
     "MNTTOT": 2420.25,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00057",
@@ -3143,7 +3464,8 @@
     "NOMGEN": "PRO NETTOYAGES FACILITIES SERVICE SARL",
     "MNTFAC": 486.45,
     "MNTTOT": 486.45,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00368",
@@ -3154,7 +3476,8 @@
     "NOMGEN": "Georges-Auguste-Matile 10A",
     "MNTFAC": 296.55,
     "MNTTOT": 320.55,
-    "MNTTVA": 24.0
+    "MNTTVA": 24.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00336",
@@ -3165,7 +3488,8 @@
     "NOMGEN": "Georges-Auguste-Matile 10A",
     "MNTFAC": 4440.35,
     "MNTTOT": 4800.0,
-    "MNTTVA": 359.65
+    "MNTTVA": 359.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00369",
@@ -3176,7 +3500,8 @@
     "NOMGEN": "Charmettes 61",
     "MNTFAC": 4635.65,
     "MNTTOT": 5011.15,
-    "MNTTVA": 375.5
+    "MNTTVA": 375.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00109",
@@ -3187,7 +3512,8 @@
     "NOMGEN": "Charmettes 63",
     "MNTFAC": 81.9,
     "MNTTOT": 88.55,
-    "MNTTVA": 6.65
+    "MNTTVA": 6.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00370",
@@ -3198,7 +3524,8 @@
     "NOMGEN": "Chapelle 23",
     "MNTFAC": 1271.0,
     "MNTTOT": 1373.9,
-    "MNTTVA": 102.9
+    "MNTTVA": 102.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00133",
@@ -3209,7 +3536,8 @@
     "NOMGEN": "Louis-Favre 40",
     "MNTFAC": 315.0,
     "MNTTOT": 340.5,
-    "MNTTVA": 25.5
+    "MNTTVA": 25.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00266",
@@ -3220,7 +3548,8 @@
     "NOMGEN": "Louis-Favre 40",
     "MNTFAC": 2000.0,
     "MNTTOT": 2162.0,
-    "MNTTVA": 162.0
+    "MNTTVA": 162.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00371",
@@ -3231,7 +3560,8 @@
     "NOMGEN": "Louis-Favre 40",
     "MNTFAC": 2305.05,
     "MNTTOT": 2491.8,
-    "MNTTVA": 186.75
+    "MNTTVA": 186.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00372",
@@ -3242,7 +3572,8 @@
     "NOMGEN": "Louis-Favre 40",
     "MNTFAC": 280.0,
     "MNTTOT": 302.7,
-    "MNTTVA": 22.7
+    "MNTTVA": 22.7,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00486",
@@ -3253,7 +3584,8 @@
     "NOMGEN": "Louis-Favre 40",
     "MNTFAC": 1743.6,
     "MNTTOT": 1884.85,
-    "MNTTVA": 141.25
+    "MNTTVA": 141.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00374",
@@ -3264,7 +3596,8 @@
     "NOMGEN": "Côte 67",
     "MNTFAC": 611.85,
     "MNTTOT": 661.4,
-    "MNTTVA": 49.55
+    "MNTTVA": 49.55,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00375",
@@ -3275,7 +3608,8 @@
     "NOMGEN": "Bouronnes 16",
     "MNTFAC": 2534.7,
     "MNTTOT": 2740.0,
-    "MNTTVA": 205.3
+    "MNTTVA": 205.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00476",
@@ -3286,7 +3620,8 @@
     "NOMGEN": "Bouronnes 16",
     "MNTFAC": 284.4,
     "MNTTOT": 307.45,
-    "MNTTVA": 23.05
+    "MNTTVA": 23.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00090",
@@ -3297,7 +3632,8 @@
     "NOMGEN": "Stavay-Mollondin 6",
     "MNTFAC": 92.05,
     "MNTTOT": 99.5,
-    "MNTTVA": 7.45
+    "MNTTVA": 7.45,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00135",
@@ -3308,7 +3644,8 @@
     "NOMGEN": "Stavay-Mollondin 6",
     "MNTFAC": 1456.7,
     "MNTTOT": 1574.7,
-    "MNTTVA": 118.0
+    "MNTTVA": 118.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00227",
@@ -3319,7 +3656,8 @@
     "NOMGEN": "Stavay-Mollondin 6",
     "MNTFAC": 1031.95,
     "MNTTOT": 1111.4,
-    "MNTTVA": 79.45
+    "MNTTVA": 79.45,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00278",
@@ -3330,7 +3668,8 @@
     "NOMGEN": "Stavay-Mollondin 6",
     "MNTFAC": 450.0,
     "MNTTOT": 486.45,
-    "MNTTVA": 36.45
+    "MNTTVA": 36.45,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00376",
@@ -3341,7 +3680,8 @@
     "NOMGEN": "Stavay-Mollondin 6",
     "MNTFAC": 3201.0,
     "MNTTOT": 3460.25,
-    "MNTTVA": 259.25
+    "MNTTVA": 259.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00062",
@@ -3352,7 +3692,8 @@
     "NOMGEN": "Stavay-Mollondin 6",
     "MNTFAC": 1653.2,
     "MNTTOT": 1787.1,
-    "MNTTVA": 133.9
+    "MNTTVA": 133.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00495",
@@ -3363,7 +3704,8 @@
     "NOMGEN": "Stavay-Mollondin 6",
     "MNTFAC": 1027.0,
     "MNTTOT": 1110.2,
-    "MNTTVA": 83.2
+    "MNTTVA": 83.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00377",
@@ -3374,7 +3716,8 @@
     "NOMGEN": "Crêt-de-la-Fin 14",
     "MNTFAC": 3324.35,
     "MNTTOT": 3593.6,
-    "MNTTVA": 269.25
+    "MNTTVA": 269.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00139",
@@ -3385,7 +3728,8 @@
     "NOMGEN": "Crêt-de-la-Fin 16",
     "MNTFAC": 441.0,
     "MNTTOT": 476.7,
-    "MNTTVA": 35.7
+    "MNTTVA": 35.7,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00249",
@@ -3396,7 +3740,8 @@
     "NOMGEN": "Pont 8",
     "MNTFAC": 1287.65,
     "MNTTOT": 1386.8,
-    "MNTTVA": 99.15
+    "MNTTVA": 99.15,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00378",
@@ -3407,18 +3752,8 @@
     "NOMGEN": "Docteur-Kern 9",
     "MNTFAC": 1460.4,
     "MNTTOT": 1578.65,
-    "MNTTVA": 118.25
-  },
-  {
-    "REFFOR": "24.00431",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Patrimoine Gérance SA",
-    "REFGEN": 310441,
-    "DATFAC": "2024-12-18",
-    "NOMGEN": "Grand'Rue 11",
-    "MNTFAC": 3444.9,
-    "MNTTOT": 3723.95,
-    "MNTTVA": 279.05
+    "MNTTVA": 118.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00432",
@@ -3429,7 +3764,20 @@
     "NOMGEN": "Grand'Rue 11",
     "MNTFAC": 290.0,
     "MNTTOT": 313.5,
-    "MNTTVA": 23.5
+    "MNTTVA": 23.5,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00431",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Patrimoine Gérance SA",
+    "REFGEN": 310441,
+    "DATFAC": "2024-12-18",
+    "NOMGEN": "Grand'Rue 11",
+    "MNTFAC": 3444.9,
+    "MNTTOT": 3723.95,
+    "MNTTVA": 279.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00501",
@@ -3440,7 +3788,8 @@
     "NOMGEN": "Grand'Rue 11",
     "MNTFAC": 150.1,
     "MNTTOT": 162.25,
-    "MNTTVA": 12.15
+    "MNTTVA": 12.15,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00043",
@@ -3451,7 +3800,8 @@
     "NOMGEN": "Chênaie 21",
     "MNTFAC": 50.0,
     "MNTTOT": 54.05,
-    "MNTTVA": 4.05
+    "MNTTVA": 4.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00379",
@@ -3462,7 +3812,8 @@
     "NOMGEN": "Chênaie 21",
     "MNTFAC": 220.05,
     "MNTTOT": 237.85,
-    "MNTTVA": 17.8
+    "MNTTVA": 17.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00044",
@@ -3473,7 +3824,8 @@
     "NOMGEN": "Pralaz 38",
     "MNTFAC": 200.0,
     "MNTTOT": 216.2,
-    "MNTTVA": 16.2
+    "MNTTVA": 16.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00383",
@@ -3484,7 +3836,8 @@
     "NOMGEN": "Bugnon 7",
     "MNTFAC": 220.6,
     "MNTTOT": 238.45,
-    "MNTTVA": 17.85
+    "MNTTVA": 17.85,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00039",
@@ -3495,7 +3848,8 @@
     "NOMGEN": "Bâla 19",
     "MNTFAC": 277.5,
     "MNTTOT": 300.0,
-    "MNTTVA": 22.5
+    "MNTTVA": 22.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00346",
@@ -3506,7 +3860,8 @@
     "NOMGEN": "Bâla 19",
     "MNTFAC": 70.0,
     "MNTTOT": 75.65,
-    "MNTTVA": 5.65
+    "MNTTVA": 5.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00049",
@@ -3517,7 +3872,20 @@
     "NOMGEN": "Bâla 19",
     "MNTFAC": 29602.2,
     "MNTTOT": 32000.0,
-    "MNTTVA": 2397.8
+    "MNTTVA": 2397.8,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "25.00067",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Patrimoine & Valorisation SA",
+    "REFGEN": 310541,
+    "DATFAC": "2025-04-30",
+    "NOMGEN": "Bâla 19",
+    "MNTFAC": 3137.65,
+    "MNTTOT": 3391.85,
+    "MNTTVA": 254.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00119",
@@ -3528,7 +3896,8 @@
     "NOMGEN": "Pierre-à-Sisier 5",
     "MNTFAC": 264.9,
     "MNTTOT": 286.35,
-    "MNTTVA": 21.45
+    "MNTTVA": 21.45,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00384",
@@ -3539,7 +3908,8 @@
     "NOMGEN": "Pierre-à-Sisier 5",
     "MNTFAC": 1498.4,
     "MNTTOT": 1619.75,
-    "MNTTVA": 121.35
+    "MNTTVA": 121.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00469",
@@ -3550,7 +3920,8 @@
     "NOMGEN": "Pierre-à-Sisier 5",
     "MNTFAC": 869.0,
     "MNTTOT": 939.4,
-    "MNTTVA": 70.4
+    "MNTTVA": 70.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00144",
@@ -3561,7 +3932,8 @@
     "NOMGEN": "Le Bourg 11",
     "MNTFAC": 233.1,
     "MNTTOT": 252.0,
-    "MNTTVA": 18.9
+    "MNTTVA": 18.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00385",
@@ -3572,7 +3944,8 @@
     "NOMGEN": "Le Bourg 11",
     "MNTFAC": 2666.2,
     "MNTTOT": 2882.15,
-    "MNTTVA": 215.95
+    "MNTTVA": 215.95,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00475",
@@ -3583,7 +3956,8 @@
     "NOMGEN": "Le Bourg 11",
     "MNTFAC": 237.0,
     "MNTTOT": 256.2,
-    "MNTTVA": 19.2
+    "MNTTVA": 19.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00345",
@@ -3594,7 +3968,8 @@
     "NOMGEN": "Chapelle 16",
     "MNTFAC": 1235.0,
     "MNTTOT": 1335.05,
-    "MNTTVA": 100.05
+    "MNTTVA": 100.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00386",
@@ -3605,7 +3980,8 @@
     "NOMGEN": "Chapelle 16",
     "MNTFAC": 680.9,
     "MNTTOT": 736.05,
-    "MNTTVA": 55.15
+    "MNTTVA": 55.15,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00344",
@@ -3616,7 +3992,8 @@
     "NOMGEN": "Grand'Rue 2",
     "MNTFAC": 10080.0,
     "MNTTOT": 10896.5,
-    "MNTTVA": 816.5
+    "MNTTVA": 816.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00373",
@@ -3627,7 +4004,8 @@
     "NOMGEN": "Grand'Rue 2",
     "MNTFAC": 200.0,
     "MNTTOT": 216.2,
-    "MNTTVA": 16.2
+    "MNTTVA": 16.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00387",
@@ -3638,7 +4016,8 @@
     "NOMGEN": "Collège 27",
     "MNTFAC": 1965.1,
     "MNTTOT": 2124.3,
-    "MNTTVA": 159.2
+    "MNTTVA": 159.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00388",
@@ -3649,7 +4028,8 @@
     "NOMGEN": "Collège 27",
     "MNTFAC": 100.0,
     "MNTTOT": 108.1,
-    "MNTTVA": 8.1
+    "MNTTVA": 8.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00465",
@@ -3660,7 +4040,8 @@
     "NOMGEN": "Collège 27",
     "MNTFAC": 1524.7,
     "MNTTOT": 1648.2,
-    "MNTTVA": 123.5
+    "MNTTVA": 123.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00115",
@@ -3671,7 +4052,8 @@
     "NOMGEN": "Crêt-de-la-Fin 33",
     "MNTFAC": 521.4,
     "MNTTOT": 563.65,
-    "MNTTVA": 42.25
+    "MNTTVA": 42.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00389",
@@ -3682,7 +4064,8 @@
     "NOMGEN": "Crêt-de-la-Fin 33",
     "MNTFAC": 364.7,
     "MNTTOT": 394.2,
-    "MNTTVA": 29.5
+    "MNTTVA": 29.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00149",
@@ -3693,7 +4076,8 @@
     "NOMGEN": "Vieux-Patriotes 47",
     "MNTFAC": 578.35,
     "MNTTOT": 622.85,
-    "MNTTVA": 44.5
+    "MNTTVA": 44.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00390",
@@ -3704,7 +4088,8 @@
     "NOMGEN": "Vieux-Patriotes 47",
     "MNTFAC": 7348.65,
     "MNTTOT": 7943.9,
-    "MNTTVA": 595.25
+    "MNTTVA": 595.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00127",
@@ -3715,7 +4100,8 @@
     "NOMGEN": "Vieux-Patriotes 49",
     "MNTFAC": 3331.9,
     "MNTTOT": 3601.8,
-    "MNTTVA": 269.9
+    "MNTTVA": 269.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00496",
@@ -3726,7 +4112,8 @@
     "NOMGEN": "Vieux-Patriotes 49",
     "MNTFAC": 3807.9,
     "MNTTOT": 4116.35,
-    "MNTTVA": 308.45
+    "MNTTVA": 308.45,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00335",
@@ -3737,7 +4124,8 @@
     "NOMGEN": "Vieux-Patriotes 49",
     "MNTFAC": 2435.1,
     "MNTTOT": 2632.35,
-    "MNTTVA": 197.25
+    "MNTTVA": 197.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00316",
@@ -3748,7 +4136,8 @@
     "NOMGEN": "Locle 21",
     "MNTFAC": 750.0,
     "MNTTOT": 810.75,
-    "MNTTVA": 60.75
+    "MNTTVA": 60.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "21.00949",
@@ -3759,7 +4148,8 @@
     "NOMGEN": "Locle 21",
     "MNTFAC": 688.55,
     "MNTTOT": 741.55,
-    "MNTTVA": 53.0
+    "MNTTVA": 53.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00391",
@@ -3770,7 +4160,8 @@
     "NOMGEN": "Locle 21",
     "MNTFAC": 5732.45,
     "MNTTOT": 6196.75,
-    "MNTTVA": 464.3
+    "MNTTVA": 464.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00467",
@@ -3781,7 +4172,8 @@
     "NOMGEN": "Locle 23",
     "MNTFAC": 687.3,
     "MNTTOT": 742.95,
-    "MNTTVA": 55.65
+    "MNTTVA": 55.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00392",
@@ -3792,7 +4184,8 @@
     "NOMGEN": "Faubourg 24",
     "MNTFAC": 548.35,
     "MNTTOT": 592.75,
-    "MNTTVA": 44.4
+    "MNTTVA": 44.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00150",
@@ -3803,7 +4196,8 @@
     "NOMGEN": "Quai Max-Petitpierre 34",
     "MNTFAC": 239.4,
     "MNTTOT": 257.85,
-    "MNTTVA": 18.45
+    "MNTTVA": 18.45,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00157",
@@ -3814,7 +4208,8 @@
     "NOMGEN": "Quai Max-Petitpierre 34",
     "MNTFAC": 275.0,
     "MNTTOT": 297.3,
-    "MNTTVA": 22.3
+    "MNTTVA": 22.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00393",
@@ -3825,7 +4220,8 @@
     "NOMGEN": "Quai Max-Petitpierre 34",
     "MNTFAC": 2985.6,
     "MNTTOT": 3227.4,
-    "MNTTVA": 241.8
+    "MNTTVA": 241.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00315",
@@ -3836,7 +4232,8 @@
     "NOMGEN": "Quai Max-Petitpierre 38",
     "MNTFAC": 3110.0,
     "MNTTOT": 3361.9,
-    "MNTTVA": 251.9
+    "MNTTVA": 251.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00146",
@@ -3847,7 +4244,8 @@
     "NOMGEN": "Quai Max-Petitpierre 38",
     "MNTFAC": 481.9,
     "MNTTOT": 520.95,
-    "MNTTVA": 39.05
+    "MNTTVA": 39.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00089",
@@ -3858,7 +4256,8 @@
     "NOMGEN": "Numa-Droz 197",
     "MNTFAC": 1308.9,
     "MNTTOT": 1414.9,
-    "MNTTVA": 106.0
+    "MNTTVA": 106.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00134",
@@ -3869,7 +4268,8 @@
     "NOMGEN": "Numa-Droz 197",
     "MNTFAC": 749.5,
     "MNTTOT": 810.2,
-    "MNTTVA": 60.7
+    "MNTTVA": 60.7,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00001",
@@ -3880,7 +4280,8 @@
     "NOMGEN": "Numa-Droz 197",
     "MNTFAC": 1330.0,
     "MNTTOT": 1330.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00394",
@@ -3891,7 +4292,8 @@
     "NOMGEN": "Numa-Droz 197",
     "MNTFAC": 6699.8,
     "MNTTOT": 7242.5,
-    "MNTTVA": 542.7
+    "MNTTVA": 542.7,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00061",
@@ -3902,7 +4304,8 @@
     "NOMGEN": "Numa-Droz 197",
     "MNTFAC": 12078.5,
     "MNTTOT": 13056.85,
-    "MNTTVA": 978.35
+    "MNTTVA": 978.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00488",
@@ -3913,7 +4316,8 @@
     "NOMGEN": "Numa-Droz 197",
     "MNTFAC": 2472.7,
     "MNTTOT": 2673.0,
-    "MNTTVA": 200.3
+    "MNTTVA": 200.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00549",
@@ -3924,7 +4328,8 @@
     "NOMGEN": "Numa-Droz 197",
     "MNTFAC": 1330.0,
     "MNTTOT": 1330.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00088",
@@ -3935,7 +4340,8 @@
     "NOMGEN": "Abraham-Robert 19",
     "MNTFAC": 742.4,
     "MNTTOT": 802.55,
-    "MNTTVA": 60.15
+    "MNTTVA": 60.15,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00128",
@@ -3946,7 +4352,8 @@
     "NOMGEN": "Abraham-Robert 19",
     "MNTFAC": 1593.2,
     "MNTTOT": 1722.25,
-    "MNTTVA": 129.05
+    "MNTTVA": 129.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00395",
@@ -3957,7 +4364,8 @@
     "NOMGEN": "Abraham-Robert 19",
     "MNTFAC": 6053.4,
     "MNTTOT": 6543.75,
-    "MNTTVA": 490.35
+    "MNTTVA": 490.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00060",
@@ -3968,7 +4376,8 @@
     "NOMGEN": "Abraham-Robert 19",
     "MNTFAC": 2702.05,
     "MNTTOT": 2920.9,
-    "MNTTVA": 218.85
+    "MNTTVA": 218.85,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00472",
@@ -3979,7 +4388,8 @@
     "NOMGEN": "Abraham-Robert 19",
     "MNTFAC": 1019.1,
     "MNTTOT": 1101.65,
-    "MNTTVA": 82.55
+    "MNTTVA": 82.55,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00511",
@@ -3990,7 +4400,8 @@
     "NOMGEN": "Abraham-Robert 19",
     "MNTFAC": 2000.0,
     "MNTTOT": 2162.0,
-    "MNTTVA": 162.0
+    "MNTTVA": 162.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00087",
@@ -4001,7 +4412,8 @@
     "NOMGEN": "Pâquiers 22",
     "MNTFAC": 168.55,
     "MNTTOT": 182.2,
-    "MNTTVA": 13.65
+    "MNTTVA": 13.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00117",
@@ -4012,7 +4424,8 @@
     "NOMGEN": "Pâquiers 22",
     "MNTFAC": 370.6,
     "MNTTOT": 400.6,
-    "MNTTVA": 30.0
+    "MNTTVA": 30.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00158",
@@ -4023,7 +4436,8 @@
     "NOMGEN": "Pâquiers 22",
     "MNTFAC": 375.0,
     "MNTTOT": 405.4,
-    "MNTTVA": 30.4
+    "MNTTVA": 30.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00396",
@@ -4034,7 +4448,8 @@
     "NOMGEN": "Pâquiers 22",
     "MNTFAC": 6794.4,
     "MNTTOT": 7344.75,
-    "MNTTVA": 550.35
+    "MNTTVA": 550.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00514",
@@ -4045,7 +4460,8 @@
     "NOMGEN": "Pâquiers 22",
     "MNTFAC": 6794.4,
     "MNTTOT": 7344.75,
-    "MNTTVA": 550.35
+    "MNTTVA": 550.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00059",
@@ -4056,7 +4472,8 @@
     "NOMGEN": "Pâquiers 22",
     "MNTFAC": 1133.3,
     "MNTTOT": 1225.1,
-    "MNTTVA": 91.8
+    "MNTTVA": 91.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00489",
@@ -4067,7 +4484,8 @@
     "NOMGEN": "Pâquiers 22",
     "MNTFAC": 647.8,
     "MNTTOT": 700.25,
-    "MNTTVA": 52.45
+    "MNTTVA": 52.45,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00091",
@@ -4078,7 +4496,8 @@
     "NOMGEN": "Graviers 30",
     "MNTFAC": 44.8,
     "MNTTOT": 48.45,
-    "MNTTVA": 3.65
+    "MNTTVA": 3.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00250",
@@ -4089,7 +4508,8 @@
     "NOMGEN": "Graviers 30",
     "MNTFAC": 484.25,
     "MNTTOT": 521.5,
-    "MNTTVA": 37.25
+    "MNTTVA": 37.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00130",
@@ -4100,7 +4520,8 @@
     "NOMGEN": "Combe-Grieurin 39A",
     "MNTFAC": 4434.3,
     "MNTTOT": 4793.5,
-    "MNTTVA": 359.2
+    "MNTTVA": 359.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00397",
@@ -4111,7 +4532,8 @@
     "NOMGEN": "Combe-Grieurin 39A",
     "MNTFAC": 6614.65,
     "MNTTOT": 7150.4,
-    "MNTTVA": 535.75
+    "MNTTVA": 535.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00506",
@@ -4122,7 +4544,20 @@
     "NOMGEN": "Combe-Grieurin 39A",
     "MNTFAC": 6183.4,
     "MNTTOT": 6684.25,
-    "MNTTVA": 500.85
+    "MNTTVA": 500.85,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "25.00064",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Patrimoine & Valorisation SA",
+    "REFGEN": 311501,
+    "DATFAC": "2025-04-24",
+    "NOMGEN": "Combe-Grieurin 39A",
+    "MNTFAC": 3108.25,
+    "MNTTOT": 3360.0,
+    "MNTTVA": 251.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00111",
@@ -4133,18 +4568,8 @@
     "NOMGEN": "Chasselas 20A",
     "MNTFAC": 441.0,
     "MNTTOT": 476.7,
-    "MNTTVA": 35.7
-  },
-  {
-    "REFFOR": "24.00508",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Patrimoine Gérance SA",
-    "REFGEN": 311521,
-    "DATFAC": "2024-12-18",
-    "NOMGEN": "Chasselas 20A",
-    "MNTFAC": 591.45,
-    "MNTTOT": 639.4,
-    "MNTTVA": 47.95
+    "MNTTVA": 35.7,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00509",
@@ -4155,7 +4580,20 @@
     "NOMGEN": "Chasselas 20A",
     "MNTFAC": 100.0,
     "MNTTOT": 108.1,
-    "MNTTVA": 8.1
+    "MNTTVA": 8.1,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00508",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Patrimoine Gérance SA",
+    "REFGEN": 311521,
+    "DATFAC": "2024-12-18",
+    "NOMGEN": "Chasselas 20A",
+    "MNTFAC": 591.45,
+    "MNTTOT": 639.4,
+    "MNTTVA": 47.95,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00398",
@@ -4166,7 +4604,8 @@
     "NOMGEN": "Chasselas 20A",
     "MNTFAC": 925.95,
     "MNTTOT": 1000.95,
-    "MNTTVA": 75.0
+    "MNTTVA": 75.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00463",
@@ -4177,7 +4616,8 @@
     "NOMGEN": "Chasselas 20A",
     "MNTFAC": 1161.3,
     "MNTTOT": 1255.35,
-    "MNTTVA": 94.05
+    "MNTTVA": 94.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00399",
@@ -4188,7 +4628,8 @@
     "NOMGEN": "Courtils 6",
     "MNTFAC": 641.5,
     "MNTTOT": 693.45,
-    "MNTTVA": 51.95
+    "MNTTVA": 51.95,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00338",
@@ -4199,7 +4640,8 @@
     "NOMGEN": "Charrière 89 (gauche)",
     "MNTFAC": 30000.0,
     "MNTTOT": 32430.0,
-    "MNTTVA": 2430.0
+    "MNTTVA": 2430.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00318",
@@ -4210,7 +4652,8 @@
     "NOMGEN": "Charrière 89 (gauche)",
     "MNTFAC": 20000.0,
     "MNTTOT": 21620.0,
-    "MNTTVA": 1620.0
+    "MNTTVA": 1620.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00236",
@@ -4221,7 +4664,8 @@
     "NOMGEN": "Charrière 89 (gauche)",
     "MNTFAC": 4030.2,
     "MNTTOT": 4340.5,
-    "MNTTVA": 310.3
+    "MNTTVA": 310.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00400",
@@ -4232,7 +4676,8 @@
     "NOMGEN": "Charrière 89 (gauche)",
     "MNTFAC": 3535.95,
     "MNTTOT": 3822.4,
-    "MNTTVA": 286.45
+    "MNTTVA": 286.45,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00245",
@@ -4243,7 +4688,8 @@
     "NOMGEN": "Charrière 89 (gauche)",
     "MNTFAC": 1731.85,
     "MNTTOT": 1872.15,
-    "MNTTVA": 140.3
+    "MNTTVA": 140.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00025",
@@ -4254,7 +4700,8 @@
     "NOMGEN": "Charrière 89 (gauche)",
     "MNTFAC": 570.6,
     "MNTTOT": 616.8,
-    "MNTTVA": 46.2
+    "MNTTVA": 46.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00110",
@@ -4265,7 +4712,8 @@
     "NOMGEN": "Charrière 89 (droite)",
     "MNTFAC": 1374.1,
     "MNTTOT": 1485.4,
-    "MNTTVA": 111.3
+    "MNTTVA": 111.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00480",
@@ -4276,7 +4724,8 @@
     "NOMGEN": "Charrière 89 (droite)",
     "MNTFAC": 1935.5,
     "MNTTOT": 2092.3,
-    "MNTTVA": 156.8
+    "MNTTVA": 156.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00401",
@@ -4287,7 +4736,8 @@
     "NOMGEN": "Seyon 17",
     "MNTFAC": 1124.1,
     "MNTTOT": 1215.15,
-    "MNTTVA": 91.05
+    "MNTTVA": 91.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00314",
@@ -4298,7 +4748,8 @@
     "NOMGEN": "Rosière 17",
     "MNTFAC": 2153.55,
     "MNTTOT": 2328.0,
-    "MNTTVA": 174.45
+    "MNTTVA": 174.45,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00124",
@@ -4309,7 +4760,8 @@
     "NOMGEN": "Rosière 17",
     "MNTFAC": 1322.2,
     "MNTTOT": 1429.3,
-    "MNTTVA": 107.1
+    "MNTTVA": 107.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00402",
@@ -4320,7 +4772,8 @@
     "NOMGEN": "Rosière 17",
     "MNTFAC": 440.05,
     "MNTTOT": 475.7,
-    "MNTTVA": 35.65
+    "MNTTVA": 35.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00493",
@@ -4331,7 +4784,8 @@
     "NOMGEN": "Rosière 17",
     "MNTFAC": 671.5,
     "MNTTOT": 725.9,
-    "MNTTVA": 54.4
+    "MNTTVA": 54.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00478",
@@ -4342,7 +4796,8 @@
     "NOMGEN": "Chapelle 3",
     "MNTFAC": 1643.2,
     "MNTTOT": 1776.3,
-    "MNTTVA": 133.1
+    "MNTTVA": 133.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00403",
@@ -4353,7 +4808,8 @@
     "NOMGEN": "Littoral 32",
     "MNTFAC": 637.3,
     "MNTTOT": 688.9,
-    "MNTTVA": 51.6
+    "MNTTVA": 51.6,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00404",
@@ -4364,7 +4820,8 @@
     "NOMGEN": "Beau-Site 23",
     "MNTFAC": 1885.55,
     "MNTTOT": 2038.3,
-    "MNTTVA": 152.75
+    "MNTTVA": 152.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00474",
@@ -4375,7 +4832,8 @@
     "NOMGEN": "Beau-Site 23",
     "MNTFAC": 553.0,
     "MNTTOT": 597.8,
-    "MNTTVA": 44.8
+    "MNTTVA": 44.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00131",
@@ -4386,7 +4844,8 @@
     "NOMGEN": "Jaquet-Droz 8",
     "MNTFAC": 604.8,
     "MNTTOT": 653.8,
-    "MNTTVA": 49.0
+    "MNTTVA": 49.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00094",
@@ -4397,7 +4856,8 @@
     "NOMGEN": "Jaquet-Droz 8",
     "MNTFAC": 3000.0,
     "MNTTOT": 3243.0,
-    "MNTTVA": 243.0
+    "MNTTVA": 243.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00229",
@@ -4408,7 +4868,8 @@
     "NOMGEN": "Jaquet-Droz 8",
     "MNTFAC": 1185.0,
     "MNTTOT": 1276.25,
-    "MNTTVA": 91.25
+    "MNTTVA": 91.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00405",
@@ -4419,7 +4880,8 @@
     "NOMGEN": "Jaquet-Droz 8",
     "MNTFAC": 210.0,
     "MNTTOT": 227.0,
-    "MNTTVA": 17.0
+    "MNTTVA": 17.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00272",
@@ -4430,7 +4892,8 @@
     "NOMGEN": "Jaquet-Droz 8",
     "MNTFAC": 18.55,
     "MNTTOT": 20.0,
-    "MNTTVA": 1.45
+    "MNTTVA": 1.45,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00406",
@@ -4441,7 +4904,8 @@
     "NOMGEN": "Rue de la République - garages",
     "MNTFAC": 18.5,
     "MNTTOT": 20.0,
-    "MNTTVA": 1.5
+    "MNTTVA": 1.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00407",
@@ -4452,7 +4916,8 @@
     "NOMGEN": "Pâques 10",
     "MNTFAC": 4951.95,
     "MNTTOT": 5353.05,
-    "MNTTVA": 401.1
+    "MNTTVA": 401.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00408",
@@ -4463,7 +4928,8 @@
     "NOMGEN": "Pâques 10",
     "MNTFAC": 710.0,
     "MNTTOT": 767.5,
-    "MNTTVA": 57.5
+    "MNTTVA": 57.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00409",
@@ -4474,7 +4940,8 @@
     "NOMGEN": "Charles-L'Eplattenier 11",
     "MNTFAC": 350.0,
     "MNTTOT": 378.35,
-    "MNTTVA": 28.35
+    "MNTTVA": 28.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00479",
@@ -4485,18 +4952,8 @@
     "NOMGEN": "Charles-L'Eplattenier 11",
     "MNTFAC": 79.0,
     "MNTTOT": 85.4,
-    "MNTTVA": 6.4
-  },
-  {
-    "REFFOR": "24.00354",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Patrimoine Gérance SA",
-    "REFGEN": 312201,
-    "DATFAC": "2024-12-13",
-    "NOMGEN": "Boudevilliers 1",
-    "MNTFAC": 19925.15,
-    "MNTTOT": 21539.1,
-    "MNTTVA": 1613.95
+    "MNTTVA": 6.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00355",
@@ -4507,7 +4964,20 @@
     "NOMGEN": "Boudevilliers 1",
     "MNTFAC": 730.0,
     "MNTTOT": 789.15,
-    "MNTTVA": 59.15
+    "MNTTVA": 59.15,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00354",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Patrimoine Gérance SA",
+    "REFGEN": 312201,
+    "DATFAC": "2024-12-13",
+    "NOMGEN": "Boudevilliers 1",
+    "MNTFAC": 19925.15,
+    "MNTTOT": 21539.1,
+    "MNTTVA": 1613.95,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00477",
@@ -4518,7 +4988,8 @@
     "NOMGEN": "Boudevilliers 1",
     "MNTFAC": 31.6,
     "MNTTOT": 34.15,
-    "MNTTVA": 2.55
+    "MNTTVA": 2.55,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00147",
@@ -4529,7 +5000,8 @@
     "NOMGEN": "Sauge 10",
     "MNTFAC": 1249.3,
     "MNTTOT": 1350.5,
-    "MNTTVA": 101.2
+    "MNTTVA": 101.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00356",
@@ -4540,7 +5012,8 @@
     "NOMGEN": "Sauge 10",
     "MNTFAC": 1960.0,
     "MNTTOT": 2118.75,
-    "MNTTVA": 158.75
+    "MNTTVA": 158.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00503",
@@ -4551,7 +5024,8 @@
     "NOMGEN": "Sauge 10",
     "MNTFAC": 360.55,
     "MNTTOT": 389.75,
-    "MNTTVA": 29.2
+    "MNTTVA": 29.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00138",
@@ -4562,7 +5036,8 @@
     "NOMGEN": "Mont 1",
     "MNTFAC": 31.6,
     "MNTTOT": 34.15,
-    "MNTTVA": 2.55
+    "MNTTVA": 2.55,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00357",
@@ -4573,7 +5048,8 @@
     "NOMGEN": "Mont 1",
     "MNTFAC": 70.0,
     "MNTTOT": 75.65,
-    "MNTTVA": 5.65
+    "MNTTVA": 5.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00468",
@@ -4584,7 +5060,8 @@
     "NOMGEN": "Mont 1",
     "MNTFAC": 355.5,
     "MNTTOT": 384.3,
-    "MNTTVA": 28.8
+    "MNTTVA": 28.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00136",
@@ -4595,7 +5072,8 @@
     "NOMGEN": "Bourgogne 12",
     "MNTFAC": 79.0,
     "MNTTOT": 85.4,
-    "MNTTVA": 6.4
+    "MNTTVA": 6.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00358",
@@ -4606,7 +5084,8 @@
     "NOMGEN": "Bourgogne 12",
     "MNTFAC": 1330.0,
     "MNTTOT": 1437.75,
-    "MNTTVA": 107.75
+    "MNTTVA": 107.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00497",
@@ -4617,7 +5096,8 @@
     "NOMGEN": "Bourgogne 12",
     "MNTFAC": 718.9,
     "MNTTOT": 777.15,
-    "MNTTVA": 58.25
+    "MNTTVA": 58.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00462",
@@ -4628,7 +5108,8 @@
     "NOMGEN": "Bourgogne 14",
     "MNTFAC": 1343.9,
     "MNTTOT": 1452.75,
-    "MNTTVA": 108.85
+    "MNTTVA": 108.85,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00116",
@@ -4639,7 +5120,8 @@
     "NOMGEN": "Faubourg 2A - Allalin A",
     "MNTFAC": 332.8,
     "MNTTOT": 359.75,
-    "MNTTVA": 26.95
+    "MNTTVA": 26.95,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00148",
@@ -4650,7 +5132,8 @@
     "NOMGEN": "Seyon 7 - Allalin B",
     "MNTFAC": 458.2,
     "MNTTOT": 495.3,
-    "MNTTVA": 37.1
+    "MNTTVA": 37.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00359",
@@ -4661,7 +5144,8 @@
     "NOMGEN": "Seyon 7 - Allalin B",
     "MNTFAC": 50.0,
     "MNTTOT": 54.05,
-    "MNTTVA": 4.05
+    "MNTTVA": 4.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00505",
@@ -4672,7 +5156,8 @@
     "NOMGEN": "Seyon 7 - Allalin B",
     "MNTFAC": 210.45,
     "MNTTOT": 227.5,
-    "MNTTVA": 17.05
+    "MNTTVA": 17.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00504",
@@ -4683,7 +5168,8 @@
     "NOMGEN": "Sauge 14",
     "MNTFAC": 55.3,
     "MNTTOT": 59.8,
-    "MNTTVA": 4.5
+    "MNTTVA": 4.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00022",
@@ -4694,7 +5180,8 @@
     "NOMGEN": "Vanel 3",
     "MNTFAC": 600.0,
     "MNTTOT": 648.6,
-    "MNTTVA": 48.6
+    "MNTTVA": 48.6,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00145",
@@ -4705,7 +5192,8 @@
     "NOMGEN": "Crêt 93",
     "MNTFAC": 1784.5,
     "MNTTOT": 1929.05,
-    "MNTTVA": 144.55
+    "MNTTVA": 144.55,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "23.00525",
@@ -4716,7 +5204,8 @@
     "NOMGEN": "Crêt 93",
     "MNTFAC": 693.0,
     "MNTTOT": 746.35,
-    "MNTTVA": 53.35
+    "MNTTVA": 53.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00360",
@@ -4727,7 +5216,8 @@
     "NOMGEN": "Crêt 93",
     "MNTFAC": 210.0,
     "MNTTOT": 227.0,
-    "MNTTVA": 17.0
+    "MNTTVA": 17.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00483",
@@ -4738,7 +5228,8 @@
     "NOMGEN": "Crêt 93",
     "MNTFAC": 869.0,
     "MNTTOT": 939.4,
-    "MNTTVA": 70.4
+    "MNTTVA": 70.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00279",
@@ -4749,7 +5240,8 @@
     "NOMGEN": "Forgerons 2",
     "MNTFAC": 300.0,
     "MNTTOT": 324.3,
-    "MNTTVA": 24.3
+    "MNTTVA": 24.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00361",
@@ -4760,7 +5252,8 @@
     "NOMGEN": "Ecoliers",
     "MNTFAC": 210.0,
     "MNTTOT": 227.0,
-    "MNTTVA": 17.0
+    "MNTTVA": 17.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00499",
@@ -4771,7 +5264,8 @@
     "NOMGEN": "Ecoliers",
     "MNTFAC": 647.8,
     "MNTTOT": 700.25,
-    "MNTTVA": 52.45
+    "MNTTVA": 52.45,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00362",
@@ -4782,7 +5276,8 @@
     "NOMGEN": "Numa-Droz 112",
     "MNTFAC": 1470.0,
     "MNTTOT": 1589.05,
-    "MNTTVA": 119.05
+    "MNTTVA": 119.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00487",
@@ -4793,7 +5288,8 @@
     "NOMGEN": "Numa-Droz 112",
     "MNTFAC": 584.6,
     "MNTTOT": 631.95,
-    "MNTTVA": 47.35
+    "MNTTVA": 47.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00410",
@@ -4804,7 +5300,8 @@
     "NOMGEN": "Centrale 53",
     "MNTFAC": 1320.5,
     "MNTTOT": 1427.5,
-    "MNTTVA": 107.0
+    "MNTTVA": 107.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00129",
@@ -4815,7 +5312,8 @@
     "NOMGEN": "Alexis-Marie-Piaget 31",
     "MNTFAC": 579.1,
     "MNTTOT": 626.0,
-    "MNTTVA": 46.9
+    "MNTTVA": 46.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00411",
@@ -4826,7 +5324,8 @@
     "NOMGEN": "Alexis-Marie-Piaget 31",
     "MNTFAC": 509.2,
     "MNTTOT": 550.45,
-    "MNTTVA": 41.25
+    "MNTTVA": 41.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00473",
@@ -4837,7 +5336,8 @@
     "NOMGEN": "Alexis-Marie-Piaget 31",
     "MNTFAC": 4261.4,
     "MNTTOT": 4606.6,
-    "MNTTVA": 345.2
+    "MNTTVA": 345.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00137",
@@ -4848,7 +5348,8 @@
     "NOMGEN": "Buttes 16",
     "MNTFAC": 1292.2,
     "MNTTOT": 1396.85,
-    "MNTTVA": 104.65
+    "MNTTVA": 104.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00230",
@@ -4859,7 +5360,8 @@
     "NOMGEN": "Buttes 16",
     "MNTFAC": 1336.1,
     "MNTTOT": 1439.0,
-    "MNTTVA": 102.9
+    "MNTTVA": 102.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00412",
@@ -4870,7 +5372,8 @@
     "NOMGEN": "Buttes 16",
     "MNTFAC": 2848.1,
     "MNTTOT": 3078.75,
-    "MNTTVA": 230.65
+    "MNTTVA": 230.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00498",
@@ -4881,7 +5384,8 @@
     "NOMGEN": "Buttes 16",
     "MNTFAC": 1145.5,
     "MNTTOT": 1238.3,
-    "MNTTVA": 92.8
+    "MNTTVA": 92.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00413",
@@ -4892,7 +5396,8 @@
     "NOMGEN": "Basse 29",
     "MNTFAC": 55.5,
     "MNTTOT": 60.0,
-    "MNTTVA": 4.5
+    "MNTTVA": 4.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00112",
@@ -4903,7 +5408,8 @@
     "NOMGEN": "Châtelard 4b",
     "MNTFAC": 50.4,
     "MNTTOT": 54.5,
-    "MNTTVA": 4.1
+    "MNTTVA": 4.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00414",
@@ -4914,7 +5420,8 @@
     "NOMGEN": "Châtelard 4b",
     "MNTFAC": 888.65,
     "MNTTOT": 960.6,
-    "MNTTVA": 71.95
+    "MNTTVA": 71.95,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00527",
@@ -4925,7 +5432,8 @@
     "NOMGEN": "Châtelard 4b",
     "MNTFAC": 2127.65,
     "MNTTOT": 2300.0,
-    "MNTTVA": 172.35
+    "MNTTVA": 172.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00415",
@@ -4936,7 +5444,8 @@
     "NOMGEN": "Uttins 27",
     "MNTFAC": 1740.8,
     "MNTTOT": 1881.8,
-    "MNTTVA": 141.0
+    "MNTTVA": 141.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00416",
@@ -4947,7 +5456,8 @@
     "NOMGEN": "Rosière 9",
     "MNTFAC": 1672.45,
     "MNTTOT": 1807.9,
-    "MNTTVA": 135.45
+    "MNTTVA": 135.45,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00118",
@@ -4958,7 +5468,8 @@
     "NOMGEN": "Parcs 8",
     "MNTFAC": 120.0,
     "MNTTOT": 129.7,
-    "MNTTVA": 9.7
+    "MNTTVA": 9.7,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00347",
@@ -4969,7 +5480,8 @@
     "NOMGEN": "Parcs 8",
     "MNTFAC": 4532.85,
     "MNTTOT": 4900.0,
-    "MNTTVA": 367.15
+    "MNTTVA": 367.15,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00417",
@@ -4980,7 +5492,8 @@
     "NOMGEN": "Parcs 8",
     "MNTFAC": 1801.25,
     "MNTTOT": 1947.15,
-    "MNTTVA": 145.9
+    "MNTTVA": 145.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00490",
@@ -4991,7 +5504,8 @@
     "NOMGEN": "Parcs 8",
     "MNTFAC": 300.2,
     "MNTTOT": 324.5,
-    "MNTTVA": 24.3
+    "MNTTVA": 24.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00114",
@@ -5002,7 +5516,8 @@
     "NOMGEN": "Courtils 7",
     "MNTFAC": 1311.4,
     "MNTTOT": 1417.6,
-    "MNTTVA": 106.2
+    "MNTTVA": 106.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00232",
@@ -5013,7 +5528,8 @@
     "NOMGEN": "Courtils 7",
     "MNTFAC": 1197.05,
     "MNTTOT": 1289.25,
-    "MNTTVA": 92.2
+    "MNTTVA": 92.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00418",
@@ -5024,7 +5540,8 @@
     "NOMGEN": "Courtils 7",
     "MNTFAC": 897.1,
     "MNTTOT": 969.75,
-    "MNTTVA": 72.65
+    "MNTTVA": 72.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00482",
@@ -5035,7 +5552,8 @@
     "NOMGEN": "Courtils 7",
     "MNTFAC": 513.5,
     "MNTTOT": 555.1,
-    "MNTTVA": 41.6
+    "MNTTVA": 41.6,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00419",
@@ -5046,7 +5564,8 @@
     "NOMGEN": "Charmettes 59",
     "MNTFAC": 845.55,
     "MNTTOT": 914.05,
-    "MNTTVA": 68.5
+    "MNTTVA": 68.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00321",
@@ -5057,7 +5576,8 @@
     "NOMGEN": "Seyon 16",
     "MNTFAC": 500.0,
     "MNTTOT": 540.5,
-    "MNTTVA": 40.5
+    "MNTTVA": 40.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00420",
@@ -5068,7 +5588,8 @@
     "NOMGEN": "Seyon 16",
     "MNTFAC": 454.25,
     "MNTTOT": 491.05,
-    "MNTTVA": 36.8
+    "MNTTVA": 36.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00041",
@@ -5079,7 +5600,8 @@
     "NOMGEN": "Champreveyres 22",
     "MNTFAC": 1796.6,
     "MNTTOT": 1796.6,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00341",
@@ -5090,7 +5612,8 @@
     "NOMGEN": "Champreveyres 22",
     "MNTFAC": 1315.0,
     "MNTTOT": 1315.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00021",
@@ -5101,18 +5624,8 @@
     "NOMGEN": "Champreveyres 22",
     "MNTFAC": 2188.9,
     "MNTTOT": 2188.9,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "24.00422",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Patrimoine Gérance SA",
-    "REFGEN": 313181,
-    "DATFAC": "2024-12-18",
-    "NOMGEN": "Champreveyres 22",
-    "MNTFAC": 300.0,
-    "MNTTOT": 324.3,
-    "MNTTVA": 24.3
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00421",
@@ -5123,29 +5636,20 @@
     "NOMGEN": "Champreveyres 22",
     "MNTFAC": 3572.4,
     "MNTTOT": 3861.75,
-    "MNTTVA": 289.35
+    "MNTTVA": 289.35,
+    "TEXFAC": ""
   },
   {
-    "REFFOR": "24.00021",
+    "REFFOR": "24.00422",
     "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Locle 23",
+    "NOMGFA": "Patrimoine Gérance SA",
     "REFGEN": 313181,
-    "DATFAC": "2024-02-28",
+    "DATFAC": "2024-12-18",
     "NOMGEN": "Champreveyres 22",
-    "MNTFAC": 3815.0,
-    "MNTTOT": 3815.0,
-    "MNTTVA": 0.0
-  },
-  {
-    "REFFOR": "24.00024",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Bois-Noir 38",
-    "REFGEN": 313181,
-    "DATFAC": "2024-02-28",
-    "NOMGEN": "Champreveyres 22",
-    "MNTFAC": 1415.35,
-    "MNTTOT": 1415.35,
-    "MNTTVA": 0.0
+    "MNTFAC": 300.0,
+    "MNTTOT": 324.3,
+    "MNTTVA": 24.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00022",
@@ -5156,7 +5660,20 @@
     "NOMGEN": "Champreveyres 22",
     "MNTFAC": 1495.15,
     "MNTTOT": 1495.15,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00024",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Bois-Noir 38",
+    "REFGEN": 313181,
+    "DATFAC": "2024-02-28",
+    "NOMGEN": "Champreveyres 22",
+    "MNTFAC": 1415.35,
+    "MNTTOT": 1415.35,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00023",
@@ -5167,7 +5684,20 @@
     "NOMGEN": "Champreveyres 22",
     "MNTFAC": 3290.0,
     "MNTTOT": 3290.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00021",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Locle 23",
+    "REFGEN": 313181,
+    "DATFAC": "2024-02-28",
+    "NOMGEN": "Champreveyres 22",
+    "MNTFAC": 3815.0,
+    "MNTTOT": 3815.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00423",
@@ -5178,7 +5708,8 @@
     "NOMGEN": "Grand-Rue 16",
     "MNTFAC": 210.0,
     "MNTTOT": 227.0,
-    "MNTTVA": 17.0
+    "MNTTVA": 17.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00424",
@@ -5189,7 +5720,8 @@
     "NOMGEN": "Débarcadère 2",
     "MNTFAC": 761.55,
     "MNTTOT": 823.2,
-    "MNTTVA": 61.65
+    "MNTTVA": 61.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00273",
@@ -5200,7 +5732,8 @@
     "NOMGEN": "Débarcadère 2",
     "MNTFAC": 1440.0,
     "MNTTOT": 1556.65,
-    "MNTTVA": 116.65
+    "MNTTVA": 116.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00226",
@@ -5211,7 +5744,8 @@
     "NOMGEN": "Premier-Mars 47",
     "MNTFAC": 2195.1,
     "MNTTOT": 2364.1,
-    "MNTTVA": 169.0
+    "MNTTVA": 169.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00121",
@@ -5222,7 +5756,8 @@
     "NOMGEN": "Premier-Mars 49",
     "MNTFAC": 197.5,
     "MNTTOT": 213.5,
-    "MNTTVA": 16.0
+    "MNTTVA": 16.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00470",
@@ -5233,7 +5768,8 @@
     "NOMGEN": "Premier-Mars 49",
     "MNTFAC": 431.65,
     "MNTTOT": 466.6,
-    "MNTTVA": 34.95
+    "MNTTVA": 34.95,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00120",
@@ -5244,18 +5780,8 @@
     "NOMGEN": "Premier-Mars 25",
     "MNTFAC": 119.7,
     "MNTTOT": 129.4,
-    "MNTTVA": 9.7
-  },
-  {
-    "REFFOR": "24.00381",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Patrimoine Gérance SA",
-    "REFGEN": 313241,
-    "DATFAC": "2024-12-18",
-    "NOMGEN": "Premier-Mars 25",
-    "MNTFAC": 950.0,
-    "MNTTOT": 1026.95,
-    "MNTTVA": 76.95
+    "MNTTVA": 9.7,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00380",
@@ -5266,7 +5792,20 @@
     "NOMGEN": "Premier-Mars 25",
     "MNTFAC": 11847.85,
     "MNTTOT": 12807.6,
-    "MNTTVA": 959.75
+    "MNTTVA": 959.75,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00381",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Patrimoine Gérance SA",
+    "REFGEN": 313241,
+    "DATFAC": "2024-12-18",
+    "NOMGEN": "Premier-Mars 25",
+    "MNTFAC": 950.0,
+    "MNTTOT": 1026.95,
+    "MNTTVA": 76.95,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00006",
@@ -5277,7 +5816,8 @@
     "NOMGEN": "Premier-Mars 27",
     "MNTFAC": 781.95,
     "MNTTOT": 843.6,
-    "MNTTVA": 61.65
+    "MNTTVA": 61.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00382",
@@ -5288,7 +5828,8 @@
     "NOMGEN": "Henri-Calame 1",
     "MNTFAC": 50.0,
     "MNTTOT": 54.05,
-    "MNTTVA": 4.05
+    "MNTTVA": 4.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00466",
@@ -5299,7 +5840,8 @@
     "NOMGEN": "Lac 24",
     "MNTFAC": 71.7,
     "MNTTOT": 77.5,
-    "MNTTVA": 5.8
+    "MNTTVA": 5.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00425",
@@ -5310,7 +5852,8 @@
     "NOMGEN": "Jolimont 15 - E3",
     "MNTFAC": 3300.4,
     "MNTTOT": 3567.75,
-    "MNTTVA": 267.35
+    "MNTTVA": 267.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00484",
@@ -5321,7 +5864,20 @@
     "NOMGEN": "Jolimont 15 - E3",
     "MNTFAC": 205.4,
     "MNTTOT": 222.05,
-    "MNTTVA": 16.65
+    "MNTTVA": 16.65,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "25.00063",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Patrimoine Gérance SA",
+    "REFGEN": 313301,
+    "DATFAC": "2025-04-23",
+    "NOMGEN": "Jolimont 15 - E3",
+    "MNTFAC": 300.0,
+    "MNTTOT": 324.3,
+    "MNTTVA": 24.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00132",
@@ -5332,7 +5888,8 @@
     "NOMGEN": "Jolimont 13 - E2",
     "MNTFAC": 757.4,
     "MNTTOT": 818.75,
-    "MNTTVA": 61.35
+    "MNTTVA": 61.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00426",
@@ -5343,7 +5900,8 @@
     "NOMGEN": "Jolimont 13 - E2",
     "MNTFAC": 8764.3,
     "MNTTOT": 9474.2,
-    "MNTTVA": 709.9
+    "MNTTVA": 709.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00352",
@@ -5354,7 +5912,8 @@
     "NOMGEN": "Jolimont 13, parking",
     "MNTFAC": 4483.8,
     "MNTTOT": 4483.8,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00485",
@@ -5365,7 +5924,8 @@
     "NOMGEN": "Jolimont 17 - E4",
     "MNTFAC": 173.8,
     "MNTTOT": 187.9,
-    "MNTTVA": 14.1
+    "MNTTVA": 14.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00428",
@@ -5376,7 +5936,8 @@
     "NOMGEN": "Planches 32",
     "MNTFAC": 560.0,
     "MNTTOT": 605.35,
-    "MNTTVA": 45.35
+    "MNTTVA": 45.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00231",
@@ -5387,7 +5948,8 @@
     "NOMGEN": "Chaumont 3",
     "MNTFAC": 2054.9,
     "MNTTOT": 2213.1,
-    "MNTTVA": 158.2
+    "MNTTVA": 158.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00429",
@@ -5398,7 +5960,8 @@
     "NOMGEN": "Chaumont 3",
     "MNTFAC": 2287.35,
     "MNTTOT": 2472.65,
-    "MNTTVA": 185.3
+    "MNTTVA": 185.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00113",
@@ -5409,7 +5972,8 @@
     "NOMGEN": "Chaumont 5",
     "MNTFAC": 478.8,
     "MNTTOT": 517.6,
-    "MNTTVA": 38.8
+    "MNTTVA": 38.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00464",
@@ -5420,7 +5984,8 @@
     "NOMGEN": "Chaumont 5",
     "MNTFAC": 323.9,
     "MNTTOT": 350.15,
-    "MNTTVA": 26.25
+    "MNTTVA": 26.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00233",
@@ -5431,7 +5996,8 @@
     "NOMGEN": "Antzère 33 (Parc Avenue C)",
     "MNTFAC": 3066.95,
     "MNTTOT": 3303.15,
-    "MNTTVA": 236.2
+    "MNTTVA": 236.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00430",
@@ -5442,7 +6008,8 @@
     "NOMGEN": "Antzère 33 (Parc Avenue C)",
     "MNTFAC": 17853.55,
     "MNTTOT": 19299.65,
-    "MNTTVA": 1446.1
+    "MNTTVA": 1446.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00427",
@@ -5453,7 +6020,8 @@
     "NOMGEN": "Lausanne 122",
     "MNTFAC": 2488.95,
     "MNTTOT": 2690.55,
-    "MNTTVA": 201.6
+    "MNTTVA": 201.6,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00454",
@@ -5464,7 +6032,8 @@
     "NOMGEN": "Chaumont 20",
     "MNTFAC": 1528.6,
     "MNTTOT": 1652.4,
-    "MNTTVA": 123.8
+    "MNTTVA": 123.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00103",
@@ -5475,7 +6044,8 @@
     "NOMGEN": "Chaumont 20",
     "MNTFAC": 20.0,
     "MNTTOT": 20.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00433",
@@ -5486,7 +6056,8 @@
     "NOMGEN": "Collège 18",
     "MNTFAC": 280.0,
     "MNTTOT": 302.7,
-    "MNTTVA": 22.7
+    "MNTTVA": 22.7,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00142",
@@ -5497,7 +6068,8 @@
     "NOMGEN": "Hôtel-de-Ville 7",
     "MNTFAC": 1013.2,
     "MNTTOT": 1095.25,
-    "MNTTVA": 82.05
+    "MNTTVA": 82.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00434",
@@ -5508,7 +6080,8 @@
     "NOMGEN": "Hôtel-de-Ville 7",
     "MNTFAC": 500.0,
     "MNTTOT": 540.5,
-    "MNTTVA": 40.5
+    "MNTTVA": 40.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00502",
@@ -5519,7 +6092,8 @@
     "NOMGEN": "Hôtel-de-Ville 7",
     "MNTFAC": 750.5,
     "MNTTOT": 811.3,
-    "MNTTVA": 60.8
+    "MNTTVA": 60.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00126",
@@ -5530,7 +6104,8 @@
     "NOMGEN": "Stand 66",
     "MNTFAC": 902.0,
     "MNTTOT": 975.05,
-    "MNTTVA": 73.05
+    "MNTTVA": 73.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00123",
@@ -5541,7 +6116,8 @@
     "NOMGEN": "Printanière 2",
     "MNTFAC": 1837.5,
     "MNTTOT": 1986.35,
-    "MNTTVA": 148.85
+    "MNTTVA": 148.85,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00435",
@@ -5552,7 +6128,8 @@
     "NOMGEN": "Printanière 2",
     "MNTFAC": 2189.85,
     "MNTTOT": 2367.25,
-    "MNTTVA": 177.4
+    "MNTTVA": 177.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00492",
@@ -5563,7 +6140,8 @@
     "NOMGEN": "Printanière 2",
     "MNTFAC": 1390.4,
     "MNTTOT": 1503.0,
-    "MNTTVA": 112.6
+    "MNTTVA": 112.6,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00107",
@@ -5574,7 +6152,8 @@
     "NOMGEN": "26 Mars 36",
     "MNTFAC": 118.5,
     "MNTTOT": 128.1,
-    "MNTTVA": 9.6
+    "MNTTVA": 9.6,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00436",
@@ -5585,7 +6164,8 @@
     "NOMGEN": "26 Mars 36",
     "MNTFAC": 2373.4,
     "MNTTOT": 2565.65,
-    "MNTTVA": 192.25
+    "MNTTVA": 192.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00461",
@@ -5596,7 +6176,8 @@
     "NOMGEN": "26 Mars 36",
     "MNTFAC": 1216.6,
     "MNTTOT": 1315.15,
-    "MNTTVA": 98.55
+    "MNTTVA": 98.55,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00234",
@@ -5607,7 +6188,8 @@
     "NOMGEN": "Faubourg du Lac 75A Ouest",
     "MNTFAC": 7122.7,
     "MNTTOT": 7671.15,
-    "MNTTVA": 548.45
+    "MNTTVA": 548.45,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00437",
@@ -5618,7 +6200,8 @@
     "NOMGEN": "Faubourg du Lac 75A Ouest",
     "MNTFAC": 1748.55,
     "MNTTOT": 1890.2,
-    "MNTTVA": 141.65
+    "MNTTVA": 141.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00500",
@@ -5629,7 +6212,8 @@
     "NOMGEN": "Faubourg du Lac 75A Ouest",
     "MNTFAC": 2619.2,
     "MNTTOT": 2831.35,
-    "MNTTVA": 212.15
+    "MNTTVA": 212.15,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00526",
@@ -5640,7 +6224,8 @@
     "NOMGEN": "Faubourg du Lac 75",
     "MNTFAC": 15000.0,
     "MNTTOT": 16215.0,
-    "MNTTVA": 1215.0
+    "MNTTVA": 1215.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00125",
@@ -5651,7 +6236,8 @@
     "NOMGEN": "Soleil 13",
     "MNTFAC": 782.1,
     "MNTTOT": 845.45,
-    "MNTTVA": 63.35
+    "MNTTVA": 63.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00438",
@@ -5662,7 +6248,8 @@
     "NOMGEN": "Soleil 13",
     "MNTFAC": 1322.1,
     "MNTTOT": 1429.15,
-    "MNTTVA": 107.05
+    "MNTTVA": 107.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00471",
@@ -5673,7 +6260,8 @@
     "NOMGEN": "Soleil 13",
     "MNTFAC": 102.7,
     "MNTTOT": 111.0,
-    "MNTTVA": 8.3
+    "MNTTVA": 8.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00317",
@@ -5684,7 +6272,8 @@
     "NOMGEN": "Prés 3",
     "MNTFAC": 600.0,
     "MNTTOT": 648.6,
-    "MNTTVA": 48.6
+    "MNTTVA": 48.6,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00122",
@@ -5695,7 +6284,8 @@
     "NOMGEN": "Prés 3",
     "MNTFAC": 3431.9,
     "MNTTOT": 3709.9,
-    "MNTTVA": 278.0
+    "MNTTVA": 278.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00439",
@@ -5706,7 +6296,8 @@
     "NOMGEN": "Prés 3",
     "MNTFAC": 9171.85,
     "MNTTOT": 9914.8,
-    "MNTTVA": 742.95
+    "MNTTVA": 742.95,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00491",
@@ -5717,7 +6308,8 @@
     "NOMGEN": "Prés 3",
     "MNTFAC": 2915.1,
     "MNTTOT": 3151.2,
-    "MNTTVA": 236.1
+    "MNTTVA": 236.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00143",
@@ -5728,7 +6320,8 @@
     "NOMGEN": "Saules 2",
     "MNTFAC": 547.4,
     "MNTTOT": 591.75,
-    "MNTTVA": 44.35
+    "MNTTVA": 44.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00235",
@@ -5739,7 +6332,8 @@
     "NOMGEN": "Saules 2",
     "MNTFAC": 1083.45,
     "MNTTOT": 1166.9,
-    "MNTTVA": 83.45
+    "MNTTVA": 83.45,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00353",
@@ -5750,7 +6344,8 @@
     "NOMGEN": "Saules 2",
     "MNTFAC": 15000.0,
     "MNTTOT": 16215.0,
-    "MNTTVA": 1215.0
+    "MNTTVA": 1215.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00440",
@@ -5761,7 +6356,8 @@
     "NOMGEN": "Saules 2",
     "MNTFAC": 7334.8,
     "MNTTOT": 7928.9,
-    "MNTTVA": 594.1
+    "MNTTVA": 594.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00494",
@@ -5772,7 +6368,8 @@
     "NOMGEN": "Saules 2",
     "MNTFAC": 142.2,
     "MNTTOT": 153.7,
-    "MNTTVA": 11.5
+    "MNTTVA": 11.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00342",
@@ -5783,7 +6380,8 @@
     "NOMGEN": "Coq-d'Inde 24",
     "MNTFAC": 3000.0,
     "MNTTOT": 3243.0,
-    "MNTTVA": 243.0
+    "MNTTVA": 243.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00441",
@@ -5794,7 +6392,8 @@
     "NOMGEN": "Coq-d'Inde 24",
     "MNTFAC": 1837.7,
     "MNTTOT": 1986.55,
-    "MNTTVA": 148.85
+    "MNTTVA": 148.85,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00153",
@@ -5805,7 +6404,8 @@
     "NOMGEN": "Oratoire 3",
     "MNTFAC": 55.7,
     "MNTTOT": 60.0,
-    "MNTTVA": 4.3
+    "MNTTVA": 4.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00098",
@@ -5816,7 +6416,8 @@
     "NOMGEN": "Oratoire 3",
     "MNTFAC": 7500.0,
     "MNTTOT": 8107.55,
-    "MNTTVA": 607.55
+    "MNTTVA": 607.55,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00444",
@@ -5827,7 +6428,8 @@
     "NOMGEN": "Oratoire 3",
     "MNTFAC": 150.0,
     "MNTTOT": 162.15,
-    "MNTTVA": 12.15
+    "MNTTVA": 12.15,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00190",
@@ -5838,7 +6440,8 @@
     "NOMGEN": "Maigroge 12 (est)",
     "MNTFAC": 1025.9,
     "MNTTOT": 1109.0,
-    "MNTTVA": 83.1
+    "MNTTVA": 83.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00156",
@@ -5849,7 +6452,8 @@
     "NOMGEN": "Maigroge 12 (est)",
     "MNTFAC": 2537.5,
     "MNTTOT": 2732.85,
-    "MNTTVA": 195.35
+    "MNTTVA": 195.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00192",
@@ -5860,7 +6464,8 @@
     "NOMGEN": "Numa-Droz 1",
     "MNTFAC": 2997.4,
     "MNTTOT": 3240.2,
-    "MNTTVA": 242.8
+    "MNTTVA": 242.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "23.00565",
@@ -5871,7 +6476,8 @@
     "NOMGEN": "Numa-Droz 1",
     "MNTFAC": 2038.6,
     "MNTTOT": 2195.6,
-    "MNTTVA": 157.0
+    "MNTTVA": 157.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00442",
@@ -5882,7 +6488,8 @@
     "NOMGEN": "Bois-Noir 38",
     "MNTFAC": 2626.8,
     "MNTTOT": 2839.55,
-    "MNTTVA": 212.75
+    "MNTTVA": 212.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00443",
@@ -5893,7 +6500,8 @@
     "NOMGEN": "Hôtel-de-Ville 109",
     "MNTFAC": 1578.0,
     "MNTTOT": 1705.85,
-    "MNTTVA": 127.85
+    "MNTTVA": 127.85,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00155",
@@ -5904,7 +6512,8 @@
     "NOMGEN": "Lausanne 8",
     "MNTFAC": 1204.6,
     "MNTTOT": 1297.35,
-    "MNTTVA": 92.75
+    "MNTTVA": 92.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00445",
@@ -5915,7 +6524,8 @@
     "NOMGEN": "Lausanne 8",
     "MNTFAC": 1420.25,
     "MNTTOT": 1535.3,
-    "MNTTVA": 115.05
+    "MNTTVA": 115.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00141",
@@ -5926,7 +6536,8 @@
     "NOMGEN": "Grand-Rue 8 (entrée ext.)",
     "MNTFAC": 821.5,
     "MNTTOT": 888.05,
-    "MNTTVA": 66.55
+    "MNTTVA": 66.55,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00186",
@@ -5937,7 +6548,8 @@
     "NOMGEN": "Grand-Rue 8 (entrée ext.)",
     "MNTFAC": 360.1,
     "MNTTOT": 387.85,
-    "MNTTVA": 27.75
+    "MNTTVA": 27.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00258",
@@ -5948,7 +6560,8 @@
     "NOMGEN": "Grand-Rue 8 (entrée ext.)",
     "MNTFAC": 482.0,
     "MNTTOT": 521.05,
-    "MNTTVA": 39.05
+    "MNTTVA": 39.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00191",
@@ -5959,7 +6572,8 @@
     "NOMGEN": "Pierre-Péquignat 30",
     "MNTFAC": 300.2,
     "MNTTOT": 324.5,
-    "MNTTVA": 24.3
+    "MNTTVA": 24.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00154",
@@ -5970,7 +6584,8 @@
     "NOMGEN": "Pierre-Péquignat 30",
     "MNTFAC": 532.5,
     "MNTTOT": 573.55,
-    "MNTTVA": 41.05
+    "MNTTVA": 41.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00350",
@@ -5981,7 +6596,8 @@
     "NOMGEN": "PPE Vanels 14",
     "MNTFAC": 9324.7,
     "MNTTOT": 10080.0,
-    "MNTTVA": 755.3
+    "MNTTVA": 755.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00349",
@@ -5992,7 +6608,8 @@
     "NOMGEN": "PPE Vanels 14",
     "MNTFAC": 11668.85,
     "MNTTOT": 12614.0,
-    "MNTTVA": 945.15
+    "MNTTVA": 945.15,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00446",
@@ -6003,7 +6620,8 @@
     "NOMGEN": "PPE Vanels 14",
     "MNTFAC": 62.0,
     "MNTTOT": 67.0,
-    "MNTTVA": 5.0
+    "MNTTVA": 5.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00105",
@@ -6014,7 +6632,8 @@
     "NOMGEN": "Bas-du-Ruisseau (parcelle commune)",
     "MNTFAC": 1500.0,
     "MNTTOT": 1621.5,
-    "MNTTVA": 121.5
+    "MNTTVA": 121.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00151",
@@ -6025,7 +6644,8 @@
     "NOMGEN": "PPE Grise-Pierre 13",
     "MNTFAC": 98.3,
     "MNTTOT": 105.85,
-    "MNTTVA": 7.55
+    "MNTTVA": 7.55,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00447",
@@ -6036,7 +6656,8 @@
     "NOMGEN": "PPE Grand-Rue 14",
     "MNTFAC": 18.5,
     "MNTTOT": 20.0,
-    "MNTTVA": 1.5
+    "MNTTVA": 1.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "23.00559",
@@ -6047,7 +6668,8 @@
     "NOMGEN": "PPE LE TIKI",
     "MNTFAC": 786.3,
     "MNTTOT": 850.0,
-    "MNTTVA": 63.7
+    "MNTTVA": 63.7,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00031",
@@ -6058,7 +6680,8 @@
     "NOMGEN": "PPE Perrières 8, parking",
     "MNTFAC": 161.65,
     "MNTTOT": 161.65,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00024",
@@ -6069,7 +6692,8 @@
     "NOMGEN": "PPE Perrières 8, parking",
     "MNTFAC": 108.15,
     "MNTTOT": 108.15,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00351",
@@ -6080,7 +6704,8 @@
     "NOMGEN": "PPE Perrières 10",
     "MNTFAC": 10159.25,
     "MNTTOT": 10982.15,
-    "MNTTVA": 822.9
+    "MNTTVA": 822.9,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00032",
@@ -6091,18 +6716,8 @@
     "NOMGEN": "PPE Perrières 10",
     "MNTFAC": 1145.5,
     "MNTTOT": 1233.7,
-    "MNTTVA": 88.2
-  },
-  {
-    "REFFOR": "24.00170",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Patrimoine Gérance SA",
-    "REFGEN": 810241,
-    "DATFAC": "2024-06-13",
-    "NOMGEN": "PPE Perrières 10",
-    "MNTFAC": 716.0,
-    "MNTTOT": 774.0,
-    "MNTTVA": 58.0
+    "MNTTVA": 88.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00169",
@@ -6113,18 +6728,20 @@
     "NOMGEN": "PPE Perrières 10",
     "MNTFAC": 498.15,
     "MNTTOT": 538.5,
-    "MNTTVA": 40.35
+    "MNTTVA": 40.35,
+    "TEXFAC": ""
   },
   {
-    "REFFOR": "24.00256",
+    "REFFOR": "24.00170",
     "NORAPPD": "Edition de la facture",
     "NOMGFA": "Patrimoine Gérance SA",
     "REFGEN": 810241,
-    "DATFAC": "2024-07-16",
+    "DATFAC": "2024-06-13",
     "NOMGEN": "PPE Perrières 10",
-    "MNTFAC": -1500.0,
-    "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTFAC": 716.0,
+    "MNTTOT": 774.0,
+    "MNTTVA": 58.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00244",
@@ -6135,7 +6752,20 @@
     "NOMGEN": "PPE Perrières 10",
     "MNTFAC": 1500.0,
     "MNTTOT": 1621.5,
-    "MNTTVA": 121.5
+    "MNTTVA": 121.5,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00256",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Patrimoine Gérance SA",
+    "REFGEN": 810241,
+    "DATFAC": "2024-07-16",
+    "NOMGEN": "PPE Perrières 10",
+    "MNTFAC": -1500.0,
+    "MNTTOT": 0.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00241",
@@ -6146,7 +6776,8 @@
     "NOMGEN": "PPE Perrières 10",
     "MNTFAC": 1500.0,
     "MNTTOT": 1621.5,
-    "MNTTVA": 121.5
+    "MNTTVA": 121.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00243",
@@ -6157,7 +6788,8 @@
     "NOMGEN": "PPE Perrières 10",
     "MNTFAC": -1500.0,
     "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00257",
@@ -6168,7 +6800,8 @@
     "NOMGEN": "PPE Perrières 10",
     "MNTFAC": 1100.0,
     "MNTTOT": 1189.1,
-    "MNTTVA": 89.1
+    "MNTTVA": 89.1,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00152",
@@ -6179,7 +6812,8 @@
     "NOMGEN": "PPE Bellevaux 10",
     "MNTFAC": 27.85,
     "MNTTOT": 30.0,
-    "MNTTVA": 2.15
+    "MNTTVA": 2.15,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00448",
@@ -6190,7 +6824,8 @@
     "NOMGEN": "PPE Bellevaux 10",
     "MNTFAC": 27.75,
     "MNTTOT": 30.0,
-    "MNTTVA": 2.25
+    "MNTTVA": 2.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00449",
@@ -6201,7 +6836,8 @@
     "NOMGEN": "PPE Grande Rue 19",
     "MNTFAC": 185.0,
     "MNTTOT": 200.0,
-    "MNTTVA": 15.0
+    "MNTTVA": 15.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00348",
@@ -6212,7 +6848,8 @@
     "NOMGEN": "PPE Bourguillards 14",
     "MNTFAC": 510.0,
     "MNTTOT": 549.3,
-    "MNTTVA": 39.3
+    "MNTTVA": 39.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00450",
@@ -6223,7 +6860,8 @@
     "NOMGEN": "PPE Bourguillards 14",
     "MNTFAC": 169.65,
     "MNTTOT": 183.4,
-    "MNTTVA": 13.75
+    "MNTTVA": 13.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00515",
@@ -6234,7 +6872,8 @@
     "NOMGEN": "PPE Collège 97",
     "MNTFAC": 1200.0,
     "MNTTOT": 1297.2,
-    "MNTTVA": 97.2
+    "MNTTVA": 97.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00165",
@@ -6245,7 +6884,8 @@
     "NOMGEN": "Avenue Fornachon 28",
     "MNTFAC": 1000.0,
     "MNTTOT": 1081.0,
-    "MNTTVA": 81.0
+    "MNTTVA": 81.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00365",
@@ -6256,7 +6896,8 @@
     "NOMGEN": "Avenue Fornachon 28",
     "MNTFAC": 460.0,
     "MNTTOT": 497.25,
-    "MNTTVA": 37.25
+    "MNTTVA": 37.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00164",
@@ -6267,7 +6908,8 @@
     "NOMGEN": "PPE Orée 100a - 100b",
     "MNTFAC": 400.0,
     "MNTTOT": 432.4,
-    "MNTTVA": 32.4
+    "MNTTVA": 32.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00181",
@@ -6278,7 +6920,8 @@
     "NOMGEN": "PPE Clavaz 2",
     "MNTFAC": 250.0,
     "MNTTOT": 270.25,
-    "MNTTVA": 20.25
+    "MNTTVA": 20.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00182",
@@ -6289,7 +6932,8 @@
     "NOMGEN": "PPE Clavaz 4",
     "MNTFAC": 250.0,
     "MNTTOT": 270.25,
-    "MNTTVA": 20.25
+    "MNTTVA": 20.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00183",
@@ -6300,7 +6944,8 @@
     "NOMGEN": "PPE Clavaz 6",
     "MNTFAC": 250.0,
     "MNTTOT": 270.25,
-    "MNTTVA": 20.25
+    "MNTTVA": 20.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00184",
@@ -6311,7 +6956,8 @@
     "NOMGEN": "PPE Clavaz 8",
     "MNTFAC": 250.0,
     "MNTTOT": 270.25,
-    "MNTTVA": 20.25
+    "MNTTVA": 20.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00451",
@@ -6322,7 +6968,8 @@
     "NOMGEN": "PPE Les Buchilles 10-36 \"Villas\"",
     "MNTFAC": 1861.8,
     "MNTTOT": 2012.6,
-    "MNTTVA": 150.8
+    "MNTTVA": 150.8,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00030",
@@ -6333,7 +6980,20 @@
     "NOMGEN": "PPE Sous-le-Pré 19",
     "MNTFAC": 400.0,
     "MNTTOT": 400.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "25.00066",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Patrimoine Gérance SA",
+    "REFGEN": 811041,
+    "DATFAC": "2024-12-31",
+    "NOMGEN": "PPE Sous-le-Pré 19",
+    "MNTFAC": 400.0,
+    "MNTTOT": 400.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00452",
@@ -6344,7 +7004,8 @@
     "NOMGEN": "PPE Neuchâtel 16",
     "MNTFAC": 97.15,
     "MNTTOT": 105.0,
-    "MNTTVA": 7.85
+    "MNTTVA": 7.85,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00242",
@@ -6355,7 +7016,8 @@
     "NOMGEN": "PPE Gabriel-Lory 2",
     "MNTFAC": 1500.0,
     "MNTTOT": 1621.5,
-    "MNTTVA": 121.5
+    "MNTTVA": 121.5,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00254",
@@ -6366,7 +7028,8 @@
     "NOMGEN": "PPE Gabriel-Lory 2",
     "MNTFAC": -1500.0,
     "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "25.00033",
@@ -6377,7 +7040,8 @@
     "NOMGEN": "PPE Gabriel-Lory 2",
     "MNTFAC": 2610.0,
     "MNTTOT": 2821.4,
-    "MNTTVA": 211.4
+    "MNTTVA": 211.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00035",
@@ -6388,7 +7052,8 @@
     "NOMGEN": "PPE Gabriel-Lory 2",
     "MNTFAC": 4650.0,
     "MNTTOT": 5026.65,
-    "MNTTVA": 376.65
+    "MNTTVA": 376.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00163",
@@ -6399,7 +7064,8 @@
     "NOMGEN": "PPE Gabriel-Lory 2",
     "MNTFAC": 4650.0,
     "MNTTOT": 5026.65,
-    "MNTTVA": 376.65
+    "MNTTVA": 376.65,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00255",
@@ -6410,7 +7076,8 @@
     "NOMGEN": "PPE Gabriel-Lory 2",
     "MNTFAC": 1000.0,
     "MNTTOT": 1081.0,
-    "MNTTVA": 81.0
+    "MNTTVA": 81.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "23.00563",
@@ -6421,7 +7088,8 @@
     "NOMGEN": "PPE Bas de Chaux 16",
     "MNTFAC": 1000.0,
     "MNTTOT": 1081.0,
-    "MNTTVA": 81.0
+    "MNTTVA": 81.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00097",
@@ -6432,7 +7100,8 @@
     "NOMGEN": "PPE Bas de Chaux 16",
     "MNTFAC": 1000.0,
     "MNTTOT": 1081.0,
-    "MNTTVA": 81.0
+    "MNTTVA": 81.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00166",
@@ -6443,7 +7112,8 @@
     "NOMGEN": "PPE Chemin des Plantées 8",
     "MNTFAC": 300.0,
     "MNTTOT": 324.3,
-    "MNTTVA": 24.3
+    "MNTTVA": 24.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00167",
@@ -6454,7 +7124,8 @@
     "NOMGEN": "PPE Chemin des Plantées 8a",
     "MNTFAC": 300.0,
     "MNTTOT": 324.3,
-    "MNTTVA": 24.3
+    "MNTTVA": 24.3,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00168",
@@ -6465,7 +7136,8 @@
     "NOMGEN": "PPE Chemin des Plantées 8c",
     "MNTFAC": 400.0,
     "MNTTOT": 432.4,
-    "MNTTVA": 32.4
+    "MNTTVA": 32.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00548",
@@ -6476,18 +7148,8 @@
     "NOMGEN": "PPE Chemin des Plantées 8-8c - PC",
     "MNTFAC": 200.0,
     "MNTTOT": 216.2,
-    "MNTTVA": 16.2
-  },
-  {
-    "REFFOR": "24.00261",
-    "NORAPPD": "Edition de la facture",
-    "NOMGFA": "Patrimoine Gérance SA",
-    "REFGEN": 811114,
-    "DATFAC": "2024-07-30",
-    "NOMGEN": "PPE Chemin des Plantées 8-8c - PC",
-    "MNTFAC": -350.0,
-    "MNTTOT": 0.0,
-    "MNTTVA": 0.0
+    "MNTTVA": 16.2,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00262",
@@ -6498,7 +7160,20 @@
     "NOMGEN": "PPE Chemin des Plantées 8-8c - PC",
     "MNTFAC": 350.0,
     "MNTTOT": 378.35,
-    "MNTTVA": 28.35
+    "MNTTVA": 28.35,
+    "TEXFAC": ""
+  },
+  {
+    "REFFOR": "24.00261",
+    "NORAPPD": "Edition de la facture",
+    "NOMGFA": "Patrimoine Gérance SA",
+    "REFGEN": 811114,
+    "DATFAC": "2024-07-30",
+    "NOMGEN": "PPE Chemin des Plantées 8-8c - PC",
+    "MNTFAC": -350.0,
+    "MNTTOT": 0.0,
+    "MNTTVA": 0.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00260",
@@ -6509,7 +7184,8 @@
     "NOMGEN": "PPE Chemin des Plantées 8-8c - PC",
     "MNTFAC": 350.0,
     "MNTTOT": 378.35,
-    "MNTTVA": 28.35
+    "MNTTVA": 28.35,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00453",
@@ -6520,7 +7196,8 @@
     "NOMGEN": "Jehanne-de-Hochberg 7",
     "MNTFAC": 324.35,
     "MNTTOT": 350.6,
-    "MNTTVA": 26.25
+    "MNTTVA": 26.25,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00140",
@@ -6531,7 +7208,8 @@
     "NOMGEN": "Grande Rue 19 - Unités Buchs",
     "MNTFAC": 252.0,
     "MNTTOT": 272.4,
-    "MNTTVA": 20.4
+    "MNTTVA": 20.4,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00455",
@@ -6542,7 +7220,8 @@
     "NOMGEN": "Grande Rue 19 - Unités Buchs",
     "MNTFAC": 210.0,
     "MNTTOT": 227.0,
-    "MNTTVA": 17.0
+    "MNTTVA": 17.0,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00456",
@@ -6553,7 +7232,8 @@
     "NOMGEN": "Prés-Verts 23",
     "MNTFAC": 581.4,
     "MNTTOT": 628.45,
-    "MNTTVA": 47.05
+    "MNTTVA": 47.05,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00457",
@@ -6564,7 +7244,8 @@
     "NOMGEN": "Racherelles 4",
     "MNTFAC": 268.6,
     "MNTTOT": 290.35,
-    "MNTTVA": 21.75
+    "MNTTVA": 21.75,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00458",
@@ -6575,7 +7256,8 @@
     "NOMGEN": "Commerce 79",
     "MNTFAC": 1178.05,
     "MNTTOT": 1273.5,
-    "MNTTVA": 95.45
+    "MNTTVA": 95.45,
+    "TEXFAC": ""
   },
   {
     "REFFOR": "24.00459",
@@ -6586,6 +7268,7 @@
     "NOMGEN": "Grise-Pierre 13",
     "MNTFAC": 100.0,
     "MNTTOT": 108.1,
-    "MNTTVA": 8.1
+    "MNTTVA": 8.1,
+    "TEXFAC": ""
   }
 ]}

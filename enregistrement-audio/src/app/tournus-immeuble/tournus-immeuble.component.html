@@ -4,7 +4,7 @@
 
         <div>
             <label for="immeuble-select">Immeuble </label>
-            <select id="immeuble-select" [(ngModel)]="immeuble" (ngModelChange)="onImmeubleChange($event)">
+            <select id="immeuble-select" [(ngModel)]="immeuble" (ngModelChange)="onFiltreChange($event)">
                 <option *ngFor="let immeuble of immeubles" [value]="immeuble">
                     {{ immeuble }}
                 </option>
@@ -13,12 +13,12 @@
 
         <div>
             <label for="date-debut">À partir du : </label>
-            <input type="date" id="date-debut" [(ngModel)]="dateDebut">
+            <input type="date" id="date-debut" [(ngModel)]="dateDebut" (ngModelChange)="onFiltreChange($event)">
         </div>
 
         <div>
             <label for="date-fin">Jusqu'au : </label>
-            <input type="date" id="date-fin" [(ngModel)]="dateFin">
+            <input type="date" id="date-fin" [(ngModel)]="dateFin" (ngModelChange)="onFiltreChange($event)">
         </div>
         <div>
             <button (click)="display_historique()" style="padding: 8px 10px; cursor: pointer;">

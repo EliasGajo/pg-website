@@ -63,12 +63,19 @@ export class TournusImmeubleComponent {
     });
   }
 
-  onImmeubleChange(new_immeuble: string) {
-    this.update_data_filtered(this.compute_immeuble_data(new_immeuble));
+  onFiltreChange(new_data: string) {
+    this.update_data_filtered(this.compute_immeuble_data(this.immeuble));
   }
 
   compute_immeuble_data(immeuble: string): any {
-    return this.all_locataire_data.filter(data => data['NOIMME'] === immeuble);
+    const debut = this.dateDebut ? new Date(this.dateDebut) : false;
+    const fin = this.dateFin ? new Date(this.dateFin) : false;
+    return this.all_locataire_data.filter(data => {
+      const objDebut = data['DADEBA'] ? new Date(data['DADEBA']) : false;
+      const objFin = data['DASOAC'] ? new Date(data['DASOAC']) : false;
+      const dates_in_interval = (debut ? (objFin ? objFin >= debut : true) : true) && (fin ? (objDebut ? objDebut <= fin : true) : true);
+      return data['NOIMME'] === immeuble && dates_in_interval;
+    });
   }
 
   update_data_filtered(data_filtered: any[]) {

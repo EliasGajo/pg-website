@@ -168,7 +168,7 @@ export class ExportFactureDebiteurComponent {
     const workbook = new ExcelJS.Workbook();
     const worksheet = workbook.addWorksheet('Factures débiteur');
     worksheet.columns = [
-      { header: 'Immeuble', key: 'REFGEN', width: 15 },
+      { header: 'Immeuble / Autre', key: 'REFGEN', width: 15 },
       { header: 'Factures date', key: 'DATFAC', width: 20 },
       { header: 'Montant HT', key: 'MNTFAC', width: 15 },
       { header: 'Montant TVA', key: 'MNTTVA', width: 15 },
