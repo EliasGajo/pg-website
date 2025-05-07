@@ -87,7 +87,8 @@ export class DataframeComponent {
   initialiser_filtres() {
     if (this.data.length === 0) return;
     this.colonnes.forEach(col => {
-      const sampleValue = this.data[0][col];
+      const first_non_null_value = this.data.find(item => item[col] != null);
+      const sampleValue = first_non_null_value ? first_non_null_value[col] : '';
       const type = this.type_detector(sampleValue);
       this.filtres[col] = { type };
 
@@ -101,7 +102,7 @@ export class DataframeComponent {
   }
 
   type_detector(value: any): 'text' | 'number' | 'date' {
-    if(value) {
+    if(value != null) {
       if (typeof value === 'number') return 'number';
       if (this.isProbablyDate(value)) return 'date';
     }

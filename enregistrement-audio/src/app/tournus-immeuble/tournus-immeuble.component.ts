@@ -37,6 +37,7 @@ export class TournusImmeubleComponent {
   isLoadingData = false;
   all_locataire_data: any[] = [];
   all_locataire_traductions: {[key:string]:string} = {};
+  nb_tournus_tot: number = 0;
 
   constructor(private zone: NgZone) {}
 
@@ -91,6 +92,7 @@ export class TournusImmeubleComponent {
       }
       return acc;
     }, [] as TournusResult[]);
+    this.nb_tournus_tot = this.grouped_data.reduce((acc, obj) => acc + obj.nb_tournus, 0);
     console.log(this.grouped_data);
   }
 
