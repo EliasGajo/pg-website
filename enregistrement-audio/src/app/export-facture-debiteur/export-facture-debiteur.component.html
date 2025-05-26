@@ -23,7 +23,7 @@
         </tr>
         <tr>
           <th *ngFor="let col of colonnes">
-            <ng-container [ngSwitch]="filtres[col]?.type">
+            <ng-container [ngSwitch]="filtres[col].type">
               <!-- Texte -->
               <input *ngSwitchCase="'text'"
                     type="text"

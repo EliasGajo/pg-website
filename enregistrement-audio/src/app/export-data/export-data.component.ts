@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-import { ExportFactureDebiteurComponent } from '../export-facture-debiteur/export-facture-debiteur.component';
-import { ExportCoproprietaireComponent } from '../export-coproprietaire/export-coproprietaire.component';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-export-data',
-  imports: [ExportFactureDebiteurComponent, ExportCoproprietaireComponent, CommonModule],
+  imports: [CommonModule],
   templateUrl: './export-data.component.html',
   styleUrl: './export-data.component.css'
 })
