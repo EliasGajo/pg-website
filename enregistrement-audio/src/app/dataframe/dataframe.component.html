@@ -2,10 +2,10 @@
   <h2>{{export_title}}</h2>
   <div class="table-header">
     <div class="button-container">
-      <button (click)="exporterExcel()" style="padding: 8px 10px; cursor: pointer;">
+      <button (click)="exporterExcel()" >
         📤 Exporter en Excel
       </button>
-      <!-- Ajoutez d'autres boutons ici si besoin -->
+      <ng-content select="[extra-button]"></ng-content>
     </div>
   </div>
   <div [ngStyle]="{'max-height': table_max_height}" class="table-container">

@@ -1,1 +1,10 @@
 
+  .button-container {
+    display: flex;
+    gap: 10px; /* Espacement entre plusieurs boutons */
+  }
+
+  .button-container > * {
+    padding: 8px 10px; 
+    cursor: pointer;
+  }

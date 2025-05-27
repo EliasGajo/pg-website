@@ -64,8 +64,3 @@
     display: flex;
     justify-content: flex-end; /* Aligne à droite */
   }
-  
-  .button-container {
-    display: flex;
-    gap: 10px; /* Espacement entre plusieurs boutons */
-  }

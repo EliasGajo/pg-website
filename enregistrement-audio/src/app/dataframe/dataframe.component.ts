@@ -14,6 +14,7 @@ export class DataframeComponent {
   data: any[] = [];
   data_filtered: any[] = []; // Les données affichées
   @Output() data_filtered_update = new EventEmitter<any[]>();
+  @Output() traductions_update = new EventEmitter<{[key:string]:string}>();
   colonnes: string[] = [];
   traductions: {[key:string]:string} = {};
   backend_endpoint: string = '10.209.10.215:8000';
@@ -48,6 +49,7 @@ export class DataframeComponent {
         .then(response => response.json())
         .then(data => {
           this.traductions = data.traductions
+          this.traductions_update.emit(this.traductions);
           this.init_data(JSON.parse(data.values) || []);
         })
         .catch(error => {
@@ -56,6 +58,7 @@ export class DataframeComponent {
         });
       } else if(this.data_to_load) {
           this.traductions = this.traductions_to_load;
+          this.traductions_update.emit(this.traductions);
           this.init_data(this.data_to_load);
       }
     });

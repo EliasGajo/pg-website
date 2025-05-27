@@ -5,6 +5,7 @@ from src.audio_to_text import Audio_to_text
 from src.chat_gpt_bot import Chat_gpt_bot
 from src.facture_debiteur import Facture_debiteur
 from src.tournus_immeuble import Tournus_immeuble
+from src.moyen_paiement import Moyen_paiement
 from src.coproprietaire import Coproprietaire
 import uvicorn
 
@@ -38,6 +39,16 @@ async def root(request: Request):
     #data = await request.json()
     values = Tournus_immeuble.get_all()
     traductions = Tournus_immeuble.get_traduction()
+    return {
+            "values": values,
+            "traductions": traductions
+            }
+
+@app.get("/moyen-paiement")
+async def root(request: Request):
+    #data = await request.json()
+    values = Moyen_paiement.get_all()
+    traductions = Moyen_paiement.get_traduction()
     return {
             "values": values,
             "traductions": traductions
