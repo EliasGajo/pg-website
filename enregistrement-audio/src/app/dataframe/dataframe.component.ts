@@ -69,7 +69,7 @@ export class DataframeComponent {
       const newData = changes['data_to_load'].currentValue;
       this.init_data(newData);
     }
-    else if (changes['traductions_to_load']) {
+    if (changes['traductions_to_load']) {
       const newData = changes['traductions_to_load'].currentValue;
       this.traductions = newData;
     }
