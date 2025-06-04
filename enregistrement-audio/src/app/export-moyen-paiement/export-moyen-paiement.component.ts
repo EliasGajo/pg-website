@@ -3,6 +3,8 @@ import { DataframeComponent } from '../dataframe/dataframe.component';
 import { EmailsPublipostageComponent } from '../emails-publipostage/emails-publipostage.component';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import * as ExcelJS from 'exceljs';
+import * as FileSaver from 'file-saver';
 
 @Component({
   selector: 'app-export-moyen-paiement',
@@ -25,7 +27,7 @@ export class ExportMoyenPaiementComponent {
 
   ngOnInit() {
     this.zone.run(() => {
-        fetch(`https://10.209.10.213:8000/moyen-paiement`, {
+        fetch(`https://10.209.10.215:8000/moyen-paiement`, {
           method: 'GET',
           mode: 'cors'
         })
@@ -61,6 +63,56 @@ export class ExportMoyenPaiementComponent {
     var immeuble_data: any[] = immeuble && immeuble.length > 0 ? this.data.filter(item => item['NOIMME'] === immeuble) : this.data;
     immeuble_data = mode_paiement && mode_paiement.length > 0 ? immeuble_data.filter(item => item['MOYPAID'] === mode_paiement) : immeuble_data;
     return immeuble_data;
+  }
+
+  export_complet() {
+    const data = this.clean_data_for_excel(this.data);
+    data.sort((a, b) => {
+      const immeubleCompare = a['NOIMME'].localeCompare(b['NOIMME']);
+      if (immeubleCompare !== 0) {
+        return immeubleCompare;
+      }
+      return a['MOYPAID'].localeCompare(b['MOYPAID']);
+    });
+    const workbook = new ExcelJS.Workbook();
+    const worksheet = workbook.addWorksheet('Moyens de paiement par immeuble');
+    worksheet.columns = [
+      { header: 'Immeuble', key: 'NOIMME', width: 40 },
+      { header: 'Référence', key: 'REFFOR', width: 20 },
+      { header: 'Nom', key: 'NOLOCO', width: 40 },
+      { header: 'Moyen de paiement', key: 'MOYPAID', width: 30 },
+      { header: 'Email', key: 'NOEMAI', width: 40 }
+    ];
+
+    data.forEach(item => {
+      worksheet.addRow(item);
+    });
+
+    workbook.xlsx.writeBuffer().then((buffer: any) => {
+      const blob = new Blob([buffer], {
+        type:
+          'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+      });
+      FileSaver.saveAs(blob, 'moyens_paiement_immeubles.xlsx');
+    });
+  }
+
+  clean_data_for_excel(data_to_clean: any) {
+    let cleaned_data: any[] = [];
+    for(let i = 0; i < data_to_clean.length; i ++) {
+      let item_to_clean = data_to_clean[i];
+      let cleaned_item: any = {}
+      for(let key in item_to_clean) {
+        const value = item_to_clean[key];
+        if(value === null || value === undefined) {
+          cleaned_item[key] = '';
+        } else {
+          cleaned_item[key] = value;
+        }
+      }
+      cleaned_data.push(cleaned_item);
+    }
+    return cleaned_data;
   }
 
 }

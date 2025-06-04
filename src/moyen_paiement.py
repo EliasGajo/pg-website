@@ -18,6 +18,7 @@ class Moyen_paiement:
             'NOIMME': 'Immeuble',
             'REFFOR': 'Référence',
             'NOLOCO': 'Nom',
-            'MOYPAID': 'Moyen de paiement'
+            'MOYPAID': 'Moyen de paiement',
+            'NOEMAI': 'Email'
         }
         return traductions
