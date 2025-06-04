@@ -55,16 +55,6 @@ export class ExportMoyenPaiementComponent {
     this.liste_email = data_filtered.map(item => item["NOEMAI"]);
   }
 
-  onFiltreChange(new_data: string) {
-    this.update_data_filtered(this.compute_immeuble_data(this.immeuble, this.mode_paiement));
-  }
-
-  compute_immeuble_data(immeuble: string, mode_paiement: string): any {
-    var immeuble_data: any[] = immeuble && immeuble.length > 0 ? this.data.filter(item => item['NOIMME'] === immeuble) : this.data;
-    immeuble_data = mode_paiement && mode_paiement.length > 0 ? immeuble_data.filter(item => item['MOYPAID'] === mode_paiement) : immeuble_data;
-    return immeuble_data;
-  }
-
   export_complet() {
     const data = this.clean_data_for_excel(this.data);
     data.sort((a, b) => {
