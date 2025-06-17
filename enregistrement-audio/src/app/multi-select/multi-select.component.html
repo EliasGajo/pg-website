@@ -1,0 +1,27 @@
+<table>
+    <tr>
+        <td>
+            <mat-form-field appearance="fill">
+                <mat-label>Choisir des valeurs</mat-label>
+                <mat-select [(ngModel)]="values_selected" multiple (selectionChange)="update_values_selected()">
+                    <mat-option *ngFor="let value of values_all" [value]="value">
+                    {{ value }}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </td>
+        <td>
+            <div *ngIf="values_selected.length > 0">
+                <h3>Valeurs sélectionnées :</h3>
+                <ul>
+                    <li *ngFor="let value of values_selected">
+                    {{ value }}
+                    <button mat-icon-button color="warn" (click)="supprimer_value(value)">
+                        <mat-icon>delete</mat-icon>
+                    </button>
+                    </li>
+                </ul>
+            </div>
+        </td>
+    </tr>
+</table>

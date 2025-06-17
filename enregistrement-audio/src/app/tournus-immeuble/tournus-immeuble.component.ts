@@ -1,5 +1,6 @@
 import { Component, NgZone } from '@angular/core';
 import { DataframeComponent } from '../dataframe/dataframe.component';
+import { MultiSelectComponent } from '../multi-select/multi-select.component';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
@@ -13,7 +14,7 @@ interface TournusResult {
 
 @Component({
   selector: 'app-tournus-immeuble',
-  imports: [DataframeComponent, CommonModule, FormsModule],
+  imports: [DataframeComponent, MultiSelectComponent, CommonModule, FormsModule],
   templateUrl: './tournus-immeuble.component.html',
   styleUrl: './tournus-immeuble.component.css'
 })
@@ -22,8 +23,8 @@ export class TournusImmeubleComponent {
 
   data_filtered: any[] = [];
   grouped_data: any[] = [];
-  immeuble: string = '';
   immeubles: string[] = [];
+  immeubles_selected: string[] = [];
   dateDebut: string = '';
   dateFin: string = '';
   afficher_historique: boolean = false;
@@ -44,7 +45,7 @@ export class TournusImmeubleComponent {
   ngOnInit() {
     this.zone.run(() => {
         this.isLoadingData = true;
-        fetch(`https://10.209.10.215:8000/tournus-immeuble`, {
+        fetch(`https://10.209.10.213:8000/tournus-immeuble`, {
           method: 'GET',
           mode: 'cors'
         })
@@ -63,18 +64,23 @@ export class TournusImmeubleComponent {
     });
   }
 
-  onFiltreChange(new_data: string) {
-    this.update_data_filtered(this.compute_immeuble_data(this.immeuble));
+  update_immeubles_selected(immeubles_selected: string[]) {
+    this.immeubles_selected = immeubles_selected;
+    this.update_data_filtered(this.compute_immeuble_data());
   }
 
-  compute_immeuble_data(immeuble: string): any {
+  onFiltreChange(new_data: string) {
+    this.update_data_filtered(this.compute_immeuble_data());
+  }
+
+  compute_immeuble_data(): any {
     const debut = this.dateDebut ? new Date(this.dateDebut) : false;
     const fin = this.dateFin ? new Date(this.dateFin) : false;
     return this.all_locataire_data.filter(data => {
-      const objDebut = data['DADEBA'] ? new Date(data['DADEBA']) : false;
+      const objDebut = data['DADELO'] ? new Date(data['DADELO']) : false;
       const objFin = data['DASOAC'] ? new Date(data['DASOAC']) : false;
       const dates_in_interval = (debut ? (objFin ? objFin >= debut : true) : true) && (fin ? (objDebut ? objDebut <= fin : true) : true);
-      return data['NOIMME'] === immeuble && dates_in_interval;
+      return this.immeubles_selected.includes(data['NOIMME']) && dates_in_interval;
     });
   }
 

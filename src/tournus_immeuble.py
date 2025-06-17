@@ -24,7 +24,7 @@ class Tournus_immeuble:
             'ETAGESD': 'Etage',
             'REIMME': 'Réf immeuble',
             'NOIMME': 'Nom immeuble',
-            'DADEBA': 'Date début location',
+            'DADELO': 'Date début location',
             'DASOAC': 'Date sortie acceptée'
         }
         return traductions

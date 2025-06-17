@@ -323,10 +323,10 @@
   },
   {
     "NOIMME": "Louis-Favre 40",
-    "REFFOR": "310241.002 001.16",
-    "NOLOCO": "SZÉKELY László",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "szekely.laszlo@bluewin.ch"
+    "REFFOR": "310241.002 001.17",
+    "NOLOCO": "En cours de relocation",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Louis-Favre 40",
@@ -883,10 +883,10 @@
   },
   {
     "NOIMME": "Crêt-de-la-Fin 14-16, places de parc",
-    "REFFOR": "310359.900 001.24",
-    "NOLOCO": "LANG Jérémie",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "web@skydyz.com"
+    "REFFOR": "310359.900 001.25",
+    "NOLOCO": "Vacant",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Crêt-de-la-Fin 14-16, places de parc",
@@ -1219,10 +1219,10 @@
   },
   {
     "NOIMME": "Le Bourg 11",
-    "REFFOR": "310621.010 002.10",
-    "NOLOCO": "FELDER Nadir",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "nadir.felder1@gmail.com"
+    "REFFOR": "310621.010 002.11",
+    "NOLOCO": "En cours de relocation",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Le Bourg 11",
@@ -1261,10 +1261,10 @@
   },
   {
     "NOIMME": "Le Bourg 11",
-    "REFFOR": "310621.030 001.14",
-    "NOLOCO": "DUMOULIN Christian",
+    "REFFOR": "310621.030 001.16",
+    "NOLOCO": "ZÜRCHER Jeremy, ROCHAT Morgane",
     "MOYPAID": "Ordre permanent",
-    "NOEMAI": "dumoulin.christian22@gmail.com"
+    "NOEMAI": "jeremyzurcher01@gmail.com"
   },
   {
     "NOIMME": "Le Bourg 11",
@@ -1709,10 +1709,10 @@
   },
   {
     "NOIMME": "Vieux-Patriotes 51",
-    "REFFOR": "310673.003 003.16",
-    "NOLOCO": "POLLET Etienne, BOYER Juliette",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "pollet.ep@gmail.com"
+    "REFFOR": "310673.003 003.17",
+    "NOLOCO": "En cours de relocation",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Vieux-Patriotes 51",
@@ -2773,10 +2773,10 @@
   },
   {
     "NOIMME": "Numa-Droz 199",
-    "REFFOR": "311002.010 003.12",
-    "NOLOCO": "HAJDA Aldin, KASAPI Sahare",
-    "MOYPAID": "QR Facture",
-    "NOEMAI": "dini_2300@hotmail.com"
+    "REFFOR": "311002.010 003.13",
+    "NOLOCO": "En cours de relocation",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Numa-Droz 199",
@@ -3291,17 +3291,17 @@
   },
   {
     "NOIMME": "Pâquiers 22",
-    "REFFOR": "311301.010 004.11",
-    "NOLOCO": "Vacant",
-    "MOYPAID": null,
-    "NOEMAI": ""
+    "REFFOR": "311301.010 004.12",
+    "NOLOCO": "GRANDJEAN Christine",
+    "MOYPAID": "Ordre permanent",
+    "NOEMAI": "christine@grandjean-web.ch"
   },
   {
     "NOIMME": "Pâquiers 22",
-    "REFFOR": "311301.010 005.11",
-    "NOLOCO": "Vacant",
-    "MOYPAID": null,
-    "NOEMAI": ""
+    "REFFOR": "311301.010 005.12",
+    "NOLOCO": "GRANDJEAN Christine",
+    "MOYPAID": "Ordre permanent",
+    "NOEMAI": "christine@grandjean-web.ch"
   },
   {
     "NOIMME": "Pâquiers 22",
@@ -3739,10 +3739,10 @@
   },
   {
     "NOIMME": "Combe-Grieurin 39A",
-    "REFFOR": "311501.020 001.16",
-    "NOLOCO": "BERULLIER Mathilde",
+    "REFFOR": "311501.020 001.18",
+    "NOLOCO": "VEGA DORADO Letizia",
     "MOYPAID": "Ordre permanent",
-    "NOEMAI": "mathildeberullier@gmail.com"
+    "NOEMAI": "letiziavegad@hotmail.com"
   },
   {
     "NOIMME": "Combe-Grieurin 39A",
@@ -4096,17 +4096,17 @@
   },
   {
     "NOIMME": "Charrière 89 (gauche)",
-    "REFFOR": "311551.010 002.12",
-    "NOLOCO": "SINISTRE INCENDIE",
-    "MOYPAID": "Ordre permanent",
+    "REFFOR": "311551.010 002.13",
+    "NOLOCO": "Vacant",
+    "MOYPAID": null,
     "NOEMAI": ""
   },
   {
     "NOIMME": "Charrière 89 (gauche)",
-    "REFFOR": "311551.010 003.12",
-    "NOLOCO": "SINISTRE INCENDIE",
+    "REFFOR": "311551.010 003.14",
+    "NOLOCO": "LEBLOND Pierre",
     "MOYPAID": "Ordre permanent",
-    "NOEMAI": ""
+    "NOEMAI": "pierre.leblond@kedgebs.com"
   },
   {
     "NOIMME": "Charrière 89 (gauche)",
@@ -4775,10 +4775,10 @@
   },
   {
     "NOIMME": "Beau-Site 23",
-    "REFFOR": "311631.010 001.13",
-    "NOLOCO": "En cours de relocation",
-    "MOYPAID": null,
-    "NOEMAI": ""
+    "REFFOR": "311631.010 001.14",
+    "NOLOCO": "BESSOT Julie",
+    "MOYPAID": "Ordre permanent",
+    "NOEMAI": "julie.bessot@outlook.com"
   },
   {
     "NOIMME": "Beau-Site 23",
@@ -5146,10 +5146,10 @@
   },
   {
     "NOIMME": "Pâques 10-12, parking",
-    "REFFOR": "311709.900 016.12",
-    "NOLOCO": "MAILLARD Loris, PEREIRA PINTO Ana Sofia",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "loris.maillard.99@gmail.com"
+    "REFFOR": "311709.900 016.13",
+    "NOLOCO": "Vacant",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Pâques 10-12, parking",
@@ -5230,10 +5230,10 @@
   },
   {
     "NOIMME": "Fontaine-André 16",
-    "REFFOR": "311731.003 001.12",
-    "NOLOCO": "BAUME Marielle",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "marielle.baume@gmail.com"
+    "REFFOR": "311731.003 001.13",
+    "NOLOCO": "En cours de relocation",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Fontaine-André 16",
@@ -5293,10 +5293,10 @@
   },
   {
     "NOIMME": "Boudevilliers 1 -  BF632",
-    "REFFOR": "312201.010 002.10",
-    "NOLOCO": "BOZZELLI Gilles, KARDUNG Harmonie",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "kardungharmonie@gmail.com"
+    "REFFOR": "312201.010 002.11",
+    "NOLOCO": "Bail en cours de signature",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Boudevilliers 1 -  BF632",
@@ -5356,17 +5356,17 @@
   },
   {
     "NOIMME": "Boudevilliers 1-BF 632-Parking",
-    "REFFOR": "312209.700 007.10",
-    "NOLOCO": "BOZZELLI Gilles, KARDUNG Harmonie",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "kardungharmonie@gmail.com"
+    "REFFOR": "312209.700 007.11",
+    "NOLOCO": "Vacant",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Boudevilliers 1-BF 632-Parking",
-    "REFFOR": "312209.700 008.10",
-    "NOLOCO": "BOZZELLI Gilles, KARDUNG Harmonie",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "kardungharmonie@gmail.com"
+    "REFFOR": "312209.700 008.11",
+    "NOLOCO": "Vacant",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Boudevilliers 1-BF 632-Parking",
@@ -5426,10 +5426,10 @@
   },
   {
     "NOIMME": "Boudevilliers 1A  - BF 631",
-    "REFFOR": "312211.550 001.18",
-    "NOLOCO": "ROBERT CHRISTEN Christine",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "ch.robert@bluewin.ch"
+    "REFFOR": "312211.550 001.19",
+    "NOLOCO": "En cours de relocation",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Boudevilliers 1A  - BF 631",
@@ -5454,17 +5454,17 @@
   },
   {
     "NOIMME": "Boudevilliers 1A-BF 631- Gar&PP",
-    "REFFOR": "312219.700 003.18",
-    "NOLOCO": "ROBERT Christine",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "ch.robert@bluewin.ch"
+    "REFFOR": "312219.700 003.19",
+    "NOLOCO": "Vacant",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Boudevilliers 1A-BF 631- Gar&PP",
-    "REFFOR": "312219.700 004.14",
-    "NOLOCO": "ROBERT CHRISTEN Christine",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "ch.robert@bluewin.ch"
+    "REFFOR": "312219.700 004.15",
+    "NOLOCO": "Vacant",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Boudevilliers 1A-BF 631- Gar&PP",
@@ -5496,10 +5496,10 @@
   },
   {
     "NOIMME": "Boudevilliers 1A-BF 631- Gar&PP",
-    "REFFOR": "312219.700 009.16",
-    "NOLOCO": "ROBERT CHRISTEN Christine",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "ch.robert@bluewin.ch"
+    "REFFOR": "312219.700 009.17",
+    "NOLOCO": "Vacant",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Boudevilliers 1A-BF 631- Gar&PP",
@@ -5524,10 +5524,10 @@
   },
   {
     "NOIMME": "Boudevilliers 1A-BF 631- Gar&PP",
-    "REFFOR": "312219.700 013.14",
-    "NOLOCO": "BOZZELLI Gilles, KARDUNG Harmonie",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "kardungharmonie@gmail.com"
+    "REFFOR": "312219.700 013.15",
+    "NOLOCO": "Vacant",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Boudevilliers 1A-BF 631- Gar&PP",
@@ -5566,10 +5566,10 @@
   },
   {
     "NOIMME": "Boudevilliers-BF633 (7Gar&Ens)",
-    "REFFOR": "312228.660 005.11",
-    "NOLOCO": "Vacant",
-    "MOYPAID": null,
-    "NOEMAI": ""
+    "REFFOR": "312228.660 005.12",
+    "NOLOCO": "NETTOYAGES PIKOBELLO SÀRL , GUTAJ Kujtim",
+    "MOYPAID": "Ordre permanent",
+    "NOEMAI": "info@pikobello.ch"
   },
   {
     "NOIMME": "Boudevilliers-BF633 (7Gar&Ens)",
@@ -5867,9 +5867,9 @@
   },
   {
     "NOIMME": "Sauge 10 - BF 629",
-    "REFFOR": "312242.020 005.09",
-    "NOLOCO": "Vacant",
-    "MOYPAID": null,
+    "REFFOR": "312242.020 005.10",
+    "NOLOCO": "COUCHOURON Charles",
+    "MOYPAID": "Ordre permanent",
     "NOEMAI": ""
   },
   {
@@ -6833,10 +6833,10 @@
   },
   {
     "NOIMME": "Sauge 12-14-16 - BF 637  (Parking)",
-    "REFFOR": "312308.700 006.16",
-    "NOLOCO": "PINTO ROCHA Rui Pedro, PINTO AZEVEDO STURNIOLO Sabrina",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "pintofilipe40@gmail.com"
+    "REFFOR": "312308.700 006.17",
+    "NOLOCO": "Vacant",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Sauge 12-14-16 - BF 637  (Parking)",
@@ -7022,10 +7022,10 @@
   },
   {
     "NOIMME": "Crêt 93 - BF 3419",
-    "REFFOR": "312331.003 001.14",
-    "NOLOCO": "TOMAS TEIXEIRA Jordan, RODRIGUES FERREIRA Raquel",
+    "REFFOR": "312331.003 001.16",
+    "NOLOCO": "BERGER Alexandre, DUBOIS Coline",
     "MOYPAID": "Ordre permanent",
-    "NOEMAI": ""
+    "NOEMAI": "echothebest98@gmail.com"
   },
   {
     "NOIMME": "Crêt 93 - BF 3419",
@@ -7127,16 +7127,16 @@
   },
   {
     "NOIMME": "Crêt 93 - BF 3419 (Parking)",
-    "REFFOR": "312339.700 010.12",
-    "NOLOCO": "TOMAS TEIXEIRA Jordan, RODRIGUES FERREIRA Raquel",
-    "MOYPAID": "Ordre permanent",
+    "REFFOR": "312339.700 010.13",
+    "NOLOCO": "Vacant",
+    "MOYPAID": null,
     "NOEMAI": ""
   },
   {
     "NOIMME": "Crêt 93 - BF 3419 (Parking)",
-    "REFFOR": "312339.700 011.12",
-    "NOLOCO": "TOMAS TEIXEIRA Jordan, RODRIGUES FERREIRA Raquel",
-    "MOYPAID": "Ordre permanent",
+    "REFFOR": "312339.700 011.13",
+    "NOLOCO": "Vacant",
+    "MOYPAID": null,
     "NOEMAI": ""
   },
   {
@@ -7239,10 +7239,10 @@
   },
   {
     "NOIMME": "Crêt 93 - BF 3419 (Parking)",
-    "REFFOR": "312339.900 004.14",
-    "NOLOCO": "TOMAS TEIXEIRA Jordan, RODRIGUES FERREIRA Raquel",
+    "REFFOR": "312339.900 004.16",
+    "NOLOCO": "BERGER Alexandre, DUBOIS Coline",
     "MOYPAID": "Ordre permanent",
-    "NOEMAI": ""
+    "NOEMAI": "echothebest98@gmail.com"
   },
   {
     "NOIMME": "Crêt 93 - BF 3419 (Parking)",
@@ -7253,10 +7253,10 @@
   },
   {
     "NOIMME": "Forgerons 2 - BF 3631",
-    "REFFOR": "312341.004 001.15",
-    "NOLOCO": "Bail en cours de signature",
-    "MOYPAID": null,
-    "NOEMAI": ""
+    "REFFOR": "312341.004 001.16",
+    "NOLOCO": "EL MOUNAIME Youssef",
+    "MOYPAID": "Ordre permanent",
+    "NOEMAI": "youssef.elmounaime@gmail.com"
   },
   {
     "NOIMME": "Forgerons 2 - BF 3631",
@@ -7400,10 +7400,10 @@
   },
   {
     "NOIMME": "Forgerons 2 - BF 3631 (parking)",
-    "REFFOR": "312349.700 011.13",
-    "NOLOCO": "Vacant",
-    "MOYPAID": null,
-    "NOEMAI": ""
+    "REFFOR": "312349.700 011.14",
+    "NOLOCO": "EL MOUNAIME Youssef",
+    "MOYPAID": "Ordre permanent",
+    "NOEMAI": "youssef.elmounaime@gmail.com"
   },
   {
     "NOIMME": "Forgerons 2 - BF 3631 (parking)",
@@ -8618,10 +8618,10 @@
   },
   {
     "NOIMME": "Champreveyres 22",
-    "REFFOR": "313181.010 002.14",
-    "NOLOCO": "CHACON BERRAL Miguel Angel",
+    "REFFOR": "313181.010 002.16",
+    "NOLOCO": "AMARAL NUNES Ruben Carlos",
     "MOYPAID": "Ordre permanent",
-    "NOEMAI": "mymch2@gmail.com"
+    "NOEMAI": "rubenunes2011@hotmail.com"
   },
   {
     "NOIMME": "Champreveyres 22",
@@ -8835,10 +8835,10 @@
   },
   {
     "NOIMME": "Premier-Mars 47",
-    "REFFOR": "313231.001 002.14",
-    "NOLOCO": "TAVEIRA PIRES Alexandre, NASCIMENTO LOPES Lucinda",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "alex_barbazul@hotmail.com"
+    "REFFOR": "313231.001 002.16",
+    "NOLOCO": "KHAWAJA Ali Umair, Sunaina",
+    "MOYPAID": "QR Facture par e-mail",
+    "NOEMAI": "alitheumair@hotmail.com"
   },
   {
     "NOIMME": "Premier-Mars 47",
@@ -8982,10 +8982,10 @@
   },
   {
     "NOIMME": "Premier-Mars 47-49, parking",
-    "REFFOR": "313239.700 005.15",
-    "NOLOCO": "Vacant",
-    "MOYPAID": null,
-    "NOEMAI": ""
+    "REFFOR": "313239.700 005.16",
+    "NOLOCO": "KHAWAJA Ali Umair, Sunaina",
+    "MOYPAID": "Ordre permanent",
+    "NOEMAI": "alitheumair@hotmail.com"
   },
   {
     "NOIMME": "Premier-Mars 47-49, parking",
@@ -10879,10 +10879,10 @@
   },
   {
     "NOIMME": "Planches 32, places de parc",
-    "REFFOR": "320009.700 015.14",
-    "NOLOCO": "ARENOV SÀRL",
+    "REFFOR": "320009.700 015.16",
+    "NOLOCO": "CO'RÉAL ÉLECTRICITÉ SÀRL",
     "MOYPAID": "Ordre permanent",
-    "NOEMAI": "info@arenov.ch"
+    "NOEMAI": "info@coreal.ch"
   },
   {
     "NOIMME": "Planches 32, places de parc",
@@ -12538,10 +12538,10 @@
   },
   {
     "NOIMME": "Hôtel-de-Ville 7",
-    "REFFOR": "360021.030 002.22",
-    "NOLOCO": "VEROHANITRA Daniella",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "daniellaverohanitra@yahoo.com"
+    "REFFOR": "360021.030 002.23",
+    "NOLOCO": "Vacant",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Printanière 2",
@@ -13549,7 +13549,7 @@
     "REFFOR": "360413.020 002.10",
     "NOLOCO": "PUNTEL Giovanni, RUMO Carmen",
     "MOYPAID": "Ordre permanent",
-    "NOEMAI": ""
+    "NOEMAI": "giovanni.puntel@gmx.ch"
   },
   {
     "NOIMME": "Vinelzstrasse 6",
@@ -13703,7 +13703,7 @@
     "REFFOR": "360419.800 020.10",
     "NOLOCO": "PUNTEL Giovanni, RUMO Carmen",
     "MOYPAID": "Ordre permanent",
-    "NOEMAI": ""
+    "NOEMAI": "giovanni.puntel@gmx.ch"
   },
   {
     "NOIMME": "Vinelzstrasse 2-6, parking",
@@ -14456,10 +14456,10 @@
   },
   {
     "NOIMME": "Prés 3",
-    "REFFOR": "370101.020 002.12",
-    "NOLOCO": "SAUVAIN Terry",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "sauvain11@gmail.com"
+    "REFFOR": "370101.020 002.13",
+    "NOLOCO": "En cours de relocation",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Prés 3",
@@ -14743,10 +14743,10 @@
   },
   {
     "NOIMME": "Prés 3, parking",
-    "REFFOR": "370109.800 023.12",
-    "NOLOCO": "SAUVAIN Terry",
-    "MOYPAID": "Ordre permanent",
-    "NOEMAI": "sauvain11@gmail.com"
+    "REFFOR": "370109.800 023.13",
+    "NOLOCO": "Vacant",
+    "MOYPAID": null,
+    "NOEMAI": ""
   },
   {
     "NOIMME": "Saules 2",
@@ -20772,7 +20772,7 @@
     "NOIMME": "PPE Longschamps 18a-26b (11 villas)",
     "REFFOR": "810911.002 005.10",
     "NOLOCO": "ISCHER Jean-Michel",
-    "MOYPAID": "QR Facture par e-mail",
+    "MOYPAID": "Ordre permanent",
     "NOEMAI": "jeanmichel.ischer@yahoo.fr"
   },
   {
@@ -20863,7 +20863,7 @@
     "NOIMME": "PPE Longschamps 18a-26b, parkings",
     "REFFOR": "810919.800 007.10",
     "NOLOCO": "ISCHER Jean-Michel",
-    "MOYPAID": "QR Facture par e-mail",
+    "MOYPAID": "Ordre permanent",
     "NOEMAI": "jeanmichel.ischer@yahoo.fr"
   },
   {
@@ -20912,7 +20912,7 @@
     "NOIMME": "PPE Longschamps 18a-26b, parkings",
     "REFFOR": "810919.800 014.10",
     "NOLOCO": "ISCHER Jean-Michel",
-    "MOYPAID": "QR Facture par e-mail",
+    "MOYPAID": "Ordre permanent",
     "NOEMAI": "jeanmichel.ischer@yahoo.fr"
   },
   {

@@ -135,8 +135,16 @@ export class DataframeComponent {
         const valeur = ligne[col];
 
         if (filtre.type === 'text') {
-          const filtre_val = filtre.value?.toLowerCase() || '';
-          return filtre_val == '' || valeur?.toString().toLowerCase().includes(filtre_val);
+          const filtre_val = filtre.value?.trim();
+          if (!filtre_val) return true;
+
+          try {
+            const regex = new RegExp(filtre_val, 'i'); // 'i' pour ignorer la casse
+            return regex.test(valeur?.toString() || '');
+          } catch (e) {
+            // Si la RegExp est invalide, ignorer le filtre
+            return true;
+          }
         }
 
         if (filtre.type === 'number') {

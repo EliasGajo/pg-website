@@ -1,13 +1,42 @@
 <div class="page">
     <h2>Moyens de paiement</h2>
+    <table>
+        <tr>
+            <td>
+                <mat-form-field appearance="fill">
+                    <mat-label>Choisir des immeubles</mat-label>
+                    <mat-select [(ngModel)]="immeubles_selected" multiple (selectionChange)="update_immeubles()">
+                        <mat-option *ngFor="let immeuble of immeubles" [value]="immeuble">
+                        {{ immeuble }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </td>
+            <td>
+                <div *ngIf="immeubles_selected.length > 0">
+                    <h3>Immeubles sélectionnés :</h3>
+                    <ul>
+                        <li *ngFor="let immeuble of immeubles_selected">
+                        {{ immeuble }}
+                        <button mat-icon-button color="warn" (click)="supprimer_immeuble(immeuble)">
+                            <mat-icon>delete</mat-icon>
+                        </button>
+                        </li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+    </table>
+        
     <app-dataframe  
         export_title="Locataires - copropriétaires"
-        [data_to_load]="data"
+        [data_to_load]="immeubles_selected_data"
         [traductions_to_load]="traductions"
         table_max_height="600px"
         (data_filtered_update)="update_data_filtered($event)"
         >
         <button extra-button (click)="export_complet()">📤 Export complet</button>
+        <button extra-button (click)="copro_sans_email()">📤 Locataires sans email</button>
     </app-dataframe>
     <app-emails-publipostage [liste_email]="liste_email"></app-emails-publipostage>
 </div>
