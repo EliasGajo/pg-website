@@ -14,6 +14,7 @@ export class ExportCoproprietaireComponent {
   data_filtered: any[] = [];
   liste_email: any[] = [];
   traductions: {[key:string]:string} = {};
+  email_column: string = "NOEMAI";
 
   constructor(private exportExcelService: ExportExcelService) {}
 

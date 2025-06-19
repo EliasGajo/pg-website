@@ -24,6 +24,7 @@ export class ExportMoyenPaiementComponent {
   immeubles_selected_data: any[] = [];
   liste_email: any[] = [];
   traductions: {[key:string]:string} = {};
+  email_column: string = "NOEMAI";
 
   constructor(private zone: NgZone, private exportExcelService: ExportExcelService) {}
 

@@ -9,44 +9,52 @@ import { ExportExcelService } from '../services/export-excel.service';
   styleUrl: './emails-publipostage.component.css'
 })
 export class EmailsPublipostageComponent {
-  @Input() liste_email: any[] = [];
+  @Input() email_column: string = "";
+  @Input() data_to_load: any[] = [];
+  data_filtered: any[] = [];
   email_str: string = "";
   copied = false;
 
   constructor(private exportExcelService: ExportExcelService) {}
 
   ngOnChanges(changes: SimpleChanges): void {
-    if (changes['liste_email']) {
+    if (changes['data_to_load']) {
       this.clean_liste_email();
       this.compute_email_str();
     }
   }
 
   clean_liste_email() {
-    const emails = this.liste_email
-      .filter(email => !!email?.trim())
-      .map(email => email.trim().toLowerCase());
-
-    // Supprimer les doublons
-    this.liste_email = Array.from(new Set(emails));
+    const emails_unique = new Set<string>();
+    this.data_filtered = this.data_to_load
+      .filter(item => !!item[this.email_column]?.trim())
+      .map(item => ({...item, [this.email_column]: item[this.email_column].trim().toLowerCase()}))
+      .filter(item => {
+        if(emails_unique.has(item[this.email_column])) {
+          return false;
+        } else {
+          emails_unique.add(item[this.email_column]);
+          return true;
+        }
+      });
   }
 
   compute_email_str() {
     this.email_str = "";
-    for (let email of this.liste_email) {
+    for (let item of this.data_filtered) {
       if (this.email_str.length > 0) {
         this.email_str += ";";
       }
-      this.email_str += email;
+      this.email_str += item[this.email_column];
     }
   }
 
   exporter_liste_email() {
-    this.exportExcelService.exporter_liste(this.liste_email, 'Emails', 'Emails');
+    this.exportExcelService.exporter_liste(this.data_filtered, 'Emails', 'Emails');
   }
 
   copy_emails_to_clipboard() {
-    if (this.liste_email) {
+    if (this.data_filtered) {
       navigator.clipboard.writeText(this.email_str).then(() => {
         this.copied = true;
         setTimeout(() => this.copied = false, 3000); // Disparaît après 3s

@@ -8,5 +8,5 @@
     >
         <button extra-button (click)="proprio_sans_email()">📤 Propriétaires sans email</button>
     </app-dataframe>
-    <app-emails-publipostage [liste_email]="liste_email"></app-emails-publipostage>
+    <app-emails-publipostage [data_to_load]="data_filtered" [email_column]="email_column"></app-emails-publipostage>
 </div>

@@ -15,6 +15,7 @@ export class ExportProprietaireComponent {
   data_filtered: any[] = [];
   traductions: {[key:string]:string} = {};
   liste_email: any[] = [];
+  email_column: string = "NOEMAI";
 
   constructor(private zone: NgZone, private exportExcelService: ExportExcelService) {}
 
