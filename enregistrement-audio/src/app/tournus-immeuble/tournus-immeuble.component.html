@@ -33,13 +33,32 @@
         ></app-dataframe>
     </div>
 
+    <div class="popup-backdrop" *ngIf="showPopup">
+        <div class="popup">
+            <h2>Export tournus annuel</h2>
+            
+            <label>Année de début :</label>
+            <input type="number" [(ngModel)]="export_annee_start"><br><br>
+
+            <label>Année de fin :</label>
+            <input type="number" [(ngModel)]="export_annee_end"><br><br>
+
+            <div class="button-container">
+                <button (click)="export_tournus_annuel()">📤 Export Excel</button>
+                <button (click)="showPopup = false">Annuler</button>
+            </div>
+        </div>
+    </div>
+
     <app-dataframe 
     (data_filtered_update)="update_grouped_data_filtered($event)" 
     export_title="Tournus par objet" 
     [data_to_load]="grouped_data"
     [traductions_to_load]="tournus_result_traductions"
     table_max_height="500px"
-    ></app-dataframe>
+    >
+        <button extra-button (click)="load_export_tournus_annuel_popup()">📤 Export tournus annuel</button>
+    </app-dataframe>
 
     <h2>Nombre de tournus total : {{nb_tournus_tot}}</h2>
 

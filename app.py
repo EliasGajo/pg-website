@@ -7,6 +7,8 @@ from src.facture_debiteur import Facture_debiteur
 from src.tournus_immeuble import Tournus_immeuble
 from src.moyen_paiement import Moyen_paiement
 from src.coproprietaire import Coproprietaire
+from src.locataire import Locataire
+from src.proprietaire import Proprietaire
 import uvicorn
 
 app = FastAPI()
@@ -59,6 +61,26 @@ async def root(request: Request):
     #data = await request.json()
     values = Coproprietaire.get_all()
     traductions = Coproprietaire.get_traduction()
+    return {
+            "values": values,
+            "traductions": traductions
+            }
+
+@app.get("/locataire")
+async def root(request: Request):
+    #data = await request.json()
+    values = Locataire.get_all()
+    traductions = Locataire.get_traduction()
+    return {
+            "values": values,
+            "traductions": traductions
+            }
+
+@app.get("/proprietaire")
+async def root(request: Request):
+    #data = await request.json()
+    values = Proprietaire.get_all()
+    traductions = Proprietaire.get_traduction()
     return {
             "values": values,
             "traductions": traductions

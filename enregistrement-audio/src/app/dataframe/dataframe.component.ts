@@ -17,7 +17,7 @@ export class DataframeComponent {
   @Output() traductions_update = new EventEmitter<{[key:string]:string}>();
   colonnes: string[] = [];
   traductions: {[key:string]:string} = {};
-  backend_endpoint: string = '10.209.10.215:8000';
+  backend_endpoint: string = '10.209.10.213:8000';
   @Input() fetch_data_url: string = '';
   @Input() data_to_load: any[] = [];
   @Input() traductions_to_load: {[key:string]:string} = {};
@@ -107,6 +107,7 @@ export class DataframeComponent {
   type_detector(value: any): 'text' | 'number' | 'date' {
     if(value != null) {
       if (typeof value === 'number') return 'number';
+      if (typeof value === "boolean") return 'text';
       if (this.isProbablyDate(value)) return 'date';
     }
     return 'text';

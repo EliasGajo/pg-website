@@ -12,7 +12,9 @@ export class ExportDataComponent {
   data_types = [
     { id: 'exportFactureDebiteur', name: 'Factures débiteur', image: 'facture.webp' },
     { id: 'exportCoproprietaire', name: 'Copropriétaires', image: 'info.webp' },
-    { id: 'exportMoyenPaiement', name: 'Moyens de paiement', image: 'wallet.webp' }
+    { id: 'exportMoyenPaiement', name: 'Moyens de paiement', image: 'wallet.webp' },
+    { id: 'exportLocataire', name: 'Locataires', image: 'info.webp' },
+    { id: 'exportProprietaire', name: 'Propriétaires', image: 'info.webp' }
     // Ajouter les autres ici
   ];
 
