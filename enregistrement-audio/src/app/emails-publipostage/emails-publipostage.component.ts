@@ -11,6 +11,7 @@ import { ExportExcelService } from '../services/export-excel.service';
 export class EmailsPublipostageComponent {
   @Input() email_column: string = "";
   @Input() data_to_load: any[] = [];
+  @Input() traductions: {[key:string]:string} = {};
   data_filtered: any[] = [];
   email_str: string = "";
   copied = false;
@@ -50,7 +51,12 @@ export class EmailsPublipostageComponent {
   }
 
   exporter_liste_email() {
-    this.exportExcelService.exporter_liste(this.data_filtered, 'Emails', 'Emails');
+    this.exportExcelService.exporter_table(this.data_filtered, 'Emails', this.traductions);
+  }
+
+  exporter_liste_without_email() {
+    const data_without_email = this.data_to_load.filter(item => !item[this.email_column]?.trim());
+    this.exportExcelService.exporter_table(data_without_email, 'Sans email', this.traductions);
   }
 
   copy_emails_to_clipboard() {

@@ -8,5 +8,8 @@
             ✅ Copié !
         </div>
     </div>
-    <button (click)="exporter_liste_email()" class="btn-secondary">📤 Exporter les emails pour publipostage</button>
+    <div class="button-container">
+        <button (click)="exporter_liste_email()" class="btn-secondary">📤 Exporter les emails pour publipostage</button>
+        <button (click)="exporter_liste_without_email()" class="btn-secondary">📤 Exporter les lignes sans email</button>
+    </div>
 </section>
