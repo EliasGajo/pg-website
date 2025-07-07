@@ -1,22 +1,24 @@
 import { Component, NgZone, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { DataframeComponent } from '../dataframe/dataframe.component';
+import { ExportExcelService } from '../services/export-excel.service';
 import * as ExcelJS from 'exceljs';
 import * as FileSaver from 'file-saver';
 
 @Component({
   selector: 'app-export-facture-debiteur',
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, DataframeComponent],
   templateUrl: './export-facture-debiteur.component.html',
   styleUrl: './export-facture-debiteur.component.css'
 })
 export class ExportFactureDebiteurComponent {
 
-  data: any[] = [];
-  data_filtered: any[] = []; // Les données affichées
+  all_factures: any[] = [];
+  factures_filtered: any[] = []; // Les données affichées
   colonnes: string[] = [];
   traductions: {[key:string]:string} = {};
-  backend_endpoint: string = '10.209.10.215:8000';
+  backend_endpoint: string = '10.209.10.213:8000';
   isLoadingData = false;
 
   filtres: {
@@ -30,7 +32,7 @@ export class ExportFactureDebiteurComponent {
   colonne_triee: string = '';
   ordre_tri: 'asc' | 'desc' = 'asc';
 
-  constructor(private zone: NgZone, private cdRef: ChangeDetectorRef) {}
+  constructor(private zone: NgZone, private cdRef: ChangeDetectorRef, private exportExcelService: ExportExcelService) {}
 
   ngOnInit() {
     this.zone.run(() => {
@@ -42,129 +44,21 @@ export class ExportFactureDebiteurComponent {
       .then(response => response.json())
       .then(data => {
         this.traductions = data.traductions
-        this.data = JSON.parse(data.factures) || []
-        this.data_filtered = this.data;
-        if (this.data.length > 0) {
-          this.colonnes = Object.keys(this.data[0]); // On récupère les colonnes dynamiquement
-        }
-        this.initialiser_filtres();
-        this.isLoadingData = false;
-        this.cdRef.detectChanges();
+        this.all_factures = JSON.parse(data.factures) || []
+        this.factures_filtered = this.all_factures;
       })
       .catch(error => {
         console.error('Erreur lors du chargement des données : ', error);
-        this.isLoadingData = false;
       });
     });
   }
 
-  initialiser_filtres() {
-    if (this.data.length === 0) return;
-    this.colonnes.forEach(col => {
-      const sampleValue = this.data[0][col];
-      const type = this.type_detector(sampleValue);
-      this.filtres[col] = { type };
-
-      if (type === 'text') {
-        this.filtres[col].value = '';
-      } else {
-        this.filtres[col].min = '';
-        this.filtres[col].max = '';
-      }
-    });
-  }
-
-  type_detector(value: any): 'text' | 'number' | 'date' {
-    if (typeof value === 'number') return 'number';
-    if (!isNaN(Date.parse(value))) return 'date';
-    return 'text';
-  }
-
-  filtrer() {
-    this.data_filtered = this.data.filter(ligne => {
-      return this.colonnes.every(col => {
-        const filtre = this.filtres[col];
-        const valeur = ligne[col];
-
-        if (filtre.type === 'text') {
-          const filtre_val = filtre.value?.toLowerCase() || '';
-          return filtre_val == '' || valeur?.toString().toLowerCase().includes(filtre_val);
-        }
-
-        if (filtre.type === 'number') {
-          const valNum = Number(valeur);
-          const min = filtre.min ? Number(filtre.min) : -Infinity;
-          const max = filtre.max ? Number(filtre.max) : Infinity;
-          return !isNaN(valNum) && valNum >= min && valNum <= max;
-        }
-
-        if (filtre.type === 'date') {
-          const valDate = new Date(valeur);
-          const minDate = filtre.min ? new Date(filtre.min) : new Date(-8640000000000000);
-          const maxDate = filtre.max ? new Date(filtre.max) : new Date(8640000000000000);
-          return valDate >= minDate && valDate <= maxDate;
-        }
-
-        return true;
-      });
-    });
-    this.trier(this.colonne_triee, true); // pour garder le tri actif après filtrage
-  }
-
-  trier(colonne: string, interne: boolean = false) {
-    if (!interne && this.colonne_triee === colonne) {
-      this.ordre_tri = this.ordre_tri === 'asc' ? 'desc' : 'asc';
-    } else if (!interne) {
-      this.colonne_triee = colonne;
-      this.ordre_tri = 'asc';
-    }
-
-    this.data_filtered.sort((a, b) => {
-      const valA = a[colonne];
-      const valB = b[colonne];
-
-      if (valA == null) return -1;
-      if (valB == null) return 1;
-
-      if (typeof valA === 'number' && typeof valB === 'number') {
-        return this.ordre_tri === 'asc' ? valA - valB : valB - valA;
-      } else {
-        return this.ordre_tri === 'asc'
-          ? valA.toString().localeCompare(valB.toString())
-          : valB.toString().localeCompare(valA.toString());
-      }
-    });
-  }
-
-  exporterExcel() {
-    const data = this.clean_data_for_excel(this.data_filtered);
-    const workbook = new ExcelJS.Workbook();
-    const worksheet = workbook.addWorksheet('Factures débiteur');
-    const headers = [];
-    for (let key of this.colonnes) {
-      headers.push(this.traductions[key]);
-    }
-    worksheet.addRow(headers);
-
-    data.forEach(item => {
-      const row = [];
-      for (let key of this.colonnes) {
-        row.push(item[key]);
-      }
-      worksheet.addRow(row);
-    });
-
-    workbook.xlsx.writeBuffer().then((buffer: any) => {
-      const blob = new Blob([buffer], {
-        type:
-          'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-      });
-      FileSaver.saveAs(blob, 'factures_export.xlsx');
-    });
+  update_data_filtered(data_filtered: any[]) {
+    this.factures_filtered = data_filtered;
   }
 
   exporterExcelAlto() {
-    const data = this.clean_data_for_excel(this.data_filtered);
+    const data = this.clean_data_for_excel(this.factures_filtered);
     const workbook = new ExcelJS.Workbook();
     const worksheet = workbook.addWorksheet('Factures débiteur');
     worksheet.columns = [
