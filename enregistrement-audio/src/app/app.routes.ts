@@ -8,12 +8,14 @@ import { ExportLocataireComponent } from './export-locataire/export-locataire.co
 import { ExportProprietaireComponent } from './export-proprietaire/export-proprietaire.component';
 import { TournusImmeubleComponent } from './tournus-immeuble/tournus-immeuble.component';
 import { ExportMoyenPaiementComponent } from './export-moyen-paiement/export-moyen-paiement.component';
+import { ExportDiversDebiteurComponent } from './export-divers-debiteur/export-divers-debiteur.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
     {path: 'textGeneration', component: TextGenerationComponent},
     {path: 'exportData', component: ExportDataComponent},
     {path: 'exportFactureDebiteur', component: ExportFactureDebiteurComponent},
+    {path: 'exportDiversDebiteur', component: ExportDiversDebiteurComponent},
     {path: 'exportCoproprietaire', component: ExportCoproprietaireComponent},
     {path: 'exportLocataire', component: ExportLocataireComponent},
     {path: 'exportProprietaire', component: ExportProprietaireComponent},

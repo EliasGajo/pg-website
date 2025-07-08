@@ -11,6 +11,7 @@ import { CommonModule } from '@angular/common';
 export class ExportDataComponent {
   data_types = [
     { id: 'exportFactureDebiteur', name: 'Factures débiteur', image: 'facture.webp' },
+    { id: 'exportDiversDebiteur', name: 'Divers débiteur', image: 'facture.webp' },
     { id: 'exportCoproprietaire', name: 'Copropriétaires', image: 'info.webp' },
     { id: 'exportMoyenPaiement', name: 'Moyens de paiement', image: 'wallet.webp' },
     { id: 'exportLocataire', name: 'Locataires', image: 'info.webp' },

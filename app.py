@@ -4,6 +4,7 @@ from fastapi import Request
 from src.audio_to_text import Audio_to_text
 from src.chat_gpt_bot import Chat_gpt_bot
 from src.facture_debiteur import Facture_debiteur
+from src.divers_debiteur import Divers_debiteur
 from src.tournus_immeuble import Tournus_immeuble
 from src.moyen_paiement import Moyen_paiement
 from src.coproprietaire import Coproprietaire
@@ -33,6 +34,16 @@ async def root(request: Request):
     traductions = Facture_debiteur.get_traduction()
     return {
             "factures": factures,
+            "traductions": traductions
+            }
+
+@app.get("/divers-debiteur")
+async def root(request: Request):
+    #data = await request.json()
+    values = Divers_debiteur.get_all()
+    traductions = Divers_debiteur.get_traduction()
+    return {
+            "values": values,
             "traductions": traductions
             }
 
