@@ -25,6 +25,9 @@ export class DataframeComponent {
   isLoadingData = false;
   @Input() table_max_height: string = '900px';
 
+  modeRechercheAvancee = false;
+  valeurs_temp: {[colonne: string]: string} = {};
+
   filtres: {
     [colonne: string]: {
       type: 'text' | 'number' | 'date',
@@ -35,6 +38,12 @@ export class DataframeComponent {
   } = {};
   colonne_triee: string = '';
   ordre_tri: 'asc' | 'desc' = 'asc';
+
+  filtres_avances: {
+    [colonne: string]: string[]
+  } = {};
+
+  copied: {[colonne: string]: boolean} = {};
 
   constructor(private zone: NgZone, private cdRef: ChangeDetectorRef, private exportExcelService: ExportExcelService) {}
 
@@ -81,6 +90,9 @@ export class DataframeComponent {
     this.data_filtered_update.emit(this.data_filtered);
     if (this.data.length > 0) {
       this.colonnes = Object.keys(this.data[0]); // On récupère les colonnes dynamiquement
+      this.colonnes.forEach(col => {
+        this.filtres_avances[col] = [];
+      });
     }
     this.initialiser_filtres();
     this.isLoadingData = false;
@@ -197,6 +209,54 @@ export class DataframeComponent {
 
   exporterExcel() {
     this.exportExcelService.exporter_table(this.data_filtered, this.export_title, this.traductions);
+  }
+
+  copierColonne(colonne: string) {
+    const contenu = this.data_filtered.map(l => l[colonne] ?? '').join(';');
+    navigator.clipboard.writeText(contenu)
+      .then(() => {
+        this.copied[colonne] = true;
+        setTimeout(() => {
+          this.copied[colonne] = false;
+        }, 2000); // message disparaît après 2 secondes
+      })
+      .catch(err => {
+        console.error('Erreur de copie', err);
+      });
+  }
+
+  ajouterFiltre(col: string) {
+    const input = this.valeurs_temp[col]?.trim();
+    if (!input) return;
+    // Découper par point-virgule, trim chacun, filtrer les vides
+    const nouveauxFiltres = input
+      .split(';')
+      .map(v => v.trim())
+      .filter(v => v.length > 0);
+
+    this.filtres_avances[col].push(...nouveauxFiltres);
+    // Nettoyer les doublons
+    this.filtres_avances[col] = Array.from(new Set(this.filtres_avances[col]));
+    this.valeurs_temp[col] = '';
+    this.filtrerAvance();
+  }
+
+  retirerFiltre(col: string, index: number) {
+    this.filtres_avances[col].splice(index, 1);
+    this.filtrerAvance();
+  }
+
+  filtrerAvance() {
+    this.data_filtered = this.data.filter(ligne => {
+      return this.colonnes.every(col => {
+        const filtres = this.filtres_avances[col];
+        if (!filtres || filtres.length === 0) return true;
+        const valeur = ligne[col]?.toString().toLowerCase() || '';
+        return filtres.some(f => valeur.includes(f.toLowerCase()));
+      });
+    });
+    this.data_filtered_update.emit(this.data_filtered);
+    this.trier(this.colonne_triee, true);
   }
 
 }

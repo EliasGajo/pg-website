@@ -5,6 +5,9 @@
       <button (click)="exporterExcel()" >
         📤 Exporter en Excel
       </button>
+      <button (click)="modeRechercheAvancee = !modeRechercheAvancee">
+        🔍 Recherche avancée
+      </button>
       <ng-content select="[extra-button]"></ng-content>
     </div>
   </div>
@@ -19,7 +22,7 @@
             </span>
           </th>
         </tr>
-        <tr>
+        <tr *ngIf="!modeRechercheAvancee">
           <th *ngFor="let col of colonnes">
             <ng-container [ngSwitch]="filtres[col].type">
               <!-- Texte -->
@@ -51,6 +54,27 @@
                        (input)="filtrer()" />
               </div>
             </ng-container>
+          </th>
+        </tr>
+        <tr *ngIf="modeRechercheAvancee">
+          <th *ngFor="let col of colonnes">
+            <div class="tags">
+              <span *ngFor="let val of filtres_avances[col]; let i = index" class="tag">
+                {{ val }}
+                <button (click)="retirerFiltre(col, i)">×</button>
+              </span>
+            </div>
+            <input type="text" [(ngModel)]="valeurs_temp[col]" (keyup.enter)="ajouterFiltre(col)" placeholder="Ajouter filtre" />
+          </th>
+        </tr>
+        <tr *ngIf="modeRechercheAvancee">
+          <th *ngFor="let col of colonnes">
+            <div class="copy-wrapper">
+              <button (click)="copierColonne(col)">
+                📋 Copier
+              </button>
+              <span class="copied-message" *ngIf="copied[col]">Copié ✅</span>
+            </div>
           </th>
         </tr>
       </thead>
