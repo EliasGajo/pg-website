@@ -171,7 +171,7 @@ export class DataframeComponent {
           const valDate = new Date(valeur);
           const minDate = filtre.min ? new Date(filtre.min) : new Date(-8640000000000000);
           const maxDate = filtre.max ? new Date(filtre.max) : new Date(8640000000000000);
-          return valDate >= minDate && valDate <= maxDate;
+          return !valeur || (valDate >= minDate && valDate <= maxDate);
         }
 
         return true;

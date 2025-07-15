@@ -1,9 +1,10 @@
 import { Component, NgZone } from '@angular/core';
 import { DataframeComponent } from '../dataframe/dataframe.component';
+import { EmailsPublipostageComponent } from '../emails-publipostage/emails-publipostage.component';
 
 @Component({
   selector: 'app-export-locataire',
-  imports: [DataframeComponent],
+  imports: [DataframeComponent, EmailsPublipostageComponent],
   templateUrl: './export-locataire.component.html',
   styleUrl: './export-locataire.component.css'
 })
@@ -12,6 +13,7 @@ export class ExportLocataireComponent {
   all_locataire_actif: any[] = [];
   data_filtered: any[] = [];
   traductions: {[key:string]:string} = {};
+  email_column: string = "NOEMAI";
 
   constructor(private zone: NgZone) {}
 
