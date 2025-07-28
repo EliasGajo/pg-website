@@ -6,6 +6,7 @@
     export_title="Export des locataires" 
     table_max_height="750px"
     >
+        <button extra-button (click)="export_locataires_non_groupes()">📤 Export locataires non groupés</button>
     </app-dataframe>
 
     <app-emails-publipostage [data_to_load]="data_filtered" [email_column]="email_column" [traductions]="traductions"></app-emails-publipostage>

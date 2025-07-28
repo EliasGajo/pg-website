@@ -26,7 +26,7 @@ class Chat_gpt_bot:
         element = WebDriverWait(self.driver, 10).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, 'div[data-message-author-role="assistant"]'))
         )
-        time.sleep(6)
+        time.sleep(10)
         response_elem = self.driver.find_element("css selector", 'div[data-message-author-role="assistant"]')
         result = response_elem.text
         self.driver.close()

@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common';
 export class EmailGeneratorComponent {
   @Input() text_brut: string = ''; // Reçoit le transcript du service
   @Output() resultat = new EventEmitter<string>();
-  backend_endpoint: string = '10.209.10.215:8000';
+  backend_endpoint: string = '10.209.10.213:8000';
   isGeneratingMail = false;
 
   constructor(private zone: NgZone, private cdRef: ChangeDetectorRef) {}

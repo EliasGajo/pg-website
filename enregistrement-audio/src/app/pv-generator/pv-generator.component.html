@@ -1,1 +1,4 @@
-<p>pv-generator works!</p>
+<button (click)="generer_pv()">Générer PV</button>
+<div *ngIf="isGeneratingMail" class="loading-spinner">
+⏳ Génération en cours...
+</div>

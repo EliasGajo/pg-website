@@ -1,0 +1,6148 @@
+{"BVRGROUPE": [
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "110111.030 003.12"
+  },
+  {
+    "DAEMDD": "2015-08-14",
+    "DEBVRM": "Premier rappel - Août 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "110119.700 001.12"
+  },
+  {
+    "DAEMDD": "2014-03-19",
+    "DEBVRM": "Premier rappel - Mars 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210023.020 001.10"
+  },
+  {
+    "DAEMDD": "2014-04-24",
+    "DEBVRM": "Premier rappel - Avril 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210023.020 001.10"
+  },
+  {
+    "DAEMDD": "2014-05-20",
+    "DEBVRM": "Premier rappel - Mai 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210023.020 001.10"
+  },
+  {
+    "DAEMDD": "2015-08-14",
+    "DEBVRM": "Premier rappel - Août 2015",
+    "MONBVR": 1282.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210101.080 004.10"
+  },
+  {
+    "DAEMDD": "2016-01-21",
+    "DEBVRM": "Premier rappel - Janvier 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210101.080 004.10"
+  },
+  {
+    "DAEMDD": "2014-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2014",
+    "MONBVR": 1390.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210101.110 002.10"
+  },
+  {
+    "DAEMDD": "2015-02-23",
+    "DEBVRM": "Premier rappel - Février 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210101.110 002.10"
+  },
+  {
+    "DAEMDD": "2015-07-16",
+    "DEBVRM": "Premier rappel - Juillet 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210101.110 002.10"
+  },
+  {
+    "DAEMDD": "2015-08-14",
+    "DEBVRM": "Premier rappel - Août 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210101.110 002.10"
+  },
+  {
+    "DAEMDD": "2015-10-16",
+    "DEBVRM": "Premier rappel - Octobre 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210101.110 002.10"
+  },
+  {
+    "DAEMDD": "2015-12-22",
+    "DEBVRM": "Premier rappel - Décembre 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210101.110 002.10"
+  },
+  {
+    "DAEMDD": "2016-01-21",
+    "DEBVRM": "Premier rappel - Janvier 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210101.110 002.10"
+  },
+  {
+    "DAEMDD": "2015-08-14",
+    "DEBVRM": "Premier rappel - Août 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210101.120 002.12"
+  },
+  {
+    "DAEMDD": "2016-01-21",
+    "DEBVRM": "Premier rappel - Janvier 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210109.700 002.10"
+  },
+  {
+    "DAEMDD": "2015-09-16",
+    "DEBVRM": "Premier rappel - Septembre 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210109.700 005.12"
+  },
+  {
+    "DAEMDD": "2014-08-20",
+    "DEBVRM": "Premier rappel - Août 2014",
+    "MONBVR": 170.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210109.700 005.12"
+  },
+  {
+    "DAEMDD": "2015-08-14",
+    "DEBVRM": "Premier rappel - Août 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210109.700 005.12"
+  },
+  {
+    "DAEMDD": "2015-10-16",
+    "DEBVRM": "Premier rappel - Octobre 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210109.700 007.12"
+  },
+  {
+    "DAEMDD": "2016-01-21",
+    "DEBVRM": "Premier rappel - Janvier 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210109.800 010.10"
+  },
+  {
+    "DAEMDD": "2020-04-16",
+    "DEBVRM": "Premier rappel - Avril 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210132.010 001.14"
+  },
+  {
+    "DAEMDD": "2023-08-29",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "210172.060 001.12"
+  },
+  {
+    "DAEMDD": "2015-09-16",
+    "DEBVRM": "Premier rappel - Septembre 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "210203.040 003.10"
+  },
+  {
+    "DAEMDD": "2017-01-20",
+    "DEBVRM": "Premier rappel - Janvier 2017",
+    "MONBVR": 3750.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310031.010 002.12"
+  },
+  {
+    "DAEMDD": "2017-02-16",
+    "DEBVRM": "Mise en demeure - Février 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310031.010 002.12"
+  },
+  {
+    "DAEMDD": "2016-09-15",
+    "DEBVRM": "Premier rappel - Septembre 2016",
+    "MONBVR": 1740.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310031.020 003.10"
+  },
+  {
+    "DAEMDD": "2017-01-20",
+    "DEBVRM": "Premier rappel - Janvier 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310031.020 003.10"
+  },
+  {
+    "DAEMDD": "2017-11-16",
+    "DEBVRM": "Premier rappel - Novembre 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310031.030 006.14"
+  },
+  {
+    "DAEMDD": "2017-04-13",
+    "DEBVRM": "Premier rappel - Avril 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310031.050 001.10"
+  },
+  {
+    "DAEMDD": "2017-08-11",
+    "DEBVRM": "Premier rappel - Août 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310031.050 002.14"
+  },
+  {
+    "DAEMDD": "2017-09-15",
+    "DEBVRM": "Premier rappel - Septembre 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310031.050 002.14"
+  },
+  {
+    "DAEMDD": "2017-10-16",
+    "DEBVRM": "Premier rappel - Octobre 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310031.050 002.14"
+  },
+  {
+    "DAEMDD": "2016-10-17",
+    "DEBVRM": "Premier rappel - Octobre 2016",
+    "MONBVR": 20.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310031.050 003.10"
+  },
+  {
+    "DAEMDD": "2016-04-14",
+    "DEBVRM": "Premier rappel - Avril 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310031.050 004.10"
+  },
+  {
+    "DAEMDD": "2017-07-19",
+    "DEBVRM": "Premier rappel - Juillet 2017",
+    "MONBVR": 140.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310039.700 004.12"
+  },
+  {
+    "DAEMDD": "2017-08-11",
+    "DEBVRM": "Premier rappel - Août 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310039.700 004.12"
+  },
+  {
+    "DAEMDD": "2016-09-15",
+    "DEBVRM": "Premier rappel - Septembre 2016",
+    "MONBVR": 3660.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310071.002 001.12"
+  },
+  {
+    "DAEMDD": "2016-10-17",
+    "DEBVRM": "Premier rappel - Octobre 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310071.002 001.12"
+  },
+  {
+    "DAEMDD": "2016-11-16",
+    "DEBVRM": "Premier rappel - Novembre 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310071.002 001.12"
+  },
+  {
+    "DAEMDD": "2015-09-29",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 40.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310071.002 001.12"
+  },
+  {
+    "DAEMDD": "2015-09-29",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310071.002 001.12"
+  },
+  {
+    "DAEMDD": "2015-06-22",
+    "DEBVRM": "Premier rappel - Juin 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310071.020 002.14"
+  },
+  {
+    "DAEMDD": "2016-03-15",
+    "DEBVRM": "Premier rappel - Mars 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310071.020 003.14"
+  },
+  {
+    "DAEMDD": "2015-08-14",
+    "DEBVRM": "Premier rappel - Août 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.003 001.12"
+  },
+  {
+    "DAEMDD": "2014-07-17",
+    "DEBVRM": "Premier rappel - Juillet 2014",
+    "MONBVR": 1789.35,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.020 001.10"
+  },
+  {
+    "DAEMDD": "2014-08-20",
+    "DEBVRM": "Premier rappel - Août 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.020 001.10"
+  },
+  {
+    "DAEMDD": "2014-11-24",
+    "DEBVRM": "Premier rappel - Novembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.020 001.10"
+  },
+  {
+    "DAEMDD": "2015-02-23",
+    "DEBVRM": "Premier rappel - Février 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.020 001.10"
+  },
+  {
+    "DAEMDD": "2015-03-26",
+    "DEBVRM": "Premier rappel - Mars 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.020 001.10"
+  },
+  {
+    "DAEMDD": "2015-06-22",
+    "DEBVRM": "Premier rappel - Juin 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.020 001.10"
+  },
+  {
+    "DAEMDD": "2015-07-16",
+    "DEBVRM": "Premier rappel - Juillet 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.020 001.10"
+  },
+  {
+    "DAEMDD": "2016-05-13",
+    "DEBVRM": "Premier rappel - Mai 2016",
+    "MONBVR": 2970.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.020 001.12"
+  },
+  {
+    "DAEMDD": "2016-07-18",
+    "DEBVRM": "Premier rappel - Juillet 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.020 001.12"
+  },
+  {
+    "DAEMDD": "2016-08-19",
+    "DEBVRM": "Mise en demeure - Août 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310081.020 001.12"
+  },
+  {
+    "DAEMDD": "2014-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.030 002.12"
+  },
+  {
+    "DAEMDD": "2015-02-23",
+    "DEBVRM": "Premier rappel - Février 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.030 002.12"
+  },
+  {
+    "DAEMDD": "2015-03-26",
+    "DEBVRM": "Premier rappel - Mars 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.030 002.12"
+  },
+  {
+    "DAEMDD": "2015-04-24",
+    "DEBVRM": "Premier rappel - Avril 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.030 002.12"
+  },
+  {
+    "DAEMDD": "2015-06-22",
+    "DEBVRM": "Premier rappel - Juin 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.030 002.12"
+  },
+  {
+    "DAEMDD": "2015-07-16",
+    "DEBVRM": "Premier rappel - Juillet 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.030 002.12"
+  },
+  {
+    "DAEMDD": "2014-09-26",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 20.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310081.030 002.14"
+  },
+  {
+    "DAEMDD": "2015-09-16",
+    "DEBVRM": "Premier rappel - Septembre 2015",
+    "MONBVR": 250.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310089.900 002.14"
+  },
+  {
+    "DAEMDD": "2016-04-14",
+    "DEBVRM": "Premier rappel - Avril 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310089.900 002.14"
+  },
+  {
+    "DAEMDD": "2016-05-13",
+    "DEBVRM": "Premier rappel - Mai 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310089.900 002.14"
+  },
+  {
+    "DAEMDD": "2016-08-19",
+    "DEBVRM": "Premier rappel - Août 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310089.900 002.14"
+  },
+  {
+    "DAEMDD": "2016-10-17",
+    "DEBVRM": "Premier rappel - Octobre 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310089.900 002.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310091.010 002.14"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Premier rappel - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310092.020 001.22"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Mise en demeure - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310092.020 001.22"
+  },
+  {
+    "DAEMDD": "2016-03-15",
+    "DEBVRM": "Premier rappel - Mars 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310101.050 001.12"
+  },
+  {
+    "DAEMDD": "2016-04-14",
+    "DEBVRM": "Premier rappel - Avril 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310119.700 001.10"
+  },
+  {
+    "DAEMDD": "2017-04-13",
+    "DEBVRM": "Premier rappel - Avril 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310121.010 001.10"
+  },
+  {
+    "DAEMDD": "2017-03-17",
+    "DEBVRM": "Premier rappel - Mars 2017",
+    "MONBVR": 190.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310129.900 002.10"
+  },
+  {
+    "DAEMDD": "2017-04-13",
+    "DEBVRM": "Premier rappel - Avril 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310129.900 002.10"
+  },
+  {
+    "DAEMDD": "2017-03-17",
+    "DEBVRM": "Premier rappel - Mars 2017",
+    "MONBVR": 170.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310129.900 004.10"
+  },
+  {
+    "DAEMDD": "2017-04-13",
+    "DEBVRM": "Premier rappel - Avril 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310129.900 004.10"
+  },
+  {
+    "DAEMDD": "2016-11-16",
+    "DEBVRM": "Premier rappel - Novembre 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310131.003 002.12"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310131.010 002.10"
+  },
+  {
+    "DAEMDD": "2016-09-15",
+    "DEBVRM": "Premier rappel - Septembre 2016",
+    "MONBVR": 3170.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310131.020 002.14"
+  },
+  {
+    "DAEMDD": "2016-10-17",
+    "DEBVRM": "Mise en demeure - Octobre 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310131.020 002.14"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310139.700 001.12"
+  },
+  {
+    "DAEMDD": "2016-10-17",
+    "DEBVRM": "Premier rappel - Octobre 2016",
+    "MONBVR": 20.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310139.700 005.12"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310139.900 001.10"
+  },
+  {
+    "DAEMDD": "2015-08-14",
+    "DEBVRM": "Premier rappel - Août 2015",
+    "MONBVR": 190.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310149.900 001.10"
+  },
+  {
+    "DAEMDD": "2015-10-16",
+    "DEBVRM": "Premier rappel - Octobre 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310149.900 001.10"
+  },
+  {
+    "DAEMDD": "2017-01-20",
+    "DEBVRM": "Premier rappel - Janvier 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310151.001 056.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310152.002 016.10"
+  },
+  {
+    "DAEMDD": "2017-05-18",
+    "DEBVRM": "Premier rappel - Mai 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310153.002 003.10"
+  },
+  {
+    "DAEMDD": "2017-05-18",
+    "DEBVRM": "Premier rappel - Mai 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310153.002 011.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.700 041.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.700 042.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.700 043.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.700 044.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.700 045.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.700 046.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.700 047.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.700 048.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.702 014.10"
+  },
+  {
+    "DAEMDD": "2017-05-18",
+    "DEBVRM": "Premier rappel - Mai 2017",
+    "MONBVR": 125.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.702 127.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.702 127.10"
+  },
+  {
+    "DAEMDD": "2017-05-18",
+    "DEBVRM": "Premier rappel - Mai 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.702 135.10"
+  },
+  {
+    "DAEMDD": "2017-05-18",
+    "DEBVRM": "Premier rappel - Mai 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.702 140.10"
+  },
+  {
+    "DAEMDD": "2017-05-18",
+    "DEBVRM": "Premier rappel - Mai 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.702 141.10"
+  },
+  {
+    "DAEMDD": "2017-05-18",
+    "DEBVRM": "Premier rappel - Mai 2017",
+    "MONBVR": 205.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.702 142.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.702 142.10"
+  },
+  {
+    "DAEMDD": "2017-05-18",
+    "DEBVRM": "Premier rappel - Mai 2017",
+    "MONBVR": 125.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.702 146.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.702 146.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.702 161.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.702 162.10"
+  },
+  {
+    "DAEMDD": "2017-05-18",
+    "DEBVRM": "Premier rappel - Mai 2017",
+    "MONBVR": 165.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.702 170.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.702 170.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.703 018.10"
+  },
+  {
+    "DAEMDD": "2017-05-18",
+    "DEBVRM": "Premier rappel - Mai 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.703 021.10"
+  },
+  {
+    "DAEMDD": "2017-06-16",
+    "DEBVRM": "Premier rappel - Juin 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.703 023.10"
+  },
+  {
+    "DAEMDD": "2016-11-16",
+    "DEBVRM": "Premier rappel - Novembre 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310159.703 033.10"
+  },
+  {
+    "DAEMDD": "2019-12-27",
+    "DEBVRM": "Premier rappel - Décembre 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310161.002 001.14"
+  },
+  {
+    "DAEMDD": "2020-10-15",
+    "DEBVRM": "Premier rappel - Octobre 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310161.020 002.14"
+  },
+  {
+    "DAEMDD": "2021-02-16",
+    "DEBVRM": "Premier rappel - Février 2021",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310189.900 003.12"
+  },
+  {
+    "DAEMDD": "2021-02-16",
+    "DEBVRM": "Premier rappel - Février 2021",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310189.900 004.12"
+  },
+  {
+    "DAEMDD": "2017-02-16",
+    "DEBVRM": "Premier rappel - Février 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310211.002 001.12"
+  },
+  {
+    "DAEMDD": "2016-09-15",
+    "DEBVRM": "Premier rappel - Septembre 2016",
+    "MONBVR": 4260.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310212.010 001.10"
+  },
+  {
+    "DAEMDD": "2016-10-17",
+    "DEBVRM": "Premier rappel - Octobre 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310212.010 001.10"
+  },
+  {
+    "DAEMDD": "2016-11-16",
+    "DEBVRM": "Mise en demeure - Novembre 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310212.010 001.10"
+  },
+  {
+    "DAEMDD": "2015-07-16",
+    "DEBVRM": "Premier rappel - Juillet 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310219.900 001.10"
+  },
+  {
+    "DAEMDD": "2017-01-20",
+    "DEBVRM": "Premier rappel - Janvier 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310221.003 001.10"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310241.010 001.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310641.010 001.16"
+  },
+  {
+    "DAEMDD": "2022-10-13",
+    "DEBVRM": "Premier rappel - Octobre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310301.010 001.12"
+  },
+  {
+    "DAEMDD": "2022-11-15",
+    "DEBVRM": "Mise en demeure - Novembre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310301.010 001.12"
+  },
+  {
+    "DAEMDD": "2023-03-14",
+    "DEBVRM": "Mise en demeure - Mars 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310301.010 001.12"
+  },
+  {
+    "DAEMDD": "2023-03-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310301.030 001.18"
+  },
+  {
+    "DAEMDD": "2022-03-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310301.030 003.20"
+  },
+  {
+    "DAEMDD": "2022-03-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310301.030 003.20"
+  },
+  {
+    "DAEMDD": "2023-01-13",
+    "DEBVRM": "Premier rappel - Janvier 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310311.020 001.16"
+  },
+  {
+    "DAEMDD": "2023-02-13",
+    "DEBVRM": "Mise en demeure - Février 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310311.020 001.16"
+  },
+  {
+    "DAEMDD": "2021-05-18",
+    "DEBVRM": "Premier rappel - Mai 2021",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310311.020 002.14"
+  },
+  {
+    "DAEMDD": "2021-06-15",
+    "DEBVRM": "Premier rappel - Juin 2021",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310311.020 002.14"
+  },
+  {
+    "DAEMDD": "2021-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2021",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310311.020 002.14"
+  },
+  {
+    "DAEMDD": "2020-07-14",
+    "DEBVRM": "Premier rappel - Juillet 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310311.020 002.14"
+  },
+  {
+    "DAEMDD": "2020-08-13",
+    "DEBVRM": "Premier rappel - Août 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310311.020 002.14"
+  },
+  {
+    "DAEMDD": "2020-10-15",
+    "DEBVRM": "Premier rappel - Octobre 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310311.020 002.14"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2022-11-15",
+    "DEBVRM": "Mise en demeure - Novembre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311421.040 002.10"
+  },
+  {
+    "DAEMDD": "2022-11-15",
+    "DEBVRM": "Mise en demeure - Novembre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311429.700 003.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311429.700 003.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311429.700 003.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311429.700 003.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311429.700 003.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311429.700 003.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311429.700 004.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311429.700 004.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311429.700 004.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311429.700 004.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311429.700 004.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311429.700 004.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311429.700 004.10"
+  },
+  {
+    "DAEMDD": "2021-10-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311429.700 004.10"
+  },
+  {
+    "DAEMDD": "2022-08-16",
+    "DEBVRM": "Mise en demeure - Août 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311429.700 009.18"
+  },
+  {
+    "DAEMDD": "2021-12-15",
+    "DEBVRM": "Premier rappel - Décembre 2021",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350049.800 022.12"
+  },
+  {
+    "DAEMDD": "2025-04-15",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310352.010 001.20"
+  },
+  {
+    "DAEMDD": "2025-04-15",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310352.010 001.20"
+  },
+  {
+    "DAEMDD": "2025-04-15",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310352.010 001.20"
+  },
+  {
+    "DAEMDD": "2025-04-15",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310352.010 001.20"
+  },
+  {
+    "DAEMDD": "2025-04-15",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310352.010 001.20"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310352.030 001.22"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310359.700 006.14"
+  },
+  {
+    "DAEMDD": "2023-10-16",
+    "DEBVRM": "Premier rappel - Octobre 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310401.050 003.12"
+  },
+  {
+    "DAEMDD": "2023-11-14",
+    "DEBVRM": "Premier rappel - Novembre 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310401.050 003.12"
+  },
+  {
+    "DAEMDD": "2023-12-13",
+    "DEBVRM": "Premier rappel - Décembre 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310401.050 003.12"
+  },
+  {
+    "DAEMDD": "2023-02-15",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310401.050 003.12"
+  },
+  {
+    "DAEMDD": "2023-02-15",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310401.050 003.12"
+  },
+  {
+    "DAEMDD": "2023-02-15",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310401.050 003.12"
+  },
+  {
+    "DAEMDD": "2023-02-15",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310401.050 003.12"
+  },
+  {
+    "DAEMDD": "2023-02-15",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310401.050 003.12"
+  },
+  {
+    "DAEMDD": "2023-03-14",
+    "DEBVRM": "Premier rappel - Mars 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310401.050 003.12"
+  },
+  {
+    "DAEMDD": "2023-04-14",
+    "DEBVRM": "Premier rappel - Avril 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310401.050 003.12"
+  },
+  {
+    "DAEMDD": "2023-05-15",
+    "DEBVRM": "Premier rappel - Mai 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310401.050 003.12"
+  },
+  {
+    "DAEMDD": "2023-06-13",
+    "DEBVRM": "Premier rappel - Juin 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310401.050 003.12"
+  },
+  {
+    "DAEMDD": "2023-07-13",
+    "DEBVRM": "Premier rappel - Juillet 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310401.050 003.12"
+  },
+  {
+    "DAEMDD": "2023-08-15",
+    "DEBVRM": "Premier rappel - Août 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310401.050 003.12"
+  },
+  {
+    "DAEMDD": "2023-09-14",
+    "DEBVRM": "Premier rappel - Septembre 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310401.050 003.12"
+  },
+  {
+    "DAEMDD": "2018-12-13",
+    "DEBVRM": "Premier rappel - Décembre 2018",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310401.050 004.10"
+  },
+  {
+    "DAEMDD": "2018-07-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310471.002 001.10"
+  },
+  {
+    "DAEMDD": "2018-07-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310471.002 001.10"
+  },
+  {
+    "DAEMDD": "2019-01-18",
+    "DEBVRM": "Premier rappel - Janvier 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310471.002 001.12"
+  },
+  {
+    "DAEMDD": "2019-03-29",
+    "DEBVRM": "Premier rappel - Mars 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310471.020 001.10"
+  },
+  {
+    "DAEMDD": "2019-04-16",
+    "DEBVRM": "Premier rappel - Avril 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310472.010 001.12"
+  },
+  {
+    "DAEMDD": "2018-11-13",
+    "DEBVRM": "Premier rappel - Novembre 2018",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310472.030 001.10"
+  },
+  {
+    "DAEMDD": "2019-01-18",
+    "DEBVRM": "Premier rappel - Janvier 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310472.030 001.10"
+  },
+  {
+    "DAEMDD": "2019-04-16",
+    "DEBVRM": "Premier rappel - Avril 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310472.030 001.10"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 20.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313231.010 001.22"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313231.020 002.14"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313231.020 002.14"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313231.020 002.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313231.020 002.14"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313241.030 002.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313241.040 002.12"
+  },
+  {
+    "DAEMDD": "2025-05-07",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313241.060 003.10"
+  },
+  {
+    "DAEMDD": "2025-05-07",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313241.060 003.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313249.700 005.14"
+  },
+  {
+    "DAEMDD": "2025-05-07",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313249.700 009.12"
+  },
+  {
+    "DAEMDD": "2025-05-07",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313249.700 009.12"
+  },
+  {
+    "DAEMDD": "2025-05-07",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313249.700 009.12"
+  },
+  {
+    "DAEMDD": "2025-05-07",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313249.900 005.10"
+  },
+  {
+    "DAEMDD": "2025-05-07",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313249.900 005.10"
+  },
+  {
+    "DAEMDD": "2025-05-07",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313249.900 005.10"
+  },
+  {
+    "DAEMDD": "2025-05-07",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313249.900 012.18"
+  },
+  {
+    "DAEMDD": "2025-05-07",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313249.900 012.18"
+  },
+  {
+    "DAEMDD": "2025-05-07",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313249.900 012.18"
+  },
+  {
+    "DAEMDD": "2019-01-18",
+    "DEBVRM": "Premier rappel - Janvier 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313289.700 006.10"
+  },
+  {
+    "DAEMDD": "2019-04-02",
+    "DEBVRM": "Mise en demeure - Février 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "313289.700 006.10"
+  },
+  {
+    "DAEMDD": "2020-08-13",
+    "DEBVRM": "Premier rappel - Août 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313289.700 006.10"
+  },
+  {
+    "DAEMDD": "2022-01-25",
+    "DEBVRM": "Premier rappel - Janvier 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313289.700 006.10"
+  },
+  {
+    "DAEMDD": "2022-07-13",
+    "DEBVRM": "Premier rappel - Juillet 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313289.700 006.12"
+  },
+  {
+    "DAEMDD": "2022-08-16",
+    "DEBVRM": "Premier rappel - Août 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313289.700 006.12"
+  },
+  {
+    "DAEMDD": "2022-09-15",
+    "DEBVRM": "Premier rappel - Septembre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313289.700 006.12"
+  },
+  {
+    "DAEMDD": "2022-10-13",
+    "DEBVRM": "Premier rappel - Octobre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313289.700 006.12"
+  },
+  {
+    "DAEMDD": "2022-11-15",
+    "DEBVRM": "Mise en demeure - Novembre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "313289.700 006.12"
+  },
+  {
+    "DAEMDD": "2022-12-14",
+    "DEBVRM": "Premier rappel - Décembre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313289.700 006.12"
+  },
+  {
+    "DAEMDD": "2022-06-22",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313289.700 006.12"
+  },
+  {
+    "DAEMDD": "2022-06-22",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313289.700 006.12"
+  },
+  {
+    "DAEMDD": "2022-06-22",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313289.700 006.12"
+  },
+  {
+    "DAEMDD": "2022-06-22",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313289.700 006.12"
+  },
+  {
+    "DAEMDD": "2022-06-22",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313289.700 006.12"
+  },
+  {
+    "DAEMDD": "2014-08-20",
+    "DEBVRM": "Premier rappel - Août 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310501.020 001.10"
+  },
+  {
+    "DAEMDD": "2014-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310509.900 002.12"
+  },
+  {
+    "DAEMDD": "2014-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310511.010 001.12"
+  },
+  {
+    "DAEMDD": "2014-08-20",
+    "DEBVRM": "Premier rappel - Août 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310519.900 003.10"
+  },
+  {
+    "DAEMDD": "2020-04-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310551.010 001.12"
+  },
+  {
+    "DAEMDD": "2020-04-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310551.010 001.12"
+  },
+  {
+    "DAEMDD": "2020-04-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310551.010 001.12"
+  },
+  {
+    "DAEMDD": "2020-04-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310551.010 001.12"
+  },
+  {
+    "DAEMDD": "2020-04-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310551.010 001.12"
+  },
+  {
+    "DAEMDD": "2020-04-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310551.010 001.12"
+  },
+  {
+    "DAEMDD": "2019-09-23",
+    "DEBVRM": "Premier rappel - Septembre 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310552.010 002.12"
+  },
+  {
+    "DAEMDD": "2019-12-27",
+    "DEBVRM": "Premier rappel - Décembre 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310552.030 001.12"
+  },
+  {
+    "DAEMDD": "2019-09-23",
+    "DEBVRM": "Mise en demeure - Septembre 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310554.040 002.14"
+  },
+  {
+    "DAEMDD": "2020-01-08",
+    "DEBVRM": "Mise en demeure - Décembre 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310554.040 002.14"
+  },
+  {
+    "DAEMDD": "2020-02-18",
+    "DEBVRM": "Mise en demeure - Février 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310554.040 002.14"
+  },
+  {
+    "DAEMDD": "2020-03-13",
+    "DEBVRM": "Premier rappel - Mars 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310556.003 001.12"
+  },
+  {
+    "DAEMDD": "2019-09-23",
+    "DEBVRM": "Premier rappel - Septembre 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310556.003 002.12"
+  },
+  {
+    "DAEMDD": "2020-04-29",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310556.010 002.12"
+  },
+  {
+    "DAEMDD": "2020-04-29",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310556.010 002.12"
+  },
+  {
+    "DAEMDD": "2020-04-29",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310556.010 002.12"
+  },
+  {
+    "DAEMDD": "2020-04-29",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310556.010 002.12"
+  },
+  {
+    "DAEMDD": "2020-02-13",
+    "DEBVRM": "Mise en demeure - Février 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310557.020 002.10"
+  },
+  {
+    "DAEMDD": "2020-03-13",
+    "DEBVRM": "Mise en demeure - Mars 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310557.020 002.10"
+  },
+  {
+    "DAEMDD": "2020-03-13",
+    "DEBVRM": "Mise en demeure - Mars 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310558.003 001.12"
+  },
+  {
+    "DAEMDD": "2020-03-13",
+    "DEBVRM": "Premier rappel - Mars 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310558.030 001.10"
+  },
+  {
+    "DAEMDD": "2020-01-23",
+    "DEBVRM": "Premier rappel - Janvier 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310558.030 002.10"
+  },
+  {
+    "DAEMDD": "2019-12-27",
+    "DEBVRM": "Premier rappel - Décembre 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310558.040 002.12"
+  },
+  {
+    "DAEMDD": "2020-01-23",
+    "DEBVRM": "Mise en demeure - Janvier 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310558.040 002.12"
+  },
+  {
+    "DAEMDD": "2020-05-14",
+    "DEBVRM": "Mise en demeure - Mai 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310558.040 002.12"
+  },
+  {
+    "DAEMDD": "2020-03-13",
+    "DEBVRM": "Premier rappel - Mars 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310559.800 019.14"
+  },
+  {
+    "DAEMDD": "2020-03-13",
+    "DEBVRM": "Mise en demeure - Mars 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310559.800 024.14"
+  },
+  {
+    "DAEMDD": "2020-02-24",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310559.800 024.14"
+  },
+  {
+    "DAEMDD": "2020-02-24",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310559.800 024.14"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310571.010 002.12"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310579.900 001.12"
+  },
+  {
+    "DAEMDD": "2014-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310601.030 003.10"
+  },
+  {
+    "DAEMDD": "2014-09-24",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310601.030 003.10"
+  },
+  {
+    "DAEMDD": "2014-09-24",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310601.030 003.10"
+  },
+  {
+    "DAEMDD": "2014-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310601.040 003.10"
+  },
+  {
+    "DAEMDD": "2014-09-17",
+    "DEBVRM": "Premier rappel - Septembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310603.030 002.10"
+  },
+  {
+    "DAEMDD": "2014-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310609.900 004.10"
+  },
+  {
+    "DAEMDD": "2014-08-20",
+    "DEBVRM": "Premier rappel - Août 2014",
+    "MONBVR": 190.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310619.900 003.12"
+  },
+  {
+    "DAEMDD": "2014-11-24",
+    "DEBVRM": "Premier rappel - Novembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310619.900 003.12"
+  },
+  {
+    "DAEMDD": "2024-11-14",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310621.020 001.16"
+  },
+  {
+    "DAEMDD": "2024-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310621.020 001.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310621.030 001.16"
+  },
+  {
+    "DAEMDD": "2024-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310629.700 010.18"
+  },
+  {
+    "DAEMDD": "2024-11-14",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310629.700 010.18"
+  },
+  {
+    "DAEMDD": "2024-11-14",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310629.700 010.18"
+  },
+  {
+    "DAEMDD": "2024-11-14",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310629.700 010.18"
+  },
+  {
+    "DAEMDD": "2025-01-14",
+    "DEBVRM": "Premier rappel - Janvier 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310671.003 001.12"
+  },
+  {
+    "DAEMDD": "2025-02-13",
+    "DEBVRM": "Premier rappel - Février 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310671.003 001.12"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Premier rappel - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310671.003 001.12"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310671.003 001.12"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310671.003 001.12"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310671.003 001.12"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310671.010 003.12"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Mise en demeure - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310671.010 003.12"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310673.020 001.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310673.020 001.14"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310681.040 002.12"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310681.050 001.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310681.060 002.10"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Mise en demeure - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310681.070 002.10"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310682.004 001.12"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Mise en demeure - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310682.004 001.12"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310682.004 002.14"
+  },
+  {
+    "DAEMDD": "2022-01-25",
+    "DEBVRM": "Premier rappel - Janvier 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310683.004 001.12"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310687.900 009.20"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310687.900 013.14"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310689.700 004.12"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310689.700 011.20"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310689.700 011.20"
+  },
+  {
+    "DAEMDD": "2016-05-13",
+    "DEBVRM": "Premier rappel - Mai 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.002 001.12"
+  },
+  {
+    "DAEMDD": "2016-05-13",
+    "DEBVRM": "Premier rappel - Mai 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.002 002.12"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.002 003.12"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.002 004.12"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.020 002.12"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.050 002.10"
+  },
+  {
+    "DAEMDD": "2016-05-13",
+    "DEBVRM": "Premier rappel - Mai 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.060 002.14"
+  },
+  {
+    "DAEMDD": "2016-05-13",
+    "DEBVRM": "Mise en demeure - Mai 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310701.060 004.10"
+  },
+  {
+    "DAEMDD": "2016-05-13",
+    "DEBVRM": "Premier rappel - Mai 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.070 004.12"
+  },
+  {
+    "DAEMDD": "2016-05-13",
+    "DEBVRM": "Mise en demeure - Mai 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310701.080 002.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.090 003.12"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.090 004.12"
+  },
+  {
+    "DAEMDD": "2016-05-13",
+    "DEBVRM": "Premier rappel - Mai 2016",
+    "MONBVR": 1300.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.100 002.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.100 002.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.100 004.10"
+  },
+  {
+    "DAEMDD": "2016-05-13",
+    "DEBVRM": "Mise en demeure - Mai 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "310701.110 002.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.130 002.10"
+  },
+  {
+    "DAEMDD": "2016-05-13",
+    "DEBVRM": "Premier rappel - Mai 2016",
+    "MONBVR": 996.25,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.130 003.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.130 003.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.140 001.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.140 003.12"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.150 001.10"
+  },
+  {
+    "DAEMDD": "2016-05-13",
+    "DEBVRM": "Premier rappel - Mai 2016",
+    "MONBVR": 2760.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.150 004.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.150 004.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310701.170 003.10"
+  },
+  {
+    "DAEMDD": "2016-05-13",
+    "DEBVRM": "Premier rappel - Mai 2016",
+    "MONBVR": 740.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310702.002 002.12"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310702.002 002.12"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310709.700 003.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310709.700 004.10"
+  },
+  {
+    "DAEMDD": "2016-05-13",
+    "DEBVRM": "Premier rappel - Mai 2016",
+    "MONBVR": 150.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310709.700 005.12"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310709.700 005.12"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310709.700 006.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310709.700 008.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310709.700 009.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310709.700 010.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310709.700 013.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310709.700 016.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310709.800 004.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310709.800 014.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310709.800 015.12"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310709.800 017.10"
+  },
+  {
+    "DAEMDD": "2016-06-16",
+    "DEBVRM": "Premier rappel - Juin 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310709.800 020.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310711.020 001.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310712.004 001.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310712.030 001.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310739.700 003.10"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "310741.020 001.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311001.003 001.20"
+  },
+  {
+    "DAEMDD": "2024-03-13",
+    "DEBVRM": "Premier rappel - Mars 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311001.020 002.14"
+  },
+  {
+    "DAEMDD": "2024-05-13",
+    "DEBVRM": "Premier rappel - Mai 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311001.020 002.14"
+  },
+  {
+    "DAEMDD": "2024-08-15",
+    "DEBVRM": "Premier rappel - Août 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311001.020 002.14"
+  },
+  {
+    "DAEMDD": "2024-09-13",
+    "DEBVRM": "Premier rappel - Septembre 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311001.020 002.14"
+  },
+  {
+    "DAEMDD": "2024-03-25",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311001.030 003.16"
+  },
+  {
+    "DAEMDD": "2024-03-25",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311001.030 003.16"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311002.003 001.14"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311002.003 001.14"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311002.003 001.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311002.003 001.14"
+  },
+  {
+    "DAEMDD": "2024-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311002.003 003.16"
+  },
+  {
+    "DAEMDD": "2025-02-13",
+    "DEBVRM": "Premier rappel - Février 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311002.003 003.16"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Premier rappel - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311002.003 003.16"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311002.003 003.16"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311002.003 003.16"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311002.003 003.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311002.003 003.16"
+  },
+  {
+    "DAEMDD": "2025-01-14",
+    "DEBVRM": "Premier rappel - Janvier 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311002.020 001.18"
+  },
+  {
+    "DAEMDD": "2025-02-13",
+    "DEBVRM": "Mise en demeure - Février 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311002.020 001.18"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311002.040 003.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311009.900 004.14"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311009.900 006.16"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311009.900 006.16"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311009.900 006.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311009.900 006.16"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311301.000 006.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311301.000 006.14"
+  },
+  {
+    "DAEMDD": "2023-10-16",
+    "DEBVRM": "Premier rappel - Octobre 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311409.900 008.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311501.010 001.20"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311501.010 002.22"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311501.010 002.22"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311501.020 001.18"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311501.020 002.20"
+  },
+  {
+    "DAEMDD": "2024-08-15",
+    "DEBVRM": "Premier rappel - Août 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311501.020 003.14"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311501.050 001.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311501.050 001.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311501.050 003.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311502.010 002.18"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311502.020 002.20"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311502.030 002.16"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311502.050 001.18"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311502.050 001.18"
+  },
+  {
+    "DAEMDD": "2020-03-13",
+    "DEBVRM": "Premier rappel - Mars 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311519.700 001.12"
+  },
+  {
+    "DAEMDD": "2025-01-21",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311552.010 002.16"
+  },
+  {
+    "DAEMDD": "2025-01-21",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311552.010 002.16"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311552.010 004.12"
+  },
+  {
+    "DAEMDD": "2025-06-26",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311552.020 001.22"
+  },
+  {
+    "DAEMDD": "2025-06-26",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311552.020 001.22"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Premier rappel - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311552.020 004.10"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Mise en demeure - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311552.020 004.10"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311552.020 004.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311552.030 002.18"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311552.040 002.12"
+  },
+  {
+    "DAEMDD": "2025-06-03",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311552.040 003.14"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311552.060 002.12"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Mise en demeure - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311552.060 002.12"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311561.020 001.12"
+  },
+  {
+    "DAEMDD": "2025-04-02",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311591.003 001.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311591.010 002.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311591.020 002.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311591.040 001.12"
+  },
+  {
+    "DAEMDD": "2025-02-13",
+    "DEBVRM": "Premier rappel - Février 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311581.030 002.10"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311581.040 002.12"
+  },
+  {
+    "DAEMDD": "2019-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311601.003 001.12"
+  },
+  {
+    "DAEMDD": "2020-01-23",
+    "DEBVRM": "Premier rappel - Janvier 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311601.003 001.12"
+  },
+  {
+    "DAEMDD": "2019-12-27",
+    "DEBVRM": "Premier rappel - Décembre 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311601.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-02-13",
+    "DEBVRM": "Mise en demeure - Février 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311631.020 001.12"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Premier rappel - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311631.020 001.12"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Mise en demeure - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311631.020 001.12"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311631.020 001.12"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Mise en demeure - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311631.020 001.12"
+  },
+  {
+    "DAEMDD": "2024-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311641.000 003.10"
+  },
+  {
+    "DAEMDD": "2024-09-13",
+    "DEBVRM": "Premier rappel - Septembre 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311641.003 001.10"
+  },
+  {
+    "DAEMDD": "2024-09-13",
+    "DEBVRM": "Premier rappel - Septembre 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311641.003 002.10"
+  },
+  {
+    "DAEMDD": "2025-07-24",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311659.900 004.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311701.030 001.12"
+  },
+  {
+    "DAEMDD": "2024-12-03",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311709.900 002.10"
+  },
+  {
+    "DAEMDD": "2024-12-03",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311709.900 002.10"
+  },
+  {
+    "DAEMDD": "2024-12-03",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311709.900 002.10"
+  },
+  {
+    "DAEMDD": "2024-12-03",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311709.900 002.10"
+  },
+  {
+    "DAEMDD": "2024-12-03",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311709.900 002.10"
+  },
+  {
+    "DAEMDD": "2024-12-03",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311709.900 002.10"
+  },
+  {
+    "DAEMDD": "2024-12-03",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311709.900 002.10"
+  },
+  {
+    "DAEMDD": "2025-06-03",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "311709.900 016.12"
+  },
+  {
+    "DAEMDD": "2024-09-13",
+    "DEBVRM": "Premier rappel - Septembre 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "311731.020 001.14"
+  },
+  {
+    "DAEMDD": "2019-06-19",
+    "DEBVRM": "Premier rappel - Juin 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312089.700 003.14"
+  },
+  {
+    "DAEMDD": "2019-06-19",
+    "DEBVRM": "Premier rappel - Juin 2019",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312089.900 001.14"
+  },
+  {
+    "DAEMDD": "2020-08-13",
+    "DEBVRM": "Premier rappel - Août 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312170.004 001.10"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Mise en demeure - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312228.660 001.12"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312228.660 001.12"
+  },
+  {
+    "DAEMDD": "2025-07-24",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312228.660 002.12"
+  },
+  {
+    "DAEMDD": "2025-07-24",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312228.660 003.12"
+  },
+  {
+    "DAEMDD": "2025-07-24",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312228.660 004.12"
+  },
+  {
+    "DAEMDD": "2025-07-24",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312228.660 005.12"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312228.720 003.12"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312228.900 006.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312228.900 006.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312269.700 003.12"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312269.700 004.10"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Mise en demeure - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312271.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Mise en demeure - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312271.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Mise en demeure - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312271.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312271.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Mise en demeure - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312271.010 002.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312271.010 002.16"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Mise en demeure - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312279.700 003.14"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Mise en demeure - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312279.700 003.14"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Mise en demeure - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312279.700 003.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312279.700 003.14"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Mise en demeure - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312279.900 002.16"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Mise en demeure - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312279.900 002.16"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Mise en demeure - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312279.900 002.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312279.900 002.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312291.002 003.14"
+  },
+  {
+    "DAEMDD": "2024-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312291.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Mise en demeure - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312291.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Mise en demeure - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312291.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Mise en demeure - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312291.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Mise en demeure - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312291.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312291.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312297.700 004.18"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312297.700 016.14"
+  },
+  {
+    "DAEMDD": "2020-08-13",
+    "DEBVRM": "Premier rappel - Août 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312297.700 019.10"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Mise en demeure - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312297.800 007.18"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312297.800 007.18"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Mise en demeure - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312297.800 007.18"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312297.800 007.18"
+  },
+  {
+    "DAEMDD": "2024-11-01",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312302.002 001.12"
+  },
+  {
+    "DAEMDD": "2024-11-01",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312302.002 001.12"
+  },
+  {
+    "DAEMDD": "2024-11-01",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312302.002 001.12"
+  },
+  {
+    "DAEMDD": "2024-11-01",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312308.700 006.16"
+  },
+  {
+    "DAEMDD": "2024-11-01",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312308.700 006.16"
+  },
+  {
+    "DAEMDD": "2024-11-01",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312308.700 006.16"
+  },
+  {
+    "DAEMDD": "2024-11-01",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312309.900 002.20"
+  },
+  {
+    "DAEMDD": "2024-11-01",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312309.900 002.20"
+  },
+  {
+    "DAEMDD": "2024-11-01",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312309.900 002.20"
+  },
+  {
+    "DAEMDD": "2020-08-13",
+    "DEBVRM": "Premier rappel - Août 2020",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "312309.900 006.10"
+  },
+  {
+    "DAEMDD": "2025-01-14",
+    "DEBVRM": "Mise en demeure - Janvier 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312351.004 001.14"
+  },
+  {
+    "DAEMDD": "2025-02-13",
+    "DEBVRM": "Mise en demeure - Février 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312351.004 001.14"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Mise en demeure - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312351.004 001.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "312351.010 001.18"
+  },
+  {
+    "DAEMDD": "2022-01-25",
+    "DEBVRM": "Premier rappel - Janvier 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313011.040 001.08"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313021.040 001.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "313021.040 001.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313081.040 001.18"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313089.700 007.12"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313089.700 008.12"
+  },
+  {
+    "DAEMDD": "2022-01-25",
+    "DEBVRM": "Premier rappel - Janvier 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313091.002 001.10"
+  },
+  {
+    "DAEMDD": "2022-02-15",
+    "DEBVRM": "Mise en demeure - Février 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "313091.002 001.10"
+  },
+  {
+    "DAEMDD": "2022-03-14",
+    "DEBVRM": "Premier rappel - Mars 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313091.002 001.10"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313091.002 001.10"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Mise en demeure - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "313091.002 001.10"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313091.020 001.10"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Mise en demeure - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "313091.020 001.10"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313111.003 001.12"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313111.003 001.12"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313111.003 001.12"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313111.003 001.12"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313111.003 002.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "313111.003 002.10"
+  },
+  {
+    "DAEMDD": "2024-02-13",
+    "DEBVRM": "Premier rappel - Février 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313111.010 002.10"
+  },
+  {
+    "DAEMDD": "2024-03-13",
+    "DEBVRM": "Premier rappel - Mars 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313111.010 002.10"
+  },
+  {
+    "DAEMDD": "2024-04-15",
+    "DEBVRM": "Premier rappel - Avril 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313111.010 002.10"
+  },
+  {
+    "DAEMDD": "2024-05-13",
+    "DEBVRM": "Premier rappel - Mai 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313111.010 002.10"
+  },
+  {
+    "DAEMDD": "2024-06-14",
+    "DEBVRM": "Premier rappel - Juin 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313111.010 002.10"
+  },
+  {
+    "DAEMDD": "2024-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313111.010 002.10"
+  },
+  {
+    "DAEMDD": "2024-01-30",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313111.010 002.10"
+  },
+  {
+    "DAEMDD": "2024-01-30",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313111.010 002.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313121.000 001.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313121.003 002.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313131.010 001.18"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313131.020 001.10"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313131.020 001.10"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313131.020 001.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313139.701 004.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313139.701 005.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313139.701 006.18"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313169.700 002.12"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313181.010 003.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "313181.010 003.14"
+  },
+  {
+    "DAEMDD": "2024-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313181.020 002.16"
+  },
+  {
+    "DAEMDD": "2025-01-14",
+    "DEBVRM": "Mise en demeure - Janvier 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "313181.020 002.16"
+  },
+  {
+    "DAEMDD": "2025-02-13",
+    "DEBVRM": "Mise en demeure - Février 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "313181.020 002.16"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313181.030 001.12"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Mise en demeure - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "313181.030 001.12"
+  },
+  {
+    "DAEMDD": "2025-06-17",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313191.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-06-17",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313191.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-06-17",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313191.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-06-17",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "313191.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-06-17",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "313191.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-06-17",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313191.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313301.002 004.12"
+  },
+  {
+    "DAEMDD": "2025-06-02",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "313301.010 002.14"
+  },
+  {
+    "DAEMDD": "2025-06-02",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "313301.010 002.14"
+  },
+  {
+    "DAEMDD": "2025-06-02",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "313301.010 002.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "313309.800 048.12"
+  },
+  {
+    "DAEMDD": "2014-06-20",
+    "DEBVRM": "Premier rappel - Juin 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "319001.040 002.10"
+  },
+  {
+    "DAEMDD": "2014-04-24",
+    "DEBVRM": "Premier rappel - Avril 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "319009.800 002.12"
+  },
+  {
+    "DAEMDD": "2014-05-20",
+    "DEBVRM": "Premier rappel - Mai 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "319009.800 015.10"
+  },
+  {
+    "DAEMDD": "2014-03-19",
+    "DEBVRM": "Premier rappel - Mars 2014",
+    "MONBVR": 110.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "319019.700 005.10"
+  },
+  {
+    "DAEMDD": "2014-06-20",
+    "DEBVRM": "Premier rappel - Juin 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "319019.700 005.10"
+  },
+  {
+    "DAEMDD": "2014-06-20",
+    "DEBVRM": "Premier rappel - Juin 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "319101.030 001.14"
+  },
+  {
+    "DAEMDD": "2014-03-19",
+    "DEBVRM": "Premier rappel - Mars 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "319201.010 001.12"
+  },
+  {
+    "DAEMDD": "2014-05-20",
+    "DEBVRM": "Premier rappel - Mai 2014",
+    "MONBVR": 2190.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "319201.080 004.12"
+  },
+  {
+    "DAEMDD": "2014-06-20",
+    "DEBVRM": "Mise en demeure - Juin 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "319201.080 004.12"
+  },
+  {
+    "DAEMDD": "2025-07-16",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "320001.020 003.10"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Mise en demeure - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "320009.700 009.18"
+  },
+  {
+    "DAEMDD": "2025-07-16",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "320009.700 010.10"
+  },
+  {
+    "DAEMDD": "2025-07-16",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "320009.700 010.10"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Premier rappel - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "320009.700 014.14"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Mise en demeure - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "320009.700 014.14"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340102.002 001.20"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340102.002 001.20"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340102.002 001.20"
+  },
+  {
+    "DAEMDD": "2021-08-18",
+    "DEBVRM": "Premier rappel - Août 2021",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "320081.700 005.10"
+  },
+  {
+    "DAEMDD": "2021-09-15",
+    "DEBVRM": "Mise en demeure - Septembre 2021",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "320081.700 005.10"
+  },
+  {
+    "DAEMDD": "2021-11-15",
+    "DEBVRM": "Premier rappel - Novembre 2021",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "320081.700 005.10"
+  },
+  {
+    "DAEMDD": "2021-08-18",
+    "DEBVRM": "Premier rappel - Août 2021",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "320081.700 008.10"
+  },
+  {
+    "DAEMDD": "2021-09-15",
+    "DEBVRM": "Mise en demeure - Septembre 2021",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "320081.700 008.10"
+  },
+  {
+    "DAEMDD": "2021-11-15",
+    "DEBVRM": "Premier rappel - Novembre 2021",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "320081.700 008.10"
+  },
+  {
+    "DAEMDD": "2021-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2021",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "320081.700 009.10"
+  },
+  {
+    "DAEMDD": "2021-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2021",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "320081.700 010.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "320091.000 001.14"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "320091.003 002.12"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Mise en demeure - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "320091.003 002.12"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "320092.003 001.12"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "320092.003 001.12"
+  },
+  {
+    "DAEMDD": "2024-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "320092.003 002.12"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "320092.003 002.12"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Premier rappel - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340001.040 002.20"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Mise en demeure - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "340001.040 002.20"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340002.010 001.18"
+  },
+  {
+    "DAEMDD": "2025-07-21",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340002.500 001.12"
+  },
+  {
+    "DAEMDD": "2025-07-21",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340002.500 001.12"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.020 001.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.020 001.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.020 003.18"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.030 001.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.030 003.20"
+  },
+  {
+    "DAEMDD": "2023-10-16",
+    "DEBVRM": "Premier rappel - Octobre 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2023-12-13",
+    "DEBVRM": "Premier rappel - Décembre 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2024-01-15",
+    "DEBVRM": "Premier rappel - Janvier 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2024-03-13",
+    "DEBVRM": "Premier rappel - Mars 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2024-04-15",
+    "DEBVRM": "Premier rappel - Avril 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2024-05-13",
+    "DEBVRM": "Premier rappel - Mai 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2022-11-15",
+    "DEBVRM": "Premier rappel - Novembre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2022-12-14",
+    "DEBVRM": "Premier rappel - Décembre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2023-01-13",
+    "DEBVRM": "Premier rappel - Janvier 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2023-02-13",
+    "DEBVRM": "Premier rappel - Février 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2023-03-14",
+    "DEBVRM": "Premier rappel - Mars 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2023-05-15",
+    "DEBVRM": "Premier rappel - Mai 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2023-06-13",
+    "DEBVRM": "Premier rappel - Juin 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2023-07-13",
+    "DEBVRM": "Premier rappel - Juillet 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2023-08-15",
+    "DEBVRM": "Premier rappel - Août 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2022-10-13",
+    "DEBVRM": "Premier rappel - Octobre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2022-04-13",
+    "DEBVRM": "Premier rappel - Avril 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2022-06-14",
+    "DEBVRM": "Premier rappel - Juin 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2022-07-13",
+    "DEBVRM": "Premier rappel - Juillet 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2022-09-15",
+    "DEBVRM": "Premier rappel - Septembre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340003.500 001.06"
+  },
+  {
+    "DAEMDD": "2025-07-01",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340004.002 001.20"
+  },
+  {
+    "DAEMDD": "2025-07-01",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340004.002 001.20"
+  },
+  {
+    "DAEMDD": "2025-07-01",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "340004.002 001.20"
+  },
+  {
+    "DAEMDD": "2025-07-01",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340004.002 001.20"
+  },
+  {
+    "DAEMDD": "2025-07-01",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "340004.002 001.20"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340004.002 002.18"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Premier rappel - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340004.010 001.18"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340004.010 001.18"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340004.010 001.18"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340004.010 001.18"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340004.010 001.18"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340004.020 002.10"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340004.020 002.10"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340004.020 002.10"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340004.020 002.10"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340004.020 002.10"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340004.020 002.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340005.030 002.18"
+  },
+  {
+    "DAEMDD": "2025-07-21",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.700 005.20"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.700 006.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.700 007.14"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.700 036.16"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Mise en demeure - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "340009.700 036.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.700 050.14"
+  },
+  {
+    "DAEMDD": "2022-04-13",
+    "DEBVRM": "Premier rappel - Avril 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2022-06-14",
+    "DEBVRM": "Premier rappel - Juin 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2022-07-13",
+    "DEBVRM": "Premier rappel - Juillet 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2022-09-15",
+    "DEBVRM": "Premier rappel - Septembre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2022-10-13",
+    "DEBVRM": "Premier rappel - Octobre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2022-11-15",
+    "DEBVRM": "Premier rappel - Novembre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2022-12-14",
+    "DEBVRM": "Premier rappel - Décembre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2023-01-13",
+    "DEBVRM": "Premier rappel - Janvier 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2023-02-13",
+    "DEBVRM": "Premier rappel - Février 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2023-03-14",
+    "DEBVRM": "Premier rappel - Mars 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2023-05-15",
+    "DEBVRM": "Premier rappel - Mai 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2023-06-13",
+    "DEBVRM": "Premier rappel - Juin 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2023-07-13",
+    "DEBVRM": "Premier rappel - Juillet 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2023-08-15",
+    "DEBVRM": "Premier rappel - Août 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2023-10-16",
+    "DEBVRM": "Premier rappel - Octobre 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2023-12-13",
+    "DEBVRM": "Premier rappel - Décembre 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2024-01-15",
+    "DEBVRM": "Premier rappel - Janvier 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2024-03-13",
+    "DEBVRM": "Premier rappel - Mars 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2024-04-15",
+    "DEBVRM": "Premier rappel - Avril 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2024-05-13",
+    "DEBVRM": "Premier rappel - Mai 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 004.12"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 005.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 006.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 007.20"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 008.16"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 008.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 008.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 011.22"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 012.16"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Premier rappel - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 014.18"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Mise en demeure - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "340009.800 014.18"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 017.18"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 017.18"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 017.18"
+  },
+  {
+    "DAEMDD": "2022-08-16",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "340009.800 024.20"
+  },
+  {
+    "DAEMDD": "2022-04-13",
+    "DEBVRM": "Premier rappel - Avril 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2022-06-14",
+    "DEBVRM": "Premier rappel - Juin 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2022-07-13",
+    "DEBVRM": "Premier rappel - Juillet 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2022-09-15",
+    "DEBVRM": "Premier rappel - Septembre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2022-10-13",
+    "DEBVRM": "Premier rappel - Octobre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2022-11-15",
+    "DEBVRM": "Premier rappel - Novembre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2022-12-14",
+    "DEBVRM": "Premier rappel - Décembre 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2023-01-13",
+    "DEBVRM": "Premier rappel - Janvier 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2023-02-13",
+    "DEBVRM": "Premier rappel - Février 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2023-03-14",
+    "DEBVRM": "Premier rappel - Mars 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2023-05-15",
+    "DEBVRM": "Premier rappel - Mai 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2023-06-13",
+    "DEBVRM": "Premier rappel - Juin 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2023-07-13",
+    "DEBVRM": "Premier rappel - Juillet 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2023-08-15",
+    "DEBVRM": "Premier rappel - Août 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2023-10-16",
+    "DEBVRM": "Premier rappel - Octobre 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2023-12-13",
+    "DEBVRM": "Premier rappel - Décembre 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2024-01-15",
+    "DEBVRM": "Premier rappel - Janvier 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2024-03-13",
+    "DEBVRM": "Premier rappel - Mars 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2024-04-15",
+    "DEBVRM": "Premier rappel - Avril 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2024-05-13",
+    "DEBVRM": "Premier rappel - Mai 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 028.10"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 045.22"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Mise en demeure - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "340009.800 045.22"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 048.12"
+  },
+  {
+    "DAEMDD": "2024-10-15",
+    "DEBVRM": "Premier rappel - Octobre 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 058.12"
+  },
+  {
+    "DAEMDD": "2024-11-13",
+    "DEBVRM": "Premier rappel - Novembre 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 058.12"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 058.12"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 058.12"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 058.12"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 058.12"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 058.12"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 058.12"
+  },
+  {
+    "DAEMDD": "2024-10-15",
+    "DEBVRM": "Premier rappel - Octobre 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 059.10"
+  },
+  {
+    "DAEMDD": "2024-11-13",
+    "DEBVRM": "Premier rappel - Novembre 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 059.10"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 059.10"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 059.10"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 059.10"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 059.10"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 059.10"
+  },
+  {
+    "DAEMDD": "2024-06-13",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 059.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 062.20"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 069.12"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340009.800 070.16"
+  },
+  {
+    "DAEMDD": "2014-03-19",
+    "DEBVRM": "Premier rappel - Mars 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340011.030 004.12"
+  },
+  {
+    "DAEMDD": "2014-03-19",
+    "DEBVRM": "Premier rappel - Mars 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340019.900 002.10"
+  },
+  {
+    "DAEMDD": "2014-03-19",
+    "DEBVRM": "Premier rappel - Mars 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "340019.900 004.10"
+  },
+  {
+    "DAEMDD": "2014-05-20",
+    "DEBVRM": "Premier rappel - Mai 2014",
+    "MONBVR": 1790.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350001.003 001.12"
+  },
+  {
+    "DAEMDD": "2014-06-20",
+    "DEBVRM": "Premier rappel - Juin 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350001.003 001.12"
+  },
+  {
+    "DAEMDD": "2014-07-17",
+    "DEBVRM": "Premier rappel - Juillet 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350001.003 001.12"
+  },
+  {
+    "DAEMDD": "2014-08-20",
+    "DEBVRM": "Premier rappel - Août 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350001.003 001.12"
+  },
+  {
+    "DAEMDD": "2014-09-17",
+    "DEBVRM": "Premier rappel - Septembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350001.003 001.12"
+  },
+  {
+    "DAEMDD": "2014-10-21",
+    "DEBVRM": "Premier rappel - Octobre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350001.003 001.12"
+  },
+  {
+    "DAEMDD": "2014-11-24",
+    "DEBVRM": "Premier rappel - Novembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350001.003 001.12"
+  },
+  {
+    "DAEMDD": "2014-12-16",
+    "DEBVRM": "Mise en demeure - Décembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "350001.003 001.12"
+  },
+  {
+    "DAEMDD": "2015-03-26",
+    "DEBVRM": "Premier rappel - Mars 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350001.003 001.12"
+  },
+  {
+    "DAEMDD": "2014-11-24",
+    "DEBVRM": "Premier rappel - Novembre 2014",
+    "MONBVR": 1227.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350001.010 002.10"
+  },
+  {
+    "DAEMDD": "2014-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350001.010 002.10"
+  },
+  {
+    "DAEMDD": "2014-09-17",
+    "DEBVRM": "Premier rappel - Septembre 2014",
+    "MONBVR": 1540.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350001.020 002.16"
+  },
+  {
+    "DAEMDD": "2014-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350001.020 002.16"
+  },
+  {
+    "DAEMDD": "2014-05-20",
+    "DEBVRM": "Premier rappel - Mai 2014",
+    "MONBVR": 270.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350009.700 001.12"
+  },
+  {
+    "DAEMDD": "2014-06-20",
+    "DEBVRM": "Premier rappel - Juin 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350009.700 001.12"
+  },
+  {
+    "DAEMDD": "2014-07-17",
+    "DEBVRM": "Premier rappel - Juillet 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350009.700 001.12"
+  },
+  {
+    "DAEMDD": "2014-08-20",
+    "DEBVRM": "Premier rappel - Août 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350009.700 001.12"
+  },
+  {
+    "DAEMDD": "2014-09-17",
+    "DEBVRM": "Premier rappel - Septembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350009.700 001.12"
+  },
+  {
+    "DAEMDD": "2014-10-21",
+    "DEBVRM": "Premier rappel - Octobre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350009.700 001.12"
+  },
+  {
+    "DAEMDD": "2014-11-24",
+    "DEBVRM": "Premier rappel - Novembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350009.700 001.12"
+  },
+  {
+    "DAEMDD": "2014-12-16",
+    "DEBVRM": "Mise en demeure - Décembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "350009.700 001.12"
+  },
+  {
+    "DAEMDD": "2015-03-26",
+    "DEBVRM": "Premier rappel - Mars 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350009.700 001.12"
+  },
+  {
+    "DAEMDD": "2014-09-17",
+    "DEBVRM": "Premier rappel - Septembre 2014",
+    "MONBVR": 100.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350009.700 007.16"
+  },
+  {
+    "DAEMDD": "2014-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350009.700 007.16"
+  },
+  {
+    "DAEMDD": "2014-09-17",
+    "DEBVRM": "Premier rappel - Septembre 2014",
+    "MONBVR": 160.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350009.900 002.12"
+  },
+  {
+    "DAEMDD": "2014-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350009.900 002.12"
+  },
+  {
+    "DAEMDD": "2015-02-23",
+    "DEBVRM": "Premier rappel - Février 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350009.900 005.14"
+  },
+  {
+    "DAEMDD": "2014-11-24",
+    "DEBVRM": "Premier rappel - Novembre 2014",
+    "MONBVR": 120.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350009.900 008.10"
+  },
+  {
+    "DAEMDD": "2014-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350009.900 008.10"
+  },
+  {
+    "DAEMDD": "2017-08-11",
+    "DEBVRM": "Premier rappel - Août 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350011.010 002.10"
+  },
+  {
+    "DAEMDD": "2017-08-11",
+    "DEBVRM": "Premier rappel - Août 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350011.090 001.12"
+  },
+  {
+    "DAEMDD": "2017-07-19",
+    "DEBVRM": "Premier rappel - Juillet 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350011.600 001.10"
+  },
+  {
+    "DAEMDD": "2018-03-16",
+    "DEBVRM": "Premier rappel - Mars 2018",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350011.600 001.10"
+  },
+  {
+    "DAEMDD": "2017-08-11",
+    "DEBVRM": "Premier rappel - Août 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350019.700 008.10"
+  },
+  {
+    "DAEMDD": "2017-08-11",
+    "DEBVRM": "Premier rappel - Août 2017",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "350019.900 006.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360003.002 001.16"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360021.010 001.20"
+  },
+  {
+    "DAEMDD": "2016-03-15",
+    "DEBVRM": "Premier rappel - Mars 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360011.010 001.10"
+  },
+  {
+    "DAEMDD": "2016-03-15",
+    "DEBVRM": "Premier rappel - Mars 2016",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360019.900 007.10"
+  },
+  {
+    "DAEMDD": "2025-04-03",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360101.003 002.12"
+  },
+  {
+    "DAEMDD": "2025-04-03",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "360101.003 002.12"
+  },
+  {
+    "DAEMDD": "2025-04-03",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "360101.003 002.12"
+  },
+  {
+    "DAEMDD": "2025-04-03",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "360101.003 002.12"
+  },
+  {
+    "DAEMDD": "2025-02-13",
+    "DEBVRM": "Premier rappel - Février 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360101.020 001.18"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Premier rappel - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360101.020 001.18"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360101.020 001.18"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360101.020 001.18"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Mise en demeure - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "360101.020 001.18"
+  },
+  {
+    "DAEMDD": "2024-08-15",
+    "DEBVRM": "Premier rappel - Août 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360209.900 013.12"
+  },
+  {
+    "DAEMDD": "2024-09-13",
+    "DEBVRM": "Mise en demeure - Septembre 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "360209.900 013.12"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Mise en demeure - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "360209.900 013.12"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360401.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360409.800 029.16"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Mise en demeure - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "360409.800 034.14"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360409.800 036.10"
+  },
+  {
+    "DAEMDD": "2025-07-25",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360413.010 001.10"
+  },
+  {
+    "DAEMDD": "2025-07-25",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360413.020 002.10"
+  },
+  {
+    "DAEMDD": "2025-07-25",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360419.800 008.10"
+  },
+  {
+    "DAEMDD": "2025-07-25",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360419.800 018.10"
+  },
+  {
+    "DAEMDD": "2025-07-25",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360419.800 018.10"
+  },
+  {
+    "DAEMDD": "2025-07-25",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360419.800 026.10"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 20.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360419.800 031.10"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360501.010 002.10"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360501.020 002.10"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360501.030 001.10"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "360501.030 002.10"
+  },
+  {
+    "DAEMDD": "2022-08-24",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "370101.002 006.12"
+  },
+  {
+    "DAEMDD": "2024-11-05",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "370101.002 007.14"
+  },
+  {
+    "DAEMDD": "2024-11-05",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "370101.002 007.14"
+  },
+  {
+    "DAEMDD": "2024-10-15",
+    "DEBVRM": "Premier rappel - Octobre 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "370101.010 002.12"
+  },
+  {
+    "DAEMDD": "2024-11-13",
+    "DEBVRM": "Premier rappel - Novembre 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "370101.010 002.12"
+  },
+  {
+    "DAEMDD": "2025-02-13",
+    "DEBVRM": "Premier rappel - Février 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "370101.010 002.12"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Premier rappel - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "370101.010 002.12"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "370101.010 002.12"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Premier rappel - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "370101.010 002.12"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "370101.010 002.12"
+  },
+  {
+    "DAEMDD": "2024-04-02",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "370101.020 003.14"
+  },
+  {
+    "DAEMDD": "2023-11-20",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "370101.020 004.14"
+  },
+  {
+    "DAEMDD": "2023-11-20",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "370101.020 004.14"
+  },
+  {
+    "DAEMDD": "2024-04-02",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "370109.700 001.12"
+  },
+  {
+    "DAEMDD": "2024-04-02",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "370109.700 001.12"
+  },
+  {
+    "DAEMDD": "2023-06-13",
+    "DEBVRM": "Mise en demeure - Juin 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "370109.700 003.16"
+  },
+  {
+    "DAEMDD": "2023-04-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "370109.700 003.16"
+  },
+  {
+    "DAEMDD": "2023-04-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "370109.700 003.16"
+  },
+  {
+    "DAEMDD": "2023-04-28",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "370109.700 003.16"
+  },
+  {
+    "DAEMDD": "2024-04-02",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "370109.800 011.14"
+  },
+  {
+    "DAEMDD": "2024-04-02",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "370109.800 011.14"
+  },
+  {
+    "DAEMDD": "2024-04-02",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "370109.800 022.12"
+  },
+  {
+    "DAEMDD": "2024-04-02",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "370109.800 022.12"
+  },
+  {
+    "DAEMDD": "2014-09-17",
+    "DEBVRM": "Premier rappel - Septembre 2014",
+    "MONBVR": 890.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "410041.010 002.10"
+  },
+  {
+    "DAEMDD": "2014-10-21",
+    "DEBVRM": "Premier rappel - Octobre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "410041.010 002.10"
+  },
+  {
+    "DAEMDD": "2014-11-24",
+    "DEBVRM": "Premier rappel - Novembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "410041.010 002.10"
+  },
+  {
+    "DAEMDD": "2014-12-16",
+    "DEBVRM": "Premier rappel - Décembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "410041.010 002.10"
+  },
+  {
+    "DAEMDD": "2015-02-23",
+    "DEBVRM": "Premier rappel - Février 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "410041.010 002.10"
+  },
+  {
+    "DAEMDD": "2015-03-26",
+    "DEBVRM": "Premier rappel - Mars 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "410041.010 002.10"
+  },
+  {
+    "DAEMDD": "2014-09-17",
+    "DEBVRM": "Premier rappel - Septembre 2014",
+    "MONBVR": 3650.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "410041.040 002.10"
+  },
+  {
+    "DAEMDD": "2014-10-21",
+    "DEBVRM": "Premier rappel - Octobre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "410041.040 002.10"
+  },
+  {
+    "DAEMDD": "2014-11-24",
+    "DEBVRM": "Mise en demeure - Novembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "410041.040 002.10"
+  },
+  {
+    "DAEMDD": "2015-03-26",
+    "DEBVRM": "Premier rappel - Mars 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "410041.050 002.10"
+  },
+  {
+    "DAEMDD": "2015-02-23",
+    "DEBVRM": "Premier rappel - Février 2015",
+    "MONBVR": 970.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "410041.080 002.12"
+  },
+  {
+    "DAEMDD": "2015-03-26",
+    "DEBVRM": "Premier rappel - Mars 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "410041.080 002.12"
+  },
+  {
+    "DAEMDD": "2014-11-24",
+    "DEBVRM": "Premier rappel - Novembre 2014",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "410059.900 028.12"
+  },
+  {
+    "DAEMDD": "2015-03-26",
+    "DEBVRM": "Premier rappel - Mars 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "410069.900 001.12"
+  },
+  {
+    "DAEMDD": "2015-02-23",
+    "DEBVRM": "Premier rappel - Février 2015",
+    "MONBVR": 180.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "410069.900 008.12"
+  },
+  {
+    "DAEMDD": "2015-03-26",
+    "DEBVRM": "Premier rappel - Mars 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "410069.900 008.12"
+  },
+  {
+    "DAEMDD": "2014-10-22",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "460011.020 001.10"
+  },
+  {
+    "DAEMDD": "2014-10-22",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "460011.020 001.10"
+  },
+  {
+    "DAEMDD": "2014-10-22",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "460011.020 001.10"
+  },
+  {
+    "DAEMDD": "2014-10-22",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "460011.020 001.10"
+  },
+  {
+    "DAEMDD": "2014-10-22",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "460011.020 001.10"
+  },
+  {
+    "DAEMDD": "2014-10-22",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "460011.020 001.10"
+  },
+  {
+    "DAEMDD": "2015-02-23",
+    "DEBVRM": "Premier rappel - Février 2015",
+    "MONBVR": 200.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "460011.030 001.10"
+  },
+  {
+    "DAEMDD": "2015-03-26",
+    "DEBVRM": "Premier rappel - Mars 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "460011.030 001.10"
+  },
+  {
+    "DAEMDD": "2015-04-24",
+    "DEBVRM": "Premier rappel - Avril 2015",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "460011.030 001.10"
+  },
+  {
+    "DAEMDD": "2024-04-15",
+    "DEBVRM": "Mise en demeure - Avril 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "710151.008 002.10"
+  },
+  {
+    "DAEMDD": "2024-05-13",
+    "DEBVRM": "Mise en demeure - Mai 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "710152.002 003.10"
+  },
+  {
+    "DAEMDD": "2024-06-14",
+    "DEBVRM": "Premier rappel - Juin 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "710152.002 003.10"
+  },
+  {
+    "DAEMDD": "2023-07-13",
+    "DEBVRM": "Premier rappel - Juillet 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "710152.010 004.10"
+  },
+  {
+    "DAEMDD": "2023-11-14",
+    "DEBVRM": "Premier rappel - Novembre 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "710152.010 004.10"
+  },
+  {
+    "DAEMDD": "2024-03-13",
+    "DEBVRM": "Premier rappel - Mars 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "710152.010 004.10"
+  },
+  {
+    "DAEMDD": "2024-05-13",
+    "DEBVRM": "Mise en demeure - Mai 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "710152.010 004.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "710171.010 001.14"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Premier rappel - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "710171.010 002.10"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Mise en demeure - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "710171.010 002.10"
+  },
+  {
+    "DAEMDD": "2024-10-15",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "710171.030 002.12"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "710171.030 002.12"
+  },
+  {
+    "DAEMDD": "2023-06-13",
+    "DEBVRM": "Premier rappel - Juin 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "710178.700 001.10"
+  },
+  {
+    "DAEMDD": "2023-07-13",
+    "DEBVRM": "Mise en demeure - Juillet 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "710178.700 001.10"
+  },
+  {
+    "DAEMDD": "2023-01-13",
+    "DEBVRM": "Mise en demeure - Janvier 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "710178.700 002.10"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Premier rappel - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "710179.907 002.12"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Mise en demeure - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "710179.907 002.12"
+  },
+  {
+    "DAEMDD": "2024-02-13",
+    "DEBVRM": "Premier rappel - Février 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "720111.004 001.10"
+  },
+  {
+    "DAEMDD": "2024-03-13",
+    "DEBVRM": "Mise en demeure - Mars 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "720111.004 001.10"
+  },
+  {
+    "DAEMDD": "2024-05-13",
+    "DEBVRM": "Mise en demeure - Mai 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "720111.004 001.10"
+  },
+  {
+    "DAEMDD": "2023-10-16",
+    "DEBVRM": "Premier rappel - Octobre 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "720111.004 001.10"
+  },
+  {
+    "DAEMDD": "2023-11-14",
+    "DEBVRM": "Premier rappel - Novembre 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "720111.004 001.10"
+  },
+  {
+    "DAEMDD": "2023-12-13",
+    "DEBVRM": "Mise en demeure - Décembre 2023",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "720111.004 001.10"
+  },
+  {
+    "DAEMDD": "2024-01-15",
+    "DEBVRM": "Mise en demeure - Janvier 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "720111.004 001.10"
+  },
+  {
+    "DAEMDD": "2024-03-13",
+    "DEBVRM": "Premier rappel - Mars 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "720111.010 003.10"
+  },
+  {
+    "DAEMDD": "2024-04-15",
+    "DEBVRM": "Premier rappel - Avril 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "720111.010 003.10"
+  },
+  {
+    "DAEMDD": "2024-06-14",
+    "DEBVRM": "Premier rappel - Juin 2024",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "720111.010 003.10"
+  },
+  {
+    "DAEMDD": "2018-04-19",
+    "DEBVRM": "Premier rappel - Avril 2018",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "910001.002 001.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "910091.701 001.14"
+  },
+  {
+    "DAEMDD": "2022-01-25",
+    "DEBVRM": "Premier rappel - Janvier 2022",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "910301.800 021.12"
+  },
+  {
+    "DAEMDD": "2020-08-21",
+    "DEBVRM": "Positions ouvertes",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "910301.800 021.12"
+  },
+  {
+    "DAEMDD": "2018-05-16",
+    "DEBVRM": "Premier rappel - Mai 2018",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "910602.020 001.10"
+  },
+  {
+    "DAEMDD": "2018-06-15",
+    "DEBVRM": "Mise en demeure - Juin 2018",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "910602.020 001.10"
+  },
+  {
+    "DAEMDD": "2018-03-16",
+    "DEBVRM": "Premier rappel - Mars 2018",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "910603.020 001.10"
+  },
+  {
+    "DAEMDD": "2025-07-15",
+    "DEBVRM": "Premier rappel - Juillet 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "910801.010 001.12"
+  },
+  {
+    "DAEMDD": "2025-02-13",
+    "DEBVRM": "Premier rappel - Février 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "910801.040 002.12"
+  },
+  {
+    "DAEMDD": "2025-03-12",
+    "DEBVRM": "Premier rappel - Mars 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "910801.040 002.12"
+  },
+  {
+    "DAEMDD": "2025-04-14",
+    "DEBVRM": "Premier rappel - Avril 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "910801.040 002.12"
+  },
+  {
+    "DAEMDD": "2025-05-15",
+    "DEBVRM": "Premier rappel - Mai 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 20.0,
+    "REFFOR": "910801.040 002.12"
+  },
+  {
+    "DAEMDD": "2025-06-12",
+    "DEBVRM": "Mise en demeure - Juin 2025",
+    "MONBVR": 0.0,
+    "MTCOMP": 50.0,
+    "REFFOR": "910801.040 002.12"
+  }
+]}

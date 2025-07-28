@@ -247,7 +247,8 @@ export class DataframeComponent {
   }
 
   filtrerAvance() {
-    this.data_filtered = this.data.filter(ligne => {
+    this.filtrer();
+    this.data_filtered = this.data_filtered.filter(ligne => {
       return this.colonnes.every(col => {
         const filtres = this.filtres_avances[col];
         if (!filtres || filtres.length === 0) return true;

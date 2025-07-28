@@ -24,6 +24,9 @@ class Locataire:
             'NOIMME': 'Nom immeuble',
             'DADELO': 'Date début location',
             'DASOAC': 'Date sortie acceptée',
-            'Montant dû': 'MNTDU'
+            'MNTDU': 'Montant dû',
+            'DAFIMA': 'Date de fin de mandat',
+            'LOVACA': 'Vacant',
+            'NOEMAI': 'Email'
         }
         return traductions

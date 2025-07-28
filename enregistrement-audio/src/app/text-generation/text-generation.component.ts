@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { AudioRecorderComponent } from '../audio-recorder/audio-recorder.component';
 import { EmailGeneratorComponent } from '../email-generator/email-generator.component';
+import { PvGeneratorComponent } from '../pv-generator/pv-generator.component';
 import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-text-generation',
-  imports: [AudioRecorderComponent, EmailGeneratorComponent, FormsModule],
+  imports: [AudioRecorderComponent, EmailGeneratorComponent, PvGeneratorComponent, FormsModule],
   templateUrl: './text-generation.component.html',
   styleUrl: './text-generation.component.css'
 })

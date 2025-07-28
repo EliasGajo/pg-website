@@ -1,0 +1,10 @@
+<div class="page">
+    <app-dataframe 
+    (data_filtered_update)="update_data_filtered($event)"
+    [data_to_load]="all_qr_multiples"
+    [traductions_to_load]="traductions"
+    export_title="Export des QR multiples" 
+    table_max_height="750px"
+    >
+    </app-dataframe>
+</div>

@@ -10,6 +10,7 @@ from src.moyen_paiement import Moyen_paiement
 from src.coproprietaire import Coproprietaire
 from src.locataire import Locataire
 from src.proprietaire import Proprietaire
+from src.qr_multiple import QrMultiple
 import uvicorn
 
 app = FastAPI()
@@ -92,6 +93,15 @@ async def root(request: Request):
     #data = await request.json()
     values = Proprietaire.get_all()
     traductions = Proprietaire.get_traduction()
+    return {
+            "values": values,
+            "traductions": traductions
+            }
+
+@app.get("/qr-multiple")
+async def root(request: Request):
+    values = QrMultiple.get_all()
+    traductions = QrMultiple.get_traduction()
     return {
             "values": values,
             "traductions": traductions
