@@ -15,6 +15,7 @@ export class ExportDataComponent {
     { id: 'exportCoproprietaire', name: 'Copropriétaires', image: 'info.webp' },
     { id: 'exportMoyenPaiement', name: 'Moyens de paiement', image: 'wallet.webp' },
     { id: 'exportLocataire', name: 'Locataires', image: 'info.webp' },
+    { id: 'exportLocataireGrille', name: 'Locataires Grille', image: 'info.webp' },
     { id: 'exportProprietaire', name: 'Propriétaires', image: 'info.webp' },
     { id: 'exportQrMultiple', name: 'QR multiples', image: 'facture.webp' }
     // Ajouter les autres ici

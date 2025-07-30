@@ -11,6 +11,7 @@ from src.coproprietaire import Coproprietaire
 from src.locataire import Locataire
 from src.proprietaire import Proprietaire
 from src.qr_multiple import QrMultiple
+from src.locataire_export_grille import LocataireExportGrille
 import uvicorn
 
 app = FastAPI()
@@ -83,6 +84,16 @@ async def root(request: Request):
     #data = await request.json()
     values = Locataire.get_all()
     traductions = Locataire.get_traduction()
+    return {
+            "values": values,
+            "traductions": traductions
+            }
+
+@app.get("/locataire-export-grille")
+async def root(request: Request):
+    #data = await request.json()
+    values = LocataireExportGrille.get_all()
+    traductions = LocataireExportGrille.get_traduction()
     return {
             "values": values,
             "traductions": traductions

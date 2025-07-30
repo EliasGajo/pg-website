@@ -1,0 +1,12 @@
+<div class="page">
+    <app-dataframe 
+    (data_filtered_update)="update_data_filtered($event)"
+    [data_to_load]="all_locataire"
+    [traductions_to_load]="traductions"
+    export_title="Export des locataires" 
+    table_max_height="750px"
+    >
+        <button extra-button (click)="export_locataires_non_groupes()">📤 Export locataires non groupés</button>
+    </app-dataframe>
+</div>
+

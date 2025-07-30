@@ -5,6 +5,7 @@ import { ExportDataComponent } from './export-data/export-data.component';
 import { ExportFactureDebiteurComponent } from './export-facture-debiteur/export-facture-debiteur.component';
 import { ExportCoproprietaireComponent } from './export-coproprietaire/export-coproprietaire.component';
 import { ExportLocataireComponent } from './export-locataire/export-locataire.component';
+import { LocataireExportGrilleComponent } from './locataire-export-grille/locataire-export-grille.component';
 import { ExportProprietaireComponent } from './export-proprietaire/export-proprietaire.component';
 import { TournusImmeubleComponent } from './tournus-immeuble/tournus-immeuble.component';
 import { ExportMoyenPaiementComponent } from './export-moyen-paiement/export-moyen-paiement.component';
@@ -19,6 +20,7 @@ export const routes: Routes = [
     {path: 'exportDiversDebiteur', component: ExportDiversDebiteurComponent},
     {path: 'exportCoproprietaire', component: ExportCoproprietaireComponent},
     {path: 'exportLocataire', component: ExportLocataireComponent},
+    {path: 'exportLocataireGrille', component: LocataireExportGrilleComponent},
     {path: 'exportProprietaire', component: ExportProprietaireComponent},
     {path: 'tournusImmeuble', component: TournusImmeubleComponent},
     {path: 'exportMoyenPaiement', component: ExportMoyenPaiementComponent},

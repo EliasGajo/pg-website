@@ -15,7 +15,7 @@ export class ExportExcelService {
       const colonnes = Object.keys(data[0]);
       const headers = [];
       for (let key of colonnes) {
-        headers.push(traductions[key]);
+        headers.push(traductions[key] || key);
       }
       worksheet.addRow(headers);
 
