@@ -13,6 +13,11 @@ interface TournusResult {
   nb_tournus: number;
 }
 
+interface SumTournus {
+  year: string;
+  count: number;
+}
+
 @Component({
   selector: 'app-tournus-immeuble',
   imports: [DataframeComponent, MultiSelectComponent, CommonModule, FormsModule],
@@ -85,15 +90,18 @@ export class TournusImmeubleComponent {
 
   compute_immeuble_data_between_dates(debut: Date | boolean, fin: Date | boolean) {
     var filter_dates: boolean = true;
-    if (!debut || !fin) {
+    if (!debut && !fin) {
       filter_dates = false;
     }
-    return this.all_locataire_data.filter(data => {
+    var locataires_filtered = this.all_locataire_data.filter(data => {
       const objDebut = data['DADELO'] ? new Date(data['DADELO']) : false;
       const objFin = data['DASOAC'] ? new Date(data['DASOAC']) : false;
-      const dates_in_interval = (debut ? (objFin ? objFin >= debut : true) : true) && (fin ? (objDebut ? objDebut <= fin : true) : true);
+      const debut_in_interval = debut ? (objFin ? objFin >= debut : true) : true;
+      const fin_in_interval = fin ? (objDebut ? objDebut <= fin : true) : true;
+      const dates_in_interval = debut_in_interval && fin_in_interval;
       return !data['LOVACA'] && this.immeubles_selected.includes(data['NOIMME']) && (!filter_dates || dates_in_interval);
     });
+    return locataires_filtered;
   }
 
   update_data_filtered(data_filtered: any[]) {
@@ -161,6 +169,25 @@ export class TournusImmeubleComponent {
       const tournus_data = this.compute_tournus_data(data_annuel);
       this.exportExcelService.exporter_table(tournus_data, `Tournus_${annee}`, this.tournus_result_traductions);
     }
+  }
+
+  export_sum_tournus_annuel() {
+    var sum_tournus_by_year: SumTournus[] = [];
+    for(let annee = this.export_annee_start; annee <= this.export_annee_end; annee ++) {
+      const date_start: Date = new Date(annee, 0, 1);
+      const date_end: Date = new Date(annee, 11, 31, 23, 59, 59);
+      const data_annuel = this.compute_immeuble_data_between_dates(date_start, date_end);
+      const tournus_data = this.compute_tournus_data(data_annuel);
+      const sum_tournus = tournus_data.reduce((sum: number, item: TournusResult) => sum + item.nb_tournus, 0);
+      sum_tournus_by_year.push({
+        year: '' + annee,
+        count: sum_tournus
+      });
+    }
+    this.exportExcelService.exporter_table(sum_tournus_by_year, `Tournus`, {
+      year: 'Année',
+      count: 'Nombre de tournus'
+    });
   }
 
 }
