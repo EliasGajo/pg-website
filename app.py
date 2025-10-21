@@ -10,6 +10,7 @@ from src.moyen_paiement import Moyen_paiement
 from src.coproprietaire import Coproprietaire
 from src.locataire import Locataire
 from src.proprietaire import Proprietaire
+from src.etat_locatif import EtatLocatif
 from src.qr_multiple import QrMultiple
 from src.locataire_export_grille import LocataireExportGrille
 import uvicorn
@@ -104,6 +105,16 @@ async def root(request: Request):
     #data = await request.json()
     values = Proprietaire.get_all()
     traductions = Proprietaire.get_traduction()
+    return {
+            "values": values,
+            "traductions": traductions
+            }
+
+@app.get("/etat-locatif")
+async def root(request: Request):
+    #data = await request.json()
+    values = EtatLocatif.get_all()
+    traductions = EtatLocatif.get_traduction()
     return {
             "values": values,
             "traductions": traductions

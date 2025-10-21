@@ -11,6 +11,7 @@ import { TournusImmeubleComponent } from './tournus-immeuble/tournus-immeuble.co
 import { ExportMoyenPaiementComponent } from './export-moyen-paiement/export-moyen-paiement.component';
 import { ExportDiversDebiteurComponent } from './export-divers-debiteur/export-divers-debiteur.component';
 import { QrMultipleComponent } from './qr-multiple/qr-multiple.component';
+import { ExportEtatLocatifComponent } from './export-etat-locatif/export-etat-locatif.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -22,6 +23,7 @@ export const routes: Routes = [
     {path: 'exportLocataire', component: ExportLocataireComponent},
     {path: 'exportLocataireGrille', component: LocataireExportGrilleComponent},
     {path: 'exportProprietaire', component: ExportProprietaireComponent},
+    {path: 'exportEtatLocatif', component: ExportEtatLocatifComponent},
     {path: 'tournusImmeuble', component: TournusImmeubleComponent},
     {path: 'exportMoyenPaiement', component: ExportMoyenPaiementComponent},
     {path: 'exportQrMultiple', component: QrMultipleComponent}

@@ -253,7 +253,13 @@ export class DataframeComponent {
         const filtres = this.filtres_avances[col];
         if (!filtres || filtres.length === 0) return true;
         const valeur = ligne[col]?.toString().toLowerCase() || '';
-        return filtres.some(f => valeur.includes(f.toLowerCase()));
+        
+        try {
+            return filtres.some(f => new RegExp(f, 'i').test(valeur?.toString() || ''));
+          } catch (e) {
+            // Si la RegExp est invalide, ignorer le filtre
+            return true;
+          }
       });
     });
     this.data_filtered_update.emit(this.data_filtered);

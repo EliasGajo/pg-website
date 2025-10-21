@@ -20,6 +20,7 @@ class Proprietaire:
             'NOINTE': 'Nom',
             'PRINTE': 'Prénom',
             'NOEMAI': 'Email',
-            'DAFIMA': 'Date fin mandat immeuble'
+            'DAFIMA': 'Date fin mandat immeuble',
+            'TYIMMED': 'Type immeuble'
         }
         return traductions
