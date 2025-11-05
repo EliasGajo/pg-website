@@ -12,6 +12,7 @@ import { ExportMoyenPaiementComponent } from './export-moyen-paiement/export-moy
 import { ExportDiversDebiteurComponent } from './export-divers-debiteur/export-divers-debiteur.component';
 import { QrMultipleComponent } from './qr-multiple/qr-multiple.component';
 import { ExportEtatLocatifComponent } from './export-etat-locatif/export-etat-locatif.component';
+import { ModificationExcelComponent } from './modification-excel/modification-excel.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -26,5 +27,6 @@ export const routes: Routes = [
     {path: 'exportEtatLocatif', component: ExportEtatLocatifComponent},
     {path: 'tournusImmeuble', component: TournusImmeubleComponent},
     {path: 'exportMoyenPaiement', component: ExportMoyenPaiementComponent},
-    {path: 'exportQrMultiple', component: QrMultipleComponent}
+    {path: 'exportQrMultiple', component: QrMultipleComponent},
+    {path: 'modificationExcel', component: ModificationExcelComponent}
 ];

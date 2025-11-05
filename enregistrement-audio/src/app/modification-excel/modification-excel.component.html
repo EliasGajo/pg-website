@@ -1,0 +1,6 @@
+<div>
+  <h2>Charger un fichier Excel</h2>
+  <input type="file" (change)="onFileChange($event)" accept=".xlsx, .xls" />
+
+  <button (click)="splitSheets()" [disabled]="!workbook">Séparer onglets en fichiers Excel distincts</button>
+</div>

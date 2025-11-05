@@ -22,6 +22,7 @@ class Divers_debiteur:
             'FACCOM': 'Comptabilisé',
             'MNTFAC': 'Montant',
             'NOLOCO': 'Locataire',
-            'NOIMME': 'Immeuble'
+            'NOIMME': 'Immeuble',
+            'DAFIMA': 'Date fin de mandat'
         }
         return traductions
