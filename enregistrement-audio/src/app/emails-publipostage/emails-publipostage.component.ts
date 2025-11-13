@@ -15,6 +15,7 @@ export class EmailsPublipostageComponent {
   data_filtered: any[] = [];
   email_str: string = "";
   copied = false;
+  emailRegex = /^[\p{L}\p{N}._%+-]+@(?:[\p{L}\p{N}-]+\.)+[\p{L}]{2,}$/u;
 
   constructor(private exportExcelService: ExportExcelService) {}
 
@@ -26,11 +27,10 @@ export class EmailsPublipostageComponent {
   }
 
   clean_liste_email() {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     this.data_filtered = this.data_to_load.filter(item =>
       this.email_columns.some(col => {
         const email = item[col]?.trim();
-        return email && emailRegex.test(email);
+        return email && this.emailRegex.test(email);
       })
     );
   }
@@ -64,16 +64,26 @@ export class EmailsPublipostageComponent {
     this.exportExcelService.exporter_table(data_without_email, 'Sans email', this.traductions);
   }
 
-  exporter_liste_without_valid_email() {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  exporter_liste_with_invalid_email() {
     const data_without_email = this.data_to_load.filter(item => {
+      const hasInvalidEmail = this.email_columns.some(col => {
+        const value = item[col]?.trim();
+        return value && !this.emailRegex.test(value);
+      });
+      return hasInvalidEmail;
+    });
+    this.exportExcelService.exporter_table(data_without_email, 'Avec email invalide', this.traductions);
+  }
+
+  exporter_liste_without_valid_email() {
+    const data_with_invalid_email = this.data_to_load.filter(item => {
       const hasValidEmail = this.email_columns.some(col => {
         const value = item[col]?.trim();
-        return value && emailRegex.test(value);
+        return value && this.emailRegex.test(value);
       });
       return !hasValidEmail;
     });
-    this.exportExcelService.exporter_table(data_without_email, 'Sans email valide', this.traductions);
+    this.exportExcelService.exporter_table(data_with_invalid_email, 'Sans email valide', this.traductions);
   }
 
   copy_emails_to_clipboard() {
