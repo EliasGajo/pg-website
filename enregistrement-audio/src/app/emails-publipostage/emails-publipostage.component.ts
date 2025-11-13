@@ -26,8 +26,12 @@ export class EmailsPublipostageComponent {
   }
 
   clean_liste_email() {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     this.data_filtered = this.data_to_load.filter(item =>
-      this.email_columns.some(col => item[col]?.trim())
+      this.email_columns.some(col => {
+        const email = item[col]?.trim();
+        return email && emailRegex.test(email);
+      })
     );
   }
 
@@ -58,6 +62,18 @@ export class EmailsPublipostageComponent {
       return !hasEmail;
     });
     this.exportExcelService.exporter_table(data_without_email, 'Sans email', this.traductions);
+  }
+
+  exporter_liste_without_valid_email() {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const data_without_email = this.data_to_load.filter(item => {
+      const hasValidEmail = this.email_columns.some(col => {
+        const value = item[col]?.trim();
+        return value && emailRegex.test(value);
+      });
+      return !hasValidEmail;
+    });
+    this.exportExcelService.exporter_table(data_without_email, 'Sans email valide', this.traductions);
   }
 
   copy_emails_to_clipboard() {
