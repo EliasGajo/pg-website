@@ -12,19 +12,17 @@ import { ExportExcelService } from '../services/export-excel.service';
 export class ExportCoproprietaireComponent {
 
   data_filtered: any[] = [];
-  liste_email: any[] = [];
   traductions: {[key:string]:string} = {};
-  email_column: string = "NOEMAI";
+  email_columns: string[] = ["Email", "Email cocopropriétaire"];
 
   constructor(private exportExcelService: ExportExcelService) {}
 
   update_data_filtered(data_filtered: any[]) {
     this.data_filtered = data_filtered;
-    this.liste_email = data_filtered.map(item => item["NOEMAI"]);
   }
 
   copro_sans_email() {
-    var copro_sans_email = this.supprimer_doublons(this.data_filtered.filter(data => !data['NOEMAI'] || data['NOEMAI'].trim() === ''));
+    var copro_sans_email = this.supprimer_doublons(this.data_filtered.filter(data => !data['Email'] || data['Email'].trim() === ''));
     this.exportExcelService.exporter_table(copro_sans_email, 'Copropriétaires sans email', this.traductions);
     console.log(copro_sans_email);
   }
@@ -32,7 +30,7 @@ export class ExportCoproprietaireComponent {
   supprimer_doublons(liste_copro: any[]) {
     const set_copro = new Set<string>();
     return liste_copro.filter(copro => {
-      const identifiant = `${copro['NOIMME']}-${copro['NOLOCO']}`;
+      const identifiant = `${copro['Nom']}-${copro['Nom locataire et colocataire']}`;
       if (set_copro.has(identifiant)) {
         return false;
       } else {

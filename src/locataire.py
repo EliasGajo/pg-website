@@ -27,6 +27,9 @@ class Locataire:
             'MNTDU': 'Montant dû',
             'DAFIMA': 'Date de fin de mandat',
             'LOVACA': 'Vacant',
-            'NOEMAI': 'Email'
+            'NOEMAI': 'Email',
+            'CONTEN': 'Contentieux',
+            'CONTEND': 'Contentieux desc',
+            'ARRANG': 'Arrangement'
         }
         return traductions

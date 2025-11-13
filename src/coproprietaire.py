@@ -8,8 +8,7 @@ class Coproprietaire:
 
     @staticmethod
     def get_all():
-        df = pd.read_json('data/ega_ExportCOLACTIFS.json')
-        df = df['COLACTIFS']
+        df = pd.read_excel('data/ega_ExportCOPRALL.xlsx')
         return df.to_json(orient='records')
     
     @staticmethod

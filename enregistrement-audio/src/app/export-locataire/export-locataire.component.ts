@@ -14,7 +14,7 @@ export class ExportLocataireComponent {
   all_locataire_actif: any[] = [];
   data_filtered: any[] = [];
   traductions: {[key:string]:string} = {};
-  email_column: string = "NOEMAI";
+  email_columns: string[] = ["NOEMAI"];
 
   constructor(private zone: NgZone, private exportExcelService: ExportExcelService) {}
 

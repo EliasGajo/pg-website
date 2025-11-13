@@ -9,7 +9,7 @@ import { ExportExcelService } from '../services/export-excel.service';
   styleUrl: './emails-publipostage.component.css'
 })
 export class EmailsPublipostageComponent {
-  @Input() email_column: string = "";
+  @Input() email_columns: string[] = [];
   @Input() data_to_load: any[] = [];
   @Input() traductions: {[key:string]:string} = {};
   data_filtered: any[] = [];
@@ -26,28 +26,23 @@ export class EmailsPublipostageComponent {
   }
 
   clean_liste_email() {
-    const emails_unique = new Set<string>();
-    this.data_filtered = this.data_to_load
-      .filter(item => !!item[this.email_column]?.trim())
-      .map(item => ({...item, [this.email_column]: item[this.email_column].trim().toLowerCase()}))
-      .filter(item => {
-        if(emails_unique.has(item[this.email_column])) {
-          return false;
-        } else {
-          emails_unique.add(item[this.email_column]);
-          return true;
-        }
-      });
+    this.data_filtered = this.data_to_load.filter(item =>
+      this.email_columns.some(col => item[col]?.trim())
+    );
   }
 
   compute_email_str() {
-    this.email_str = "";
+    const emails: string[] = [];
     for (let item of this.data_filtered) {
-      if (this.email_str.length > 0) {
-        this.email_str += ";";
+      for (let col of this.email_columns) {
+        const email = item[col]?.trim();
+        if (email) {
+          emails.push(email);
+        }
       }
-      this.email_str += item[this.email_column];
     }
+    const emails_unique = Array.from(new Set(emails));
+    this.email_str = emails_unique.join(";");
   }
 
   exporter_liste_email() {
@@ -55,7 +50,13 @@ export class EmailsPublipostageComponent {
   }
 
   exporter_liste_without_email() {
-    const data_without_email = this.data_to_load.filter(item => !item[this.email_column]?.trim());
+    const data_without_email = this.data_to_load.filter(item => {
+      const hasEmail = this.email_columns.some(col => {
+        const value = item[col];
+        return value && value.trim() !== '';
+      });
+      return !hasEmail;
+    });
     this.exportExcelService.exporter_table(data_without_email, 'Sans email', this.traductions);
   }
 
