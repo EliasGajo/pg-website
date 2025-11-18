@@ -14,6 +14,7 @@ export class HomeComponent {
     { id: 'exportData', name: 'Export de données', image: 'excel.webp' },
     { id: 'tournusImmeuble', name: 'Tournus dans les immeubles', image: 'tournus.webp' },
     { id: 'modificationExcel', name: 'Modifications excel', image: 'excel.webp' },
+    { id: 'comunus', name: 'Exports Comunus', image: 'excel.webp' },
     // Ajouter les outils ici
   ];
 

@@ -1,0 +1,1954 @@
+{"COMUNUS": [
+  {
+    "V_OBJLOC": "003 001.12",
+    "ETAGESA": "Rez sup.",
+    "MONMEN": 920.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.0,
+    "surface": 59.0
+  },
+  {
+    "V_OBJLOC": "003 002.10",
+    "ETAGESA": "Rez sup.",
+    "MONMEN": 419.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.0,
+    "surface": 62.0
+  },
+  {
+    "V_OBJLOC": "003 003.10",
+    "ETAGESA": "Rez sup.",
+    "MONMEN": 624.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 81.0
+  },
+  {
+    "V_OBJLOC": "010 001.10",
+    "ETAGESA": "1er",
+    "MONMEN": 531.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 62.0
+  },
+  {
+    "V_OBJLOC": "010 002.12",
+    "ETAGESA": "1er",
+    "MONMEN": 890.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.0,
+    "surface": 59.0
+  },
+  {
+    "V_OBJLOC": "010 003.12",
+    "ETAGESA": "1er",
+    "MONMEN": 668.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 81.0
+  },
+  {
+    "V_OBJLOC": "020 001.12",
+    "ETAGESA": "2ème",
+    "MONMEN": 940.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 62.0
+  },
+  {
+    "V_OBJLOC": "020 002.11",
+    "ETAGESA": "2ème",
+    "MONMEN": 696.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.0,
+    "surface": 59.0
+  },
+  {
+    "V_OBJLOC": "020 003.10",
+    "ETAGESA": "2ème",
+    "MONMEN": 900.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 81.0
+  },
+  {
+    "V_OBJLOC": "030 001.16",
+    "ETAGESA": "3ème",
+    "MONMEN": 940.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 62.0
+  },
+  {
+    "V_OBJLOC": "030 002.22",
+    "ETAGESA": "3ème",
+    "MONMEN": 870.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.0,
+    "surface": 59.0
+  },
+  {
+    "V_OBJLOC": "030 003.10",
+    "ETAGESA": "3ème",
+    "MONMEN": 645.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 81.0
+  },
+  {
+    "V_OBJLOC": "040 001.12",
+    "ETAGESA": "4ème",
+    "MONMEN": 930.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 62.0
+  },
+  {
+    "V_OBJLOC": "040 002.10",
+    "ETAGESA": "4ème",
+    "MONMEN": 460.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.0,
+    "surface": 59.0
+  },
+  {
+    "V_OBJLOC": "040 003.14",
+    "ETAGESA": "4ème",
+    "MONMEN": 1000.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 81.0
+  },
+  {
+    "V_OBJLOC": "003 001.12",
+    "ETAGESA": "Rez sup.",
+    "MONMEN": 770.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 89.0
+  },
+  {
+    "V_OBJLOC": "003 002.16",
+    "ETAGESA": "Rez sup.",
+    "MONMEN": 900.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 80.0
+  },
+  {
+    "V_OBJLOC": "010 001.10",
+    "ETAGESA": "1er",
+    "MONMEN": 903.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 89.0
+  },
+  {
+    "V_OBJLOC": "010 002.16",
+    "ETAGESA": "1er",
+    "MONMEN": 1150.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 80.0
+  },
+  {
+    "V_OBJLOC": "020 001.12",
+    "ETAGESA": "2ème",
+    "MONMEN": 1140.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 89.0
+  },
+  {
+    "V_OBJLOC": "020 002.14",
+    "ETAGESA": "2ème",
+    "MONMEN": 1000.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 80.0
+  },
+  {
+    "V_OBJLOC": "030 001.10",
+    "ETAGESA": "3ème",
+    "MONMEN": 645.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 89.0
+  },
+  {
+    "V_OBJLOC": "030 002.18",
+    "ETAGESA": "3ème",
+    "MONMEN": 1090.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 80.0
+  },
+  {
+    "V_OBJLOC": "040 001.14",
+    "ETAGESA": "4ème",
+    "MONMEN": 1150.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 89.0
+  },
+  {
+    "V_OBJLOC": "040 002.10",
+    "ETAGESA": "4ème",
+    "MONMEN": 690.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 80.0
+  },
+  {
+    "V_OBJLOC": "003 001.10",
+    "ETAGESA": "Rez sup.",
+    "MONMEN": 616.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 83.0
+  },
+  {
+    "V_OBJLOC": "003 002.18",
+    "ETAGESA": "Rez sup.",
+    "MONMEN": 1020.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.0,
+    "surface": 64.0
+  },
+  {
+    "V_OBJLOC": "003 003.17",
+    "ETAGESA": "Rez sup.",
+    "MONMEN": 1110.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 70.0
+  },
+  {
+    "V_OBJLOC": "010 001.14",
+    "ETAGESA": "1er",
+    "MONMEN": 1100.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 83.0
+  },
+  {
+    "V_OBJLOC": "010 002.12",
+    "ETAGESA": "1er",
+    "MONMEN": 655.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.0,
+    "surface": 64.0
+  },
+  {
+    "V_OBJLOC": "010 003.12",
+    "ETAGESA": "1er",
+    "MONMEN": 1090.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 70.0
+  },
+  {
+    "V_OBJLOC": "020 001.14",
+    "ETAGESA": "2ème",
+    "MONMEN": 1090.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 83.0
+  },
+  {
+    "V_OBJLOC": "020 002.10",
+    "ETAGESA": "2ème",
+    "MONMEN": 514.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.0,
+    "surface": 64.0
+  },
+  {
+    "V_OBJLOC": "020 003.10",
+    "ETAGESA": "2ème",
+    "MONMEN": 890.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 70.0
+  },
+  {
+    "V_OBJLOC": "030 001.12",
+    "ETAGESA": "3ème",
+    "MONMEN": 840.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 83.0
+  },
+  {
+    "V_OBJLOC": "030 002.10",
+    "ETAGESA": "3ème",
+    "MONMEN": 550.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.0,
+    "surface": 64.0
+  },
+  {
+    "V_OBJLOC": "030 003.12",
+    "ETAGESA": "3ème",
+    "MONMEN": 1050.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 70.0
+  },
+  {
+    "V_OBJLOC": "040 001.10",
+    "ETAGESA": "4ème",
+    "MONMEN": 733.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 83.0
+  },
+  {
+    "V_OBJLOC": "040 002.10",
+    "ETAGESA": "4ème",
+    "MONMEN": 920.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.0,
+    "surface": 64.0
+  },
+  {
+    "V_OBJLOC": "040 003.14",
+    "ETAGESA": "4ème",
+    "MONMEN": 1070.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 70.0
+  },
+  {
+    "V_OBJLOC": "900 001.10",
+    "ETAGESA": "Rez",
+    "MONMEN": 141.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 002.10",
+    "ETAGESA": "Rez",
+    "MONMEN": 133.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 003.12",
+    "ETAGESA": "Rez",
+    "MONMEN": 133.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 004.12",
+    "ETAGESA": "Rez",
+    "MONMEN": 160.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 005.12",
+    "ETAGESA": "Rez",
+    "MONMEN": 160.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 006.14",
+    "ETAGESA": "Rez",
+    "MONMEN": 150.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 007.12",
+    "ETAGESA": "Rez",
+    "MONMEN": 150.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 008.10",
+    "ETAGESA": "Rez",
+    "MONMEN": 130.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 009.12",
+    "ETAGESA": "Rez",
+    "MONMEN": 160.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 010.14",
+    "ETAGESA": "Rez",
+    "MONMEN": 150.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 011.10",
+    "ETAGESA": "Rez",
+    "MONMEN": 133.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 012.12",
+    "ETAGESA": "Rez",
+    "MONMEN": 170.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 013.14",
+    "ETAGESA": "Rez",
+    "MONMEN": 150.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 014.10",
+    "ETAGESA": "Rez",
+    "MONMEN": 133.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "002 001.12",
+    "ETAGESA": "Rez",
+    "MONMEN": 550.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 1.0,
+    "surface": 38.0
+  },
+  {
+    "V_OBJLOC": "004 001.12",
+    "ETAGESA": "Rez ext.",
+    "MONMEN": 940.0,
+    "GEOBJED": "Local",
+    "NBPIEC": 0.0,
+    "surface": 68.0
+  },
+  {
+    "V_OBJLOC": "004 002.10",
+    "ETAGESA": "Rez ext.",
+    "MONMEN": 844.0,
+    "GEOBJED": "Local",
+    "NBPIEC": 0.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "010 001.10",
+    "ETAGESA": "1er",
+    "MONMEN": 620.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 101.0
+  },
+  {
+    "V_OBJLOC": "010 002.10",
+    "ETAGESA": "1er",
+    "MONMEN": 720.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 83.0
+  },
+  {
+    "V_OBJLOC": "020 001.12",
+    "ETAGESA": "2ème",
+    "MONMEN": 621.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 101.0
+  },
+  {
+    "V_OBJLOC": "020 002.22",
+    "ETAGESA": "2ème",
+    "MONMEN": 1015.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 83.0
+  },
+  {
+    "V_OBJLOC": "030 001.10",
+    "ETAGESA": "3ème",
+    "MONMEN": 980.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 101.0
+  },
+  {
+    "V_OBJLOC": "030 002.16",
+    "ETAGESA": "3ème",
+    "MONMEN": 950.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 83.0
+  },
+  {
+    "V_OBJLOC": "040 001.14",
+    "ETAGESA": "4ème",
+    "MONMEN": 1150.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 101.0
+  },
+  {
+    "V_OBJLOC": "040 002.12",
+    "ETAGESA": "4ème",
+    "MONMEN": 980.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 83.0
+  },
+  {
+    "V_OBJLOC": "050 001.14",
+    "ETAGESA": "5ème",
+    "MONMEN": 1160.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 101.0
+  },
+  {
+    "V_OBJLOC": "050 002.10",
+    "ETAGESA": "5ème",
+    "MONMEN": 900.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 83.0
+  },
+  {
+    "V_OBJLOC": "060 001.16",
+    "ETAGESA": "6ème",
+    "MONMEN": 1160.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 99.0
+  },
+  {
+    "V_OBJLOC": "060 002.10",
+    "ETAGESA": "6ème",
+    "MONMEN": 865.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 83.0
+  },
+  {
+    "V_OBJLOC": "070 001.10",
+    "ETAGESA": "7ème",
+    "MONMEN": 627.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 101.0
+  },
+  {
+    "V_OBJLOC": "070 002.10",
+    "ETAGESA": "7ème",
+    "MONMEN": 911.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 83.0
+  },
+  {
+    "V_OBJLOC": "004 001.12",
+    "ETAGESA": "Rez ext.",
+    "MONMEN": 732.0,
+    "GEOBJED": "Local",
+    "NBPIEC": 0.0,
+    "surface": 52.0
+  },
+  {
+    "V_OBJLOC": "004 002.14",
+    "ETAGESA": "Rez ext.",
+    "MONMEN": 830.0,
+    "GEOBJED": "Local",
+    "NBPIEC": 0.0,
+    "surface": 61.0
+  },
+  {
+    "V_OBJLOC": "010 001.14",
+    "ETAGESA": "1er",
+    "MONMEN": 1020.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 83.0
+  },
+  {
+    "V_OBJLOC": "010 002.12",
+    "ETAGESA": "1er",
+    "MONMEN": 1150.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 100.0
+  },
+  {
+    "V_OBJLOC": "020 001.16",
+    "ETAGESA": "2ème",
+    "MONMEN": 940.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 83.0
+  },
+  {
+    "V_OBJLOC": "020 002.12",
+    "ETAGESA": "2ème",
+    "MONMEN": 736.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 100.0
+  },
+  {
+    "V_OBJLOC": "030 001.12",
+    "ETAGESA": "3ème",
+    "MONMEN": 881.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 2.5,
+    "surface": 63.0
+  },
+  {
+    "V_OBJLOC": "030 002.12",
+    "ETAGESA": "3ème",
+    "MONMEN": 1200.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 119.0
+  },
+  {
+    "V_OBJLOC": "040 001.14",
+    "ETAGESA": "4ème",
+    "MONMEN": 980.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 83.0
+  },
+  {
+    "V_OBJLOC": "040 002.12",
+    "ETAGESA": "4ème",
+    "MONMEN": 1150.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 100.0
+  },
+  {
+    "V_OBJLOC": "050 001.10",
+    "ETAGESA": "5ème",
+    "MONMEN": 940.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 83.0
+  },
+  {
+    "V_OBJLOC": "050 002.12",
+    "ETAGESA": "5ème",
+    "MONMEN": 1010.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 100.0
+  },
+  {
+    "V_OBJLOC": "060 001.16",
+    "ETAGESA": "6ème",
+    "MONMEN": 890.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 2.5,
+    "surface": 63.0
+  },
+  {
+    "V_OBJLOC": "060 002.12",
+    "ETAGESA": "6ème",
+    "MONMEN": 812.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 5.5,
+    "surface": 119.0
+  },
+  {
+    "V_OBJLOC": "070 001.14",
+    "ETAGESA": "7ème",
+    "MONMEN": 920.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 82.0
+  },
+  {
+    "V_OBJLOC": "070 002.12",
+    "ETAGESA": "7ème",
+    "MONMEN": 910.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 97.0
+  },
+  {
+    "V_OBJLOC": "004 001.14",
+    "ETAGESA": "Rez ext.",
+    "MONMEN": 2305.0,
+    "GEOBJED": "Local",
+    "NBPIEC": 0.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "600 001.12",
+    "ETAGESA": "Enseigne",
+    "MONMEN": 35.0,
+    "GEOBJED": "Enseigne",
+    "NBPIEC": 0.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 007.10",
+    "ETAGESA": "Rez",
+    "MONMEN": 130.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 008.10",
+    "ETAGESA": "Rez",
+    "MONMEN": 130.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 009.20",
+    "ETAGESA": "Rez",
+    "MONMEN": 170.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 010.12",
+    "ETAGESA": "Rez",
+    "MONMEN": 160.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 011.12",
+    "ETAGESA": "Rez",
+    "MONMEN": 160.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 012.14",
+    "ETAGESA": "Rez",
+    "MONMEN": 170.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 013.14",
+    "ETAGESA": "Rez",
+    "MONMEN": 160.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 014.14",
+    "ETAGESA": "Rez",
+    "MONMEN": 160.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 015.20",
+    "ETAGESA": "Rez",
+    "MONMEN": 160.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 016.18",
+    "ETAGESA": "Rez",
+    "MONMEN": 150.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 017.14",
+    "ETAGESA": "Rez",
+    "MONMEN": 150.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 018.10",
+    "ETAGESA": "Rez",
+    "MONMEN": 150.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 019.14",
+    "ETAGESA": "Rez",
+    "MONMEN": 150.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 001.10",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 30.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 002.16",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 50.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 003.10",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 40.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 004.12",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 50.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 005.10",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 50.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 006.12",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 30.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 007.12",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 50.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 008.12",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 50.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 009.10",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 50.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 010.14",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 50.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 011.20",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 50.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 012.10",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 30.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 013.16",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 50.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 014.16",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 50.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 000.12",
+    "ETAGESA": "Rez",
+    "MONMEN": 160.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 001.10",
+    "ETAGESA": "Rez",
+    "MONMEN": 140.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 002.12",
+    "ETAGESA": "Rez",
+    "MONMEN": 160.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 003.10",
+    "ETAGESA": "Rez",
+    "MONMEN": 160.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 004.12",
+    "ETAGESA": "Rez",
+    "MONMEN": 160.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 005.10",
+    "ETAGESA": "Rez",
+    "MONMEN": 140.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "900 006.16",
+    "ETAGESA": "Rez",
+    "MONMEN": 160.0,
+    "GEOBJED": "Garage",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "010 001.10",
+    "ETAGESA": "1er",
+    "MONMEN": 1650.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 5.0,
+    "surface": 145.0
+  },
+  {
+    "V_OBJLOC": "020 001.10",
+    "ETAGESA": "2ème",
+    "MONMEN": 560.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 99.0
+  },
+  {
+    "V_OBJLOC": "004 001.10",
+    "ETAGESA": "Rez ext.",
+    "MONMEN": 12648.0,
+    "GEOBJED": "Local",
+    "NBPIEC": 0.0,
+    "surface": 1226.0
+  },
+  {
+    "V_OBJLOC": "010 001.10",
+    "ETAGESA": "1er",
+    "MONMEN": 1000.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 102.0
+  },
+  {
+    "V_OBJLOC": "010 002.10",
+    "ETAGESA": "1er",
+    "MONMEN": 687.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.0,
+    "surface": 67.0
+  },
+  {
+    "V_OBJLOC": "020 001.10",
+    "ETAGESA": "2ème",
+    "MONMEN": 1510.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 105.0
+  },
+  {
+    "V_OBJLOC": "020 002.14",
+    "ETAGESA": "2ème",
+    "MONMEN": 1300.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.0,
+    "surface": 77.0
+  },
+  {
+    "V_OBJLOC": "030 001.10",
+    "ETAGESA": "3ème",
+    "MONMEN": 665.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 105.0
+  },
+  {
+    "V_OBJLOC": "030 002.10",
+    "ETAGESA": "3ème",
+    "MONMEN": 1250.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.0,
+    "surface": 77.0
+  },
+  {
+    "V_OBJLOC": "040 001.13",
+    "ETAGESA": "4ème",
+    "MONMEN": 1570.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 105.0
+  },
+  {
+    "V_OBJLOC": "040 002.12",
+    "ETAGESA": "4ème",
+    "MONMEN": 1350.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.0,
+    "surface": 77.0
+  },
+  {
+    "V_OBJLOC": "050 001.12",
+    "ETAGESA": "5ème",
+    "MONMEN": 1400.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.0,
+    "surface": 64.0
+  },
+  {
+    "V_OBJLOC": "002 001.10",
+    "ETAGESA": "Rez",
+    "MONMEN": 1600.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 5.0,
+    "surface": 107.0
+  },
+  {
+    "V_OBJLOC": "010 001.10",
+    "ETAGESA": "1er",
+    "MONMEN": 1700.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 5.0,
+    "surface": 107.0
+  },
+  {
+    "V_OBJLOC": "020 001.12",
+    "ETAGESA": "2ème",
+    "MONMEN": 2100.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 5.0,
+    "surface": 107.0
+  },
+  {
+    "V_OBJLOC": "030 001.10",
+    "ETAGESA": "3ème",
+    "MONMEN": 680.0,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.0,
+    "surface": 102.0
+  },
+  {
+    "V_OBJLOC": "700 001.10",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 40.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 002.13",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 60.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 003.10",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 40.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 004.12",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 50.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 005.14",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 60.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "700 006.10",
+    "ETAGESA": "Place ext.",
+    "MONMEN": 60.0,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "010 001.09",
+    "ETAGESA": "1er",
+    "MONMEN": null,
+    "GEOBJED": "Bureaux",
+    "NBPIEC": 0.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "010 001.09",
+    "ETAGESA": "1er",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 61.0
+  },
+  {
+    "V_OBJLOC": "010 002.09",
+    "ETAGESA": "1er",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 2.5,
+    "surface": 43.0
+  },
+  {
+    "V_OBJLOC": "010 003.09",
+    "ETAGESA": "1er",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 58.0
+  },
+  {
+    "V_OBJLOC": "010 004.09",
+    "ETAGESA": "1er",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 63.0
+  },
+  {
+    "V_OBJLOC": "020 001.09",
+    "ETAGESA": "2ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 61.0
+  },
+  {
+    "V_OBJLOC": "020 002.09",
+    "ETAGESA": "2ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 2.5,
+    "surface": 43.0
+  },
+  {
+    "V_OBJLOC": "020 003.09",
+    "ETAGESA": "2ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 58.0
+  },
+  {
+    "V_OBJLOC": "020 004.09",
+    "ETAGESA": "2ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 63.0
+  },
+  {
+    "V_OBJLOC": "030 001.09",
+    "ETAGESA": "3ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 61.0
+  },
+  {
+    "V_OBJLOC": "030 002.09",
+    "ETAGESA": "3ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 2.5,
+    "surface": 43.0
+  },
+  {
+    "V_OBJLOC": "030 003.09",
+    "ETAGESA": "3ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 58.0
+  },
+  {
+    "V_OBJLOC": "030 004.09",
+    "ETAGESA": "3ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 63.0
+  },
+  {
+    "V_OBJLOC": "040 001.09",
+    "ETAGESA": "4ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 61.0
+  },
+  {
+    "V_OBJLOC": "040 002.09",
+    "ETAGESA": "4ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 2.5,
+    "surface": 43.0
+  },
+  {
+    "V_OBJLOC": "040 003.09",
+    "ETAGESA": "4ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 2.5,
+    "surface": 43.0
+  },
+  {
+    "V_OBJLOC": "040 004.09",
+    "ETAGESA": "4ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 78.0
+  },
+  {
+    "V_OBJLOC": "050 001.09",
+    "ETAGESA": "5ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 61.0
+  },
+  {
+    "V_OBJLOC": "050 002.09",
+    "ETAGESA": "5ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 2.5,
+    "surface": 43.0
+  },
+  {
+    "V_OBJLOC": "050 003.09",
+    "ETAGESA": "5ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 2.5,
+    "surface": 43.0
+  },
+  {
+    "V_OBJLOC": "050 004.09",
+    "ETAGESA": "5ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 78.0
+  },
+  {
+    "V_OBJLOC": "060 001.09",
+    "ETAGESA": "6ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 61.0
+  },
+  {
+    "V_OBJLOC": "060 002.09",
+    "ETAGESA": "6ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 64.0
+  },
+  {
+    "V_OBJLOC": "060 003.09",
+    "ETAGESA": "6ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 1.5,
+    "surface": 23.0
+  },
+  {
+    "V_OBJLOC": "060 004.09",
+    "ETAGESA": "6ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 78.0
+  },
+  {
+    "V_OBJLOC": "070 001.09",
+    "ETAGESA": "7ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 61.0
+  },
+  {
+    "V_OBJLOC": "070 002.09",
+    "ETAGESA": "7ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 3.5,
+    "surface": 64.0
+  },
+  {
+    "V_OBJLOC": "070 003.09",
+    "ETAGESA": "7ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 1.5,
+    "surface": 23.0
+  },
+  {
+    "V_OBJLOC": "070 004.09",
+    "ETAGESA": "7ème",
+    "MONMEN": null,
+    "GEOBJED": "Appartement",
+    "NBPIEC": 4.5,
+    "surface": 78.0
+  },
+  {
+    "V_OBJLOC": "004 001.09",
+    "ETAGESA": "Rez ext.",
+    "MONMEN": null,
+    "GEOBJED": "Fitness",
+    "NBPIEC": 0.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "004 002.09",
+    "ETAGESA": "Rez ext.",
+    "MONMEN": null,
+    "GEOBJED": "Restaurant",
+    "NBPIEC": 0.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "004 003.09",
+    "ETAGESA": "Rez ext.",
+    "MONMEN": null,
+    "GEOBJED": "Local",
+    "NBPIEC": 0.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "730 001.09",
+    "ETAGESA": "Niveau +3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "730 002.09",
+    "ETAGESA": "Niveau +3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "730 003.09",
+    "ETAGESA": "Niveau +3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "730 004.09",
+    "ETAGESA": "Niveau +3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "730 005.09",
+    "ETAGESA": "Niveau +3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "730 006.09",
+    "ETAGESA": "Niveau +3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "730 007.09",
+    "ETAGESA": "Niveau +3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "730 008.09",
+    "ETAGESA": "Niveau +3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "730 009.09",
+    "ETAGESA": "Niveau +3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "730 010.09",
+    "ETAGESA": "Niveau +3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "730 011.09",
+    "ETAGESA": "Niveau +3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "731 012.09",
+    "ETAGESA": "Niveau +2",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "731 013.09",
+    "ETAGESA": "Niveau +2",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "731 014.09",
+    "ETAGESA": "Niveau +2",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "731 015.09",
+    "ETAGESA": "Niveau +2",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "731 016.09",
+    "ETAGESA": "Niveau +2",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "731 017.09",
+    "ETAGESA": "Niveau +2",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "731 018.09",
+    "ETAGESA": "Niveau +2",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "731 019.09",
+    "ETAGESA": "Niveau +2",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "732 023.09",
+    "ETAGESA": "Niveau +1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "732 024.09",
+    "ETAGESA": "Niveau +1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "732 025.09",
+    "ETAGESA": "Niveau +1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "732 026.09",
+    "ETAGESA": "Niveau +1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "732 027.09",
+    "ETAGESA": "Niveau +1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "732 028.09",
+    "ETAGESA": "Niveau +1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "732 029.09",
+    "ETAGESA": "Niveau +1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "733 032.09",
+    "ETAGESA": "Niveau 0",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "733 033.09",
+    "ETAGESA": "Niveau 0",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "733 034.09",
+    "ETAGESA": "Niveau 0",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "734 035.09",
+    "ETAGESA": "Niveau -1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "734 036.09",
+    "ETAGESA": "Niveau -1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "734 037.09",
+    "ETAGESA": "Niveau -1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "734 038.09",
+    "ETAGESA": "Niveau -1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "734 039.09",
+    "ETAGESA": "Niveau -1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "734 040.09",
+    "ETAGESA": "Niveau -1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "734 041.09",
+    "ETAGESA": "Niveau -1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "734 042.09",
+    "ETAGESA": "Niveau -1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "734 043.09",
+    "ETAGESA": "Niveau -1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "734 044.09",
+    "ETAGESA": "Niveau -1",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "735 045.09",
+    "ETAGESA": "Niveau -2",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "735 046.09",
+    "ETAGESA": "Niveau -2",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "735 047.09",
+    "ETAGESA": "Niveau -2",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "735 048.09",
+    "ETAGESA": "Niveau -2",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "735 049.09",
+    "ETAGESA": "Niveau -2",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "735 050.09",
+    "ETAGESA": "Niveau -2",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "735 051.09",
+    "ETAGESA": "Niveau -2",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "735 052.09",
+    "ETAGESA": "Niveau -2",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "736 053.09",
+    "ETAGESA": "Niveau -3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "736 054.09",
+    "ETAGESA": "Niveau -3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "736 055.09",
+    "ETAGESA": "Niveau -3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "736 056.09",
+    "ETAGESA": "Niveau -3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "736 057.09",
+    "ETAGESA": "Niveau -3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "736 058.09",
+    "ETAGESA": "Niveau -3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "736 059.09",
+    "ETAGESA": "Niveau -3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "736 060.09",
+    "ETAGESA": "Niveau -3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "736 061.09",
+    "ETAGESA": "Niveau -3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "736 062.09",
+    "ETAGESA": "Niveau -3",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "737 063.09",
+    "ETAGESA": "Niveau -4",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "737 064.09",
+    "ETAGESA": "Niveau -4",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "737 065.09",
+    "ETAGESA": "Niveau -4",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "737 066.09",
+    "ETAGESA": "Niveau -4",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "737 067.09",
+    "ETAGESA": "Niveau -4",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "737 068.09",
+    "ETAGESA": "Niveau -4",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "737 069.09",
+    "ETAGESA": "Niveau -4",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "737 070.09",
+    "ETAGESA": "Niveau -4",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "737 071.09",
+    "ETAGESA": "Niveau -4",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  },
+  {
+    "V_OBJLOC": "737 072.09",
+    "ETAGESA": "Niveau -4",
+    "MONMEN": null,
+    "GEOBJED": "Parking",
+    "NBPIEC": 1.0,
+    "surface": 0.0
+  }
+]}
