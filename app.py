@@ -14,6 +14,7 @@ from src.etat_locatif import EtatLocatif
 from src.qr_multiple import QrMultiple
 from src.locataire_export_grille import LocataireExportGrille
 from src.communus import Communus
+from src.document import Document
 import uvicorn
 
 app = FastAPI()
@@ -135,6 +136,16 @@ async def root(request: Request):
 async def root(request: Request):
     values = QrMultiple.get_all()
     traductions = QrMultiple.get_traduction()
+    return {
+            "values": values,
+            "traductions": traductions
+            }
+
+@app.get("/document")
+async def root(request: Request):
+    #data = await request.json()
+    values = Document.get_all()
+    traductions = Document.get_traduction()
     return {
             "values": values,
             "traductions": traductions
