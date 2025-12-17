@@ -19,7 +19,9 @@ export class ExportDataComponent {
     { id: 'exportProprietaire', name: 'Propriétaires', image: 'info.webp' },
     { id: 'exportEtatLocatif', name: 'Etat locatif', image: 'info.webp' },
     { id: 'exportDocument', name: 'Documents', image: 'info.webp' },
-    { id: 'exportQrMultiple', name: 'QR multiples', image: 'facture.webp' }
+    { id: 'exportContentieux', name: 'Contentieux', image: 'info.webp' },
+    { id: 'exportQrMultiple', name: 'QR multiples', image: 'facture.webp' },
+    { id: 'elementBail', name: 'Eléments de bail', image: 'info.webp' }
     // Ajouter les autres ici
   ];
 

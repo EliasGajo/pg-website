@@ -1,0 +1,7 @@
+<div>
+  <h2>Charger un fichier Excel</h2>
+  <input type="file" (change)="onFileChange($event)" accept=".xlsx, .xls" />
+
+  <button (click)="showSheets()" [disabled]="!workbook">Afficher liste des onglets</button>
+</div>
+

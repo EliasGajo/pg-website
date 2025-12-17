@@ -15,6 +15,8 @@ from src.qr_multiple import QrMultiple
 from src.locataire_export_grille import LocataireExportGrille
 from src.communus import Communus
 from src.document import Document
+from src.contentieux import Contentieux
+from src.element_bail import ElementBail
 import uvicorn
 
 app = FastAPI()
@@ -146,6 +148,26 @@ async def root(request: Request):
     #data = await request.json()
     values = Document.get_all()
     traductions = Document.get_traduction()
+    return {
+            "values": values,
+            "traductions": traductions
+            }
+
+@app.get("/contentieux")
+async def root(request: Request):
+    #data = await request.json()
+    values = Contentieux.get_all()
+    traductions = Contentieux.get_traduction()
+    return {
+            "values": values,
+            "traductions": traductions
+            }
+
+@app.get("/element-bail")
+async def root(request: Request):
+    #data = await request.json()
+    values = ElementBail.get_all()
+    traductions = ElementBail.get_traduction()
     return {
             "values": values,
             "traductions": traductions

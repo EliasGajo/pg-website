@@ -1,0 +1,12 @@
+<div class="page">
+    <app-dataframe 
+    (data_filtered_update)="update_data_filtered($event)"
+    [data_to_load]="all_contentieux"
+    [traductions_to_load]="traductions"
+    export_title="Export des Contentieux" 
+    table_max_height="750px"
+    >
+        <button extra-button (click)="compute_nombre_par_immeuble()">📤 Nombre par immeuble</button>
+    </app-dataframe>
+</div>
+

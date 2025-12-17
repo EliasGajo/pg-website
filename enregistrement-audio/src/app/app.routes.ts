@@ -14,7 +14,10 @@ import { QrMultipleComponent } from './qr-multiple/qr-multiple.component';
 import { ExportEtatLocatifComponent } from './export-etat-locatif/export-etat-locatif.component';
 import { ComunusComponent } from './comunus/comunus.component';
 import { ModificationExcelComponent } from './modification-excel/modification-excel.component';
+import { RemplirExcelContentieuxComponent } from './remplir-excel-contentieux/remplir-excel-contentieux.component';
 import { ExportDocumentComponent } from './export-document/export-document.component';
+import { ExportContentieuxComponent } from './export-contentieux/export-contentieux.component';
+import { ElementBailComponent } from './element-bail/element-bail.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -28,9 +31,12 @@ export const routes: Routes = [
     {path: 'exportProprietaire', component: ExportProprietaireComponent},
     {path: 'exportEtatLocatif', component: ExportEtatLocatifComponent},
     {path: 'exportDocument', component: ExportDocumentComponent},
+    {path: 'exportContentieux', component: ExportContentieuxComponent},
     {path: 'comunus', component: ComunusComponent},
     {path: 'tournusImmeuble', component: TournusImmeubleComponent},
     {path: 'exportMoyenPaiement', component: ExportMoyenPaiementComponent},
     {path: 'exportQrMultiple', component: QrMultipleComponent},
-    {path: 'modificationExcel', component: ModificationExcelComponent}
+    {path: 'modificationExcel', component: ModificationExcelComponent},
+    {path: 'remplirExcelContentieux', component: RemplirExcelContentieuxComponent},
+    {path: 'elementBail', component: ElementBailComponent}
 ];
