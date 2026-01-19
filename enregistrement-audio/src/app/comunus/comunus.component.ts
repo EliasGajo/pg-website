@@ -19,7 +19,8 @@ export class ComunusComponent {
     'Locle': 'NE1.2300001',
     'Fiaz': 'NE1.2300001',
     'Vieux-Patriotes': 'NE1.2300002',
-    'Max-Petitpierre': 'NE2.2000001'
+    'Max-Petitpierre': 'NE2.2000001',
+    'Moulins': 'JU2.2800001'
   };
 
   ENTREE_MAPPING: Record<string, Number> = {
@@ -133,69 +134,83 @@ export class ComunusComponent {
       { header: 'TVA', key: 'tva', width: 10 },
       { header: 'Début bail', key: 'debut_bail', width: 12 },
       { header: '', key: 'q', width: 5 },
-      { header: '', key: 'r', width: 5 },
+      { header: 'Délai préavis (mois)', key: 'delai_preavis', width: 10 },
       { header: '', key: 's', width: 5 },
-      { header: '', key: 't', width: 5 },
+      { header: 'Résilitation pour le', key: 'resiliation_pour_le', width: 12 },
       { header: 'Fin bail', key: 'fin_bail', width: 12 },
       { header: 'Loyer net', key: 'loyer_net', width: 12 },
       { header: 'Charges', key: 'charges', width: 12 }
     ];
 
-    const workbook = new ExcelJS.Workbook();
-    const worksheet = workbook.addWorksheet('Etat locatif');
-
-    worksheet.columns = COLUMNS;
+    const groupedByImmeuble = new Map<string, any[]>();
 
     this.data_filtered.forEach(item => {
+      const ref = this.get_ref_immeuble(item['NOIMME']);
 
-      const entreeIndex = this.ENTREE_MAPPING[item['NOIMME']];
-      const unite_sorte = this.SORTE_MAPPING[item['GEOBJED']] || '';
-      const loyer_net = item['TOTLOY'] || '';
-      const loyer_brut = item['LOYBRU'] || '';
-      var charges = 0;
-      if(loyer_net != '' && loyer_brut != '') {
-        charges = loyer_brut - loyer_net;
+      if (!groupedByImmeuble.has(ref)) {
+        groupedByImmeuble.set(ref, []);
       }
 
-      worksheet.addRow({
-        mandat: 1,
-        portefeuille: 1,
-        ref_immeuble: this.get_ref_immeuble(item['NOIMME']),
-        batiment: entreeIndex,
-        entree: entreeIndex,
-        unite_locative: item['REFFOR'] || '',
-        unite_sorte: unite_sorte,
-        unite_type: this.TYPE_MAPPING[item['GEOBJED']] || '',
-        pieces: item['NBPIEC'] || '',
-        etage: item['ETAGESA'] || '',
-        k: 1,
-
-        // L → W (standard)
-        nom_locataire: item['NOLOCO'] || '',
-        surface: item['surface'] || '',
-        vacant: item['LOVACA'] || '',
-        tva: item['ASSTVA'] || '',
-        debut_bail: item['DADEBA'] || '',
-        q: '',
-        r: '',
-        s: '',
-        t: '',
-        fin_bail: item['DAFIBA'] || '',
-        loyer_net: loyer_net,
-        charges: charges || ''
-      });
+      groupedByImmeuble.get(ref)!.push(item);
     });
 
-    // Export fichier
-    const buffer = await workbook.xlsx.writeBuffer();
+    for (const [refImmeuble, items] of groupedByImmeuble.entries()) {
 
-    saveAs(
-      new Blob(
-        [buffer],
-        { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' }
-      ),
-      'etat_locatif_immopac.xlsx'
-    );
+      const workbook = new ExcelJS.Workbook();
+      const worksheet = workbook.addWorksheet('Etat locatif');
+      worksheet.columns = COLUMNS;
+
+      items.forEach(item => {
+
+        const entreeIndex = this.ENTREE_MAPPING[item['NOIMME']];
+        const unite_sorte = this.SORTE_MAPPING[item['GEOBJED']] || '';
+        const loyer_net = item['TOTLOY'] || '';
+        const loyer_brut = item['LOYBRU'] || '';
+        var charges = 0;
+        if(loyer_net != '' && loyer_brut != '') {
+          charges = loyer_brut - loyer_net;
+        }
+
+        worksheet.addRow({
+          mandat: 1,
+          portefeuille: 1,
+          ref_immeuble: this.get_ref_immeuble(item['NOIMME']),
+          batiment: entreeIndex,
+          entree: entreeIndex,
+          unite_locative: item['REFFOR'] || '',
+          unite_sorte: unite_sorte,
+          unite_type: this.TYPE_MAPPING[item['GEOBJED']] || '',
+          pieces: item['NBPIEC'] || '',
+          etage: item['ETAGESA'] || '',
+          k: 1,
+
+          // L → W (standard)
+          nom_locataire: item['NOLOCO'] || '',
+          surface: item['surface'] || '',
+          vacant: item['LOVACA'] ? 'oui' : 'non',
+          tva: item['ASSTVA'] ? 'oui' : 'non',
+          debut_bail: item['DADEBA'] || '',
+          q: '',
+          delai_preavis: item['NBMORT'] || '',
+          s: '',
+          resiliation_pour_le: item['DASOAC'] || '',
+          fin_bail: item['DAFIBA'] || '',
+          loyer_net: loyer_net,
+          charges: charges || ''
+        });
+      });
+
+      // Export fichier
+      const buffer = await workbook.xlsx.writeBuffer();
+
+      saveAs(
+        new Blob(
+          [buffer],
+          { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' }
+        ),
+        `etat_locatif_immopac_${refImmeuble}.xlsx`
+      );
+    }
   }
 
   remplir_excel_comunus() {
