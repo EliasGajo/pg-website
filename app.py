@@ -17,6 +17,7 @@ from src.communus import Communus
 from src.document import Document
 from src.contentieux import Contentieux
 from src.element_bail import ElementBail
+from src.export_email import ExportEmail
 import uvicorn
 
 app = FastAPI()
@@ -168,6 +169,16 @@ async def root(request: Request):
     #data = await request.json()
     values = ElementBail.get_all()
     traductions = ElementBail.get_traduction()
+    return {
+            "values": values,
+            "traductions": traductions
+            }
+
+@app.get("/export-email")
+async def root(request: Request):
+    #data = await request.json()
+    values = ExportEmail.get_all()
+    traductions = ExportEmail.get_traduction()
     return {
             "values": values,
             "traductions": traductions

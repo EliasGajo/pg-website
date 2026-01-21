@@ -18,6 +18,7 @@ import { RemplirExcelContentieuxComponent } from './remplir-excel-contentieux/re
 import { ExportDocumentComponent } from './export-document/export-document.component';
 import { ExportContentieuxComponent } from './export-contentieux/export-contentieux.component';
 import { ElementBailComponent } from './element-bail/element-bail.component';
+import { ExportEmailComponent } from './export-email/export-email.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -38,5 +39,6 @@ export const routes: Routes = [
     {path: 'exportQrMultiple', component: QrMultipleComponent},
     {path: 'modificationExcel', component: ModificationExcelComponent},
     {path: 'remplirExcelContentieux', component: RemplirExcelContentieuxComponent},
-    {path: 'elementBail', component: ElementBailComponent}
+    {path: 'elementBail', component: ElementBailComponent},
+    {path: 'exportEmail', component: ExportEmailComponent}
 ];

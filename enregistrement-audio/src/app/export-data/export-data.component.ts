@@ -21,7 +21,8 @@ export class ExportDataComponent {
     { id: 'exportDocument', name: 'Documents', image: 'info.webp' },
     { id: 'exportContentieux', name: 'Contentieux', image: 'info.webp' },
     { id: 'exportQrMultiple', name: 'QR multiples', image: 'facture.webp' },
-    { id: 'elementBail', name: 'Eléments de bail', image: 'info.webp' }
+    { id: 'elementBail', name: 'Eléments de bail', image: 'info.webp' },
+    { id: 'exportEmail', name: 'Emails', image: 'info.webp' }
     // Ajouter les autres ici
   ];
 
