@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse 
 from fastapi import Request
 import io
+import json
 from src.audio_to_text import Audio_to_text
 from src.chat_gpt_bot import Chat_gpt_bot
 from src.facture_debiteur import Facture_debiteur
@@ -191,16 +192,19 @@ async def root(request: Request):
 async def merge_excel(
     file1: UploadFile = File(...),
     file2: UploadFile = File(...),
-    columns_file_1: str = Form(...),
-    columns_file_2: str = Form(...),
+    final_columns_ordered: str = Form(...),  # Reçoit le JSON du frontend
     dedup_columns: str = Form(...)
 ):
-    # convertir chaînes JSON → listes
-    cols1 = columns_file_1.split(",")
-    cols2 = columns_file_2.split(",")
+    # Convertir JSON en liste de dicts
+    final_columns_ordered = json.loads(final_columns_ordered)
     dedup_cols = dedup_columns.split(",")
 
-    output = Excel.merge_excels(io.BytesIO(await file1.read()), cols1, io.BytesIO(await file2.read()), cols2, dedup_cols)
+    output = Excel.merge_excels(
+        io.BytesIO(await file1.read()),
+        io.BytesIO(await file2.read()),
+        final_columns_ordered,
+        dedup_cols
+    )
 
     return StreamingResponse(
         output,

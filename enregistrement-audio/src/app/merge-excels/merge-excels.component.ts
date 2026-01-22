@@ -64,6 +64,39 @@ export class MergeExcelsComponent {
     }
   }
 
+  getFinalColumnsOrdered() {
+    // Combine toutes les colonnes numérotées des 2 fichiers
+    const allCols: { name: string; position: number; fileSource: 1 | 2 }[] = [];
+
+    this.columnsFile1.forEach(c => {
+      if (c.position) allCols.push({ name: c.name, position: c.position, fileSource: 1 });
+    });
+
+    this.columnsFile2.forEach(c => {
+      if (c.position) allCols.push({ name: c.name, position: c.position, fileSource: 2 });
+    });
+
+    // Grouper par position
+    const byPosition = new Map<number, { position: number; name: string; file1_name?: string; file2_name?: string }>();
+
+    allCols.forEach(col => {
+      if (!byPosition.has(col.position)) {
+        byPosition.set(col.position, { position: col.position, name: '', file1_name: undefined, file2_name: undefined });
+      }
+      const entry = byPosition.get(col.position)!;
+      if (col.fileSource === 1) {
+        entry.file1_name = col.name;
+        entry.name = col.name; // priorité fichier 1 pour le nom final
+      } else {
+        entry.file2_name = col.name;
+        // ne change pas entry.name si fichier1 présent
+        if (!entry.name) entry.name = col.name;
+      }
+    });
+
+    // Retourner en ordre de position
+    return Array.from(byPosition.values()).sort((a, b) => a.position - b.position);
+  }
 
   async mergeFiles() {
     if (!this.file1 || !this.file2) {
@@ -74,8 +107,8 @@ export class MergeExcelsComponent {
     const formData = new FormData();
     formData.append('file1', this.file1);
     formData.append('file2', this.file2);
-    formData.append('columns_file_1', this.columnsFile1.filter(c => c.position).map(c => c.name).join(','));
-    formData.append('columns_file_2', this.columnsFile2.filter(c => c.position).map(c => c.name).join(','));
+    const finalColumnsOrdered = this.getFinalColumnsOrdered();
+    formData.append('final_columns_ordered', JSON.stringify(finalColumnsOrdered));
     formData.append('dedup_columns', this.dedupColumnsToSend.join(','));
 
     try {
@@ -109,23 +142,41 @@ export class MergeExcelsComponent {
   }
 
   updateFinalColumns() {
-    const combined: { name: string; position?: number; fileSource: 1 | 2; dedup?: boolean }[] = [];
+    const byPosition = new Map<number, {
+      name: string;
+      position: number;
+      fileSource: 1 | 2;
+      dedup: boolean;
+    }>();
 
+    // 1️⃣ Fichier 1 → priorité absolue
     this.columnsFile1.forEach(c => {
       if (c.position && c.position > 0) {
-        combined.push({ name: c.name, position: c.position, fileSource: 1, dedup: false });
+        byPosition.set(c.position, {
+          name: c.name,
+          position: c.position,
+          fileSource: 1,
+          dedup: false
+        });
       }
     });
 
+    // 2️⃣ Fichier 2 → seulement si la position n'existe pas déjà
     this.columnsFile2.forEach(c => {
-      if (c.position && c.position > 0) {
-        if (!combined.find(cc => cc.name === c.name)) {
-          combined.push({ name: c.name, position: c.position, fileSource: 2, dedup: false });
-        }
+      if (c.position && c.position > 0 && !byPosition.has(c.position)) {
+        byPosition.set(c.position, {
+          name: c.name,
+          position: c.position,
+          fileSource: 2,
+          dedup: false
+        });
       }
     });
 
-    this.finalColumnsOrdered = combined.sort((a, b) => (a.position! - b.position!));
+    // 3️⃣ Résultat final ordonné
+    this.finalColumnsOrdered = Array
+      .from(byPosition.values())
+      .sort((a, b) => a.position - b.position);
   }
 
   // Appeler cette fonction quand l’utilisateur change la position
