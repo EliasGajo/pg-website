@@ -1,11 +1,10 @@
 import { Component, NgZone } from '@angular/core';
 import { DataframeComponent } from '../dataframe/dataframe.component';
-import { EmailsPublipostageComponent } from '../emails-publipostage/emails-publipostage.component';
 import { ExportExcelService } from '../services/export-excel.service';
 
 @Component({
   selector: 'app-locataire-export-grille',
-  imports: [DataframeComponent, EmailsPublipostageComponent],
+  imports: [DataframeComponent],
   templateUrl: './locataire-export-grille.component.html',
   styleUrl: './locataire-export-grille.component.css'
 })

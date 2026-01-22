@@ -1,0 +1,35 @@
+<div class="container">
+  <h2>Fusion de fichiers Excel</h2>
+
+  <div class="file-upload">
+    <label>Fichier 1 :</label>
+    <input type="file" (change)="onFile1Change($event)" accept=".xlsx,.xls">
+    <div *ngIf="columnsFile1.length">
+      <h4>Colonnes disponibles :</h4>
+      <div *ngFor="let col of columnsFile1">
+        <input type="checkbox" [value]="col" (change)="toggleSelection($event, 1)"> {{col}}
+      </div>
+    </div>
+  </div>
+
+  <div class="file-upload">
+    <label>Fichier 2 :</label>
+    <input type="file" (change)="onFile2Change($event)" accept=".xlsx,.xls">
+    <div *ngIf="columnsFile2.length">
+      <h4>Colonnes disponibles :</h4>
+      <div *ngFor="let col of columnsFile2">
+        <input type="checkbox" [value]="col" (change)="toggleSelection($event, 2)"> {{col}}
+      </div>
+    </div>
+  </div>
+
+  <div class="deduplication">
+    <h4>Colonnes pour suppression des doublons :</h4>
+    <div *ngFor="let col of allColumnsUnique">
+      <input type="checkbox" [value]="col" (change)="toggleDedup($event)"> {{col}}
+    </div>
+  </div>
+
+  <button (click)="mergeFiles()">Fusionner & Télécharger</button>
+</div>
+

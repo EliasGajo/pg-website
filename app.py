@@ -1,6 +1,8 @@
-from fastapi import FastAPI, File, UploadFile, Body
+from fastapi import FastAPI, File, UploadFile, Form
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse 
 from fastapi import Request
+import io
 from src.audio_to_text import Audio_to_text
 from src.chat_gpt_bot import Chat_gpt_bot
 from src.facture_debiteur import Facture_debiteur
@@ -18,6 +20,7 @@ from src.document import Document
 from src.contentieux import Contentieux
 from src.element_bail import ElementBail
 from src.export_email import ExportEmail
+from src.excel import Excel
 import uvicorn
 
 app = FastAPI()
@@ -183,6 +186,31 @@ async def root(request: Request):
             "values": values,
             "traductions": traductions
             }
+
+@app.post("/merge-excel")
+async def merge_excel(
+    file1: UploadFile = File(...),
+    file2: UploadFile = File(...),
+    columns_file_1: str = Form(...),
+    columns_file_2: str = Form(...),
+    dedup_columns: str = Form(...)
+):
+    # convertir chaînes JSON → listes
+    cols1 = columns_file_1.split(",")
+    cols2 = columns_file_2.split(",")
+    dedup_cols = dedup_columns.split(",")
+
+    output = Excel.merge_excels(io.BytesIO(await file1.read()), cols1, io.BytesIO(await file2.read()), cols2, dedup_cols)
+
+    return StreamingResponse(
+        output,
+        media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        headers={"Content-Disposition": "attachment; filename=merged.xlsx"}
+    )
+
+@app.post("/get-columns")
+async def get_columns(file: UploadFile = File(...)):
+    return Excel.get_columns(io.BytesIO(await file.read()))
 
 @app.post("/audio-to-text")
 async def root(file: UploadFile = File(...)):

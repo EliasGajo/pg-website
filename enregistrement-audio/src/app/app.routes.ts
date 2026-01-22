@@ -19,6 +19,7 @@ import { ExportDocumentComponent } from './export-document/export-document.compo
 import { ExportContentieuxComponent } from './export-contentieux/export-contentieux.component';
 import { ElementBailComponent } from './element-bail/element-bail.component';
 import { ExportEmailComponent } from './export-email/export-email.component';
+import { MergeExcelsComponent } from './merge-excels/merge-excels.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -40,5 +41,6 @@ export const routes: Routes = [
     {path: 'modificationExcel', component: ModificationExcelComponent},
     {path: 'remplirExcelContentieux', component: RemplirExcelContentieuxComponent},
     {path: 'elementBail', component: ElementBailComponent},
-    {path: 'exportEmail', component: ExportEmailComponent}
+    {path: 'exportEmail', component: ExportEmailComponent},
+    {path: 'mergeExcels', component: MergeExcelsComponent}
 ];
