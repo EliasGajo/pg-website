@@ -7,7 +7,11 @@
     <div *ngIf="columnsFile1.length">
       <h4>Colonnes disponibles :</h4>
       <div *ngFor="let col of columnsFile1">
-        <input type="checkbox" [value]="col" (change)="toggleSelection($event, 1)"> {{col}}
+        {{ col.name }}
+        <input type="number" min="1" [(ngModel)]="col.position" 
+         [ngModelOptions]="{standalone: true}" 
+         placeholder="Position" 
+         (ngModelChange)="onPositionChange()" />
       </div>
     </div>
   </div>
@@ -18,15 +22,20 @@
     <div *ngIf="columnsFile2.length">
       <h4>Colonnes disponibles :</h4>
       <div *ngFor="let col of columnsFile2">
-        <input type="checkbox" [value]="col" (change)="toggleSelection($event, 2)"> {{col}}
+        {{ col.name }}
+        <input type="number" min="1" [(ngModel)]="col.position" 
+         [ngModelOptions]="{standalone: true}" 
+         placeholder="Position" 
+         (ngModelChange)="onPositionChange()" />
       </div>
     </div>
   </div>
 
   <div class="deduplication">
     <h4>Colonnes pour suppression des doublons :</h4>
-    <div *ngFor="let col of allColumnsUnique">
-      <input type="checkbox" [value]="col" (change)="toggleDedup($event)"> {{col}}
+    <div *ngFor="let col of finalColumnsOrdered">
+        <input type="checkbox" [(ngModel)]="col.dedup" /> {{ col.name }}
+        <span *ngIf="col.fileSource === 1">(fichier 1)</span>
     </div>
   </div>
 

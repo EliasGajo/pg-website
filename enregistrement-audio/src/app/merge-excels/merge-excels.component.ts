@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms'; 
 
 @Component({
   selector: 'app-merge-excels',
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule],
   templateUrl: './merge-excels.component.html',
   styleUrl: './merge-excels.component.css'
 })
@@ -11,14 +12,16 @@ export class MergeExcelsComponent {
   file1!: File;
   file2!: File;
 
-  columnsFile1: string[] = [];
-  columnsFile2: string[] = [];
+  columnsFile1: { name: string; position?: number }[] = [];
+  columnsFile2: { name: string; position?: number }[] = [];
   selectedColumnsFile1: string[] = [];
   selectedColumnsFile2: string[] = [];
   dedupColumns: string[] = [];
 
   previewColumnsFile1: string[] = [];
   previewColumnsFile2: string[] = [];
+
+  finalColumnsOrdered: { name: string; fileSource: 1 | 2; dedup?: boolean }[] = [];
 
   constructor() {}
 
@@ -45,12 +48,14 @@ export class MergeExcelsComponent {
 
       if (!response.ok) throw new Error('Erreur serveur');
 
-      const columns: string[] = await response.json();
+      const data: string[] = await response.json();
+
+      const mapped = data.map(name => ({ name, position: undefined }));
 
       if (fileNumber === 1) {
-        this.columnsFile1 = columns;
+        this.columnsFile1 = mapped;
       } else {
-        this.columnsFile2 = columns;
+        this.columnsFile2 = mapped;
       }
 
     } catch (err: any) {
@@ -69,9 +74,9 @@ export class MergeExcelsComponent {
     const formData = new FormData();
     formData.append('file1', this.file1);
     formData.append('file2', this.file2);
-    formData.append('columns_file_1', this.selectedColumnsFile1.join(','));
-    formData.append('columns_file_2', this.selectedColumnsFile2.join(','));
-    formData.append('dedup_columns', this.dedupColumns.join(','));
+    formData.append('columns_file_1', this.columnsFile1.filter(c => c.position).map(c => c.name).join(','));
+    formData.append('columns_file_2', this.columnsFile2.filter(c => c.position).map(c => c.name).join(','));
+    formData.append('dedup_columns', this.dedupColumnsToSend.join(','));
 
     try {
       const response = await fetch('https://10.209.10.213:8000/merge-excel', {
@@ -95,33 +100,37 @@ export class MergeExcelsComponent {
     }
   }
 
-  toggleSelection(event: any, fileNumber: number) {
-    const col = event.target.value;
-    const checked = event.target.checked;
-
-    let targetArray = fileNumber === 1 ? this.selectedColumnsFile1 : this.selectedColumnsFile2;
-
-    if (checked) {
-      targetArray.push(col);
-    } else {
-      targetArray = targetArray.filter(c => c !== col);
-      if (fileNumber === 1) this.selectedColumnsFile1 = targetArray;
-      else this.selectedColumnsFile2 = targetArray;
-    }
+  toggleDedup(col: { name: string; dedup?: boolean }) {
+    col.dedup = !col.dedup;
   }
 
-  toggleDedup(event: any) {
-    const col = event.target.value;
-    const checked = event.target.checked;
-
-    if (checked) this.dedupColumns.push(col);
-    else this.dedupColumns = this.dedupColumns.filter(c => c !== col);
+  get dedupColumnsToSend(): string[] {
+    return this.finalColumnsOrdered.filter(c => c.dedup).map(c => c.name);
   }
 
-  get allColumnsUnique(): string[] {
-    const combined = (this.columnsFile1 || []).concat(this.columnsFile2 || []);
-    // retourne uniquement les valeurs uniques
-    return Array.from(new Set(combined));
+  updateFinalColumns() {
+    const combined: { name: string; position?: number; fileSource: 1 | 2; dedup?: boolean }[] = [];
+
+    this.columnsFile1.forEach(c => {
+      if (c.position && c.position > 0) {
+        combined.push({ name: c.name, position: c.position, fileSource: 1, dedup: false });
+      }
+    });
+
+    this.columnsFile2.forEach(c => {
+      if (c.position && c.position > 0) {
+        if (!combined.find(cc => cc.name === c.name)) {
+          combined.push({ name: c.name, position: c.position, fileSource: 2, dedup: false });
+        }
+      }
+    });
+
+    this.finalColumnsOrdered = combined.sort((a, b) => (a.position! - b.position!));
+  }
+
+  // Appeler cette fonction quand l’utilisateur change la position
+  onPositionChange() {
+    this.updateFinalColumns();
   }
 
 }
