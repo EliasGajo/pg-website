@@ -69,7 +69,30 @@ export class ExportEmailComponent {
         prenom_extrait: prenom
       };
     });
-    this.exportExcelService.exporter_table(email_nom_prenom, 'Email nom prenom', this.traductions);
+
+     // Filtrage des doublons
+    const seen = new Map<string, typeof email_nom_prenom[0]>();
+
+    email_nom_prenom.forEach(entry => {
+      if (!entry.email) return; // ignorer les emails vides
+      if (!entry.email.includes('@') || !entry.email.includes('.')) return; // filtrage simple pour garder que les adresse email valide
+
+      const key = entry.email.toLowerCase(); // normalisation pour détection insensible à la casse
+
+      if (!seen.has(key)) {
+        seen.set(key, entry);
+      } else {
+        const existing = seen.get(key)!;
+        // garder celui avec nom_extrait ou prenom_extrait rempli
+        if ((entry.nom_extrait || entry.prenom_extrait) && !(existing.nom_extrait || existing.prenom_extrait)) {
+          seen.set(key, entry);
+        }
+      }
+    });
+
+    const filtered = Array.from(seen.values());
+
+    this.exportExcelService.exporter_table(filtered, 'Email nom prenom', this.traductions);
   }
 }
 

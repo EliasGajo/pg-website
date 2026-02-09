@@ -3,4 +3,17 @@
   <input type="file" (change)="onFileChange($event)" accept=".xlsx, .xls" />
 
   <button (click)="splitSheets()" [disabled]="!workbook">Séparer onglets en fichiers Excel distincts</button>
+  <div id="suppression_doublons">
+    <div *ngFor="let col of colonnes">
+      <label>
+        <input
+          type="checkbox"
+          [value]="col"
+          (change)="toggleColonne(col, $event)"
+        />
+        {{ col }}
+      </label>
+    </div>
+    <button (click)="supprimerDoublons()" [disabled]="!workbook">Supprimer doublons</button>
+  </div>
 </div>
