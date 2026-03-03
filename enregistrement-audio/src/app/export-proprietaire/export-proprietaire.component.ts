@@ -1,11 +1,12 @@
 import { Component, NgZone } from '@angular/core';
 import { DataframeComponent } from '../dataframe/dataframe.component';
 import { EmailsPublipostageComponent } from '../emails-publipostage/emails-publipostage.component';
+import { ExcelInjectionComponent } from '../excel-injection/excel-injection.component';
 import { ExportExcelService } from '../services/export-excel.service';
 
 @Component({
   selector: 'app-export-proprietaire',
-  imports: [DataframeComponent, EmailsPublipostageComponent],
+  imports: [DataframeComponent, EmailsPublipostageComponent, ExcelInjectionComponent],
   templateUrl: './export-proprietaire.component.html',
   styleUrl: './export-proprietaire.component.css'
 })

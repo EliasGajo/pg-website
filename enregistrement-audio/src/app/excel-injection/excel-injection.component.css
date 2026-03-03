@@ -1,0 +1,49 @@
+ .excel-section {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+
+/* Mapping dynamique */
+.mapping-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.mapping-row select {
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.btn-add {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
+
+.btn-add:hover {
+  background-color: #3e8e41;
+}
+
+.btn-remove {
+  background-color: #e53935;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-remove:hover {
+  background-color: #c62828;
+}

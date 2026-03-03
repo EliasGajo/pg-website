@@ -1,0 +1,79 @@
+<section class="excel-section">
+
+  <h2>📊 Injection Excel par matching</h2>
+  <p>
+    Chargez un fichier Excel et définissez les mappings pour les références
+    ainsi que pour les colonnes à injecter.
+  </p>
+
+  <!-- Upload -->
+  <div class="upload-row">
+    <input type="file"
+           (change)="onFileChange($event)"
+           accept=".xlsx,.xls" />
+  </div>
+
+  <!-- Configuration -->
+  <div *ngIf="excelColumns.length > 0 && availableColumns.length > 0"
+       class="config-container">
+
+    <!-- Mapping de référence dynamique -->
+    <div class="config-block">
+      <h3>🔑 Mapping des colonnes de référence (Data → Excel)</h3>
+
+      <div *ngFor="let mapping of referenceMappings; let i = index" class="mapping-row">
+        <select [(ngModel)]="mapping.dataColumn">
+          <option value="">-- Colonne Data --</option>
+          <option *ngFor="let col of availableColumns" [value]="col">{{ col }}</option>
+        </select>
+        <span>➡</span>
+        <select [(ngModel)]="mapping.excelColumn">
+          <option value="">-- Colonne Excel --</option>
+          <option *ngFor="let col of excelColumns" [value]="col">{{ col }}</option>
+        </select>
+        <button class="btn-remove" (click)="removeReferenceMapping(i)">✖</button>
+      </div>
+
+      <button class="btn-add" (click)="addReferenceMapping()">➕ Ajouter un mapping de référence</button>
+    </div>
+
+    <!-- Mapping dynamique pour injection -->
+    <div class="config-block">
+      <h3>🔄 Mapping des colonnes à injecter (Data → Excel)</h3>
+
+      <div *ngFor="let mapping of columnMappings; let i = index" class="mapping-row">
+        <select [(ngModel)]="mapping.dataColumn">
+          <option value="">-- Colonne Data --</option>
+          <option *ngFor="let col of availableColumns" [value]="col">{{ col }}</option>
+        </select>
+        <span>➡</span>
+        <select [(ngModel)]="mapping.excelColumn">
+          <option value="">-- Colonne Excel --</option>
+          <option *ngFor="let col of excelColumns" [value]="col">{{ col }}</option>
+        </select>
+        <button class="btn-remove" (click)="removeMapping(i)">✖</button>
+      </div>
+
+      <button class="btn-add" (click)="addMapping()">➕ Ajouter un mapping d’injection</button>
+    </div>
+
+    <!-- Bouton injection -->
+    <div class="button-container">
+      <button class="btn-secondary"
+              (click)="injectByMatching()"
+              [disabled]="!referenceMappings.length || !isReferenceMappingValid() || !columnMappings.length || !isMappingValid()">
+        🚀 Injecter les données
+      </button>
+    </div>
+
+  </div>
+
+  <!-- Erreurs -->
+  <div *ngIf="matchErrors.length > 0" class="error-box">
+    <h4>⚠️ Erreurs de matching</h4>
+    <div *ngFor="let err of matchErrors">
+      Ligne {{ err.row }} : {{ err.reason }}
+    </div>
+  </div>
+
+</section>
