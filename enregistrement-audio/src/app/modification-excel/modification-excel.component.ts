@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { DataframeComponent } from '../dataframe/dataframe.component';
+import { EmailsPublipostageComponent } from '../emails-publipostage/emails-publipostage.component';
 import * as XLSX from 'xlsx';
 import { saveAs } from 'file-saver';
 
 @Component({
   selector: 'app-modification-excel',
-  imports: [CommonModule],
+  imports: [CommonModule, DataframeComponent, EmailsPublipostageComponent],
   templateUrl: './modification-excel.component.html',
   styleUrl: './modification-excel.component.css'
 })
@@ -13,6 +15,10 @@ export class ModificationExcelComponent {
   workbook: XLSX.WorkBook | null = null;
   colonnes: string[] = [];
   colonnesSelectionnees: string[] = [];
+  data: any[] = [];
+  data_filtered: any[] = [];
+  traductions: {[key:string]:string} = {};
+  email_columns: string[] = [""];
 
   // Quand l'utilisateur charge un fichier
   onFileChange(event: any) {
@@ -23,8 +29,14 @@ export class ModificationExcelComponent {
     reader.onload = (e: any) => {
       const data = new Uint8Array(e.target.result);
       this.workbook = XLSX.read(data, { type: 'array' });
-      const firstSheet = this.workbook.SheetNames[0];
-      this.colonnes = this.getColonnes(this.workbook, firstSheet) || [];
+
+      const firstSheetName = this.workbook.SheetNames[0];
+      const worksheet = this.workbook.Sheets[firstSheetName];
+
+      // 🔥 Transformation en tableau d’objets
+      this.data = XLSX.utils.sheet_to_json(worksheet, {
+        defval: null
+      });
     };
     reader.readAsArrayBuffer(file);
   }
@@ -99,5 +111,9 @@ export class ModificationExcelComponent {
     };
 
     XLSX.writeFile(newWorkbook, file_name);
+  }
+
+  update_data_filtered(data_filtered: any[]) {
+    this.data_filtered = data_filtered;
   }
 }

@@ -1,6 +1,15 @@
 <div>
   <h2>Charger un fichier Excel</h2>
   <input type="file" (change)="onFileChange($event)" accept=".xlsx, .xls" />
+  <app-dataframe 
+    (data_filtered_update)="update_data_filtered($event)"
+    [data_to_load]="data"
+    [traductions_to_load]="traductions"
+    export_title="Valeurs du fichier excel" 
+    table_max_height="750px"
+    >
+    </app-dataframe>
+    <app-emails-publipostage [data_to_load]="data_filtered" [email_columns_input]="email_columns" [traductions]="traductions"></app-emails-publipostage>
 
   <button (click)="splitSheets()" [disabled]="!workbook">Séparer onglets en fichiers Excel distincts</button>
   <div id="suppression_doublons">

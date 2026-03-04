@@ -8,6 +8,6 @@
     >
         <button extra-button (click)="proprio_sans_email()">📤 Propriétaires sans email</button>
     </app-dataframe>
-    <app-emails-publipostage [data_to_load]="data_filtered" [email_columns]="email_columns" [traductions]="traductions"></app-emails-publipostage>
+    <app-emails-publipostage [data_to_load]="data_filtered" [email_columns_input]="email_columns" [traductions]="traductions"></app-emails-publipostage>
     <app-excel-injection [data]="data_filtered"></app-excel-injection>
 </div>

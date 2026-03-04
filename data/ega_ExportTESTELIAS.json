@@ -1,5 +1,14 @@
 {"TESTELIAS": [
   {
+    "REIMME": 311691,
+    "REPROP": 1,
+    "NOINTE": "ADARA IMMOBILIER SA",
+    "PRINTE": "",
+    "NOEMAI": "l.wuthrich@rwsa.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
     "REIMME": 311661,
     "REPROP": 1,
     "NOINTE": "ADARA IMMOBILIER SA",
@@ -27,7 +36,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 310261,
+    "REIMME": 310271,
     "REPROP": 1,
     "NOINTE": "ALFEN SA",
     "PRINTE": "",
@@ -36,7 +45,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 310271,
+    "REIMME": 310261,
     "REPROP": 1,
     "NOINTE": "ALFEN SA",
     "PRINTE": "",
@@ -54,16 +63,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 910091,
-    "REPROP": 1,
-    "NOINTE": "ASP-IMMOBILIER SA",
-    "PRINTE": "",
-    "NOEMAI": "stephane.pinto@sanet-nettoyages.ch",
-    "DAFIMA": "2025-12-31",
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 313081,
+    "REIMME": 313111,
     "REPROP": 3,
     "NOINTE": "BERGER",
     "PRINTE": "Séverine",
@@ -72,7 +72,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 313111,
+    "REIMME": 313081,
     "REPROP": 3,
     "NOINTE": "BERGER",
     "PRINTE": "Séverine",
@@ -153,15 +153,6 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 910051,
-    "REPROP": 1,
-    "NOINTE": "BUCHS",
-    "PRINTE": "Angela",
-    "NOEMAI": "angelabuchs@hotmail.com",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
     "REIMME": 350021,
     "REPROP": 1,
     "NOINTE": "BUCHS",
@@ -180,7 +171,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 910052,
+    "REIMME": 910051,
     "REPROP": 1,
     "NOINTE": "BUCHS",
     "PRINTE": "Angela",
@@ -189,25 +180,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 313241,
-    "REPROP": 1,
-    "NOINTE": "CCLM SA",
-    "PRINTE": "",
-    "NOEMAI": "pierre-alain.vautravers@bluewin.ch",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 313251,
-    "REPROP": 1,
-    "NOINTE": "CCLM SA",
-    "PRINTE": "",
-    "NOEMAI": "pierre-alain.vautravers@bluewin.ch",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 313231,
+    "REIMME": 313291,
     "REPROP": 1,
     "NOINTE": "CCLM SA",
     "PRINTE": "",
@@ -225,7 +198,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 313291,
+    "REIMME": 313231,
     "REPROP": 1,
     "NOINTE": "CCLM SA",
     "PRINTE": "",
@@ -234,7 +207,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 313271,
+    "REIMME": 313241,
     "REPROP": 1,
     "NOINTE": "CCLM SA",
     "PRINTE": "",
@@ -252,6 +225,24 @@
     "TYIMMED": "Location"
   },
   {
+    "REIMME": 313271,
+    "REPROP": 1,
+    "NOINTE": "CCLM SA",
+    "PRINTE": "",
+    "NOEMAI": "pierre-alain.vautravers@bluewin.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 313251,
+    "REPROP": 1,
+    "NOINTE": "CCLM SA",
+    "PRINTE": "",
+    "NOEMAI": "pierre-alain.vautravers@bluewin.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
     "REIMME": 310671,
     "REPROP": 1,
     "NOINTE": "COMUNUS SICAV",
@@ -261,7 +252,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 310681,
+    "REIMME": 310711,
     "REPROP": 1,
     "NOINTE": "COMUNUS SICAV",
     "PRINTE": "",
@@ -270,7 +261,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 310711,
+    "REIMME": 310681,
     "REPROP": 1,
     "NOINTE": "COMUNUS SICAV",
     "PRINTE": "",
@@ -336,7 +327,7 @@
     "REIMME": 310811,
     "REPROP": 4,
     "NOINTE": "EGGER",
-    "PRINTE": "Jean-Pierre",
+    "PRINTE": "Jean-Pierre, Succ.",
     "NOEMAI": "bea-egger@bluewin.ch",
     "DAFIMA": null,
     "TYIMMED": "Location"
@@ -405,15 +396,6 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 313091,
-    "REPROP": 2,
-    "NOINTE": "FAVRE",
-    "PRINTE": "Danièle",
-    "NOEMAI": "danfavre48@gmail.com",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
     "REIMME": 313071,
     "REPROP": 2,
     "NOINTE": "FAVRE",
@@ -423,7 +405,16 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 360201,
+    "REIMME": 313091,
+    "REPROP": 2,
+    "NOINTE": "FAVRE",
+    "PRINTE": "Danièle",
+    "NOEMAI": "danfavre48@gmail.com",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 360101,
     "REPROP": 2,
     "NOINTE": "FISCHER",
     "PRINTE": "Bernard",
@@ -432,7 +423,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 360101,
+    "REIMME": 360201,
     "REPROP": 2,
     "NOINTE": "FISCHER",
     "PRINTE": "Bernard",
@@ -482,6 +473,15 @@
     "NOINTE": "GB SA",
     "PRINTE": "",
     "NOEMAI": "",
+    "DAFIMA": "2026-06-30",
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 320001,
+    "REPROP": 1,
+    "NOINTE": "GEIGER",
+    "PRINTE": "Pierre",
+    "NOEMAI": "pierre.geiger@hotmail.com",
     "DAFIMA": null,
     "TYIMMED": "Location"
   },
@@ -495,16 +495,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 320001,
-    "REPROP": 1,
-    "NOINTE": "GEIGER",
-    "PRINTE": "Pierre",
-    "NOEMAI": "pierre.geiger@hotmail.com",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 313181,
+    "REIMME": 313191,
     "REPROP": 1,
     "NOINTE": "GENDRE",
     "PRINTE": "Jean-Philippe",
@@ -513,7 +504,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 313191,
+    "REIMME": 313181,
     "REPROP": 1,
     "NOINTE": "GENDRE",
     "PRINTE": "Jean-Philippe",
@@ -621,15 +612,6 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 310571,
-    "REPROP": 2,
-    "NOINTE": "JAQUENOUD",
-    "PRINTE": "Philippe",
-    "NOEMAI": "Jaquen2000@net2000.ch",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
     "REIMME": 310191,
     "REPROP": 1,
     "NOINTE": "JEANNOT",
@@ -639,47 +621,11 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 311711,
-    "REPROP": 1,
-    "NOINTE": "KLS IMMO SA",
-    "PRINTE": "",
-    "NOEMAI": "direction@schweingrubersa.ch",
-    "DAFIMA": "2025-12-31",
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 311701,
-    "REPROP": 1,
-    "NOINTE": "KLS IMMO SA",
-    "PRINTE": "",
-    "NOEMAI": "direction@schweingrubersa.ch",
-    "DAFIMA": "2025-12-31",
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 311731,
-    "REPROP": 1,
-    "NOINTE": "KLS IMMO SA",
-    "PRINTE": "",
-    "NOEMAI": "direction@schweingrubersa.ch",
-    "DAFIMA": "2025-12-31",
-    "TYIMMED": "Location"
-  },
-  {
     "REIMME": 310251,
     "REPROP": 1,
     "NOINTE": "KOHLER",
     "PRINTE": "Michel",
     "NOEMAI": "mi.kohler@net2000.ch",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 311501,
-    "REPROP": 1,
-    "NOINTE": "KULLMANN",
-    "PRINTE": "Jean-Christophe",
-    "NOEMAI": "kulj@laser-automation.ch",
     "DAFIMA": null,
     "TYIMMED": "Location"
   },
@@ -756,19 +702,19 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 313161,
+    "REIMME": 313141,
     "REPROP": 1,
     "NOINTE": "MOREL",
-    "PRINTE": "Laurent",
+    "PRINTE": "Marie-Noëlle",
     "NOEMAI": "laurent.morel@bluewin.ch",
     "DAFIMA": null,
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 313141,
+    "REIMME": 313161,
     "REPROP": 1,
     "NOINTE": "MOREL",
-    "PRINTE": "Marie-Noëlle",
+    "PRINTE": "Laurent",
     "NOEMAI": "laurent.morel@bluewin.ch",
     "DAFIMA": null,
     "TYIMMED": "Location"
@@ -824,47 +770,11 @@
     "NOINTE": "PICCI",
     "PRINTE": "Yvan",
     "NOEMAI": "ypicci@bluewin.ch",
-    "DAFIMA": null,
+    "DAFIMA": "2026-06-30",
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 313401,
-    "REPROP": 1,
-    "NOINTE": "PIERRE LIECHTI PATRIMOINE SÀRL",
-    "PRINTE": "",
-    "NOEMAI": "pl@plarchitectes.ch",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 313411,
-    "REPROP": 1,
-    "NOINTE": "PIERRE LIECHTI PATRIMOINE SÀRL",
-    "PRINTE": "",
-    "NOEMAI": "pl@plarchitectes.ch",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 360401,
-    "REPROP": 1,
-    "NOINTE": "PIERRE LIECHTI PATRIMOINE SÀRL",
-    "PRINTE": "",
-    "NOEMAI": "pl@plarchitectes.ch",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 360402,
-    "REPROP": 1,
-    "NOINTE": "PIERRE LIECHTI PATRIMOINE SÀRL",
-    "PRINTE": "",
-    "NOEMAI": "pl@plarchitectes.ch",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 360421,
+    "REIMME": 360409,
     "REPROP": 1,
     "NOINTE": "PIERRE LIECHTI PATRIMOINE SÀRL",
     "PRINTE": "",
@@ -882,7 +792,43 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 360409,
+    "REIMME": 313401,
+    "REPROP": 1,
+    "NOINTE": "PIERRE LIECHTI PATRIMOINE SÀRL",
+    "PRINTE": "",
+    "NOEMAI": "pl@plarchitectes.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 360401,
+    "REPROP": 1,
+    "NOINTE": "PIERRE LIECHTI PATRIMOINE SÀRL",
+    "PRINTE": "",
+    "NOEMAI": "pl@plarchitectes.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 360421,
+    "REPROP": 1,
+    "NOINTE": "PIERRE LIECHTI PATRIMOINE SÀRL",
+    "PRINTE": "",
+    "NOEMAI": "pl@plarchitectes.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 313411,
+    "REPROP": 1,
+    "NOINTE": "PIERRE LIECHTI PATRIMOINE SÀRL",
+    "PRINTE": "",
+    "NOEMAI": "pl@plarchitectes.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 360402,
     "REPROP": 1,
     "NOINTE": "PIERRE LIECHTI PATRIMOINE SÀRL",
     "PRINTE": "",
@@ -896,6 +842,24 @@
     "NOINTE": "PIERRE LIECHTI PATRIMOINE SÀRL",
     "PRINTE": "",
     "NOEMAI": "pl@plarchitectes.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 311671,
+    "REPROP": 1,
+    "NOINTE": "RAYBO INVEST SA",
+    "PRINTE": "",
+    "NOEMAI": "raymond.bornand@bluewin.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 311672,
+    "REPROP": 1,
+    "NOINTE": "RAYBO INVEST SA",
+    "PRINTE": "",
+    "NOEMAI": "raymond.bornand@bluewin.ch",
     "DAFIMA": null,
     "TYIMMED": "Location"
   },
@@ -936,15 +900,6 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 311201,
-    "REPROP": 2,
-    "NOINTE": "SCEMAMA",
-    "PRINTE": "Yves",
-    "NOEMAI": "yscemama58@hotmail.com",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
     "REIMME": 311301,
     "REPROP": 2,
     "NOINTE": "SCEMAMA",
@@ -954,7 +909,25 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 710178,
+    "REIMME": 311201,
+    "REPROP": 2,
+    "NOINTE": "SCEMAMA",
+    "PRINTE": "Yves",
+    "NOEMAI": "yscemama58@hotmail.com",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 311741,
+    "REPROP": 1,
+    "NOINTE": "SCHARDT",
+    "PRINTE": "Martin",
+    "NOEMAI": "mt.schardt@web.de",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 710177,
     "REPROP": 1,
     "NOINTE": "SI BEAU PARC ASA",
     "PRINTE": "C\/o Immotech Meyer Sàrl",
@@ -972,7 +945,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 710171,
+    "REIMME": 710178,
     "REPROP": 1,
     "NOINTE": "SI BEAU PARC ASA",
     "PRINTE": "C\/o Immotech Meyer Sàrl",
@@ -981,7 +954,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 710177,
+    "REIMME": 710171,
     "REPROP": 1,
     "NOINTE": "SI BEAU PARC ASA",
     "PRINTE": "C\/o Immotech Meyer Sàrl",
@@ -999,7 +972,70 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 312351,
+    "REIMME": 312331,
+    "REPROP": 1,
+    "NOINTE": "STARVAL SA",
+    "PRINTE": "",
+    "NOEMAI": "admin@starval.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 312303,
+    "REPROP": 1,
+    "NOINTE": "STARVAL SA",
+    "PRINTE": "",
+    "NOEMAI": "admin@starval.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 312341,
+    "REPROP": 1,
+    "NOINTE": "STARVAL SA",
+    "PRINTE": "",
+    "NOEMAI": "admin@starval.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 312302,
+    "REPROP": 1,
+    "NOINTE": "STARVAL SA",
+    "PRINTE": "",
+    "NOEMAI": "admin@starval.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 312201,
+    "REPROP": 1,
+    "NOINTE": "STARVAL SA",
+    "PRINTE": "",
+    "NOEMAI": "admin@starval.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 312211,
+    "REPROP": 1,
+    "NOINTE": "STARVAL SA",
+    "PRINTE": "",
+    "NOEMAI": "admin@starval.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 312228,
+    "REPROP": 1,
+    "NOINTE": "STARVAL SA",
+    "PRINTE": "",
+    "NOEMAI": "admin@starval.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 312291,
     "REPROP": 1,
     "NOINTE": "STARVAL SA",
     "PRINTE": "",
@@ -1062,7 +1098,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 312291,
+    "REIMME": 312293,
     "REPROP": 1,
     "NOINTE": "STARVAL SA",
     "PRINTE": "",
@@ -1080,15 +1116,6 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 312293,
-    "REPROP": 1,
-    "NOINTE": "STARVAL SA",
-    "PRINTE": "",
-    "NOEMAI": "admin@starval.ch",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
     "REIMME": 312301,
     "REPROP": 1,
     "NOINTE": "STARVAL SA",
@@ -1098,61 +1125,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 312302,
-    "REPROP": 1,
-    "NOINTE": "STARVAL SA",
-    "PRINTE": "",
-    "NOEMAI": "admin@starval.ch",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 312303,
-    "REPROP": 1,
-    "NOINTE": "STARVAL SA",
-    "PRINTE": "",
-    "NOEMAI": "admin@starval.ch",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 312331,
-    "REPROP": 1,
-    "NOINTE": "STARVAL SA",
-    "PRINTE": "",
-    "NOEMAI": "admin@starval.ch",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 312341,
-    "REPROP": 1,
-    "NOINTE": "STARVAL SA",
-    "PRINTE": "",
-    "NOEMAI": "admin@starval.ch",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 312228,
-    "REPROP": 1,
-    "NOINTE": "STARVAL SA",
-    "PRINTE": "",
-    "NOEMAI": "admin@starval.ch",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 312211,
-    "REPROP": 1,
-    "NOINTE": "STARVAL SA",
-    "PRINTE": "",
-    "NOEMAI": "admin@starval.ch",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 312201,
+    "REIMME": 312351,
     "REPROP": 1,
     "NOINTE": "STARVAL SA",
     "PRINTE": "",
@@ -1188,7 +1161,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 360021,
+    "REIMME": 360001,
     "REPROP": 2,
     "NOINTE": "STAUFFER",
     "PRINTE": "Claudine",
@@ -1197,7 +1170,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 360001,
+    "REIMME": 360021,
     "REPROP": 2,
     "NOINTE": "STAUFFER",
     "PRINTE": "Claudine",
@@ -1242,16 +1215,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 360519,
-    "REPROP": 1,
-    "NOINTE": "VAUTHIER",
-    "PRINTE": "Roland",
-    "NOEMAI": "roland@vauthier.ch",
-    "DAFIMA": null,
-    "TYIMMED": "Location"
-  },
-  {
-    "REIMME": 360201,
+    "REIMME": 360501,
     "REPROP": 1,
     "NOINTE": "VAUTHIER",
     "PRINTE": "Roland",
@@ -1269,7 +1233,16 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 360501,
+    "REIMME": 360519,
+    "REPROP": 1,
+    "NOINTE": "VAUTHIER",
+    "PRINTE": "Roland",
+    "NOEMAI": "roland@vauthier.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 360201,
     "REPROP": 1,
     "NOINTE": "VAUTHIER",
     "PRINTE": "Roland",
@@ -1323,7 +1296,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 360001,
+    "REIMME": 360021,
     "REPROP": 1,
     "NOINTE": "VILLANUEVA",
     "PRINTE": "Sergio",
@@ -1332,7 +1305,7 @@
     "TYIMMED": "Location"
   },
   {
-    "REIMME": 360021,
+    "REIMME": 360001,
     "REPROP": 1,
     "NOINTE": "VILLANUEVA",
     "PRINTE": "Sergio",
@@ -1346,6 +1319,24 @@
     "NOINTE": "WALT",
     "PRINTE": "Pierre",
     "NOEMAI": "pwalt@bucher-walt.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 311681,
+    "REPROP": 1,
+    "NOINTE": "WETTSTEIN",
+    "PRINTE": "Chloé",
+    "NOEMAI": "pierre-alain.vautravers@bluewin.ch",
+    "DAFIMA": null,
+    "TYIMMED": "Location"
+  },
+  {
+    "REIMME": 311689,
+    "REPROP": 1,
+    "NOINTE": "WETTSTEIN",
+    "PRINTE": "Chloé",
+    "NOEMAI": "pierre-alain.vautravers@bluewin.ch",
     "DAFIMA": null,
     "TYIMMED": "Location"
   },

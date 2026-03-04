@@ -1,18 +1,21 @@
 import { Component, Input, SimpleChanges } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 import { ExportExcelService } from '../services/export-excel.service';
 
 @Component({
   selector: 'app-emails-publipostage',
-  imports: [FormsModule],
+  imports: [FormsModule, CommonModule],
   templateUrl: './emails-publipostage.component.html',
   styleUrl: './emails-publipostage.component.css'
 })
 export class EmailsPublipostageComponent {
-  @Input() email_columns: string[] = [];
+  @Input() email_columns_input: string[] = [];
   @Input() data_to_load: any[] = [];
   @Input() traductions: {[key:string]:string} = {};
   data_filtered: any[] = [];
+  colonnesDisponibles: string[] = [];
+  colonnesSelectionnees: string[] = [];
   email_str: string = "";
   copied = false;
   emailRegex = /^[\p{L}\p{N}._%+-]+@(?:[\p{L}\p{N}-]+\.)+[\p{L}]{2,}$/u;
@@ -21,6 +24,10 @@ export class EmailsPublipostageComponent {
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['data_to_load']) {
+      if(this.data_to_load && this.data_to_load.length > 0) {
+        this.colonnesDisponibles = Object.keys(this.data_to_load[0]);
+      }
+      this.colonnesSelectionnees = this.email_columns_input;
       this.clean_liste_email();
       this.compute_email_str();
     }
@@ -28,7 +35,7 @@ export class EmailsPublipostageComponent {
 
   clean_liste_email() {
     this.data_filtered = this.data_to_load.filter(item =>
-      this.email_columns.some(col => {
+      this.colonnesSelectionnees.some(col => {
         const email = item[col]?.trim();
         return email && this.emailRegex.test(email);
       })
@@ -38,7 +45,7 @@ export class EmailsPublipostageComponent {
   compute_email_str() {
     const emails: string[] = [];
     for (let item of this.data_filtered) {
-      for (let col of this.email_columns) {
+      for (let col of this.colonnesSelectionnees) {
         const email = item[col]?.trim();
         if (email) {
           emails.push(email);
@@ -55,7 +62,7 @@ export class EmailsPublipostageComponent {
 
   exporter_liste_without_email() {
     const data_without_email = this.data_to_load.filter(item => {
-      const hasEmail = this.email_columns.some(col => {
+      const hasEmail = this.colonnesSelectionnees.some(col => {
         const value = item[col];
         return value && value.trim() !== '';
       });
@@ -66,7 +73,7 @@ export class EmailsPublipostageComponent {
 
   exporter_liste_with_invalid_email() {
     const data_without_email = this.data_to_load.filter(item => {
-      const hasInvalidEmail = this.email_columns.some(col => {
+      const hasInvalidEmail = this.colonnesSelectionnees.some(col => {
         const value = item[col]?.trim();
         return value && !this.emailRegex.test(value);
       });
@@ -77,7 +84,7 @@ export class EmailsPublipostageComponent {
 
   exporter_liste_without_valid_email() {
     const data_with_invalid_email = this.data_to_load.filter(item => {
-      const hasValidEmail = this.email_columns.some(col => {
+      const hasValidEmail = this.colonnesSelectionnees.some(col => {
         const value = item[col]?.trim();
         return value && this.emailRegex.test(value);
       });
@@ -94,4 +101,18 @@ export class EmailsPublipostageComponent {
       });
     }
   }
+
+  onColumnToggle(event: any) {
+    const column = event.target.value;
+
+    if (event.target.checked) {
+      this.colonnesSelectionnees.push(column);
+    } else {
+      this.colonnesSelectionnees =
+        this.colonnesSelectionnees.filter(c => c !== column);
+    }
+    this.clean_liste_email();
+    this.compute_email_str();
+  }
+
 }
