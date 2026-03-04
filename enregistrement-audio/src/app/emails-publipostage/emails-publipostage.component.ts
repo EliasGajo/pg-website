@@ -16,6 +16,8 @@ export class EmailsPublipostageComponent {
   data_filtered: any[] = [];
   colonnesDisponibles: string[] = [];
   colonnesSelectionnees: string[] = [];
+  taille_paquets: number = 100;
+  showPopup = false;
   email_str: string = "";
   copied = false;
   emailRegex = /^[\p{L}\p{N}._%+-]+@(?:[\p{L}\p{N}-]+\.)+[\p{L}]{2,}$/u;
@@ -29,7 +31,7 @@ export class EmailsPublipostageComponent {
       }
       this.colonnesSelectionnees = this.email_columns_input;
       this.clean_liste_email();
-      this.compute_email_str();
+      this.email_str = this.compute_email_str(this.data_filtered);
     }
   }
 
@@ -42,9 +44,9 @@ export class EmailsPublipostageComponent {
     );
   }
 
-  compute_email_str() {
+  compute_email_str(data: any[]) {
     const emails: string[] = [];
-    for (let item of this.data_filtered) {
+    for (let item of data) {
       for (let col of this.colonnesSelectionnees) {
         const email = item[col]?.trim();
         if (email) {
@@ -53,7 +55,7 @@ export class EmailsPublipostageComponent {
       }
     }
     const emails_unique = Array.from(new Set(emails));
-    this.email_str = emails_unique.join(";");
+    return emails_unique.join(";");
   }
 
   exporter_liste_email() {
@@ -112,7 +114,36 @@ export class EmailsPublipostageComponent {
         this.colonnesSelectionnees.filter(c => c !== column);
     }
     this.clean_liste_email();
-    this.compute_email_str();
+    this.email_str = this.compute_email_str(this.data_filtered);
+  }
+
+  exporter_string_par_paquet_popup() {
+    this.showPopup = true;
+  }
+
+  exporter_string_par_paquet() {
+    let globalText = '';
+    for (let i = 0; i < this.data_filtered.length; i += this.taille_paquets) {
+      const paquet = this.data_filtered.slice(i, i + this.taille_paquets);
+
+      const text = this.compute_email_str(paquet);
+
+      globalText += `===== PAQUET ${i / this.taille_paquets + 1} =====\n`;
+      globalText += text + '\n\n';
+    }
+    this.generateTextFile(globalText, 'emails.txt');
+  }
+
+  generateTextFile(txt: string, filename: string): void {
+    const blob = new Blob([txt], { type: 'text/plain;charset=utf-8;' });
+    const url = window.URL.createObjectURL(blob);
+
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    a.click();
+
+    window.URL.revokeObjectURL(url);
   }
 
 }
