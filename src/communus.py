@@ -26,8 +26,22 @@ class Communus:
     
     @staticmethod
     def get_sinistres():
-        df = pd.read_excel('data/comunus/sinistres.xlsx')
-        return df.to_json(orient='records')
+        sinistres = pd.read_excel('data/comunus/sinistres.xlsx')
+        bons_travaux = pd.read_excel('data/comunus/bons_travaux.xlsx')
+        bons_travaux_agg = (
+            bons_travaux.groupby("Sinistre")
+            .agg({"N° bon": lambda x: ", ".join(x.dropna().astype(str).unique())})
+            .rename(columns={"N° bon": "N° devis"})
+            .reset_index()
+        )
+
+        df_final = sinistres.merge(
+            bons_travaux_agg,
+            on="Sinistre",
+            how="left"
+        ).drop(columns=["Sinistre"])
+        
+        return df_final.to_json(orient='records')
     
     @staticmethod
     def get_sinistres_traduction():

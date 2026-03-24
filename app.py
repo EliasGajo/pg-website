@@ -129,7 +129,7 @@ async def root(request: Request):
             "traductions": traductions
             }
 
-@app.get("/communus-EL")
+@app.get("/comunus-EL")
 async def root(request: Request):
     #data = await request.json()
     values = Communus.get_el()
@@ -139,7 +139,7 @@ async def root(request: Request):
             "traductions": traductions
             }
 
-@app.get("/communus-sinistres")
+@app.get("/comunus-sinistres")
 async def root(request: Request):
     #data = await request.json()
     values = Communus.get_sinistres()

@@ -21,6 +21,7 @@ import { ExportEmailComponent } from './export-email/export-email.component';
 import { MergeExcelsComponent } from './merge-excels/merge-excels.component';
 import { ComunusComponent } from './comunus/comunus.component';
 import { ComunusElComponent } from './comunus-el/comunus-el.component';
+import { ComunusSinistresComponent } from './comunus-sinistres/comunus-sinistres.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -48,7 +49,8 @@ export const routes: Routes = [
         path: 'comunus',
         component: ComunusComponent,
         children: [
-            { path: 'el', component: ComunusElComponent }
+            { path: 'el', component: ComunusElComponent },
+            { path: 'sinistres', component: ComunusSinistresComponent }
         ]
     }
 ];

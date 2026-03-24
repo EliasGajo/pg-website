@@ -10,8 +10,8 @@ import { CommonModule } from '@angular/common';
 })
 export class ComunusComponent {
   pages = [
-    { path: 'el', label: 'Données' },
-    { path: 'export', label: 'Export' }
+    { path: 'el', label: 'Etats locatifs' },
+    { path: 'sinistres', label: 'Sinistres' }
   ];
 }
 

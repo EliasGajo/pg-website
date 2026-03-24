@@ -75,7 +75,7 @@ export class ComunusElComponent {
 
   ngOnInit() {
     this.zone.run(() => {
-        fetch(`https://10.209.10.213:8000/communus-EL`, {
+        fetch(`https://10.209.10.213:8000/comunus-EL`, {
           method: 'GET',
           mode: 'cors'
         })
