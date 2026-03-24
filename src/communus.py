@@ -23,3 +23,13 @@ class Communus:
             'surface': 'Surface'
         }
         return traductions
+    
+    @staticmethod
+    def get_sinistres():
+        df = pd.read_excel('data/comunus/sinistres.xlsx')
+        return df.to_json(orient='records')
+    
+    @staticmethod
+    def get_sinistres_traduction():
+        traductions = {}
+        return traductions

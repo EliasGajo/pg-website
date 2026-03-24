@@ -12,7 +12,6 @@ import { ExportMoyenPaiementComponent } from './export-moyen-paiement/export-moy
 import { ExportDiversDebiteurComponent } from './export-divers-debiteur/export-divers-debiteur.component';
 import { QrMultipleComponent } from './qr-multiple/qr-multiple.component';
 import { ExportEtatLocatifComponent } from './export-etat-locatif/export-etat-locatif.component';
-import { ComunusComponent } from './comunus/comunus.component';
 import { ModificationExcelComponent } from './modification-excel/modification-excel.component';
 import { RemplirExcelContentieuxComponent } from './remplir-excel-contentieux/remplir-excel-contentieux.component';
 import { ExportDocumentComponent } from './export-document/export-document.component';
@@ -20,6 +19,8 @@ import { ExportContentieuxComponent } from './export-contentieux/export-contenti
 import { ElementBailComponent } from './element-bail/element-bail.component';
 import { ExportEmailComponent } from './export-email/export-email.component';
 import { MergeExcelsComponent } from './merge-excels/merge-excels.component';
+import { ComunusComponent } from './comunus/comunus.component';
+import { ComunusElComponent } from './comunus-el/comunus-el.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -34,7 +35,6 @@ export const routes: Routes = [
     {path: 'exportEtatLocatif', component: ExportEtatLocatifComponent},
     {path: 'exportDocument', component: ExportDocumentComponent},
     {path: 'exportContentieux', component: ExportContentieuxComponent},
-    {path: 'comunus', component: ComunusComponent},
     {path: 'tournusImmeuble', component: TournusImmeubleComponent},
     {path: 'exportMoyenPaiement', component: ExportMoyenPaiementComponent},
     {path: 'exportQrMultiple', component: QrMultipleComponent},
@@ -42,5 +42,13 @@ export const routes: Routes = [
     {path: 'remplirExcelContentieux', component: RemplirExcelContentieuxComponent},
     {path: 'elementBail', component: ElementBailComponent},
     {path: 'exportEmail', component: ExportEmailComponent},
-    {path: 'mergeExcels', component: MergeExcelsComponent}
+    {path: 'mergeExcels', component: MergeExcelsComponent},
+    {path: 'comunus', component: ComunusComponent},
+    {
+        path: 'comunus',
+        component: ComunusComponent,
+        children: [
+            { path: 'el', component: ComunusElComponent }
+        ]
+    }
 ];

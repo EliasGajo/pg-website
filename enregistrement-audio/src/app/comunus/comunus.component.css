@@ -1,0 +1,48 @@
+/* Bloc global header + menu */
+.tool-header {
+  background-color: #f9f9f9;
+  padding: 10px 12px 0 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Titre */
+.tool-header h1 {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Menu */
+.tool-menu {
+  display: flex;
+  gap: 8px;
+}
+
+/* Boutons */
+.tool-menu a {
+  text-decoration: none;
+  padding: 10px 16px;
+  color: #555;
+  border: 1px solid transparent;
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  background-color: transparent;
+  transition: all 0.2s ease;
+  font-size: 16px;
+}
+
+/* Hover */
+.tool-menu a:hover {
+  background-color: #eaeaea;
+  color: #000;
+}
+
+/* Actif */
+.tool-menu a.active {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #ddd;
+  border-bottom: 1px solid white;
+  font-weight: 600;
+}
