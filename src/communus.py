@@ -30,8 +30,12 @@ class Communus:
         bons_travaux = pd.read_excel('data/comunus/bons_travaux.xlsx')
         bons_travaux_agg = (
             bons_travaux.groupby("Sinistre")
-            .agg({"N° bon": lambda x: ", ".join(x.dropna().astype(str).unique())})
-            .rename(columns={"N° bon": "N° devis"})
+            .agg({"N° bon": lambda x: ", ".join(x.dropna().astype(str).unique()),
+                  "Devis montant": "sum"
+                  })
+            .rename(columns={"N° bon": "N° devis",
+                             "Devis montant": "Montant devis"
+                             })
             .reset_index()
         )
 
@@ -40,7 +44,15 @@ class Communus:
             on="Sinistre",
             how="left"
         ).drop(columns=["Sinistre"])
-        
+
+        cols = df_final.columns.tolist()
+        cols.remove("Montant devis")
+        cols.remove("N° devis")
+        index = cols.index("Entreprises") + 1
+        cols.insert(index, "Montant devis")
+        cols.insert(index + 1, "N° devis")
+
+        df_final = df_final[cols]
         return df_final.to_json(orient='records')
     
     @staticmethod

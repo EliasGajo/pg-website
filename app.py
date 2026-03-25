@@ -1,8 +1,9 @@
 from fastapi import FastAPI, File, UploadFile, Form
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse 
+from fastapi.responses import StreamingResponse, FileResponse
 from fastapi import Request
 import io
+import os
 import json
 from src.audio_to_text import Audio_to_text
 from src.chat_gpt_bot import Chat_gpt_bot
@@ -23,6 +24,9 @@ from src.element_bail import ElementBail
 from src.export_email import ExportEmail
 from src.excel import Excel
 import uvicorn
+import tempfile
+import win32com.client
+import datetime
 
 app = FastAPI()
 
@@ -225,6 +229,64 @@ async def merge_excel(
 @app.post("/get-columns")
 async def get_columns(file: UploadFile = File(...)):
     return Excel.get_columns(io.BytesIO(await file.read()))
+
+@app.post("/export-excel")
+async def export_excel(request: Request):
+    payload = await request.json()
+
+    data = payload.get("data", [])
+    template_name = payload.get("template_name")
+    start_row = payload.get("start_row", 5)
+
+    template_path = os.path.join('data', template_name)
+
+    if not os.path.exists(template_path):
+        return {"error": "Template not found"}
+
+    # 👉 fichier temporaire pour la sortie
+    temp_file = tempfile.NamedTemporaryFile(delete=False, suffix=".xlsx")
+    temp_path = temp_file.name
+    temp_file.close()
+
+    # 👉 lancer Excel
+    excel = win32com.client.Dispatch("Excel.Application")
+    excel.Visible = False
+    excel.DisplayAlerts = False
+
+    try:
+        wb = excel.Workbooks.Open(os.path.abspath(template_path))
+        ws = wb.Sheets(1)
+
+        # 👉 insertion des données
+        for i, item in enumerate(data):
+            row_num = start_row + i
+
+            for j, key in enumerate(item.keys(), start=1):
+                value = item[key]
+
+                # conversion timestamps JS → date Excel
+                if isinstance(value, (int, float)) and value > 1e10:
+                    value = datetime.datetime.fromtimestamp(value / 1000)
+                    
+                cell = ws.Cells(row_num, j)
+                cell.Value = value
+                cell.WrapText = True
+
+        # 👉 sauvegarde
+        wb.SaveAs(os.path.abspath(temp_path))
+        wb.Close(False)
+
+    finally:
+        excel.Quit()
+
+    # 👉 retour du fichier
+    filename = os.path.basename(template_name).replace(".xlsx", "_export.xlsx")
+
+    return FileResponse(
+        path=temp_path,
+        filename=filename,
+        media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    )
 
 @app.post("/audio-to-text")
 async def root(file: UploadFile = File(...)):

@@ -1,5 +1,7 @@
 import { Component, NgZone } from '@angular/core';
 import { DataframeComponent } from '../dataframe/dataframe.component';
+import * as ExcelJS from 'exceljs';
+import * as FileSaver from 'file-saver';
 
 @Component({
   selector: 'app-comunus-sinistres',
@@ -41,5 +43,33 @@ export class ComunusSinistresComponent {
     this.traductions = new_traductions;
   }
 
+  exporter_avec_modele() {
+    const fileName: string = 'sinistres.xlsx';
+    const payload = {
+      data: this.data_filtered,
+      template_name: 'modele/comunus/sinistres.xlsx',
+      start_row: 5
+    };
+
+    fetch('https://10.209.10.213:8000/export-excel', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(payload)
+    })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Erreur serveur ${response.status}`);
+      }
+      return response.blob();
+    })
+    .then(blob => {
+      FileSaver.saveAs(blob, fileName);
+    })
+    .catch(err => {
+      console.error('Erreur export Excel', err);
+    });
+  }
 }
 
