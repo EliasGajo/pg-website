@@ -48,7 +48,7 @@ export class ComunusElComponent {
     'Triplex': 1,
     'Loft': 1, // A modifier
     'Bureaux': 2,
-    'Local': 3,
+    'Local': 4,
     'Restaurant': 5,
     'Parking': 8,
     'Garage': 8,
