@@ -3,30 +3,29 @@ import { DataframeComponent } from '../dataframe/dataframe.component';
 import * as FileSaver from 'file-saver';
 
 @Component({
-  selector: 'app-comunus-sinistres',
+  selector: 'app-comunus-vacants',
   imports: [DataframeComponent],
-  templateUrl: './comunus-sinistres.component.html',
-  styleUrl: './comunus-sinistres.component.css'
+  templateUrl: './comunus-vacants.component.html',
+  styleUrl: './comunus-vacants.component.css'
 })
-export class ComunusSinistresComponent {
+export class ComunusVacantsComponent {
 
-  all_sinistres: any[] = [];
+  all_vacants: any[] = [];
   data_filtered: any[] = [];
   traductions: {[key:string]:string} = {};
-  traductions_locataire: {[key:string]:string} = {};
 
   constructor(private zone: NgZone) {}
 
   ngOnInit() {
     this.zone.run(() => {
-        fetch(`https://10.209.10.213:8000/comunus-sinistres`, {
+        fetch(`https://10.209.10.213:8000/comunus-vacants`, {
           method: 'GET',
           mode: 'cors'
         })
         .then(response => response.json())
         .then(data => {
           this.traductions = data.traductions
-          this.all_sinistres = JSON.parse(data.values) || [];
+          this.all_vacants = JSON.parse(data.values) || [];
         })
         .catch(error => {
           console.error('Erreur lors du chargement des données : ', error);
@@ -43,11 +42,11 @@ export class ComunusSinistresComponent {
   }
 
   exporter_avec_modele() {
-    const fileName: string = 'sinistres.xlsx';
+    const fileName: string = 'vacants.xlsx';
     const payload = {
       data: this.data_filtered,
-      template_name: 'modele/comunus/sinistres.xlsx',
-      start_row: 5
+      template_name: 'modele/comunus/vacants.xlsx',
+      start_row: 6
     };
 
     fetch('https://10.209.10.213:8000/export-excel', {
@@ -71,4 +70,5 @@ export class ComunusSinistresComponent {
     });
   }
 }
+
 

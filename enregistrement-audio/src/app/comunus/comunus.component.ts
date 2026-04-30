@@ -11,7 +11,8 @@ import { CommonModule } from '@angular/common';
 export class ComunusComponent {
   pages = [
     { path: 'el', label: 'Etats locatifs' },
-    { path: 'sinistres', label: 'Sinistres' }
+    { path: 'sinistres', label: 'Sinistres' },
+    { path: 'vacants', label: 'Vacants' }
   ];
 }
 

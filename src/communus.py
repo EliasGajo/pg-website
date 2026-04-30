@@ -59,3 +59,22 @@ class Communus:
     def get_sinistres_traduction():
         traductions = {}
         return traductions
+    
+    @staticmethod
+    def get_vacants():
+        vacants = pd.read_excel('data/comunus/vacants_all.xlsx')
+        vacants.insert(vacants.columns.get_loc("Localité") + 1, "Responsable", "")
+        vacants.insert(vacants.columns.get_loc("Loyer annuel net") + 1, "Introduction FA", "")
+        vacants.insert(vacants.columns.get_loc("Date proposition") + 1, "Photos logement transmises", "")
+        vacants.insert(vacants.columns.get_loc("Prix au m2") + 1, "Travaux", "")
+        vacants.insert(vacants.columns.get_loc("Travaux") + 1, "Budget estimatif", "")
+        vacants.insert(vacants.columns.get_loc("Travaux désignation") + 1, "Date réception budget comparatif", "")
+        vacants.insert(vacants.columns.get_loc("Travaux montant") + 1, "Rendement (%)", "")
+        vacants.insert(vacants.columns.get_loc("Nombre de jours") + 1, "Actions entreprises", "")
+        df_final = vacants[vacants["Nom juridique 1"] == "Comunus SICAV"].drop(columns=["Nom juridique 1"])
+        return df_final.to_json(orient='records')
+    
+    @staticmethod
+    def get_vacants_traduction():
+        traductions = {}
+        return traductions

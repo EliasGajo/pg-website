@@ -153,6 +153,16 @@ async def root(request: Request):
             "traductions": traductions
             }
 
+@app.get("/comunus-vacants")
+async def root(request: Request):
+    #data = await request.json()
+    values = Communus.get_vacants()
+    traductions = Communus.get_vacants_traduction()
+    return {
+            "values": values,
+            "traductions": traductions
+            }
+
 @app.get("/qr-multiple")
 async def root(request: Request):
     values = QrMultiple.get_all()

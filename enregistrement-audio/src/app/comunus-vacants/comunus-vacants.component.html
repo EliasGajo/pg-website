@@ -1,0 +1,11 @@
+<div class="page">
+    <app-dataframe 
+    (data_filtered_update)="update_data_filtered($event)"
+    [data_to_load]="all_vacants"
+    [traductions_to_load]="traductions"
+    export_title="Export des Vacants" 
+    table_max_height="750px"
+    >
+        <button extra-button (click)="exporter_avec_modele()">📤 Exporter avec modèle</button>
+    </app-dataframe>
+</div>
