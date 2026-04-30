@@ -47,7 +47,17 @@ export class ComunusSinistresComponent {
     const payload = {
       data: this.data_filtered,
       template_name: 'modele/comunus/sinistres.xlsx',
-      start_row: 5
+      start_row: 5,
+      rules: [
+        {
+          condition: { field: " Assurance Date du rbt ", operator: "not_empty" },
+          color: "#C4D79B"
+        },
+        {
+          condition: { operator: "else" },
+          color: "#FCD5B4"
+        }
+      ]
     };
 
     fetch('https://10.209.10.213:8000/export-excel', {

@@ -65,7 +65,7 @@ class Communus:
         vacants = pd.read_excel('data/comunus/vacants_all.xlsx')
         vacants.insert(vacants.columns.get_loc("Localité") + 1, "Responsable", "")
         vacants.insert(vacants.columns.get_loc("Loyer annuel net") + 1, "Introduction FA", "")
-        vacants.insert(vacants.columns.get_loc("Date proposition") + 1, "Photos logement transmises", "")
+        vacants.insert(vacants.columns.get_loc("Date proposition") + 1, "Photos logement transmises", "Non")
         vacants.insert(vacants.columns.get_loc("Prix au m2") + 1, "Travaux", "")
         vacants.insert(vacants.columns.get_loc("Travaux") + 1, "Budget estimatif", "")
         vacants.insert(vacants.columns.get_loc("Travaux désignation") + 1, "Date réception budget comparatif", "")

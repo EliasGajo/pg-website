@@ -46,7 +46,21 @@ export class ComunusVacantsComponent {
     const payload = {
       data: this.data_filtered,
       template_name: 'modele/comunus/vacants.xlsx',
-      start_row: 6
+      start_row: 6,
+      rules: [
+        {
+          condition: { field: "Travaux désignation", operator: "not_empty" },
+          color: "#FBE2D5"
+        },
+        {
+          condition: { field: "Début", operator: "not_empty" },
+          color: "#92D050"
+        },
+        {
+          condition: { operator: "else" },
+          color: "#FF0000"
+        }
+      ]
     };
 
     fetch('https://10.209.10.213:8000/export-excel', {

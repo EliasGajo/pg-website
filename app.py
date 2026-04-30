@@ -240,6 +240,35 @@ async def merge_excel(
 async def get_columns(file: UploadFile = File(...)):
     return Excel.get_columns(io.BytesIO(await file.read()))
 
+def evaluate_rules(item, rules):
+    for rule in rules:
+        cond = rule.get("condition", {})
+        operator = cond.get("operator")
+
+        if operator == "else":
+            return rule["color"]
+
+        field = cond.get("field")
+        value = item.get(field)
+
+        if operator == "not_empty" and value not in (None, "", []):
+            return rule["color"]
+
+        if operator == "empty" and value in (None, "", []):
+            return rule["color"]
+
+    return None
+
+def hex_to_excel_color(hex_color: str) -> int:
+    hex_color = hex_color.lstrip("#")
+
+    r = int(hex_color[0:2], 16)
+    g = int(hex_color[2:4], 16)
+    b = int(hex_color[4:6], 16)
+
+    # Excel = BGR
+    return (b << 16) + (g << 8) + r
+
 @app.post("/export-excel")
 async def export_excel(request: Request):
     payload = await request.json()
@@ -247,6 +276,7 @@ async def export_excel(request: Request):
     data = payload.get("data", [])
     template_name = payload.get("template_name")
     start_row = payload.get("start_row", 5)
+    rules = payload.get("rules", [])
 
     template_path = os.path.join('data', template_name)
 
@@ -270,6 +300,9 @@ async def export_excel(request: Request):
         # 👉 insertion des données
         for i, item in enumerate(data):
             row_num = start_row + i
+            color_value = False
+            if len(rules) > 0:
+                color_value = hex_to_excel_color(evaluate_rules(item, rules))
 
             for j, key in enumerate(item.keys(), start=1):
                 value = item[key]
@@ -281,6 +314,9 @@ async def export_excel(request: Request):
                 cell = ws.Cells(row_num, j)
                 cell.Value = value
                 cell.WrapText = True
+
+                if color_value:
+                    cell.Interior.Color = color_value
 
         # 👉 sauvegarde
         wb.SaveAs(os.path.abspath(temp_path))
