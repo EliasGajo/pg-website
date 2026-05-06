@@ -23,6 +23,7 @@ import { ComunusComponent } from './comunus/comunus.component';
 import { ComunusElComponent } from './comunus-el/comunus-el.component';
 import { ComunusSinistresComponent } from './comunus-sinistres/comunus-sinistres.component';
 import { ComunusVacantsComponent } from './comunus-vacants/comunus-vacants.component';
+import { EnqueteVacantsComponent } from './enquete-vacants/enquete-vacants.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -45,6 +46,7 @@ export const routes: Routes = [
     {path: 'elementBail', component: ElementBailComponent},
     {path: 'exportEmail', component: ExportEmailComponent},
     {path: 'mergeExcels', component: MergeExcelsComponent},
+    {path: 'enqueteNEVacants', component: EnqueteVacantsComponent},
     {path: 'comunus', component: ComunusComponent},
     {
         path: 'comunus',

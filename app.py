@@ -23,6 +23,7 @@ from src.contentieux import Contentieux
 from src.element_bail import ElementBail
 from src.export_email import ExportEmail
 from src.excel import Excel
+from src.enqueteNE import EnqueteNE
 import uvicorn
 import tempfile
 import win32com.client
@@ -163,6 +164,16 @@ async def root(request: Request):
             "traductions": traductions
             }
 
+@app.get("/enquete-vacants")
+async def root(request: Request):
+    #data = await request.json()
+    values = EnqueteNE.get_vacants()
+    traductions = EnqueteNE.get_vacants_traduction()
+    return {
+            "values": values,
+            "traductions": traductions
+            }
+
 @app.get("/qr-multiple")
 async def root(request: Request):
     values = QrMultiple.get_all()
@@ -275,7 +286,8 @@ async def export_excel(request: Request):
 
     data = payload.get("data", [])
     template_name = payload.get("template_name")
-    start_row = payload.get("start_row", 5)
+    start_row = payload.get("start_row", 1)
+    start_col = payload.get("start_col", 0)
     rules = payload.get("rules", [])
 
     template_path = os.path.join('data', template_name)
@@ -297,30 +309,72 @@ async def export_excel(request: Request):
         wb = excel.Workbooks.Open(os.path.abspath(template_path))
         ws = wb.Sheets(1)
 
-        # 👉 insertion des données
-        for i, item in enumerate(data):
-            row_num = start_row + i
-            color_value = False
-            if len(rules) > 0:
-                color_value = hex_to_excel_color(evaluate_rules(item, rules))
+        columns_to_fill = []
 
-            for j, key in enumerate(item.keys(), start=1):
-                value = item[key]
+        # ✅ Détection des colonnes utilisables (fusion incluses)
+        if data and len(data) > 0:
+            nb_data_columns = len(data[0])
+            column_iterator = start_col
 
-                # conversion timestamps JS → date Excel
-                if isinstance(value, (int, float)) and value > 1e10:
-                    value = datetime.datetime.fromtimestamp(value / 1000)
-                    
-                cell = ws.Cells(row_num, j)
-                cell.Value = value
-                cell.WrapText = True
+            while len(columns_to_fill) < nb_data_columns:
+                cell = ws.Cells(start_row, column_iterator)
 
-                if color_value:
-                    cell.Interior.Color = color_value
+                if cell.MergeCells:
+                    merge_area = cell.MergeArea
+                    first_col = merge_area.Column
 
-        # 👉 sauvegarde
+                    if first_col not in columns_to_fill:
+                        columns_to_fill.append(first_col)
+                else:
+                    columns_to_fill.append(column_iterator)
+
+                column_iterator += 1
+
+            # ✅ Insertion des données
+            for i, item in enumerate(data):
+                row_num = start_row + i
+
+                color_value = False
+                if rules:
+                    color_value = hex_to_excel_color(evaluate_rules(item, rules))
+
+                for j, (key, value) in enumerate(item.items()):
+                    if j >= len(columns_to_fill):
+                        break
+
+                    col_num = columns_to_fill[j]  # ✅ UTILISATION CORRECTE
+
+                    # conversion timestamps JS → date Excel
+                    if isinstance(value, (int, float)) and value > 1e10:
+                        value = datetime.datetime.fromtimestamp(value / 1000)
+
+                    cell = ws.Cells(row_num, col_num)
+
+                    # ✅ gérer fusion proprement
+                    if cell.MergeCells:
+                        cell = cell.MergeArea.Cells(1, 1)
+
+                    # ✅ sécuriser les types
+                    if not isinstance(value, (str, int, float, datetime.datetime)):
+                        value = str(value)
+
+                    cell.Value = value
+
+                    # ✅ WrapText peut planter → protéger
+                    try:
+                        cell.WrapText = True
+                    except Exception:
+                        pass
+
+                    if color_value:
+                        try:
+                            cell.Interior.Color = color_value
+                        except Exception:
+                            pass
+
         wb.SaveAs(os.path.abspath(temp_path))
         wb.Close(False)
+
 
     finally:
         excel.Quit()
