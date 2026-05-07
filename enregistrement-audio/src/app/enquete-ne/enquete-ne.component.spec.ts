@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EnqueteVacantsComponent } from './enquete-vacants.component';
+import { EnqueteNEComponent } from './enquete-ne.component';
 
-describe('EnqueteVacantsComponent', () => {
-  let component: EnqueteVacantsComponent;
-  let fixture: ComponentFixture<EnqueteVacantsComponent>;
+describe('EnqueteNEComponent', () => {
+  let component: EnqueteNEComponent;
+  let fixture: ComponentFixture<EnqueteNEComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [EnqueteVacantsComponent]
+      imports: [EnqueteNEComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(EnqueteVacantsComponent);
+    fixture = TestBed.createComponent(EnqueteNEComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

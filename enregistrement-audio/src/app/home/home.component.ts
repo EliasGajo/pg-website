@@ -16,6 +16,7 @@ export class HomeComponent {
     { id: 'modificationExcel', name: 'Modifications excel', image: 'excel.webp' },
     { id: 'remplirExcelContentieux', name: 'Remplir Excel contentieux', image: 'excel.webp' },
     { id: 'comunus/el', name: 'Exports Comunus', image: 'excel.webp' },
+    { id: 'enqueteNE/vacants-logements', name: 'Enquêtes NE', image: 'excel.webp' },
     { id: 'mergeExcels', name: 'Fusionner excels', image: 'excel.webp' },
     // Ajouter les outils ici
   ];

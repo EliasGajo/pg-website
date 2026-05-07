@@ -23,7 +23,9 @@ import { ComunusComponent } from './comunus/comunus.component';
 import { ComunusElComponent } from './comunus-el/comunus-el.component';
 import { ComunusSinistresComponent } from './comunus-sinistres/comunus-sinistres.component';
 import { ComunusVacantsComponent } from './comunus-vacants/comunus-vacants.component';
-import { EnqueteVacantsComponent } from './enquete-vacants/enquete-vacants.component';
+import { EnqueteNEComponent } from './enquete-ne/enquete-ne.component';
+import { EnqueteNeVacantsLogementsComponent } from './enquete-ne-vacants-logements/enquete-ne-vacants-logements.component';
+import { EnqueteNeVacantsCommercialComponent } from './enquete-ne-vacants-commercial/enquete-ne-vacants-commercial.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -46,7 +48,6 @@ export const routes: Routes = [
     {path: 'elementBail', component: ElementBailComponent},
     {path: 'exportEmail', component: ExportEmailComponent},
     {path: 'mergeExcels', component: MergeExcelsComponent},
-    {path: 'enqueteNEVacants', component: EnqueteVacantsComponent},
     {path: 'comunus', component: ComunusComponent},
     {
         path: 'comunus',
@@ -55,6 +56,15 @@ export const routes: Routes = [
             { path: 'el', component: ComunusElComponent },
             { path: 'sinistres', component: ComunusSinistresComponent },
             { path: 'vacants', component: ComunusVacantsComponent }
+        ]
+    },
+    {path: 'enqueteNE', component: EnqueteNEComponent},
+    {
+        path: 'enqueteNE',
+        component: EnqueteNEComponent,
+        children: [
+            { path: 'vacants-logements', component: EnqueteNeVacantsLogementsComponent },
+            { path: 'vacants-commercial', component: EnqueteNeVacantsCommercialComponent }
         ]
     }
 ];

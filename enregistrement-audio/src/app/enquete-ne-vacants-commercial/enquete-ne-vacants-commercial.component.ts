@@ -3,12 +3,12 @@ import { DataframeComponent } from '../dataframe/dataframe.component';
 import * as FileSaver from 'file-saver';
 
 @Component({
-  selector: 'app-enquete-vacants',
+  selector: 'app-enquete-ne-vacants-commercial',
   imports: [DataframeComponent],
-  templateUrl: './enquete-vacants.component.html',
-  styleUrl: './enquete-vacants.component.css'
+  templateUrl: './enquete-ne-vacants-commercial.component.html',
+  styleUrl: './enquete-ne-vacants-commercial.component.css'
 })
-export class EnqueteVacantsComponent {
+export class EnqueteNeVacantsCommercialComponent {
 
   all_vacants: any[] = [];
   data_filtered: any[] = [];
@@ -18,7 +18,7 @@ export class EnqueteVacantsComponent {
 
   ngOnInit() {
     this.zone.run(() => {
-        fetch(`https://10.209.10.213:8000/enquete-vacants`, {
+        fetch(`https://10.209.10.213:8000/enquete-vacants-commercial`, {
           method: 'GET',
           mode: 'cors'
         })
@@ -47,7 +47,7 @@ export class EnqueteVacantsComponent {
       data: this.data_filtered,
       template_name: 'modele/enqueteNE/Patrimoine Gérance SA-Hauterive-2026-04-21-LOGEMENTS.xlsx',
       start_row: 25,
-      start_col: 5
+      start_col: 3
     };
 
     fetch('https://10.209.10.213:8000/export-excel', {
@@ -71,6 +71,8 @@ export class EnqueteVacantsComponent {
     });
   }
 }
+
+
 
 
 

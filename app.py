@@ -164,10 +164,20 @@ async def root(request: Request):
             "traductions": traductions
             }
 
-@app.get("/enquete-vacants")
+@app.get("/enquete-vacants-logements")
 async def root(request: Request):
     #data = await request.json()
-    values = EnqueteNE.get_vacants()
+    values = EnqueteNE.get_vacants_logements()
+    traductions = EnqueteNE.get_vacants_traduction()
+    return {
+            "values": values,
+            "traductions": traductions
+            }
+
+@app.get("/enquete-vacants-commercial")
+async def root(request: Request):
+    #data = await request.json()
+    values = EnqueteNE.get_vacants_commercial()
     traductions = EnqueteNE.get_vacants_traduction()
     return {
             "values": values,
