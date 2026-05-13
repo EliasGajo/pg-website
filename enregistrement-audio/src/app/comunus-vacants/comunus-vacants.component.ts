@@ -47,6 +47,7 @@ export class ComunusVacantsComponent {
       data: this.data_filtered,
       template_name: 'modele/comunus/vacants.xlsx',
       start_row: 6,
+      start_col: 1,
       rules: [
         {
           condition: { field: "Travaux désignation", operator: "not_empty" },

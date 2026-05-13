@@ -48,6 +48,7 @@ export class ComunusSinistresComponent {
       data: this.data_filtered,
       template_name: 'modele/comunus/sinistres.xlsx',
       start_row: 5,
+      start_col: 1,
       rules: [
         {
           condition: { field: " Assurance Date du rbt ", operator: "not_empty" },

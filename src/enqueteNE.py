@@ -7,14 +7,14 @@ class EnqueteNE:
 
         self.filter = filter
 
-    def filtrer_logements(genre_immeuble):
-        if genre_immeuble == "Immeuble d'habitation" or genre_immeuble == "Immeuble mixte" or genre_immeuble == "Villa":
+    def filtrer_logements(usage):
+        if usage == "Habitation":
             return True
         else:
             return False
         
-    def filtrer_commercial(genre_immeuble):
-        if genre_immeuble == "Immeuble commercial":
+    def filtrer_commercial(usage):
+        if usage == "Local" or usage == "Restaurant" or usage == "Commercial" or usage == "Commerce" or usage == "Bureaux":
             return True
         else:
             return False
@@ -22,44 +22,8 @@ class EnqueteNE:
     @staticmethod
     def get_vacants_logements():
         vacants = pd.read_excel('data/enqueteNE/vacants.xlsx')
-        vacants = vacants[[EnqueteNE.filtrer_logements(i) for i in vacants["Genre désignation"]]]
-        return EnqueteNE.get_vacants(vacants)
-    
-    @staticmethod
-    def get_vacants_commercial():
-        vacants = pd.read_excel('data/enqueteNE/vacants.xlsx')
-        vacants = vacants[[EnqueteNE.filtrer_commercial(i) for i in vacants["Genre désignation"]]]
-        return EnqueteNE.get_vacants(vacants)
-    
-    @staticmethod
-    def get_vacants(vacants):
-        localites = pd.read_csv('data/localite/localites_suisse.csv', sep=';')
-        localites_unique = localites.drop_duplicates(subset="Ortschaftsname", keep="first")
-        def clean_rue(val):
-            if not isinstance(val, str):
-                return val
-
-            # 👉 protection des vrais noms de type "8 Mai", "11 Novembre"
-            if re.search(r"\d+\s+[A-Za-zÀ-ÿ]{2,}", val):
-                return re.sub(r"\s+\d+\s*[A-Za-zÀ-ÿ]*$", "", val).strip()
-
-            # 👉 suppression du numéro et de ce qui suit
-            return re.sub(r"\s+\d.*$", "", val).strip()
-        vacants["Rue"] = vacants["Rue"].apply(clean_rue)
-
-        vacants["Localité"] = vacants["Localité"].apply(lambda x: x if x in localites_unique["Ortschaftsname"].values else "")
-
-        vacants = vacants.merge(
-            localites_unique[["Ortschaftsname", "Gemeindename"]],
-            left_on="Localité",
-            right_on="Ortschaftsname",
-            how="left"
-        )
-
-        vacants["Commune"] = vacants["Gemeindename"].fillna("")
-        vacants = vacants.drop(columns=["Ortschaftsname", "Gemeindename"])
-        vacants = vacants[["Commune"] + ["Localité"] + [c for c in vacants.columns if c != "Commune" and c != "Localité"]]
-
+        vacants = vacants[[EnqueteNE.filtrer_logements(i) for i in vacants["Usage désignation"]]]
+        vacants = EnqueteNE.get_vacants(vacants)
         def get_catégorie(vacant):
             if vacant["Genre désignation"] == "Immeuble mixte":
                 return "Maison à utilisation mixte"
@@ -100,6 +64,57 @@ class EnqueteNE:
             else:
                 return "Plus d’un an"
         vacants["Nombre de jours"] = vacants["Nombre de jours"].apply(get_duree_vacance)
+        vacants = vacants.drop(columns=["Genre désignation", "Surface", "Usage désignation"])
+
+        return vacants.to_json(orient='records')
+    
+    @staticmethod
+    def get_vacants_commercial():
+        vacants = pd.read_excel('data/enqueteNE/vacants.xlsx')
+        vacants = vacants[[EnqueteNE.filtrer_commercial(i) for i in vacants["Usage désignation"]]]
+        vacants = EnqueteNE.get_vacants(vacants)
+        def get_catégorie(vacant):
+            if vacant["Usage désignation"] == "Bureaux":
+                return "Bureau, cabinet médical"
+            else:
+                return "Autre local"
+        vacants["Appartements nb"] = vacants.apply(get_catégorie, axis=1)
+
+        vacants = vacants.drop(columns=["Genre désignation", "Nb pces cantonales", "Construction fin", "Nombre de jours", "Usage désignation"])
+
+        return vacants.to_json(orient='records')
+    
+    @staticmethod
+    def get_vacants(vacants):
+        localites = pd.read_csv('data/localite/localites_suisse.csv', sep=';')
+        localites_unique = localites.drop_duplicates(subset="Ortschaftsname", keep="first")
+
+        def clean_rue(val):
+            if not isinstance(val, str):
+                return val
+
+            # 👉 protection des vrais noms de type "8 Mai", "11 Novembre"
+            if re.search(r"\d+\s+[A-Za-zÀ-ÿ]{2,}", val):
+                return re.sub(r"\s+\d+\s*[A-Za-zÀ-ÿ]*$", "", val).strip()
+
+            # 👉 suppression du numéro et de ce qui suit
+            return re.sub(r"\s+\d.*$", "", val).strip()
+        vacants["Rue"] = vacants["Rue"].apply(clean_rue)
+
+        vacants["Localité"] = vacants["Localité"].apply(lambda x: x if x in localites_unique["Ortschaftsname"].values else "")
+        # Kantonskürzel == 'NE'
+
+        vacants = vacants.merge(
+            localites_unique[["Ortschaftsname", "Gemeindename", "Kantonskürzel"]],
+            left_on="Localité",
+            right_on="Ortschaftsname",
+            how="left"
+        )
+        vacants = vacants[vacants['Kantonskürzel'] == 'NE']
+
+        vacants["Commune"] = vacants["Gemeindename"].fillna("")
+        vacants = vacants.drop(columns=["Ortschaftsname", "Gemeindename", "Canton", "Kantonskürzel"])
+        vacants = vacants[["Commune"] + ["Localité"] + [c for c in vacants.columns if c != "Commune" and c != "Localité"]]
 
         def get_mode_occupation(type):
             return "À louer uniquement"
@@ -112,9 +127,7 @@ class EnqueteNE:
         vacants["Loyer proposé"] = vacants["Loyer proposé"].apply(format_prix)
         vacants["Charges proposées"] = vacants["Charges proposées"].apply(format_prix)
 
-        vacants = vacants.drop(columns=["Genre désignation"])
-        df_final = vacants
-        return df_final.to_json(orient='records')
+        return vacants
     
     @staticmethod
     def get_vacants_traduction():

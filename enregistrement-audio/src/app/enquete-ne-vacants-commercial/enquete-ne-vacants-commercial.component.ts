@@ -45,7 +45,7 @@ export class EnqueteNeVacantsCommercialComponent {
     const fileName: string = 'vacants.xlsx';
     const payload = {
       data: this.data_filtered,
-      template_name: 'modele/enqueteNE/Patrimoine Gérance SA-Hauterive-2026-04-21-LOGEMENTS.xlsx',
+      template_name: 'modele/enqueteNE/Patrimoine Gérance SA-Hauterive-2026-04-21-LOCAUX.xlsx',
       start_row: 25,
       start_col: 3
     };

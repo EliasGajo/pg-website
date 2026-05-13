@@ -297,7 +297,7 @@ async def export_excel(request: Request):
     data = payload.get("data", [])
     template_name = payload.get("template_name")
     start_row = payload.get("start_row", 1)
-    start_col = payload.get("start_col", 0)
+    start_col = payload.get("start_col", 1)
     rules = payload.get("rules", [])
 
     template_path = os.path.join('data', template_name)
@@ -363,6 +363,10 @@ async def export_excel(request: Request):
                     # ✅ gérer fusion proprement
                     if cell.MergeCells:
                         cell = cell.MergeArea.Cells(1, 1)
+
+                    # ✅ gérer les valeurs nulles
+                    if value is None:
+                        value = ""
 
                     # ✅ sécuriser les types
                     if not isinstance(value, (str, int, float, datetime.datetime)):
