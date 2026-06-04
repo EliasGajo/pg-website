@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+from datetime import datetime
 
 class EnqueteNE:
 
@@ -39,17 +40,17 @@ class EnqueteNE:
             if not nb_pieces:
                 return ""
             if nb_pieces < 2:
-                return "1 ou 1.5 pièces"
+                return "1 ou 1.5"
             elif nb_pieces < 3:
-                return "2 ou 2.5 pièces"
+                return "2 ou 2.5"
             elif nb_pieces < 4:
-                return "3 ou 3.5 pièces"
+                return "3 ou 3.5"
             elif nb_pieces < 5:
-                return "4 ou 4.5 pièces"
+                return "4 ou 4.5"
             elif nb_pieces < 6:
-                return "5 ou 5.5 pièces"
+                return "5 ou 5.5"
             else:
-                return "6 pièces ou plus"
+                return "6 ou plus"
         vacants["Nb pces cantonales"] = vacants["Nb pces cantonales"].apply(get_nb_pieces)
 
         def get_annee_construction(date_construction):
@@ -88,6 +89,8 @@ class EnqueteNE:
     def get_vacants(vacants):
         localites = pd.read_csv('data/localite/localites_suisse.csv', sep=';')
         localites_unique = localites.drop_duplicates(subset="Ortschaftsname", keep="first")
+        date_debut_vacant = datetime(2026, 5, 2)
+        vacants = vacants[vacants['Disponible dès le'].notna() & (vacants['Disponible dès le'] < date_debut_vacant)]
 
         def clean_rue(val):
             if not isinstance(val, str):
@@ -113,11 +116,11 @@ class EnqueteNE:
         vacants = vacants[vacants['Kantonskürzel'] == 'NE']
 
         vacants["Commune"] = vacants["Gemeindename"].fillna("")
-        vacants = vacants.drop(columns=["Ortschaftsname", "Gemeindename", "Canton", "Kantonskürzel"])
+        vacants = vacants.drop(columns=["Ortschaftsname", "Gemeindename", "Canton", "Kantonskürzel", "Disponible dès le"])
         vacants = vacants[["Commune"] + ["Localité"] + [c for c in vacants.columns if c != "Commune" and c != "Localité"]]
 
         def get_mode_occupation(type):
-            return "À louer uniquement"
+            return "A louer uniquement"
         vacants["Type désignation"] = vacants["Type désignation"].apply(get_mode_occupation)
 
         def format_prix(prix):
@@ -130,6 +133,32 @@ class EnqueteNE:
         return vacants
     
     @staticmethod
+    def get_npa_from_NE():
+        localites = pd.read_csv('data/localite/localites_suisse.csv', sep=';')
+        return localites[localites["Kantonskürzel"] == "NE"]["PLZ4"].values
+    
+    @staticmethod
+    def get_objets_logement():
+        objets = pd.read_excel('data/enqueteNE/objets_actifs.xlsx')
+        npa_from_NE = EnqueteNE.get_npa_from_NE()
+        objets = objets[objets["NPA"].isin(npa_from_NE)]
+        objets = objets[[EnqueteNE.filtrer_logements(i) for i in objets["Usage désignation"]]]
+        return objets.to_json(orient='records')
+    
+    @staticmethod
+    def get_objets_commercial():
+        objets = pd.read_excel('data/enqueteNE/objets_actifs.xlsx')
+        npa_from_NE = EnqueteNE.get_npa_from_NE()
+        objets = objets[objets["NPA"].isin(npa_from_NE)]
+        objets = objets[[EnqueteNE.filtrer_commercial(i) for i in objets["Usage désignation"]]]
+        return objets.to_json(orient='records')
+    
+    @staticmethod
     def get_vacants_traduction():
+        traductions = {}
+        return traductions
+    
+    @staticmethod
+    def get_objets_traduction():
         traductions = {}
         return traductions

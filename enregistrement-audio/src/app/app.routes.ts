@@ -26,6 +26,8 @@ import { ComunusVacantsComponent } from './comunus-vacants/comunus-vacants.compo
 import { EnqueteNEComponent } from './enquete-ne/enquete-ne.component';
 import { EnqueteNeVacantsLogementsComponent } from './enquete-ne-vacants-logements/enquete-ne-vacants-logements.component';
 import { EnqueteNeVacantsCommercialComponent } from './enquete-ne-vacants-commercial/enquete-ne-vacants-commercial.component';
+import { EnqueteNeObjetsLogementComponent } from './enquete-ne-objets-logement/enquete-ne-objets-logement.component';
+import { EnqueteNeObjetsCommercialComponent } from './enquete-ne-objets-commercial/enquete-ne-objets-commercial.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -64,7 +66,9 @@ export const routes: Routes = [
         component: EnqueteNEComponent,
         children: [
             { path: 'vacants-logements', component: EnqueteNeVacantsLogementsComponent },
-            { path: 'vacants-commercial', component: EnqueteNeVacantsCommercialComponent }
+            { path: 'vacants-commercial', component: EnqueteNeVacantsCommercialComponent },
+            { path: 'objets-logement', component: EnqueteNeObjetsLogementComponent },
+            { path: 'objets-commercial', component: EnqueteNeObjetsCommercialComponent }
         ]
     }
 ];

@@ -184,6 +184,26 @@ async def root(request: Request):
             "traductions": traductions
             }
 
+@app.get("/enquete-objets-commercial")
+async def root(request: Request):
+    #data = await request.json()
+    values = EnqueteNE.get_objets_commercial()
+    traductions = EnqueteNE.get_objets_traduction()
+    return {
+            "values": values,
+            "traductions": traductions
+            }
+
+@app.get("/enquete-objets-logement")
+async def root(request: Request):
+    #data = await request.json()
+    values = EnqueteNE.get_objets_logement()
+    traductions = EnqueteNE.get_objets_traduction()
+    return {
+            "values": values,
+            "traductions": traductions
+            }
+
 @app.get("/qr-multiple")
 async def root(request: Request):
     values = QrMultiple.get_all()

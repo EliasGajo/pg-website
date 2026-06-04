@@ -12,6 +12,8 @@ export class EnqueteNEComponent {
   pages = [
     { path: 'vacants-logements', label: 'Vacants logement' },
     { path: 'vacants-commercial', label: 'Vacants commercial' },
+    { path: 'objets-logement', label: 'Objets logement' },
+    { path: 'objets-commercial', label: 'Objets commercial' },
   ];
 }
 

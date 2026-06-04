@@ -25,4 +25,18 @@
     </div>
     <button (click)="supprimerDoublons()" [disabled]="!workbook">Supprimer doublons</button>
   </div>
+  <p>Opérations avec 2ème fichier Excel</p>
+  <h2>Charger un 2ème fichier Excel</h2>
+  <input type="file" (change)="onFile2Change($event)" accept=".xlsx, .xls" />
+  <div *ngFor="let col of colonnes2">
+      <label>
+        <input
+          type="checkbox"
+          [value]="col"
+          (change)="toggleColonne2(col, $event)"
+        />
+        {{ col }}
+      </label>
+    </div>
+    <button (click)="supprimerDoublons2()" [disabled]="!workbook">Supprimer doublons</button>
 </div>
