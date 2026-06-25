@@ -109,7 +109,7 @@ export class MergeExcelsComponent {
     formData.append('file2', this.file2);
     const finalColumnsOrdered = this.getFinalColumnsOrdered();
     formData.append('final_columns_ordered', JSON.stringify(finalColumnsOrdered));
-    formData.append('dedup_columns', this.dedupColumnsToSend.join(','));
+    formData.append('dedup_columns', JSON.stringify(this.dedupColumnsToSend));
 
     try {
       const response = await fetch('https://10.209.10.213:8000/merge-excel', {

@@ -262,7 +262,7 @@ async def merge_excel(
 ):
     # Convertir JSON en liste de dicts
     final_columns_ordered = json.loads(final_columns_ordered)
-    dedup_cols = dedup_columns.split(",")
+    dedup_cols = json.loads(dedup_columns)
 
     output = Excel.merge_excels(
         io.BytesIO(await file1.read()),
