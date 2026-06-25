@@ -33,6 +33,15 @@ class Excel:
         left_keys = [c + "_df1" for c in left_keys]
         right_keys = [c + "_df2" for c in right_keys]
 
+        # pour éviter les doublons lors du matching, on choisi la ligne de df2 qui a le plus de valeurs remplies
+        df2["_score"] = df2.notna().sum(axis=1)
+        df2 = df2.sort_values(
+            by=right_keys + ["_score"],
+            ascending=[True] * len(right_keys) + [False]
+        )
+        df2 = df2.drop_duplicates(subset=right_keys, keep="first")
+        df2 = df2.drop(columns=["_score"])
+
         # Normalisation des clés pour éviter les problèmes
         # de casse ou d'espaces
         df1 = Excel.normalize(df1, left_keys)
