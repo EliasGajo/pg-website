@@ -13,6 +13,8 @@ import { saveAs } from 'file-saver';
 })
 export class ModificationExcelComponent {
   workbook: XLSX.WorkBook | null = null;
+  onglets: string[] = [];
+  ongletsSelectionnes: string[] = [];
   colonnes: string[] = [];
   colonnesSelectionnees: string[] = [];
   data: any[] = [];
@@ -21,6 +23,8 @@ export class ModificationExcelComponent {
   email_columns: string[] = [""];
 
   workbook2: XLSX.WorkBook | null = null;
+  onglets2: string[] = [];
+  ongletsSelectionnes2: string[] = [];
   data2: any[] = [];
   colonnes2: string[] = [];
   colonnesSelectionnees2: string[] = [];
@@ -37,13 +41,15 @@ export class ModificationExcelComponent {
 
       const firstSheetName = this.workbook.SheetNames[0];
       const worksheet = this.workbook.Sheets[firstSheetName];
-
-      this.colonnes = this.getColonnes(this.workbook, firstSheetName);
+      this.onglets = [...this.workbook.SheetNames];
+      this.ongletsSelectionnes = this.onglets.length ? [this.onglets[0]] : [];
+      this.colonnesSelectionnees = [];
 
       // 🔥 Transformation en tableau d’objets
       this.data = XLSX.utils.sheet_to_json(worksheet, {
         defval: null
       });
+      this.importerOngletsSelectionnes();
     };
     reader.readAsArrayBuffer(file);
   }
@@ -59,13 +65,15 @@ export class ModificationExcelComponent {
 
       const firstSheetName = this.workbook2.SheetNames[0];
       const worksheet = this.workbook2.Sheets[firstSheetName];
-
-      this.colonnes2 = this.getColonnes(this.workbook2, firstSheetName);
+      this.onglets2 = [...this.workbook2.SheetNames];
+      this.ongletsSelectionnes2 = this.onglets2.length ? [this.onglets2[0]] : [];
+      this.colonnesSelectionnees2 = [];
 
       // 🔥 Transformation en tableau d’objets
       this.data2 = XLSX.utils.sheet_to_json(worksheet, {
         defval: null
       });
+      this.importerOngletsSelectionnes2();
     };
     reader.readAsArrayBuffer(file);
   }
@@ -91,7 +99,56 @@ export class ModificationExcelComponent {
     const data = XLSX.utils.sheet_to_json<any>(worksheet, { header: 1 });
 
     // première ligne = en-têtes
-    return data[0] as string[];
+    return (data[0] as string[] | undefined)?.filter((col): col is string => typeof col === 'string' && Boolean(col)) ?? [];
+  }
+
+  toggleOnglet(onglet: string, event: Event) {
+    const checked = (event.target as HTMLInputElement).checked;
+    this.ongletsSelectionnes = checked
+      ? [...this.ongletsSelectionnes, onglet]
+      : this.ongletsSelectionnes.filter(name => name !== onglet);
+    this.importerOngletsSelectionnes();
+  }
+
+  toggleTousLesOnglets(event: Event) {
+    this.ongletsSelectionnes = (event.target as HTMLInputElement).checked ? [...this.onglets] : [];
+    this.importerOngletsSelectionnes();
+  }
+
+  toggleOnglet2(onglet: string, event: Event) {
+    const checked = (event.target as HTMLInputElement).checked;
+    this.ongletsSelectionnes2 = checked
+      ? [...this.ongletsSelectionnes2, onglet]
+      : this.ongletsSelectionnes2.filter(name => name !== onglet);
+    this.importerOngletsSelectionnes2();
+  }
+
+  toggleTousLesOnglets2(event: Event) {
+    this.ongletsSelectionnes2 = (event.target as HTMLInputElement).checked ? [...this.onglets2] : [];
+    this.importerOngletsSelectionnes2();
+  }
+
+  private importerOngletsSelectionnes() {
+    const contenu = this.lireOnglets(this.workbook, this.ongletsSelectionnes);
+    this.data = contenu.data;
+    this.colonnes = contenu.colonnes;
+  }
+
+  private importerOngletsSelectionnes2() {
+    const contenu = this.lireOnglets(this.workbook2, this.ongletsSelectionnes2);
+    this.data2 = contenu.data;
+    this.colonnes2 = contenu.colonnes;
+  }
+
+  private lireOnglets(workbook: XLSX.WorkBook | null, ongletsSelectionnes: string[]) {
+    if (!workbook) return { data: [] as any[], colonnes: [] as string[] };
+
+    const colonnes = new Set<string>();
+    const data = ongletsSelectionnes.flatMap(nomOnglet => {
+      this.getColonnes(workbook, nomOnglet).forEach(colonne => colonnes.add(colonne));
+      return XLSX.utils.sheet_to_json<any>(workbook.Sheets[nomOnglet], { defval: null });
+    });
+    return { data, colonnes: Array.from(colonnes) };
   }
 
   toggleColonne(col: string, event: any) {
@@ -118,10 +175,7 @@ export class ModificationExcelComponent {
       alert('Veuillez sélectionner au moins une colonne');
       return;
     }
-    const sheetName = this.workbook.SheetNames[0];
-    const worksheet = this.workbook.Sheets[sheetName];
-
-    const data = XLSX.utils.sheet_to_json<any>(worksheet);
+    const data = this.lireOnglets(this.workbook, this.ongletsSelectionnes).data;
 
     const uniqueRows = new Map<string, any>();
 
@@ -149,13 +203,8 @@ export class ModificationExcelComponent {
       return;
     }
 
-    const sheetName = this.workbook.SheetNames[0];
-    const worksheet = this.workbook.Sheets[sheetName];
-    const data = XLSX.utils.sheet_to_json<any>(worksheet);
-
-    const sheetName2 = this.workbook2.SheetNames[0];
-    const worksheet2 = this.workbook2.Sheets[sheetName2];
-    const data2 = XLSX.utils.sheet_to_json<any>(worksheet2);
+    const data = this.lireOnglets(this.workbook, this.ongletsSelectionnes).data;
+    const data2 = this.lireOnglets(this.workbook2, this.ongletsSelectionnes2).data;
 
     // 1. Construire un Set des clés de data2
     const keysData2 = new Set<string>();

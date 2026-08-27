@@ -1,6 +1,19 @@
 <div>
   <h2>Charger un fichier Excel</h2>
   <input type="file" (change)="onFileChange($event)" accept=".xlsx, .xls" />
+  <fieldset *ngIf="workbook">
+    <legend>Onglets à importer</legend>
+    <label>
+      <input type="checkbox" [checked]="onglets.length > 0 && ongletsSelectionnes.length === onglets.length" (change)="toggleTousLesOnglets($event)" />
+      Tous les onglets
+    </label>
+    <div *ngFor="let onglet of onglets">
+      <label>
+        <input type="checkbox" [checked]="ongletsSelectionnes.includes(onglet)" (change)="toggleOnglet(onglet, $event)" />
+        {{ onglet }}
+      </label>
+    </div>
+  </fieldset>
   <app-dataframe 
     (data_filtered_update)="update_data_filtered($event)"
     [data_to_load]="data"
@@ -28,6 +41,19 @@
   <p>Opérations avec 2ème fichier Excel</p>
   <h2>Charger un 2ème fichier Excel</h2>
   <input type="file" (change)="onFile2Change($event)" accept=".xlsx, .xls" />
+  <fieldset *ngIf="workbook2">
+    <legend>Onglets à importer</legend>
+    <label>
+      <input type="checkbox" [checked]="onglets2.length > 0 && ongletsSelectionnes2.length === onglets2.length" (change)="toggleTousLesOnglets2($event)" />
+      Tous les onglets
+    </label>
+    <div *ngFor="let onglet of onglets2">
+      <label>
+        <input type="checkbox" [checked]="ongletsSelectionnes2.includes(onglet)" (change)="toggleOnglet2(onglet, $event)" />
+        {{ onglet }}
+      </label>
+    </div>
+  </fieldset>
   <div *ngFor="let col of colonnes2">
       <label>
         <input
