@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
 import { DataframeComponent } from '../dataframe/dataframe.component';
 import { EmailsPublipostageComponent } from '../emails-publipostage/emails-publipostage.component';
 import * as XLSX from 'xlsx';
@@ -7,7 +8,7 @@ import { saveAs } from 'file-saver';
 
 @Component({
   selector: 'app-modification-excel',
-  imports: [CommonModule, DataframeComponent, EmailsPublipostageComponent],
+  imports: [CommonModule, RouterLink, DataframeComponent, EmailsPublipostageComponent],
   templateUrl: './modification-excel.component.html',
   styleUrl: './modification-excel.component.css'
 })

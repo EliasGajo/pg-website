@@ -115,3 +115,20 @@
   90% { opacity: 1; }
   100% { opacity: 0; }
 }
+
+/* Aperçu de données : variante intégrée à l'atelier Excel */
+.dataframe-section { margin-top: 1rem; }
+.dataframe-section h2 { color: #1e293b; font-size: 1rem; letter-spacing: -.01em; }
+.table-header { margin-top: -1.5rem; }
+.table-header .button-container { display: flex; flex-wrap: wrap; gap: .5rem; }
+.table-header button { padding: .5rem .7rem; border-radius: .5rem; font-size: .75rem; }
+.table-container { margin-top: .9rem; border: 1px solid #e2e8f0; border-radius: .7rem; background: white; }
+table { margin-top: 0; font-family: inherit; font-size: .78rem; }
+thead { background: #f8fafc; }
+th, td { padding: .65rem .75rem; border-color: #e2e8f0; }
+th { color: #475569; font-size: .7rem; font-weight: 750; }
+th:hover { background: #eef2ff; }
+tr:nth-child(even) { background: #fcfdff; }
+tr:hover { background: #f8faff; }
+th input { min-width: 6rem; border-color: #dbe3ef; font-size: .72rem; }
+.table-footer { margin-top: .65rem; color: #64748b; font-size: .73rem; font-weight: 600; }

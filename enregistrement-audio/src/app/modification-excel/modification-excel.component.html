@@ -1,68 +1,62 @@
-<div>
-  <h2>Charger un fichier Excel</h2>
-  <input type="file" (change)="onFileChange($event)" accept=".xlsx, .xls" />
-  <fieldset *ngIf="workbook">
-    <legend>Onglets à importer</legend>
-    <label>
-      <input type="checkbox" [checked]="onglets.length > 0 && ongletsSelectionnes.length === onglets.length" (change)="toggleTousLesOnglets($event)" />
-      Tous les onglets
-    </label>
-    <div *ngFor="let onglet of onglets">
-      <label>
-        <input type="checkbox" [checked]="ongletsSelectionnes.includes(onglet)" (change)="toggleOnglet(onglet, $event)" />
-        {{ onglet }}
-      </label>
+<section class="excel-workspace">
+  <header class="workspace-hero">
+    <div>
+      <a class="back-link" routerLink="/excel">← Espace Excel</a>
+      <p class="eyebrow">PRÉPARATION DES DONNÉES</p>
+      <h1>Modifier un fichier Excel</h1>
+      <p>Importez vos données, sélectionnez les onglets utiles et lancez vos opérations depuis un seul espace de travail.</p>
     </div>
-  </fieldset>
-  <app-dataframe 
-    (data_filtered_update)="update_data_filtered($event)"
-    [data_to_load]="data"
-    [traductions_to_load]="traductions"
-    export_title="Valeurs du fichier excel" 
-    table_max_height="750px"
-    >
-    </app-dataframe>
-    <app-emails-publipostage [data_to_load]="data_filtered" [email_columns_input]="email_columns" [traductions]="traductions"></app-emails-publipostage>
+    <div class="stepper" aria-label="Étapes du traitement">
+      <div class="step active"><span>1</span><small>Importer</small></div><i></i>
+      <div class="step" [class.active]="workbook"><span>2</span><small>Préparer</small></div><i></i>
+      <div class="step" [class.active]="data.length"><span>3</span><small>Exporter</small></div>
+    </div>
+  </header>
 
-  <button (click)="splitSheets()" [disabled]="!workbook">Séparer onglets en fichiers Excel distincts</button>
-  <div id="suppression_doublons">
-    <div *ngFor="let col of colonnes">
-      <label>
-        <input
-          type="checkbox"
-          [value]="col"
-          (change)="toggleColonne(col, $event)"
-        />
-        {{ col }}
-      </label>
+  <section class="upload-card primary-upload">
+    <div class="card-heading"><span class="card-icon">↑</span><div><p class="eyebrow">FICHIER PRINCIPAL</p><h2>Importez votre fichier source</h2><p>Formats acceptés : .xlsx et .xls</p></div></div>
+    <input class="file-input" id="primary-file" type="file" (change)="onFileChange($event)" accept=".xlsx, .xls" />
+    <label class="dropzone" for="primary-file"><span class="upload-icon">⇧</span><strong>Choisir un fichier Excel</strong><small>ou glissez-déposez-le ici</small></label>
+  </section>
+
+  <section class="sheet-card" *ngIf="workbook">
+    <div class="sheet-heading"><div><p class="eyebrow">ÉTAPE 2</p><h2>Choisissez les onglets à importer</h2></div><span>{{ ongletsSelectionnes.length }} / {{ onglets.length }} sélectionné{{ ongletsSelectionnes.length > 1 ? 's' : '' }}</span></div>
+    <div class="sheet-list">
+      <label class="sheet-option all-sheets"><input type="checkbox" [checked]="onglets.length > 0 && ongletsSelectionnes.length === onglets.length" (change)="toggleTousLesOnglets($event)" /><span class="checkmark"></span><span><strong>Tous les onglets</strong><small>Importer toutes les données du fichier</small></span></label>
+      <label class="sheet-option" *ngFor="let onglet of onglets"><input type="checkbox" [checked]="ongletsSelectionnes.includes(onglet)" (change)="toggleOnglet(onglet, $event)" /><span class="checkmark"></span><span><strong>{{ onglet }}</strong><small>Onglet Excel</small></span></label>
     </div>
-    <button (click)="supprimerDoublons()" [disabled]="!workbook">Supprimer doublons</button>
-  </div>
-  <p>Opérations avec 2ème fichier Excel</p>
-  <h2>Charger un 2ème fichier Excel</h2>
-  <input type="file" (change)="onFile2Change($event)" accept=".xlsx, .xls" />
-  <fieldset *ngIf="workbook2">
-    <legend>Onglets à importer</legend>
-    <label>
-      <input type="checkbox" [checked]="onglets2.length > 0 && ongletsSelectionnes2.length === onglets2.length" (change)="toggleTousLesOnglets2($event)" />
-      Tous les onglets
-    </label>
-    <div *ngFor="let onglet of onglets2">
-      <label>
-        <input type="checkbox" [checked]="ongletsSelectionnes2.includes(onglet)" (change)="toggleOnglet2(onglet, $event)" />
-        {{ onglet }}
-      </label>
+  </section>
+
+  <section class="data-zone" *ngIf="workbook">
+    <div class="zone-heading"><div><p class="eyebrow">APERÇU DES DONNÉES</p><h2>Explorez et filtrez votre fichier</h2></div><span class="status-dot">Données chargées</span></div>
+    <app-dataframe (data_filtered_update)="update_data_filtered($event)" [data_to_load]="data" [traductions_to_load]="traductions" export_title="Données importées" table_max_height="620px"></app-dataframe>
+  </section>
+
+  <section class="operations-grid" *ngIf="workbook">
+    <article class="operation-card">
+      <div class="operation-heading"><span class="operation-icon blue">⌘</span><div><p class="eyebrow">ORGANISATION</p><h2>Séparer les onglets</h2></div></div>
+      <p>Créez un fichier Excel distinct pour chaque onglet du classeur importé.</p>
+      <button class="secondary-action" (click)="splitSheets()">Séparer les onglets <span>→</span></button>
+    </article>
+    <article class="operation-card dedup-card">
+      <div class="operation-heading"><span class="operation-icon violet">⊘</span><div><p class="eyebrow">NETTOYAGE</p><h2>Supprimer les doublons</h2></div></div>
+      <p>Sélectionnez les colonnes utilisées pour repérer les lignes identiques.</p>
+      <div class="column-choices" *ngIf="colonnes.length; else noColumns"><label *ngFor="let col of colonnes"><input type="checkbox" [value]="col" (change)="toggleColonne(col, $event)" /><span>{{ col }}</span></label></div>
+      <ng-template #noColumns><p class="empty-columns">Aucune colonne détectée dans les onglets sélectionnés.</p></ng-template>
+      <button (click)="supprimerDoublons()" [disabled]="!colonnesSelectionnees.length">Supprimer les doublons <span>→</span></button>
+    </article>
+  </section>
+
+  <section class="mailing-zone" *ngIf="workbook"><app-emails-publipostage [data_to_load]="data_filtered" [email_columns_input]="email_columns" [traductions]="traductions"></app-emails-publipostage></section>
+
+  <section class="comparison-card">
+    <div class="comparison-intro"><span class="operation-icon teal">⇄</span><div><p class="eyebrow">COMPARAISON</p><h2>Comparer avec un second fichier</h2><p>Excluez les lignes déjà présentes dans un autre export Excel.</p></div></div>
+    <input class="file-input" id="secondary-file" type="file" (change)="onFile2Change($event)" accept=".xlsx, .xls" />
+    <label class="secondary-upload" for="secondary-file">+ Ajouter un deuxième fichier</label>
+    <div class="secondary-content" *ngIf="workbook2">
+      <div class="sheet-list compact"><label class="sheet-option all-sheets"><input type="checkbox" [checked]="onglets2.length > 0 && ongletsSelectionnes2.length === onglets2.length" (change)="toggleTousLesOnglets2($event)" /><span class="checkmark"></span><span><strong>Tous les onglets</strong><small>Importer toutes les données</small></span></label><label class="sheet-option" *ngFor="let onglet of onglets2"><input type="checkbox" [checked]="ongletsSelectionnes2.includes(onglet)" (change)="toggleOnglet2(onglet, $event)" /><span class="checkmark"></span><span><strong>{{ onglet }}</strong><small>Onglet Excel</small></span></label></div>
+      <div class="column-choices"><label *ngFor="let col of colonnes2"><input type="checkbox" [value]="col" (change)="toggleColonne2(col, $event)" /><span>{{ col }}</span></label></div>
+      <button (click)="supprimerDoublons2()" [disabled]="!colonnesSelectionnees.length || !colonnesSelectionnees2.length">Comparer et exporter <span>→</span></button>
     </div>
-  </fieldset>
-  <div *ngFor="let col of colonnes2">
-      <label>
-        <input
-          type="checkbox"
-          [value]="col"
-          (change)="toggleColonne2(col, $event)"
-        />
-        {{ col }}
-      </label>
-    </div>
-    <button (click)="supprimerDoublons2()" [disabled]="!workbook">Supprimer doublons</button>
-</div>
+  </section>
+</section>
