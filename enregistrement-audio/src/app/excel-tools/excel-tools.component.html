@@ -1,0 +1,26 @@
+<section class="excel-hero">
+  <div>
+    <a class="back-link" routerLink="/">← Accueil</a>
+    <p class="eyebrow">ESPACE EXCEL</p>
+    <h1>Travaillez vos fichiers<br><span>simplement et sûrement.</span></h1>
+    <p>Retrouvez toutes les opérations Excel au même endroit. Choisissez l’outil adapté à votre tâche, puis laissez-vous guider.</p>
+  </div>
+  <div class="excel-summary" aria-hidden="true">
+    <span class="summary-icon">⌁</span>
+    <strong>{{ tools.length }}</strong><small>outils Excel</small>
+    <span class="summary-grid"></span>
+  </div>
+</section>
+
+<section class="tools-area">
+  <div class="section-heading"><div><p class="eyebrow">CHOISIR UNE ACTION</p><h2>Que souhaitez-vous faire ?</h2></div></div>
+  <div class="excel-grid">
+    <button *ngFor="let tool of tools" class="excel-card" [class]="'excel-card ' + tool.tone" (click)="openTool(tool.route)">
+      <span class="card-icon">{{ tool.icon }}</span>
+      <span class="card-text"><small>{{ tool.tag }}</small><strong>{{ tool.title }}</strong><span>{{ tool.description }}</span></span>
+      <span class="card-arrow" aria-hidden="true">→</span>
+    </button>
+  </div>
+</section>
+
+<aside class="help-note"><span>i</span><p><strong>Un doute ?</strong> Commencez par « Modifier un fichier » pour explorer son contenu et sélectionner les onglets à utiliser.</p></aside>

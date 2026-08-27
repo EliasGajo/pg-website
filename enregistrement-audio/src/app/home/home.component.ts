@@ -10,15 +10,12 @@ import { CommonModule } from '@angular/common';
 })
 export class HomeComponent {
   tools = [
-    { id: 'textGeneration', name: 'Génération de texte', image: 'mail.webp' },
-    { id: 'exportData', name: 'Export de données', image: 'excel.webp' },
-    { id: 'tournusImmeuble', name: 'Tournus dans les immeubles', image: 'tournus.webp' },
-    { id: 'modificationExcel', name: 'Modifications excel', image: 'excel.webp' },
-    { id: 'remplirExcelContentieux', name: 'Remplir Excel contentieux', image: 'excel.webp' },
-    { id: 'comunus/el', name: 'Exports Comunus', image: 'excel.webp' },
-    { id: 'enqueteNE/vacants-logements', name: 'Enquêtes NE', image: 'excel.webp' },
-    { id: 'mergeExcels', name: 'Fusionner excels', image: 'excel.webp' },
-    // Ajouter les outils ici
+    { id: 'textGeneration', name: 'Génération de texte', description: 'Préparez vos communications en quelques instants.', image: 'mail.webp', category: 'Communication' },
+    { id: 'exportData', name: 'Export de données', description: 'Créez les extractions dont vous avez besoin.', image: 'excel.webp', category: 'Données' },
+    { id: 'tournusImmeuble', name: 'Tournus immeubles', description: 'Organisez les tournus et vos visites terrain.', image: 'tournus.webp', category: 'Immeubles' },
+    { id: 'excel', name: 'Espace Excel', description: 'Modifiez, fusionnez et préparez tous vos fichiers Excel.', image: 'excel.webp', category: 'Données' },
+    { id: 'comunus/el', name: 'Exports Comunus', description: 'Préparez vos exports pour Comunus.', image: 'excel.webp', category: 'Données' },
+    { id: 'enqueteNE/vacants-logements', name: 'Enquêtes NE', description: 'Centralisez les informations sur les vacants.', image: 'excel.webp', category: 'Enquêtes' },
   ];
 
   constructor(private router: Router) {}

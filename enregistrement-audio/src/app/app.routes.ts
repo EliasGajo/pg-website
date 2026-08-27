@@ -28,6 +28,7 @@ import { EnqueteNeVacantsLogementsComponent } from './enquete-ne-vacants-logemen
 import { EnqueteNeVacantsCommercialComponent } from './enquete-ne-vacants-commercial/enquete-ne-vacants-commercial.component';
 import { EnqueteNeObjetsLogementComponent } from './enquete-ne-objets-logement/enquete-ne-objets-logement.component';
 import { EnqueteNeObjetsCommercialComponent } from './enquete-ne-objets-commercial/enquete-ne-objets-commercial.component';
+import { ExcelToolsComponent } from './excel-tools/excel-tools.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -45,6 +46,10 @@ export const routes: Routes = [
     {path: 'tournusImmeuble', component: TournusImmeubleComponent},
     {path: 'exportMoyenPaiement', component: ExportMoyenPaiementComponent},
     {path: 'exportQrMultiple', component: QrMultipleComponent},
+    {path: 'excel', component: ExcelToolsComponent},
+    {path: 'excel/modifier', component: ModificationExcelComponent},
+    {path: 'excel/fusionner', component: MergeExcelsComponent},
+    {path: 'excel/contentieux', component: RemplirExcelContentieuxComponent},
     {path: 'modificationExcel', component: ModificationExcelComponent},
     {path: 'remplirExcelContentieux', component: RemplirExcelContentieuxComponent},
     {path: 'elementBail', component: ElementBailComponent},

@@ -1,3 +1,20 @@
-<div>
+<div class="app-shell">
+  <header class="app-header">
+    <a class="brand" routerLink="/" aria-label="Retour à l'accueil">
+      <span class="brand-mark" aria-hidden="true">PG</span>
+      <span>
+        <strong>{{ title }}</strong>
+        <small>Plateforme de gestion</small>
+      </span>
+    </a>
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Accueil</a>
+      <a routerLink="/exportData" routerLinkActive="active">Exports</a>
+      <a routerLink="/excel" routerLinkActive="active">Excel</a>
+      <a routerLink="/textGeneration" routerLinkActive="active">Communication</a>
+    </nav>
+  </header>
+  <main class="app-content">
   <router-outlet></router-outlet>
+  </main>
 </div>

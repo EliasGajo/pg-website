@@ -1,11 +1,29 @@
-<h1>Accueil</h1>
-<div class="gallery">
-  <div
-    class="tool-card"
-    *ngFor="let tool of tools"
-    (click)="openTool(tool.id)"
-  >
-    <img src="img/{{tool.image}}" alt="{{ tool.name }}" />
-    <p>{{ tool.name }}</p>
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">ESPACE DE TRAVAIL</p>
+    <h1>Vos outils de gestion,<br><span>réunis au même endroit.</span></h1>
+    <p class="hero-description">Accédez rapidement aux outils pour vos exports, vos fichiers Excel et vos opérations courantes.</p>
+    <a class="hero-action" href="#outils">Découvrir les outils <span aria-hidden="true">↓</span></a>
   </div>
-</div>
+  <div class="hero-panel" aria-hidden="true">
+    <div class="panel-orb orb-one"></div><div class="panel-orb orb-two"></div>
+    <div class="panel-card card-main"><span>✓</span><div><small>Tout est prêt</small><strong>{{ tools.length }} outils disponibles</strong></div></div>
+    <div class="panel-card card-mini"><span>↗</span> Accès rapide</div>
+  </div>
+</section>
+
+<section class="tools-section" id="outils">
+  <div class="section-heading">
+    <div><p class="eyebrow">VOS OUTILS</p><h2>Commencez votre tâche</h2></div>
+    <p>{{ tools.length }} outils disponibles</p>
+  </div>
+  <div class="gallery">
+    <button class="tool-card" *ngFor="let tool of tools" (click)="openTool(tool.id)">
+      <span class="tool-image"><img src="img/{{tool.image}}" alt="" /></span>
+      <span class="tool-content">
+        <small>{{ tool.category }}</small><strong>{{ tool.name }}</strong><span>{{ tool.description }}</span>
+      </span>
+      <span class="tool-arrow" aria-hidden="true">→</span>
+    </button>
+  </div>
+</section>
