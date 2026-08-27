@@ -41,6 +41,19 @@
   }
   button:hover:not(:disabled) { background: #1d4ed8; box-shadow: 0 6px 14px rgba(37, 99, 235, .2); transform: translateY(-1px); }
   button:disabled { cursor: not-allowed; opacity: .5; }
+  .table-action,
+  button[extra-button] {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    padding: .55rem .75rem;
+    border-radius: .55rem;
+    background: #2563eb;
+    color: #fff;
+    font-size: .75rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
   input, select, textarea { border: 1px solid #cbd5e1; border-radius: .45rem; padding: .55rem .65rem; color: #1e293b; background: white; }
   input:focus, select:focus, textarea:focus { outline: 3px solid rgba(96, 165, 250, .3); border-color: #3b82f6; }
 
@@ -92,4 +105,14 @@
   border: 1px solid #ddd;
   border-bottom: 1px solid white;
   font-weight: 600;
+}
+
+.button-container > .table-action {
+  padding: .55rem .75rem;
+  border-radius: .55rem;
+}
+
+.button-container > button[extra-button] {
+  padding: .55rem .75rem;
+  border-radius: .55rem;
 }
